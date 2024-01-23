@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xiangshangjiantou",
+    "texture": "a890e723-3865-4659-9f5d-84e768a44beb",
+    "atlas": "",
+    "rect": [
+      2,
+      5,
+      185,
+      178
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      189,
+      187
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

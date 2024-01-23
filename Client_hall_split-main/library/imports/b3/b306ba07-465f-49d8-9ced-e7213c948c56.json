@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_scrollbar_down",
+    "texture": "96c4b525-538a-46a6-8948-a326c81ce357",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      14,
+      33
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      14,
+      33
+    ],
+    "capInsets": [
+      5,
+      10,
+      5,
+      10
+    ]
+  }
+}

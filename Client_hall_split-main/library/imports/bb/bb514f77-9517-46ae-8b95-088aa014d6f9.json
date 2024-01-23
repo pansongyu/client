@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_huifang_zj",
+    "texture": "9618252a-3c7c-4cda-8f7f-4171e96410a1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

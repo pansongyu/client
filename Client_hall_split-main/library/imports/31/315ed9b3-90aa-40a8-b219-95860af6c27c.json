@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_sanyou",
+    "texture": "628bb413-7afd-4d94-a247-73cd65ff763c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      88,
+      102
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      90,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

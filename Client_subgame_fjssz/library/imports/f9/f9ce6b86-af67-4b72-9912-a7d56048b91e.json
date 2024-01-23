@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_ncdi",
+    "texture": "9cc21c03-3eaa-4c41-8ccb-86e79de9909f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      80,
+      21
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      80,
+      21
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "SceneInfo",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "fjsszMainScene": {
+      "SceneType": "fjsszMainScene",
+      "Name": "主场景",
+      "ComponentName": "fjssz_SceneMain",
+      "gamePrefab": "0",
+      "IsCanMove": 1,
+      "CameraMoveType": 0,
+      "SwitchImage": "0",
+      "BackGroundSound": "MainScene"
+    },
+    "fjsszScene": {
+      "SceneType": "fjsszScene",
+      "Name": "游戏场景",
+      "ComponentName": "fjsszScene",
+      "gamePrefab": "game/FJSSZ/UILSPlay",
+      "IsCanMove": 1,
+      "CameraMoveType": 0,
+      "SwitchImage": "0",
+      "BackGroundSound": "0"
+    },
+    "fjsszLoginScene": {
+      "SceneType": "fjsszLoginScene",
+      "Name": "登陆场景",
+      "ComponentName": "fjssz_SceneLogin",
+      "gamePrefab": "ui/fjssz_UILogin",
+      "IsCanMove": 0,
+      "CameraMoveType": 0,
+      "SwitchImage": "0",
+      "BackGroundSound": "MainScene"
+    }
+  }
+}

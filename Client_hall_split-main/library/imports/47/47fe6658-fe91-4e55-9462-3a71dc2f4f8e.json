@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "small_xinhua",
+    "texture": "b8b67b92-1773-4fd8-95cc-0aa21be46c15",
+    "atlas": "",
+    "rect": [
+      284,
+      59,
+      1,
+      1
+    ],
+    "offset": [
+      142,
+      -29.5
+    ],
+    "originalSize": [
+      285,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

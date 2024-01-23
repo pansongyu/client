@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "liujuAction",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "lznnd6a3-fc29-4881-993a-5434b01e67d6"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "lznn0509-b682-4d43-b058-3314971f22bf"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "lznned58-ed44-4cd3-b4dd-57ff5a1989c2"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "lznn835a-473d-4784-9983-2978b2535044"
+            }
+          },
+          {
+            "frame": 0.6666666666666666,
+            "value": {
+              "__uuid__": "lznn268e-e2e2-4bc3-9d25-f904b9cc9521"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "lznn2d89-efa8-42ff-baf3-6e5f12de8bcb"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

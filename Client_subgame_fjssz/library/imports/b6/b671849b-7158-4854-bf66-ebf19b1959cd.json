@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_hspl",
+    "texture": "34e3b726-4222-499d-885a-83735ae564e6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      101
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      101
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

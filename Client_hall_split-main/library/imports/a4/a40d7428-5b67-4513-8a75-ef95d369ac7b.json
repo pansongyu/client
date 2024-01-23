@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_shop_line_02",
+    "texture": "2cc6e634-b251-4501-ba25-24f059e0c57b",
+    "atlas": "",
+    "rect": [
+      16,
+      16,
+      96,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      131
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_lingqu02",
+    "texture": "088fb60d-29fa-474e-ab90-7e58820d26f2",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      360,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      362,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

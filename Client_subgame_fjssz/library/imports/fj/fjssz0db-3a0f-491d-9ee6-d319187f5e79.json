@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "slice_bg_jiesan",
+    "texture": "fjssza9b-9648-4c99-a6e3-4ef0589746fa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      23,
+      23
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      23,
+      23
+    ],
+    "capInsets": [
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+}

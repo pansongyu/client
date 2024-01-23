@@ -1,0 +1,7862 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "trusteeshipTime",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "101": {
+      "id": 101,
+      "GameType": "hzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "102": {
+      "id": 102,
+      "GameType": "hzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "201": {
+      "id": 201,
+      "GameType": "sss",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "202": {
+      "id": 202,
+      "GameType": "sss",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "301": {
+      "id": 301,
+      "GameType": "lymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "302": {
+      "id": 302,
+      "GameType": "lymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "401": {
+      "id": 401,
+      "GameType": "xmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "402": {
+      "id": 402,
+      "GameType": "xmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "501": {
+      "id": 501,
+      "GameType": "nn",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "502": {
+      "id": 502,
+      "GameType": "nn",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "601": {
+      "id": 601,
+      "GameType": "fzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "602": {
+      "id": 602,
+      "GameType": "fzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "701": {
+      "id": 701,
+      "GameType": "qzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "702": {
+      "id": 702,
+      "GameType": "qzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "801": {
+      "id": 801,
+      "GameType": "pdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "802": {
+      "id": 802,
+      "GameType": "pdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "901": {
+      "id": 901,
+      "GameType": "zzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "902": {
+      "id": 902,
+      "GameType": "zzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1101": {
+      "id": 1101,
+      "GameType": "ptmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1102": {
+      "id": 1102,
+      "GameType": "ptmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1201": {
+      "id": 1201,
+      "GameType": "ndmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1202": {
+      "id": 1202,
+      "GameType": "ndmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1301": {
+      "id": 1301,
+      "GameType": "smmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1302": {
+      "id": 1302,
+      "GameType": "smmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1401": {
+      "id": 1401,
+      "GameType": "npmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1402": {
+      "id": 1402,
+      "GameType": "npmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1501": {
+      "id": 1501,
+      "GameType": "xymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1502": {
+      "id": 1502,
+      "GameType": "xymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1601": {
+      "id": 1601,
+      "GameType": "ssmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1602": {
+      "id": 1602,
+      "GameType": "ssmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1701": {
+      "id": 1701,
+      "GameType": "namj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1702": {
+      "id": 1702,
+      "GameType": "namj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1801": {
+      "id": 1801,
+      "GameType": "pt13mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1802": {
+      "id": 1802,
+      "GameType": "pt13mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "1901": {
+      "id": 1901,
+      "GameType": "sg",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "1902": {
+      "id": 1902,
+      "GameType": "sg",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2001": {
+      "id": 2001,
+      "GameType": "ygmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2002": {
+      "id": 2002,
+      "GameType": "ygmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2101": {
+      "id": 2101,
+      "GameType": "yglfl",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2102": {
+      "id": 2102,
+      "GameType": "yglfl",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2201": {
+      "id": 2201,
+      "GameType": "npgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2202": {
+      "id": 2202,
+      "GameType": "npgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2301": {
+      "id": 2301,
+      "GameType": "zjjhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2302": {
+      "id": 2302,
+      "GameType": "zjjhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2401": {
+      "id": 2401,
+      "GameType": "hbyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2402": {
+      "id": 2402,
+      "GameType": "hbyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2501": {
+      "id": 2501,
+      "GameType": "srmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2502": {
+      "id": 2502,
+      "GameType": "srmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2601": {
+      "id": 2601,
+      "GameType": "ysdz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2602": {
+      "id": 2602,
+      "GameType": "ysdz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2701": {
+      "id": 2701,
+      "GameType": "gdy",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2702": {
+      "id": 2702,
+      "GameType": "gdy",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2801": {
+      "id": 2801,
+      "GameType": "qdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2802": {
+      "id": 2802,
+      "GameType": "qdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "2901": {
+      "id": 2901,
+      "GameType": "ytmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "2902": {
+      "id": 2902,
+      "GameType": "ytmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3001": {
+      "id": "3001",
+      "GameType": "ykmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3002": {
+      "id": "3002",
+      "GameType": "ykmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3101": {
+      "id": 3101,
+      "GameType": "ddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3102": {
+      "id": 3102,
+      "GameType": "ddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3201": {
+      "id": 3201,
+      "GameType": "jmhhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3202": {
+      "id": 3202,
+      "GameType": "jmhhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3301": {
+      "id": 3301,
+      "GameType": "hamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3302": {
+      "id": 3302,
+      "GameType": "hamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3401": {
+      "id": 3401,
+      "GameType": "xyzb",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3402": {
+      "id": 3402,
+      "GameType": "xyzb",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3501": {
+      "id": 3501,
+      "GameType": "pxcn",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3502": {
+      "id": 3502,
+      "GameType": "pxcn",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3601": {
+      "id": 3601,
+      "GameType": "zjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3602": {
+      "id": 3602,
+      "GameType": "zjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3701": {
+      "id": 3701,
+      "GameType": "dymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3702": {
+      "id": 3702,
+      "GameType": "dymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3801": {
+      "id": 3801,
+      "GameType": "symj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3802": {
+      "id": 3802,
+      "GameType": "symj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "3901": {
+      "id": 3901,
+      "GameType": "gd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "3902": {
+      "id": 3902,
+      "GameType": "gd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4001": {
+      "id": 4001,
+      "GameType": "csmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4002": {
+      "id": 4002,
+      "GameType": "csmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4101": {
+      "id": 4101,
+      "GameType": "wzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4102": {
+      "id": 4102,
+      "GameType": "wzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 1
+    },
+    "4201": {
+      "id": 4201,
+      "GameType": "wsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4202": {
+      "id": 4202,
+      "GameType": "wsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4301": {
+      "id": 4301,
+      "GameType": "ycmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4302": {
+      "id": 4302,
+      "GameType": "ycmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4401": {
+      "id": 4401,
+      "GameType": "nhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4402": {
+      "id": 4402,
+      "GameType": "nhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4501": {
+      "id": 4501,
+      "GameType": "lpmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4502": {
+      "id": 4502,
+      "GameType": "lpmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4601": {
+      "id": 4601,
+      "GameType": "bdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4602": {
+      "id": 4602,
+      "GameType": "bdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4701": {
+      "id": 4701,
+      "GameType": "yxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4702": {
+      "id": 4702,
+      "GameType": "yxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4801": {
+      "id": 4801,
+      "GameType": "tzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4802": {
+      "id": 4802,
+      "GameType": "tzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "4901": {
+      "id": 4901,
+      "GameType": "sgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "4902": {
+      "id": 4902,
+      "GameType": "sgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5001": {
+      "id": 5001,
+      "GameType": "yzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5002": {
+      "id": 5002,
+      "GameType": "yzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5101": {
+      "id": 5101,
+      "GameType": "sj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5102": {
+      "id": 5102,
+      "GameType": "sj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5201": {
+      "id": 5201,
+      "GameType": "bw",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5202": {
+      "id": 5202,
+      "GameType": "bw",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5301": {
+      "id": 5301,
+      "GameType": "jnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5302": {
+      "id": 5302,
+      "GameType": "jnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5401": {
+      "id": 5401,
+      "GameType": "jsyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5402": {
+      "id": 5402,
+      "GameType": "jsyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5501": {
+      "id": 5501,
+      "GameType": "tdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5502": {
+      "id": 5502,
+      "GameType": "tdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5601": {
+      "id": 5601,
+      "GameType": "xtmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5602": {
+      "id": 5602,
+      "GameType": "xtmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5701": {
+      "id": 5701,
+      "GameType": "zpmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5702": {
+      "id": 5702,
+      "GameType": "zpmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5801": {
+      "id": 5801,
+      "GameType": "chmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5802": {
+      "id": 5802,
+      "GameType": "chmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "5901": {
+      "id": 5901,
+      "GameType": "hbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "5902": {
+      "id": 5902,
+      "GameType": "hbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6101": {
+      "id": 6101,
+      "GameType": "wl",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6102": {
+      "id": 6102,
+      "GameType": "wl",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6201": {
+      "id": 6201,
+      "GameType": "hsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6202": {
+      "id": 6202,
+      "GameType": "hsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6501": {
+      "id": 6501,
+      "GameType": "bjpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6502": {
+      "id": 6502,
+      "GameType": "bjpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6601": {
+      "id": 6601,
+      "GameType": "xlqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6602": {
+      "id": 6602,
+      "GameType": "xlqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6701": {
+      "id": 6701,
+      "GameType": "fdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6702": {
+      "id": 6702,
+      "GameType": "fdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6801": {
+      "id": 6801,
+      "GameType": "fddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6802": {
+      "id": 6802,
+      "GameType": "fddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "6901": {
+      "id": 6901,
+      "GameType": "yxls",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "6902": {
+      "id": 6902,
+      "GameType": "yxls",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7001": {
+      "id": 7001,
+      "GameType": "wxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7002": {
+      "id": 7002,
+      "GameType": "wxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7101": {
+      "id": 7101,
+      "GameType": "jymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7102": {
+      "id": 7102,
+      "GameType": "jymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7201": {
+      "id": 7201,
+      "GameType": "zjpls",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7202": {
+      "id": 7202,
+      "GameType": "zjpls",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7301": {
+      "id": 7301,
+      "GameType": "pxzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7302": {
+      "id": 7302,
+      "GameType": "pxzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7401": {
+      "id": 7401,
+      "GameType": "px6gt",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7402": {
+      "id": 7402,
+      "GameType": "px6gt",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7501": {
+      "id": 7501,
+      "GameType": "px3gt",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7502": {
+      "id": 7502,
+      "GameType": "px3gt",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7601": {
+      "id": 7601,
+      "GameType": "px258mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7602": {
+      "id": 7602,
+      "GameType": "px258mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7701": {
+      "id": 7701,
+      "GameType": "yxtdh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7702": {
+      "id": 7702,
+      "GameType": "yxtdh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "7801": {
+      "id": 7801,
+      "GameType": "aypdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "7802": {
+      "id": 7802,
+      "GameType": "aypdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8001": {
+      "id": 8001,
+      "GameType": "aydss",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8002": {
+      "id": 8002,
+      "GameType": "aydss",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8101": {
+      "id": 8101,
+      "GameType": "aymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8102": {
+      "id": 8102,
+      "GameType": "aymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8201": {
+      "id": 8201,
+      "GameType": "wnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8202": {
+      "id": 8202,
+      "GameType": "wnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8301": {
+      "id": 8301,
+      "GameType": "wnyh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8302": {
+      "id": 8302,
+      "GameType": "wnyh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8401": {
+      "id": 8401,
+      "GameType": "wnpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8402": {
+      "id": 8402,
+      "GameType": "wnpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8501": {
+      "id": 8501,
+      "GameType": "fqpls",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8502": {
+      "id": 8502,
+      "GameType": "fqpls",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8601": {
+      "id": 8601,
+      "GameType": "fqsbp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8602": {
+      "id": 8602,
+      "GameType": "fqsbp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8701": {
+      "id": 8701,
+      "GameType": "dzpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8702": {
+      "id": 8702,
+      "GameType": "dzpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8801": {
+      "id": 8801,
+      "GameType": "dx",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8802": {
+      "id": 8802,
+      "GameType": "dx",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "8901": {
+      "id": 8901,
+      "GameType": "hbpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "8902": {
+      "id": 8902,
+      "GameType": "hbpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9001": {
+      "id": 9001,
+      "GameType": "jsxymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9002": {
+      "id": 9002,
+      "GameType": "jsxymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9101": {
+      "id": 9101,
+      "GameType": "pzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9102": {
+      "id": 9102,
+      "GameType": "pzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9201": {
+      "id": "9201",
+      "GameType": "pxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9202": {
+      "id": "9202",
+      "GameType": "pxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9301": {
+      "id": "9301",
+      "GameType": "jssnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9302": {
+      "id": "9302",
+      "GameType": "jssnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9401": {
+      "id": 9401,
+      "GameType": "zjgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9402": {
+      "id": 9402,
+      "GameType": "zjgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9501": {
+      "id": "9501",
+      "GameType": "ksmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9502": {
+      "id": "9502",
+      "GameType": "ksmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9601": {
+      "id": 9601,
+      "GameType": "bdyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9602": {
+      "id": 9602,
+      "GameType": "bdyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9701": {
+      "id": 9701,
+      "GameType": "hnxymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9702": {
+      "id": 9702,
+      "GameType": "hnxymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9801": {
+      "id": 9801,
+      "GameType": "tcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9802": {
+      "id": 9802,
+      "GameType": "tcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "9901": {
+      "id": 9901,
+      "GameType": "pbyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "9902": {
+      "id": 9902,
+      "GameType": "pbyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10001": {
+      "id": 10001,
+      "GameType": "yhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10002": {
+      "id": 10002,
+      "GameType": "yhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10101": {
+      "id": 10101,
+      "GameType": "pnyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10102": {
+      "id": 10102,
+      "GameType": "pnyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10201": {
+      "id": 10201,
+      "GameType": "sdfjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10202": {
+      "id": 10202,
+      "GameType": "sdfjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10301": {
+      "id": 10301,
+      "GameType": "yxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10302": {
+      "id": 10302,
+      "GameType": "yxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10401": {
+      "id": 10401,
+      "GameType": "pypp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10402": {
+      "id": 10402,
+      "GameType": "pypp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10501": {
+      "id": 10501,
+      "GameType": "pyzhw",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10502": {
+      "id": 10502,
+      "GameType": "pyzhw",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10701": {
+      "id": 10701,
+      "GameType": "zjqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10702": {
+      "id": 10702,
+      "GameType": "zjqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "10901": {
+      "id": 10901,
+      "GameType": "lpts",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "10902": {
+      "id": 10902,
+      "GameType": "lpts",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11001": {
+      "id": 11001,
+      "GameType": "lppdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11002": {
+      "id": 11002,
+      "GameType": "lppdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11101": {
+      "id": 11101,
+      "GameType": "jxfzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11102": {
+      "id": 11102,
+      "GameType": "jxfzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11201": {
+      "id": 11201,
+      "GameType": "pypdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11202": {
+      "id": 11202,
+      "GameType": "pypdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11301": {
+      "id": 11301,
+      "GameType": "hncsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11302": {
+      "id": 11302,
+      "GameType": "hncsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11401": {
+      "id": 11401,
+      "GameType": "dle",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11402": {
+      "id": 11402,
+      "GameType": "dle",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11501": {
+      "id": 11501,
+      "GameType": "pxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11502": {
+      "id": 11502,
+      "GameType": "pxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11601": {
+      "id": 11601,
+      "GameType": "jxfzgp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11602": {
+      "id": 11602,
+      "GameType": "jxfzgp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11701": {
+      "id": 11701,
+      "GameType": "jxfzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11702": {
+      "id": 11702,
+      "GameType": "jxfzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11801": {
+      "id": 11801,
+      "GameType": "zjqzsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11802": {
+      "id": 11802,
+      "GameType": "zjqzsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "11901": {
+      "id": 11901,
+      "GameType": "xhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "11902": {
+      "id": 11902,
+      "GameType": "xhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12001": {
+      "id": 12001,
+      "GameType": "rcwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12002": {
+      "id": 12002,
+      "GameType": "rcwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12101": {
+      "id": 12101,
+      "GameType": "xhbbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12102": {
+      "id": 12102,
+      "GameType": "xhbbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12201": {
+      "id": 12201,
+      "GameType": "twmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12202": {
+      "id": 12202,
+      "GameType": "twmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12301": {
+      "id": 12301,
+      "GameType": "tzkzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12302": {
+      "id": 12302,
+      "GameType": "tzkzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12401": {
+      "id": 12401,
+      "GameType": "dczbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12402": {
+      "id": 12402,
+      "GameType": "dczbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12501": {
+      "id": 12501,
+      "GameType": "dcwdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12502": {
+      "id": 12502,
+      "GameType": "dcwdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12601": {
+      "id": 12601,
+      "GameType": "hnzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12602": {
+      "id": 12602,
+      "GameType": "hnzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12701": {
+      "id": 12701,
+      "GameType": "za13mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12702": {
+      "id": 12702,
+      "GameType": "za13mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12801": {
+      "id": 12801,
+      "GameType": "za16mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12802": {
+      "id": 12802,
+      "GameType": "za16mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "12901": {
+      "id": 12901,
+      "GameType": "lhzp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "12902": {
+      "id": 12902,
+      "GameType": "lhzp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13001": {
+      "id": 13001,
+      "GameType": "erddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13002": {
+      "id": 13002,
+      "GameType": "erddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13101": {
+      "id": 13101,
+      "GameType": "hnpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13102": {
+      "id": 13102,
+      "GameType": "hnpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13201": {
+      "id": 13201,
+      "GameType": "dhd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13202": {
+      "id": 13202,
+      "GameType": "dhd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13301": {
+      "id": 13301,
+      "GameType": "tbzfbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13302": {
+      "id": 13302,
+      "GameType": "tbzfbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13401": {
+      "id": 13401,
+      "GameType": "nykwxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13402": {
+      "id": 13402,
+      "GameType": "nykwxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13501": {
+      "id": 13501,
+      "GameType": "lzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13502": {
+      "id": 13502,
+      "GameType": "lzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13601": {
+      "id": 13601,
+      "GameType": "byzp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13602": {
+      "id": 13602,
+      "GameType": "byzp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13701": {
+      "id": 13701,
+      "GameType": "lbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13702": {
+      "id": 13702,
+      "GameType": "lbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13801": {
+      "id": 13801,
+      "GameType": "aycp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13802": {
+      "id": 13802,
+      "GameType": "aycp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "13901": {
+      "id": 13901,
+      "GameType": "fjyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "13902": {
+      "id": 13902,
+      "GameType": "fjyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14001": {
+      "id": 14001,
+      "GameType": "dcts",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14002": {
+      "id": 14002,
+      "GameType": "dcts",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14101": {
+      "id": 14101,
+      "GameType": "ctwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14102": {
+      "id": 14102,
+      "GameType": "ctwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14201": {
+      "id": 14201,
+      "GameType": "sdlymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14202": {
+      "id": 14202,
+      "GameType": "sdlymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14301": {
+      "id": 14301,
+      "GameType": "zass",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14302": {
+      "id": 14302,
+      "GameType": "zass",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14401": {
+      "id": 14401,
+      "GameType": "czmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14402": {
+      "id": 14402,
+      "GameType": "czmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14501": {
+      "id": 14501,
+      "GameType": "rcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14502": {
+      "id": 14502,
+      "GameType": "rcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14601": {
+      "id": 14601,
+      "GameType": "xgkwxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14602": {
+      "id": 14602,
+      "GameType": "xgkwxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14701": {
+      "id": 14701,
+      "GameType": "hnxcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14702": {
+      "id": 14702,
+      "GameType": "hnxcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14801": {
+      "id": 14801,
+      "GameType": "hnpdsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14802": {
+      "id": 14802,
+      "GameType": "hnpdsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "14901": {
+      "id": 14901,
+      "GameType": "rqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "14902": {
+      "id": 14902,
+      "GameType": "rqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15001": {
+      "id": 15001,
+      "GameType": "yzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15002": {
+      "id": 15002,
+      "GameType": "yzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15101": {
+      "id": 15101,
+      "GameType": "xplp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15102": {
+      "id": 15102,
+      "GameType": "xplp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15201": {
+      "id": 15201,
+      "GameType": "hhhgw",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15202": {
+      "id": 15202,
+      "GameType": "hhhgw",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15301": {
+      "id": 15301,
+      "GameType": "xpphz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15302": {
+      "id": 15302,
+      "GameType": "xpphz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15401": {
+      "id": 15401,
+      "GameType": "hzwmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15402": {
+      "id": 15402,
+      "GameType": "hzwmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15501": {
+      "id": 15501,
+      "GameType": "rcwsk3",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15502": {
+      "id": 15502,
+      "GameType": "rcwsk3",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15601": {
+      "id": 15601,
+      "GameType": "jdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15602": {
+      "id": 15602,
+      "GameType": "jdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15701": {
+      "id": 15701,
+      "GameType": "htmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15702": {
+      "id": 15702,
+      "GameType": "htmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15801": {
+      "id": 15801,
+      "GameType": "jdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15802": {
+      "id": 15802,
+      "GameType": "jdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "15901": {
+      "id": 15901,
+      "GameType": "lbhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "15902": {
+      "id": 15902,
+      "GameType": "lbhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16001": {
+      "id": 16001,
+      "GameType": "thgjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16002": {
+      "id": 16002,
+      "GameType": "thgjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16101": {
+      "id": 16101,
+      "GameType": "hnjymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16102": {
+      "id": 16102,
+      "GameType": "hnjymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16201": {
+      "id": 16201,
+      "GameType": "jdzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16202": {
+      "id": 16202,
+      "GameType": "jdzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16301": {
+      "id": 16301,
+      "GameType": "jsycmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16302": {
+      "id": 16302,
+      "GameType": "jsycmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16401": {
+      "id": 16401,
+      "GameType": "jssqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16402": {
+      "id": 16402,
+      "GameType": "jssqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16501": {
+      "id": 16501,
+      "GameType": "jshamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16502": {
+      "id": 16502,
+      "GameType": "jshamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16601": {
+      "id": 16601,
+      "GameType": "jsczmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16602": {
+      "id": 16602,
+      "GameType": "jsczmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16701": {
+      "id": 16701,
+      "GameType": "lygmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16702": {
+      "id": 16702,
+      "GameType": "lygmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16801": {
+      "id": 16801,
+      "GameType": "jsgymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16802": {
+      "id": 16802,
+      "GameType": "jsgymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "16901": {
+      "id": 16901,
+      "GameType": "hnjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "16902": {
+      "id": 16902,
+      "GameType": "hnjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17001": {
+      "id": 17001,
+      "GameType": "hhpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17002": {
+      "id": 17002,
+      "GameType": "hhpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17101": {
+      "id": 17101,
+      "GameType": "xzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17102": {
+      "id": 17102,
+      "GameType": "xzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17201": {
+      "id": 17201,
+      "GameType": "gymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17202": {
+      "id": 17202,
+      "GameType": "gymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17301": {
+      "id": 17301,
+      "GameType": "kfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17302": {
+      "id": 17302,
+      "GameType": "kfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17401": {
+      "id": 17401,
+      "GameType": "pymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17402": {
+      "id": 17402,
+      "GameType": "pymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17501": {
+      "id": 17501,
+      "GameType": "ahmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17502": {
+      "id": 17502,
+      "GameType": "ahmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17601": {
+      "id": 17601,
+      "GameType": "ahphz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17602": {
+      "id": 17602,
+      "GameType": "ahphz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17701": {
+      "id": 17701,
+      "GameType": "xxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17702": {
+      "id": 17702,
+      "GameType": "xxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17801": {
+      "id": 17801,
+      "GameType": "hnaymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17802": {
+      "id": 17802,
+      "GameType": "hnaymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "17901": {
+      "id": 17901,
+      "GameType": "gamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "17902": {
+      "id": 17902,
+      "GameType": "gamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18001": {
+      "id": 18001,
+      "GameType": "ncmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18002": {
+      "id": 18002,
+      "GameType": "ncmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18101": {
+      "id": 18101,
+      "GameType": "sqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18102": {
+      "id": 18102,
+      "GameType": "sqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18201": {
+      "id": 18201,
+      "GameType": "zkmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18202": {
+      "id": 18202,
+      "GameType": "zkmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18301": {
+      "id": 18301,
+      "GameType": "jxxymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18302": {
+      "id": 18302,
+      "GameType": "jxxymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18401": {
+      "id": 18401,
+      "GameType": "tgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18402": {
+      "id": 18402,
+      "GameType": "tgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18501": {
+      "id": 18501,
+      "GameType": "hnhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18502": {
+      "id": 18502,
+      "GameType": "hnhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18601": {
+      "id": 18601,
+      "GameType": "lhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18602": {
+      "id": 18602,
+      "GameType": "lhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18701": {
+      "id": 18701,
+      "GameType": "jamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18702": {
+      "id": 18702,
+      "GameType": "jamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18801": {
+      "id": 18801,
+      "GameType": "jjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18802": {
+      "id": 18802,
+      "GameType": "jjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "18901": {
+      "id": 18901,
+      "GameType": "bzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "18902": {
+      "id": 18902,
+      "GameType": "bzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19001": {
+      "id": 19001,
+      "GameType": "ccmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19002": {
+      "id": 19002,
+      "GameType": "ccmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19101": {
+      "id": 19101,
+      "GameType": "rcwsk5",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19102": {
+      "id": 19102,
+      "GameType": "rcwsk6",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19201": {
+      "id": 19201,
+      "GameType": "ljwsk3",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19202": {
+      "id": 19202,
+      "GameType": "ljwsk4",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19301": {
+      "id": 19301,
+      "GameType": "jlmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19302": {
+      "id": 19302,
+      "GameType": "jlmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19401": {
+      "id": 19401,
+      "GameType": "fymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19402": {
+      "id": 19402,
+      "GameType": "fymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19501": {
+      "id": 19501,
+      "GameType": "bzqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19502": {
+      "id": 19502,
+      "GameType": "bzqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19601": {
+      "id": 19601,
+      "GameType": "hstdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19602": {
+      "id": 19602,
+      "GameType": "hstdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19701": {
+      "id": 19701,
+      "GameType": "zjhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19702": {
+      "id": 19702,
+      "GameType": "zjhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19801": {
+      "id": 19801,
+      "GameType": "fyddzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19802": {
+      "id": 19802,
+      "GameType": "fyddzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "19901": {
+      "id": 19901,
+      "GameType": "pcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "19902": {
+      "id": 19902,
+      "GameType": "pcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20001": {
+      "id": 20001,
+      "GameType": "xjlshmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20002": {
+      "id": 20002,
+      "GameType": "xjlshmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20101": {
+      "id": 20101,
+      "GameType": "demomj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20102": {
+      "id": 20102,
+      "GameType": "demomj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20201": {
+      "id": 20201,
+      "GameType": "njmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20202": {
+      "id": 20202,
+      "GameType": "njmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20301": {
+      "id": 20301,
+      "GameType": "xjxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20302": {
+      "id": 20302,
+      "GameType": "xjxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20401": {
+      "id": 20401,
+      "GameType": "ysmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20402": {
+      "id": 20402,
+      "GameType": "ysmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20501": {
+      "id": 20501,
+      "GameType": "zzph",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20502": {
+      "id": 20502,
+      "GameType": "zzph",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20601": {
+      "id": 20601,
+      "GameType": "zznsb",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20602": {
+      "id": 20602,
+      "GameType": "zznsb",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20801": {
+      "id": 20801,
+      "GameType": "lxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20802": {
+      "id": 20802,
+      "GameType": "lxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "20901": {
+      "id": 20901,
+      "GameType": "yzyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "20902": {
+      "id": 20902,
+      "GameType": "yzyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21001": {
+      "id": 21001,
+      "GameType": "zgcp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21002": {
+      "id": 21002,
+      "GameType": "zgcp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21101": {
+      "id": 21101,
+      "GameType": "zgdss",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21102": {
+      "id": 21102,
+      "GameType": "zgdss",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21201": {
+      "id": 21201,
+      "GameType": "gdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21202": {
+      "id": 21202,
+      "GameType": "gdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21301": {
+      "id": 21301,
+      "GameType": "cxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21302": {
+      "id": 21302,
+      "GameType": "cxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21401": {
+      "id": 21401,
+      "GameType": "sdh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21402": {
+      "id": 21402,
+      "GameType": "sdh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21501": {
+      "id": 21501,
+      "GameType": "zgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21502": {
+      "id": 21502,
+      "GameType": "zhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21601": {
+      "id": 21601,
+      "GameType": "jcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21602": {
+      "id": 21602,
+      "GameType": "jcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21701": {
+      "id": 21701,
+      "GameType": "lslwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21702": {
+      "id": 21702,
+      "GameType": "lslwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21801": {
+      "id": 21801,
+      "GameType": "ls13579",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21802": {
+      "id": 21802,
+      "GameType": "ls13579",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "21901": {
+      "id": 21901,
+      "GameType": "lskjjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "21902": {
+      "id": 21902,
+      "GameType": "lskjjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22001": {
+      "id": 22001,
+      "GameType": "zjshzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22002": {
+      "id": 22002,
+      "GameType": "zjshzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22101": {
+      "id": 22101,
+      "GameType": "nxkwmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22102": {
+      "id": 22102,
+      "GameType": "nxkwmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22201": {
+      "id": 22201,
+      "GameType": "hbtdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22202": {
+      "id": 22202,
+      "GameType": "hbtdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22301": {
+      "id": 22301,
+      "GameType": "hbhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22302": {
+      "id": 22302,
+      "GameType": "hbhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22401": {
+      "id": 22401,
+      "GameType": "gsjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22402": {
+      "id": 22402,
+      "GameType": "gsjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22501": {
+      "id": 22501,
+      "GameType": "njlhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22502": {
+      "id": 22502,
+      "GameType": "njlhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22601": {
+      "id": 22601,
+      "GameType": "zjwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22602": {
+      "id": 22602,
+      "GameType": "zjwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22701": {
+      "id": 22701,
+      "GameType": "szmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22702": {
+      "id": 22702,
+      "GameType": "szmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22801": {
+      "id": 22801,
+      "GameType": "srddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22802": {
+      "id": 22802,
+      "GameType": "srddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "22901": {
+      "id": 22901,
+      "GameType": "fxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "22902": {
+      "id": 22902,
+      "GameType": "fxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23001": {
+      "id": 23001,
+      "GameType": "lsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23002": {
+      "id": 23002,
+      "GameType": "lsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23101": {
+      "id": 23101,
+      "GameType": "yzgymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23102": {
+      "id": 23102,
+      "GameType": "yzgymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23201": {
+      "id": 23201,
+      "GameType": "sqsymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23202": {
+      "id": 23202,
+      "GameType": "sqsymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23301": {
+      "id": 23301,
+      "GameType": "aqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23302": {
+      "id": 23302,
+      "GameType": "aqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23401": {
+      "id": 23401,
+      "GameType": "jdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23402": {
+      "id": 23402,
+      "GameType": "jdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23501": {
+      "id": 23501,
+      "GameType": "whmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23502": {
+      "id": 23502,
+      "GameType": "whmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23601": {
+      "id": 23601,
+      "GameType": "nbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23602": {
+      "id": 23602,
+      "GameType": "nbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23701": {
+      "id": 23701,
+      "GameType": "jxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23702": {
+      "id": 23702,
+      "GameType": "jxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23801": {
+      "id": 23801,
+      "GameType": "cqhszmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23802": {
+      "id": 23802,
+      "GameType": "cqhszmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "23901": {
+      "id": 23901,
+      "GameType": "xgpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "23902": {
+      "id": 23902,
+      "GameType": "xgpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24001": {
+      "id": 24001,
+      "GameType": "jchhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24002": {
+      "id": 24002,
+      "GameType": "jchhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24101": {
+      "id": 24101,
+      "GameType": "lcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24102": {
+      "id": 24102,
+      "GameType": "lcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24201": {
+      "id": 24201,
+      "GameType": "qzcsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24202": {
+      "id": 24202,
+      "GameType": "qzcsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24301": {
+      "id": 24301,
+      "GameType": "qzkhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24302": {
+      "id": 24302,
+      "GameType": "qzkhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24401": {
+      "id": 24401,
+      "GameType": "ygwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24402": {
+      "id": 24402,
+      "GameType": "ygwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24501": {
+      "id": 24501,
+      "GameType": "ygjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24502": {
+      "id": 24502,
+      "GameType": "ygjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24601": {
+      "id": 24601,
+      "GameType": "tmhhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24602": {
+      "id": 24602,
+      "GameType": "tmhhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24701": {
+      "id": 24701,
+      "GameType": "jstdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24702": {
+      "id": 24702,
+      "GameType": "jstdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24801": {
+      "id": 24801,
+      "GameType": "sxhtmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24802": {
+      "id": 24802,
+      "GameType": "sxhtmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "24901": {
+      "id": 24901,
+      "GameType": "yszmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "24902": {
+      "id": 24902,
+      "GameType": "yszmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25001": {
+      "id": 25001,
+      "GameType": "dlqhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25002": {
+      "id": 25002,
+      "GameType": "dlqhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25101": {
+      "id": 25101,
+      "GameType": "yxbzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25102": {
+      "id": 25102,
+      "GameType": "yxbzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25201": {
+      "id": 25201,
+      "GameType": "yctjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25202": {
+      "id": 25202,
+      "GameType": "yctjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25301": {
+      "id": 25301,
+      "GameType": "yldgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25302": {
+      "id": 25302,
+      "GameType": "yldgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25401": {
+      "id": 25401,
+      "GameType": "hbwhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25402": {
+      "id": 25402,
+      "GameType": "hbwhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25501": {
+      "id": 25501,
+      "GameType": "ak159mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25502": {
+      "id": 25502,
+      "GameType": "ak159mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25601": {
+      "id": 25601,
+      "GameType": "jsnyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25602": {
+      "id": 25602,
+      "GameType": "jsnyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25701": {
+      "id": 25701,
+      "GameType": "gyzjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25702": {
+      "id": 25702,
+      "GameType": "gyzjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25801": {
+      "id": 25801,
+      "GameType": "dtlgfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25802": {
+      "id": 25802,
+      "GameType": "dtlgfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "25901": {
+      "id": 25901,
+      "GameType": "shqmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "25902": {
+      "id": 25902,
+      "GameType": "shqmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26001": {
+      "id": 26001,
+      "GameType": "hnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26002": {
+      "id": 26002,
+      "GameType": "hnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26101": {
+      "id": 26101,
+      "GameType": "dd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26102": {
+      "id": 26102,
+      "GameType": "dd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26201": {
+      "id": 26201,
+      "GameType": "lpsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26202": {
+      "id": 26202,
+      "GameType": "lpsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26301": {
+      "id": 26301,
+      "GameType": "dkgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26302": {
+      "id": 26302,
+      "GameType": "dkgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26401": {
+      "id": 26401,
+      "GameType": "sxlsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26402": {
+      "id": 26402,
+      "GameType": "sxlsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26501": {
+      "id": 26501,
+      "GameType": "dzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26502": {
+      "id": 26502,
+      "GameType": "dzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26601": {
+      "id": 26601,
+      "GameType": "xl2vs2mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26602": {
+      "id": 26602,
+      "GameType": "xl2vs2mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26701": {
+      "id": 26701,
+      "GameType": "hndzp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26702": {
+      "id": 26702,
+      "GameType": "hndzp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26801": {
+      "id": 26801,
+      "GameType": "ygpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26802": {
+      "id": 26802,
+      "GameType": "ygpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "26901": {
+      "id": 26901,
+      "GameType": "llfymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "26902": {
+      "id": 26902,
+      "GameType": "llfymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27001": {
+      "id": 27001,
+      "GameType": "jmgghmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27002": {
+      "id": 27002,
+      "GameType": "jmgghmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27101": {
+      "id": 27101,
+      "GameType": "mmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27102": {
+      "id": 27102,
+      "GameType": "mmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27201": {
+      "id": 27201,
+      "GameType": "masmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27202": {
+      "id": 27202,
+      "GameType": "masmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27301": {
+      "id": 27301,
+      "GameType": "ahhnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27302": {
+      "id": 27302,
+      "GameType": "ahhnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27401": {
+      "id": 27401,
+      "GameType": "yjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27402": {
+      "id": 27402,
+      "GameType": "yjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27501": {
+      "id": 27501,
+      "GameType": "hfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27502": {
+      "id": 27502,
+      "GameType": "hfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27601": {
+      "id": 27601,
+      "GameType": "gzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27602": {
+      "id": 27602,
+      "GameType": "gzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27701": {
+      "id": 27701,
+      "GameType": "swmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27702": {
+      "id": 27702,
+      "GameType": "swmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27801": {
+      "id": 27801,
+      "GameType": "gdjymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27802": {
+      "id": 27802,
+      "GameType": "gdjymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "27901": {
+      "id": 27901,
+      "GameType": "gnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "27902": {
+      "id": 27902,
+      "GameType": "gnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28001": {
+      "id": 28001,
+      "GameType": "xfgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28002": {
+      "id": 28002,
+      "GameType": "xfgzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28101": {
+      "id": 28101,
+      "GameType": "jxndmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28102": {
+      "id": 28102,
+      "GameType": "jxndmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28201": {
+      "id": 28201,
+      "GameType": "bp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28202": {
+      "id": 28202,
+      "GameType": "bp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28301": {
+      "id": 28301,
+      "GameType": "gzth",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28302": {
+      "id": 28302,
+      "GameType": "gzth",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28401": {
+      "id": 28401,
+      "GameType": "rjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28402": {
+      "id": 28402,
+      "GameType": "rjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28501": {
+      "id": 28501,
+      "GameType": "yddgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28502": {
+      "id": 28502,
+      "GameType": "yddgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28601": {
+      "id": 28601,
+      "GameType": "nkbhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28602": {
+      "id": 28602,
+      "GameType": "nkbhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28701": {
+      "id": 28701,
+      "GameType": "fcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28702": {
+      "id": 28702,
+      "GameType": "fcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28801": {
+      "id": 28801,
+      "GameType": "dnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28802": {
+      "id": 28802,
+      "GameType": "dnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "28901": {
+      "id": 28901,
+      "GameType": "lnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "28902": {
+      "id": 28902,
+      "GameType": "lnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29001": {
+      "id": 29001,
+      "GameType": "scmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29002": {
+      "id": 29002,
+      "GameType": "scmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29101": {
+      "id": 29101,
+      "GameType": "xjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29102": {
+      "id": 29102,
+      "GameType": "xjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29201": {
+      "id": 29201,
+      "GameType": "fzjxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29202": {
+      "id": 29202,
+      "GameType": "fzjxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29301": {
+      "id": 29301,
+      "GameType": "fzgcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29302": {
+      "id": 29302,
+      "GameType": "fzgcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29401": {
+      "id": 29401,
+      "GameType": "gcbgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29402": {
+      "id": 29402,
+      "GameType": "gcbgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29501": {
+      "id": 29501,
+      "GameType": "ytyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29502": {
+      "id": 29502,
+      "GameType": "ytyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29601": {
+      "id": 29601,
+      "GameType": "xhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29602": {
+      "id": 29602,
+      "GameType": "xhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29701": {
+      "id": 29701,
+      "GameType": "qymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29702": {
+      "id": 29702,
+      "GameType": "qymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29801": {
+      "id": 29801,
+      "GameType": "lkmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29802": {
+      "id": 29802,
+      "GameType": "lkmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "29901": {
+      "id": 29901,
+      "GameType": "xxfqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "29902": {
+      "id": 29902,
+      "GameType": "xxfqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30001": {
+      "id": 30001,
+      "GameType": "jzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30002": {
+      "id": 30002,
+      "GameType": "jzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30101": {
+      "id": 30101,
+      "GameType": "lamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30102": {
+      "id": 30102,
+      "GameType": "lamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30201": {
+      "id": 30201,
+      "GameType": "glzp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30202": {
+      "id": 30202,
+      "GameType": "glzp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30301": {
+      "id": 30301,
+      "GameType": "jmskmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30302": {
+      "id": 30302,
+      "GameType": "jmskmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30401": {
+      "id": 30401,
+      "GameType": "lygcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30402": {
+      "id": 30402,
+      "GameType": "lygcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30501": {
+      "id": 30501,
+      "GameType": "gxcdd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30502": {
+      "id": 30502,
+      "GameType": "gxcdd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30601": {
+      "id": 30601,
+      "GameType": "bzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30602": {
+      "id": 30602,
+      "GameType": "bzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30701": {
+      "id": 30701,
+      "GameType": "bztdh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30702": {
+      "id": 30702,
+      "GameType": "bztdh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30801": {
+      "id": 30801,
+      "GameType": "mzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30802": {
+      "id": 30802,
+      "GameType": "mzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "30901": {
+      "id": 30901,
+      "GameType": "a3pk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "30902": {
+      "id": 30902,
+      "GameType": "a3pk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31001": {
+      "id": 31001,
+      "GameType": "lkwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31002": {
+      "id": 31002,
+      "GameType": "lkwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31101": {
+      "id": 31101,
+      "GameType": "xyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31102": {
+      "id": 31102,
+      "GameType": "xyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31201": {
+      "id": 31201,
+      "GameType": "dxbjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31202": {
+      "id": 31202,
+      "GameType": "dxbjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31301": {
+      "id": 31301,
+      "GameType": "gxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31302": {
+      "id": 31302,
+      "GameType": "gxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31401": {
+      "id": 31401,
+      "GameType": "txmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31402": {
+      "id": 31402,
+      "GameType": "txmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31501": {
+      "id": 31501,
+      "GameType": "sxmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31502": {
+      "id": 31502,
+      "GameType": "sxmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31601": {
+      "id": 31601,
+      "GameType": "zklymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31602": {
+      "id": 31602,
+      "GameType": "zklymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31701": {
+      "id": 31701,
+      "GameType": "xsy",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31702": {
+      "id": 31702,
+      "GameType": "xsy",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31801": {
+      "id": 31801,
+      "GameType": "zmdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31802": {
+      "id": 31802,
+      "GameType": "zmdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "31901": {
+      "id": 31901,
+      "GameType": "glpp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "31902": {
+      "id": 31902,
+      "GameType": "glpp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32001": {
+      "id": 32001,
+      "GameType": "xyscmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32002": {
+      "id": 32002,
+      "GameType": "xyscmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32101": {
+      "id": 32101,
+      "GameType": "zxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32102": {
+      "id": 32102,
+      "GameType": "zxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32201": {
+      "id": 32201,
+      "GameType": "gsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32202": {
+      "id": 32202,
+      "GameType": "gsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32301": {
+      "id": 32301,
+      "GameType": "xygsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32302": {
+      "id": 32302,
+      "GameType": "xygsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32401": {
+      "id": 32401,
+      "GameType": "pdsyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32402": {
+      "id": 32402,
+      "GameType": "pdsyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32501": {
+      "id": 32501,
+      "GameType": "dzsjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32502": {
+      "id": 32502,
+      "GameType": "dzsjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32601": {
+      "id": 32601,
+      "GameType": "yxddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32602": {
+      "id": 32602,
+      "GameType": "yxddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32701": {
+      "id": 32701,
+      "GameType": "yxsrddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32702": {
+      "id": 32702,
+      "GameType": "yxsrddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32801": {
+      "id": 32801,
+      "GameType": "nzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32802": {
+      "id": 32802,
+      "GameType": "nzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "32901": {
+      "id": 32901,
+      "GameType": "gspdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "32902": {
+      "id": 32902,
+      "GameType": "gspdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33001": {
+      "id": 33001,
+      "GameType": "wgfhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33002": {
+      "id": 33002,
+      "GameType": "wgfhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33101": {
+      "id": 33101,
+      "GameType": "xyxxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33102": {
+      "id": 33102,
+      "GameType": "xyxxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33201": {
+      "id": 33201,
+      "GameType": "xyxxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33202": {
+      "id": 33202,
+      "GameType": "xyxxpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33301": {
+      "id": 33301,
+      "GameType": "xxtdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33302": {
+      "id": 33302,
+      "GameType": "xxtdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33401": {
+      "id": 33401,
+      "GameType": "gsddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33402": {
+      "id": 33402,
+      "GameType": "gsddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33501": {
+      "id": "33501",
+      "GameType": "rgjamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33502": {
+      "id": "33502",
+      "GameType": "rgjamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33601": {
+      "id": 33601,
+      "GameType": "nzwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33602": {
+      "id": 33602,
+      "GameType": "nzwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33701": {
+      "id": 33701,
+      "GameType": "nythmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33702": {
+      "id": 33702,
+      "GameType": "nythmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33801": {
+      "id": 33801,
+      "GameType": "thjgl",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33802": {
+      "id": 33802,
+      "GameType": "thjgl",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "33901": {
+      "id": 33901,
+      "GameType": "sspmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "33902": {
+      "id": 33902,
+      "GameType": "sspmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34001": {
+      "id": 34001,
+      "GameType": "glqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34002": {
+      "id": 34002,
+      "GameType": "glqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34101": {
+      "id": 34101,
+      "GameType": "xyhcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34102": {
+      "id": 34102,
+      "GameType": "xyhcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34201": {
+      "id": 34201,
+      "GameType": "yzchz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34202": {
+      "id": 34202,
+      "GameType": "yzchz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34301": {
+      "id": 34301,
+      "GameType": "gft258mj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34302": {
+      "id": 34302,
+      "GameType": "gft258mj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34401": {
+      "id": 34401,
+      "GameType": "rummy13",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34402": {
+      "id": 34402,
+      "GameType": "rummy13",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34501": {
+      "id": 34501,
+      "GameType": "yymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34502": {
+      "id": 34502,
+      "GameType": "yymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34601": {
+      "id": 34601,
+      "GameType": "teenpatti",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34602": {
+      "id": 34602,
+      "GameType": "teenpatti",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34701": {
+      "id": 34701,
+      "GameType": "glwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34702": {
+      "id": 34702,
+      "GameType": "glwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34801": {
+      "id": 34801,
+      "GameType": "fctdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34802": {
+      "id": 34802,
+      "GameType": "fctdhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "34901": {
+      "id": 34901,
+      "GameType": "glsdh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "34902": {
+      "id": 34902,
+      "GameType": "glsdh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35001": {
+      "id": 35001,
+      "GameType": "xtlhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35002": {
+      "id": 35002,
+      "GameType": "xtlhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35101": {
+      "id": 35101,
+      "GameType": "yhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35102": {
+      "id": 35102,
+      "GameType": "yhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35201": {
+      "id": 35201,
+      "GameType": "hzjdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35202": {
+      "id": 35202,
+      "GameType": "hzjdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35301": {
+      "id": 35301,
+      "GameType": "xsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35302": {
+      "id": 35302,
+      "GameType": "xsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35401": {
+      "id": 35401,
+      "GameType": "tjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35402": {
+      "id": 35402,
+      "GameType": "tjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35501": {
+      "id": 35501,
+      "GameType": "qjfxjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35502": {
+      "id": 35502,
+      "GameType": "qjfxjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35601": {
+      "id": 35601,
+      "GameType": "hnyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35602": {
+      "id": 35602,
+      "GameType": "hnyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35701": {
+      "id": 35701,
+      "GameType": "yjnxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35702": {
+      "id": 35702,
+      "GameType": "yjnxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35801": {
+      "id": 35801,
+      "GameType": "sdjnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35802": {
+      "id": 35802,
+      "GameType": "sdjnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "35901": {
+      "id": 35901,
+      "GameType": "hnsymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "35902": {
+      "id": 35902,
+      "GameType": "hnsymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36001": {
+      "id": 36001,
+      "GameType": "gslzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36002": {
+      "id": 36002,
+      "GameType": "gslzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36101": {
+      "id": 36101,
+      "GameType": "xnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36102": {
+      "id": 36102,
+      "GameType": "xnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36201": {
+      "id": 36201,
+      "GameType": "hylymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36202": {
+      "id": 36202,
+      "GameType": "hylymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36301": {
+      "id": 36301,
+      "GameType": "tjtjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36302": {
+      "id": 36302,
+      "GameType": "tjtjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36401": {
+      "id": 36401,
+      "GameType": "bamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36402": {
+      "id": 36402,
+      "GameType": "bamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36501": {
+      "id": 36501,
+      "GameType": "nmgyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36502": {
+      "id": 36502,
+      "GameType": "nmgyzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36601": {
+      "id": 36601,
+      "GameType": "jzwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36602": {
+      "id": 36602,
+      "GameType": "jzwzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36701": {
+      "id": 36701,
+      "GameType": "jcahmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36702": {
+      "id": 36702,
+      "GameType": "jcahmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36801": {
+      "id": 36801,
+      "GameType": "sgew",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36802": {
+      "id": 36802,
+      "GameType": "sgew",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "36901": {
+      "id": 36901,
+      "GameType": "lfphmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "36902": {
+      "id": 36902,
+      "GameType": "lfphmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37001": {
+      "id": 37001,
+      "GameType": "rxew",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37002": {
+      "id": 37002,
+      "GameType": "rxew",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37101": {
+      "id": 37101,
+      "GameType": "sfphmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37102": {
+      "id": 37102,
+      "GameType": "sfphmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37201": {
+      "id": 37201,
+      "GameType": "zcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37202": {
+      "id": 37202,
+      "GameType": "zcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37301": {
+      "id": 37301,
+      "GameType": "hyhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37302": {
+      "id": 37302,
+      "GameType": "hyhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37401": {
+      "id": 37401,
+      "GameType": "zgqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37402": {
+      "id": 37402,
+      "GameType": "zgqzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37501": {
+      "id": 37501,
+      "GameType": "mymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37502": {
+      "id": 37502,
+      "GameType": "mymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37601": {
+      "id": 37601,
+      "GameType": "sd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37602": {
+      "id": 37602,
+      "GameType": "sd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37701": {
+      "id": 37701,
+      "GameType": "ahhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37702": {
+      "id": 37702,
+      "GameType": "ahhbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37801": {
+      "id": 37801,
+      "GameType": "jsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37802": {
+      "id": 37802,
+      "GameType": "jsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "37901": {
+      "id": 37901,
+      "GameType": "gz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "37902": {
+      "id": 37902,
+      "GameType": "gz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38001": {
+      "id": 38001,
+      "GameType": "hcpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38002": {
+      "id": 38002,
+      "GameType": "hcpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38101": {
+      "id": 38101,
+      "GameType": "jawz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38102": {
+      "id": 38102,
+      "GameType": "jawz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38201": {
+      "id": 38201,
+      "GameType": "nyxxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38202": {
+      "id": 38202,
+      "GameType": "nyxxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38301": {
+      "id": 38301,
+      "GameType": "pdslsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38302": {
+      "id": 38302,
+      "GameType": "pdslsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38401": {
+      "id": 38401,
+      "GameType": "rzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38402": {
+      "id": 38402,
+      "GameType": "rzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38501": {
+      "id": 38501,
+      "GameType": "fczha",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38502": {
+      "id": 38502,
+      "GameType": "fczha",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38601": {
+      "id": 38601,
+      "GameType": "nxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38602": {
+      "id": 38602,
+      "GameType": "nxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38701": {
+      "id": 38701,
+      "GameType": "bfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38702": {
+      "id": 38702,
+      "GameType": "bfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38801": {
+      "id": 38801,
+      "GameType": "pdsjxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38802": {
+      "id": 38802,
+      "GameType": "pdsjxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "38901": {
+      "id": 38901,
+      "GameType": "zd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "38902": {
+      "id": 38902,
+      "GameType": "zd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39001": {
+      "id": 39001,
+      "GameType": "stmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39002": {
+      "id": 39002,
+      "GameType": "stmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39101": {
+      "id": 39101,
+      "GameType": "czdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39102": {
+      "id": 39102,
+      "GameType": "czdzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39201": {
+      "id": 39201,
+      "GameType": "cp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39202": {
+      "id": 39202,
+      "GameType": "cp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39301": {
+      "id": 39301,
+      "GameType": "qyphmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39302": {
+      "id": 39302,
+      "GameType": "qyphmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39401": {
+      "id": 39401,
+      "GameType": "cqcp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39402": {
+      "id": 39402,
+      "GameType": "cqcp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39501": {
+      "id": 39501,
+      "GameType": "tbhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39502": {
+      "id": 39502,
+      "GameType": "tbhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39601": {
+      "id": 39601,
+      "GameType": "hfbzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39602": {
+      "id": 39602,
+      "GameType": "hfbzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39701": {
+      "id": 39701,
+      "GameType": "czczmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39702": {
+      "id": 39702,
+      "GameType": "czczmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39801": {
+      "id": "39801",
+      "GameType": "dtmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39802": {
+      "id": "39802",
+      "GameType": "dtmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "39901": {
+      "id": 39901,
+      "GameType": "cylymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "39902": {
+      "id": 39902,
+      "GameType": "cylymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40001": {
+      "id": 40001,
+      "GameType": "afmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40002": {
+      "id": 40002,
+      "GameType": "afmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40101": {
+      "id": 40101,
+      "GameType": "scpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40102": {
+      "id": 40102,
+      "GameType": "scpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40201": {
+      "id": 40201,
+      "GameType": "ststmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40202": {
+      "id": 40202,
+      "GameType": "ststmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40301": {
+      "id": 40301,
+      "GameType": "gdczmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40302": {
+      "id": 40302,
+      "GameType": "gdczmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40401": {
+      "id": 40401,
+      "GameType": "ycsdr",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40402": {
+      "id": 40402,
+      "GameType": "ycsdr",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40501": {
+      "id": 40501,
+      "GameType": "thkb",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40502": {
+      "id": 40502,
+      "GameType": "thkb",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40601": {
+      "id": 40601,
+      "GameType": "tsdg",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40602": {
+      "id": 40602,
+      "GameType": "tsdg",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40701": {
+      "id": 40701,
+      "GameType": "ychp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40702": {
+      "id": 40702,
+      "GameType": "ychp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40801": {
+      "id": 40801,
+      "GameType": "asmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40802": {
+      "id": 40802,
+      "GameType": "asmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "40901": {
+      "id": "40901",
+      "GameType": "sdb",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "40902": {
+      "id": "40902",
+      "GameType": "sdb",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41001": {
+      "id": 41001,
+      "GameType": "sqycmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41002": {
+      "id": 41002,
+      "GameType": "sqycmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41101": {
+      "id": 41101,
+      "GameType": "qcdg",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41102": {
+      "id": 41102,
+      "GameType": "qcdg",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41201": {
+      "id": "41201",
+      "GameType": "yfcgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41202": {
+      "id": "41202",
+      "GameType": "yfcgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41301": {
+      "id": "41301",
+      "GameType": "qbsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41302": {
+      "id": "41302",
+      "GameType": "qbsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41401": {
+      "id": "41401",
+      "GameType": "phmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41402": {
+      "id": "41402",
+      "GameType": "phmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41501": {
+      "id": "41501",
+      "GameType": "ctpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41502": {
+      "id": "41502",
+      "GameType": "ctpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41601": {
+      "id": "41601",
+      "GameType": "gjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41602": {
+      "id": "41602",
+      "GameType": "gjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41701": {
+      "id": "41701",
+      "GameType": "zlmz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41702": {
+      "id": "41702",
+      "GameType": "zlmz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41801": {
+      "id": "41801",
+      "GameType": "st",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41802": {
+      "id": "41802",
+      "GameType": "st",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "41901": {
+      "id": "41901",
+      "GameType": "wk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "41902": {
+      "id": "41902",
+      "GameType": "wk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "42001": {
+      "id": "42001",
+      "GameType": "qjfbbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "42002": {
+      "id": "42002",
+      "GameType": "qjfbbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45101": {
+      "id": "45101",
+      "GameType": "sysybp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45102": {
+      "id": "45102",
+      "GameType": "sysybp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45201": {
+      "id": "45201",
+      "GameType": "tdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45202": {
+      "id": "45202",
+      "GameType": "tdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45301": {
+      "id": "45301",
+      "GameType": "cxyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45302": {
+      "id": "45302",
+      "GameType": "cxyxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45401": {
+      "id": "45401",
+      "GameType": "hw",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45402": {
+      "id": "45402",
+      "GameType": "hw",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45501": {
+      "id": "45501",
+      "GameType": "bxmd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45502": {
+      "id": "45502",
+      "GameType": "bxmd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45601": {
+      "id": "45601",
+      "GameType": "qwwes",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45602": {
+      "id": "45602",
+      "GameType": "qwwes",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45701": {
+      "id": "45701",
+      "GameType": "japdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45702": {
+      "id": "45702",
+      "GameType": "japdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45801": {
+      "id": "45801",
+      "GameType": "bsl",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45802": {
+      "id": "45802",
+      "GameType": "bsl",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "45901": {
+      "id": "45901",
+      "GameType": "bsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "45902": {
+      "id": "45902",
+      "GameType": "bsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46001": {
+      "id": "46001",
+      "GameType": "yfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46002": {
+      "id": "46002",
+      "GameType": "yfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46101": {
+      "id": "46101",
+      "GameType": "py",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46102": {
+      "id": "46102",
+      "GameType": "py",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46201": {
+      "id": "46201",
+      "GameType": "bzp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46202": {
+      "id": "46202",
+      "GameType": "bzp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46301": {
+      "id": "46301",
+      "GameType": "wzqsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46302": {
+      "id": "46302",
+      "GameType": "wzqsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46401": {
+      "id": "46401",
+      "GameType": "qdbh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46402": {
+      "id": "46402",
+      "GameType": "qdbh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46501": {
+      "id": "46501",
+      "GameType": "twgz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46502": {
+      "id": "46502",
+      "GameType": "twgz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46601": {
+      "id": "46601",
+      "GameType": "lnsymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46602": {
+      "id": "46602",
+      "GameType": "lnsymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46701": {
+      "id": 46701,
+      "GameType": "jxndpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46702": {
+      "id": 46702,
+      "GameType": "jxndpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46801": {
+      "id": "46801",
+      "GameType": "wfbh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46802": {
+      "id": "46802",
+      "GameType": "wfbh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "46901": {
+      "id": "46901",
+      "GameType": "jxyz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "46902": {
+      "id": "46902",
+      "GameType": "jxyz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47001": {
+      "id": "47001",
+      "GameType": "hldmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47002": {
+      "id": "47002",
+      "GameType": "hldmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47101": {
+      "id": "47101",
+      "GameType": "scnjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47102": {
+      "id": "47102",
+      "GameType": "scnjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47201": {
+      "id": "47201",
+      "GameType": "gj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47202": {
+      "id": "47202",
+      "GameType": "gj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47301": {
+      "id": "47301",
+      "GameType": "wxzmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47302": {
+      "id": "47302",
+      "GameType": "wxzmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47401": {
+      "id": "47401",
+      "GameType": "pysft",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47402": {
+      "id": "47402",
+      "GameType": "pysft",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47501": {
+      "id": "47501",
+      "GameType": "cdp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47502": {
+      "id": "47502",
+      "GameType": "cdp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47601": {
+      "id": "47601",
+      "GameType": "wxls",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47602": {
+      "id": "47602",
+      "GameType": "wxls",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47701": {
+      "id": "47701",
+      "GameType": "jxhs",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47702": {
+      "id": "47702",
+      "GameType": "jxhs",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47801": {
+      "id": "47801",
+      "GameType": "zgz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47802": {
+      "id": "47802",
+      "GameType": "zgz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "47901": {
+      "id": "47901",
+      "GameType": "dda",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "47902": {
+      "id": "47902",
+      "GameType": "dda",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48001": {
+      "id": "48001",
+      "GameType": "sstx",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48002": {
+      "id": "48002",
+      "GameType": "sstx",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48101": {
+      "id": "48101",
+      "GameType": "sys",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48102": {
+      "id": "48102",
+      "GameType": "sys",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48201": {
+      "id": "48201",
+      "GameType": "dqdz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48202": {
+      "id": "48202",
+      "GameType": "dqdz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48301": {
+      "id": "48301",
+      "GameType": "whbh",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48302": {
+      "id": "48302",
+      "GameType": "whbh",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48401": {
+      "id": "48401",
+      "GameType": "xsdq",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48402": {
+      "id": "48402",
+      "GameType": "xsdq",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48501": {
+      "id": "48501",
+      "GameType": "esyd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48502": {
+      "id": "48502",
+      "GameType": "esyd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48601": {
+      "id": "48601",
+      "GameType": "xywsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48602": {
+      "id": "48602",
+      "GameType": "xywsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48701": {
+      "id": "48701",
+      "GameType": "szd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48702": {
+      "id": "48702",
+      "GameType": "szd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48801": {
+      "id": "48801",
+      "GameType": "sglk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48802": {
+      "id": "48802",
+      "GameType": "sglk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "48901": {
+      "id": "48901",
+      "GameType": "ttz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "48902": {
+      "id": "48902",
+      "GameType": "ttz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49001": {
+      "id": "49001",
+      "GameType": "lczp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49002": {
+      "id": "49002",
+      "GameType": "lczp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49101": {
+      "id": "49101",
+      "GameType": "ycfxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49102": {
+      "id": "49102",
+      "GameType": "ycfxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49201": {
+      "id": "49201",
+      "GameType": "fcsj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49202": {
+      "id": "49202",
+      "GameType": "fcsj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49301": {
+      "id": "49301",
+      "GameType": "ycsgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49302": {
+      "id": "49302",
+      "GameType": "ycsgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49401": {
+      "id": "49401",
+      "GameType": "wabjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49402": {
+      "id": "49402",
+      "GameType": "wabjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49501": {
+      "id": "49501",
+      "GameType": "fcgp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49502": {
+      "id": "49502",
+      "GameType": "fcgp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49601": {
+      "id": "49601",
+      "GameType": "jlpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49602": {
+      "id": "49602",
+      "GameType": "jlpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "49701": {
+      "id": "49701",
+      "GameType": "klmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "49702": {
+      "id": "49702",
+      "GameType": "klmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "50501": {
+      "id": "50501",
+      "GameType": "hebmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "50502": {
+      "id": "50502",
+      "GameType": "hebmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "50601": {
+      "id": 50601,
+      "GameType": "nbcxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "50602": {
+      "id": 50602,
+      "GameType": "nbcxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "50701": {
+      "id": 50701,
+      "GameType": "sxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "50702": {
+      "id": 50702,
+      "GameType": "sxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "50801": {
+      "id": "50801",
+      "GameType": "wsbea",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "50802": {
+      "id": "50802",
+      "GameType": "wsbea",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "50901": {
+      "id": "50901",
+      "GameType": "dglz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "50902": {
+      "id": "50902",
+      "GameType": "dglz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51001": {
+      "id": "51001",
+      "GameType": "sxzjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51002": {
+      "id": "51002",
+      "GameType": "sxzjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51101": {
+      "id": 51101,
+      "GameType": "dsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51102": {
+      "id": 51102,
+      "GameType": "dsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51201": {
+      "id": "51201",
+      "GameType": "jmjsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51202": {
+      "id": "51202",
+      "GameType": "jmjsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51301": {
+      "id": "51301",
+      "GameType": "rbmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51302": {
+      "id": "51302",
+      "GameType": "rbmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51401": {
+      "id": "51401",
+      "GameType": "fkbd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51402": {
+      "id": "51402",
+      "GameType": "fkbd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51501": {
+      "id": 51501,
+      "GameType": "scgamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51502": {
+      "id": 51502,
+      "GameType": "scgamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51601": {
+      "id": "51601",
+      "GameType": "sdlcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51602": {
+      "id": "51602",
+      "GameType": "sdlcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51701": {
+      "id": 51701,
+      "GameType": "cdxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51702": {
+      "id": 51702,
+      "GameType": "cdxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51801": {
+      "id": 51801,
+      "GameType": "xlhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51802": {
+      "id": 51802,
+      "GameType": "xlhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "51901": {
+      "id": "51901",
+      "GameType": "ntcp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "51902": {
+      "id": "51902",
+      "GameType": "ntcp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52001": {
+      "id": 52001,
+      "GameType": "jayxddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52002": {
+      "id": 52002,
+      "GameType": "jayxddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52101": {
+      "id": 52101,
+      "GameType": "gawsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52102": {
+      "id": 52102,
+      "GameType": "gawsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52201": {
+      "id": "52201",
+      "GameType": "gaddz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52202": {
+      "id": "52202",
+      "GameType": "gaddz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52301": {
+      "id": "52301",
+      "GameType": "gast",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52302": {
+      "id": "52302",
+      "GameType": "gast",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52401": {
+      "id": "52401",
+      "GameType": "lwmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52402": {
+      "id": "52402",
+      "GameType": "lwmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52501": {
+      "id": 52501,
+      "GameType": "lzxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52502": {
+      "id": 52502,
+      "GameType": "lzxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52601": {
+      "id": 52601,
+      "GameType": "lsyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52602": {
+      "id": 52602,
+      "GameType": "lsyjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52701": {
+      "id": "52701",
+      "GameType": "sdzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52702": {
+      "id": "52702",
+      "GameType": "sdzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52801": {
+      "id": "52801",
+      "GameType": "sdhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52802": {
+      "id": "52802",
+      "GameType": "sdhzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "52901": {
+      "id": "52901",
+      "GameType": "xwmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "52902": {
+      "id": "52902",
+      "GameType": "xwmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53001": {
+      "id": "53001",
+      "GameType": "lgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53002": {
+      "id": "53002",
+      "GameType": "lgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53101": {
+      "id": "53101",
+      "GameType": "tamj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53102": {
+      "id": "53102",
+      "GameType": "tamj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53201": {
+      "id": 53201,
+      "GameType": "cnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53202": {
+      "id": 53202,
+      "GameType": "cnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53301": {
+      "id": "53301",
+      "GameType": "zjtzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53302": {
+      "id": "53302",
+      "GameType": "zjtzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53401": {
+      "id": "53401",
+      "GameType": "ncaymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53402": {
+      "id": "53402",
+      "GameType": "ncaymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53601": {
+      "id": "53601",
+      "GameType": "xjbjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53602": {
+      "id": "53602",
+      "GameType": "xjbjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53701": {
+      "id": "53701",
+      "GameType": "sse",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53702": {
+      "id": "53702",
+      "GameType": "sse",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53801": {
+      "id": "53801",
+      "GameType": "lsxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53802": {
+      "id": "53802",
+      "GameType": "lsxzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "53901": {
+      "id": "53901",
+      "GameType": "ybgxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "53902": {
+      "id": "53902",
+      "GameType": "ybgxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54001": {
+      "id": "54001",
+      "GameType": "thgz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54002": {
+      "id": "54002",
+      "GameType": "thgz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54101": {
+      "id": "54101",
+      "GameType": "thbbz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54102": {
+      "id": "54102",
+      "GameType": "thbbz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54201": {
+      "id": "54201",
+      "GameType": "zymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54202": {
+      "id": "54202",
+      "GameType": "zymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54301": {
+      "id": "54301",
+      "GameType": "eqw",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54302": {
+      "id": "54302",
+      "GameType": "eqw",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54501": {
+      "id": "54501",
+      "GameType": "lhgmmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54502": {
+      "id": "54502",
+      "GameType": "lhgmmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54601": {
+      "id": "54601",
+      "GameType": "gcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54602": {
+      "id": "54602",
+      "GameType": "gcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54701": {
+      "id": "54701",
+      "GameType": "haxymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54702": {
+      "id": "54702",
+      "GameType": "haxymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54801": {
+      "id": 54801,
+      "GameType": "scgxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54802": {
+      "id": 54802,
+      "GameType": "scgxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "54901": {
+      "id": "54901",
+      "GameType": "jtmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "54902": {
+      "id": "54902",
+      "GameType": "jtmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55001": {
+      "id": "55001",
+      "GameType": "tzjjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55002": {
+      "id": "55002",
+      "GameType": "tzjjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55101": {
+      "id": "55101",
+      "GameType": "scncmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55102": {
+      "id": "55102",
+      "GameType": "scncmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55201": {
+      "id": "55201",
+      "GameType": "cbdg",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55202": {
+      "id": "55202",
+      "GameType": "cbdg",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55301": {
+      "id": "55301",
+      "GameType": "tjtgmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55302": {
+      "id": "55302",
+      "GameType": "tjtgmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55401": {
+      "id": "55401",
+      "GameType": "lyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55402": {
+      "id": "55402",
+      "GameType": "lyhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55501": {
+      "id": "55501",
+      "GameType": "hcng",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55502": {
+      "id": "55502",
+      "GameType": "hcng",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55601": {
+      "id": "55601",
+      "GameType": "zzdmz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55602": {
+      "id": "55602",
+      "GameType": "zzdmz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55701": {
+      "id": "55701",
+      "GameType": "scdymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55702": {
+      "id": "55702",
+      "GameType": "scdymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "55901": {
+      "id": "55901",
+      "GameType": "xlbbp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "55902": {
+      "id": "55902",
+      "GameType": "xlbbp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56001": {
+      "id": "56001",
+      "GameType": "wjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56002": {
+      "id": "56002",
+      "GameType": "wjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56101": {
+      "id": "56101",
+      "GameType": "lnjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56102": {
+      "id": "56102",
+      "GameType": "lnjzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56401": {
+      "id": "56401",
+      "GameType": "jstxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56402": {
+      "id": "56402",
+      "GameType": "jstxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56501": {
+      "id": "56501",
+      "GameType": "qxwq",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56502": {
+      "id": "56502",
+      "GameType": "qxwq",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56701": {
+      "id": "56701",
+      "GameType": "txqe",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56702": {
+      "id": "56702",
+      "GameType": "txqe",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "56801": {
+      "id": "56801",
+      "GameType": "tgwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "56802": {
+      "id": "56802",
+      "GameType": "tgwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57001": {
+      "id": "57001",
+      "GameType": "tlmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57002": {
+      "id": "57002",
+      "GameType": "tlmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57101": {
+      "id": "57101",
+      "GameType": "sjms",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57102": {
+      "id": "57102",
+      "GameType": "sjms",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57201": {
+      "id": "57201",
+      "GameType": "dzzj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57202": {
+      "id": "57202",
+      "GameType": "dzzj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57301": {
+      "id": 57301,
+      "GameType": "pydd",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57302": {
+      "id": 57302,
+      "GameType": "pydd",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57401": {
+      "id": "57401",
+      "GameType": "yjlymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57402": {
+      "id": "57402",
+      "GameType": "yjlymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57501": {
+      "id": "57501",
+      "GameType": "hbhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57502": {
+      "id": "57502",
+      "GameType": "hbhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57601": {
+      "id": "57601",
+      "GameType": "qsj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57602": {
+      "id": "57602",
+      "GameType": "qsj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57801": {
+      "id": "57801",
+      "GameType": "jmsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57802": {
+      "id": "57802",
+      "GameType": "jmsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "57901": {
+      "id": "57901",
+      "GameType": "nxhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "57902": {
+      "id": "57902",
+      "GameType": "nxhsmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58001": {
+      "id": "58001",
+      "GameType": "sfp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58002": {
+      "id": "58002",
+      "GameType": "sfp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58101": {
+      "id": "58101",
+      "GameType": "hbcxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58102": {
+      "id": "58102",
+      "GameType": "hbcxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58201": {
+      "id": "58201",
+      "GameType": "qppk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58202": {
+      "id": "58202",
+      "GameType": "qppk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58301": {
+      "id": "58301",
+      "GameType": "wdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58302": {
+      "id": "58302",
+      "GameType": "wdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58401": {
+      "id": "58401",
+      "GameType": "hxdz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58402": {
+      "id": "58402",
+      "GameType": "hxdz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58501": {
+      "id": "58501",
+      "GameType": "lnasmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58502": {
+      "id": "58502",
+      "GameType": "lnasmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58601": {
+      "id": "58601",
+      "GameType": "esmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58602": {
+      "id": "58602",
+      "GameType": "esmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58701": {
+      "id": "58701",
+      "GameType": "jjwnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58702": {
+      "id": "58702",
+      "GameType": "jjwnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58801": {
+      "id": "58801",
+      "GameType": "dphmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58802": {
+      "id": "58802",
+      "GameType": "dphmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "58901": {
+      "id": 58901,
+      "GameType": "gapdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "58902": {
+      "id": 58902,
+      "GameType": "gapdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59101": {
+      "id": "59101",
+      "GameType": "qdjt",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59102": {
+      "id": "59102",
+      "GameType": "qdjt",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59201": {
+      "id": "59201",
+      "GameType": "yxmdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59202": {
+      "id": "59202",
+      "GameType": "yxmdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59401": {
+      "id": "59401",
+      "GameType": "jayxmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59402": {
+      "id": "59402",
+      "GameType": "jayxmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59501": {
+      "id": "59501",
+      "GameType": "hzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59502": {
+      "id": "59502",
+      "GameType": "hzzmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59601": {
+      "id": "59601",
+      "GameType": "pxphz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59602": {
+      "id": "59602",
+      "GameType": "pxphz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59701": {
+      "id": "59701",
+      "GameType": "ggmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59702": {
+      "id": "59702",
+      "GameType": "ggmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "59801": {
+      "id": "59801",
+      "GameType": "bhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "59802": {
+      "id": "59802",
+      "GameType": "bhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60001": {
+      "id": "60001",
+      "GameType": "gfmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60002": {
+      "id": "60002",
+      "GameType": "gfmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60101": {
+      "id": "60101",
+      "GameType": "glmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60102": {
+      "id": "60102",
+      "GameType": "glmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60301": {
+      "id": "60301",
+      "GameType": "gfdtt",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60302": {
+      "id": "60302",
+      "GameType": "gfdtt",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60401": {
+      "id": "60401",
+      "GameType": "nnmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60402": {
+      "id": "60402",
+      "GameType": "nnmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60501": {
+      "id": "60501",
+      "GameType": "jtpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60502": {
+      "id": "60502",
+      "GameType": "jtpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60601": {
+      "id": "60601",
+      "GameType": "gfwsk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60602": {
+      "id": "60602",
+      "GameType": "gfwsk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "60901": {
+      "id": "60901",
+      "GameType": "sryymj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "60902": {
+      "id": "60902",
+      "GameType": "sryymj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61001": {
+      "id": "61001",
+      "GameType": "jyessz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61002": {
+      "id": "61002",
+      "GameType": "jyessz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61101": {
+      "id": "61101",
+      "GameType": "tzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61102": {
+      "id": "61102",
+      "GameType": "tzpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61201": {
+      "id": "61201",
+      "GameType": "dsp",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61202": {
+      "id": "61202",
+      "GameType": "dsp",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61301": {
+      "id": "61301",
+      "GameType": "kjmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61302": {
+      "id": "61302",
+      "GameType": "kjmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61401": {
+      "id": "61401",
+      "GameType": "zqmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61402": {
+      "id": "61402",
+      "GameType": "zqmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61501": {
+      "id": "61501",
+      "GameType": "fdpk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61502": {
+      "id": "61502",
+      "GameType": "fdpk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61601": {
+      "id": "61601",
+      "GameType": "srdz",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61602": {
+      "id": "61602",
+      "GameType": "srdz",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61801": {
+      "id": "61801",
+      "GameType": "xcmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61802": {
+      "id": "61802",
+      "GameType": "xcmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "61901": {
+      "id": "61901",
+      "GameType": "xcpdk",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "61902": {
+      "id": "61902",
+      "GameType": "xcpdk",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "62201": {
+      "id": "62201",
+      "GameType": "bdjhmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "62202": {
+      "id": "62202",
+      "GameType": "bdjhmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    },
+    "62301": {
+      "id": "62301",
+      "GameType": "hzbdmj",
+      "ClientTime": 60000,
+      "ServerTime": 3600000,
+      "Roomtype": 1
+    },
+    "62302": {
+      "id": "62302",
+      "GameType": "hzbdmj",
+      "ClientTime": 60000,
+      "ServerTime": 65000,
+      "Roomtype": 2
+    }
+  }
+}

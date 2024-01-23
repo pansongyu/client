@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_bd_down",
+    "texture": "1405b773-eec1-4aa9-9398-0f3bb7d3e631",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      100,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      100,
+      67
+    ],
+    "capInsets": [
+      20,
+      20,
+      20,
+      20
+    ]
+  }
+}

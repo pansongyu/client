@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sp_effect_qiang",
+    "texture": "19e53be3-eb37-491a-8e8d-576f3d6d8747",
+    "atlas": "",
+    "rect": [
+      6,
+      64,
+      452,
+      399
+    ],
+    "offset": [
+      -4,
+      -28.5
+    ],
+    "originalSize": [
+      472,
+      470
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_beishu",
+    "texture": "077727bb-0a3b-401e-8380-49345c767840",
+    "atlas": "",
+    "rect": [
+      2,
+      1,
+      112,
+      53
+    ],
+    "offset": [
+      -6,
+      4.5
+    ],
+    "originalSize": [
+      128,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

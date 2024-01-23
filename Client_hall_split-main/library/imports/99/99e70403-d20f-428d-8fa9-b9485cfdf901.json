@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_peng",
+    "texture": "f6654c82-5540-4b35-9afb-f62aad62b129",
+    "atlas": "",
+    "rect": [
+      24,
+      3,
+      15,
+      16
+    ],
+    "offset": [
+      10.5,
+      10
+    ],
+    "originalSize": [
+      42,
+      42
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

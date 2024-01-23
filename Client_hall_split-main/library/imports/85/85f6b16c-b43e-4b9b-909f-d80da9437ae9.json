@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_gui",
+    "texture": "4004fe10-1208-41df-8b71-4e1b980f5745",
+    "atlas": "",
+    "rect": [
+      18,
+      16,
+      66,
+      74
+    ],
+    "offset": [
+      2,
+      3
+    ],
+    "originalSize": [
+      98,
+      112
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

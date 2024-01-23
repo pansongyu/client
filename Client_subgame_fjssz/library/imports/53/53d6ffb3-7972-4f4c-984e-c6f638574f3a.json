@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sp_effect_cys",
+    "texture": "ef4e6ec7-9dd2-4280-95d2-5779c728c9d4",
+    "atlas": "",
+    "rect": [
+      2,
+      20,
+      956,
+      939
+    ],
+    "offset": [
+      -0.5,
+      -9
+    ],
+    "originalSize": [
+      961,
+      961
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

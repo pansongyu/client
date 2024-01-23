@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_touyou",
+    "texture": "26922527-625b-4ce8-b4b9-01bb77a0fe1c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      88,
+      102
+    ],
+    "offset": [
+      -1,
+      0.5
+    ],
+    "originalSize": [
+      90,
+      103
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_chun_yel02",
+    "texture": "cadc1d4b-b9dd-4c1c-81c3-25906e3b67f2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      921,
+      83
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      921,
+      83
+    ],
+    "capInsets": [
+      50,
+      20,
+      50,
+      20
+    ]
+  }
+}

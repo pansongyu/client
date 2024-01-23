@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_anjian_numb",
+    "texture": "75d3d619-fad2-4458-bbc9-1b3b36bdc4e7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      127,
+      126
+    ],
+    "offset": [
+      -0.5,
+      1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

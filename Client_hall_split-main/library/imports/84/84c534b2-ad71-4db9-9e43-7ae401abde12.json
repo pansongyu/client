@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_rili",
+    "texture": "24dc476d-30a0-4114-a7b9-93569109db97",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      32,
+      46
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      32,
+      46
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

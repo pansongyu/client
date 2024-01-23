@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tuichu",
+    "texture": "7b3621f7-9967-4f59-9660-586af316bd92",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      129,
+      27
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      129,
+      27
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

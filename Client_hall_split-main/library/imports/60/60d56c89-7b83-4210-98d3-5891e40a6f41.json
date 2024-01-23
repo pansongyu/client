@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_bupiao",
+    "texture": "7c2df0aa-30d0-4275-9b88-753e8ba3c179",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      58,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      58,
+      28
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

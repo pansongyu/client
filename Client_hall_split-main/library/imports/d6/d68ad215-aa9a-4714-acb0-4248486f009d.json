@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_title_zyx",
+    "texture": "5eee335b-aad6-415a-9995-7b0a8b8ae001",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1016,
+      503
+    ],
+    "offset": [
+      -4,
+      4.5
+    ],
+    "originalSize": [
+      1024,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

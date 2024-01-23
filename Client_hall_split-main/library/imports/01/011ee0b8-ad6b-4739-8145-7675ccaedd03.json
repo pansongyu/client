@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_eryou",
+    "texture": "c71c9e11-f0bd-4ae1-aae0-2d1ace894ff8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      92,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      92,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

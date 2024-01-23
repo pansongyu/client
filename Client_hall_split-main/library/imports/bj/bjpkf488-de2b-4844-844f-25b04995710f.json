@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_qth",
+    "texture": "bjpkdcd3-a287-48ab-890a-43fd742e962a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      113,
+      45
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      115,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

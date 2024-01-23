@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_huanfu",
+    "texture": "feb7cbdd-c428-4a5a-9407-741a29141dfb",
+    "atlas": "",
+    "rect": [
+      16,
+      3,
+      93,
+      94
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      125,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

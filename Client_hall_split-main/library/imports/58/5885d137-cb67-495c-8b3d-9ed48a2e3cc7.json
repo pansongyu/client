@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_ysh",
+    "texture": "a012a8c1-451c-4562-b425-b0ade1a5ac00",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      37,
+      30
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      37,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

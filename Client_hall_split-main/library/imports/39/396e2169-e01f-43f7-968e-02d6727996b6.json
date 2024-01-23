@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_kan",
+    "texture": "e130a391-1bb5-4a17-bef8-8a6b6aa71dec",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      40,
+      45
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      45
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

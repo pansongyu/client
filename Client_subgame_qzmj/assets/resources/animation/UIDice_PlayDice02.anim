@@ -1,0 +1,34 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "UIDice_PlayDice02",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 3.0166666666666666,
+  "sample": 60,
+  "speed": 2,
+  "wrapMode": 1,
+  "curveData": {
+    "props": {
+      "angle": [
+        {
+          "frame": 0,
+          "value": 0
+        },
+        {
+          "frame": 0.5,
+          "value": -360
+        },
+        {
+          "frame": 1.4833333333333334,
+          "value": -720,
+          "curve": "linear"
+        },
+        {
+          "frame": 3.0166666666666666,
+          "value": -1080
+        }
+      ]
+    }
+  },
+  "events": []
+}

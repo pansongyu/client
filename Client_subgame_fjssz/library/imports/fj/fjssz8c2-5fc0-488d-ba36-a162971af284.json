@@ -1,0 +1,37 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "face4Action",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.55,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "fjssz497-eb3a-4593-ba1e-a443e8e812a4"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "fjssz60d-fef2-4edb-9dcf-e1df23ee4a69"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "fjssz01d-0418-411c-a1ca-9aff36b5c138"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

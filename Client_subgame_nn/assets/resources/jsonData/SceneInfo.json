@@ -1,0 +1,42 @@
+{
+  "nnMainScene": {
+    "SceneType": "nnMainScene",
+    "Name": "主场景",
+    "ComponentName": "nn_SceneMain",
+    "gamePrefab": "0",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "nnScene": {
+    "SceneType": "nnScene",
+    "Name": "红中麻将场景",
+    "ComponentName": "nnScene",
+    "gamePrefab": "game/NN/ui/UINNPlay",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  },
+  "nnVideoScene": {
+    "SceneType": "nnVideoScene",
+    "Name": "红中麻将回放场景",
+    "ComponentName": "nnVideoScene",
+    "gamePrefab": "game/NN/ui/UINNVideo",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  },
+  "nnLoginScene": {
+    "SceneType": "nnLoginScene",
+    "Name": "登陆场景",
+    "ComponentName": "nn_SceneLogin",
+    "gamePrefab": "nn_UILogin",
+    "IsCanMove": 0,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  }
+}

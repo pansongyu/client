@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "number_zj_lose_0",
+    "texture": "9fc447ef-7fb3-47a1-ac09-60ef575c59ba",
+    "atlas": "",
+    "rect": [
+      1,
+      2,
+      117,
+      121
+    ],
+    "offset": [
+      -4.5,
+      1.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sp_effect_qdqx",
+    "texture": "7df38390-b3ae-470e-9ba2-63e05199be46",
+    "atlas": "",
+    "rect": [
+      2,
+      3,
+      990,
+      988
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      994,
+      993
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

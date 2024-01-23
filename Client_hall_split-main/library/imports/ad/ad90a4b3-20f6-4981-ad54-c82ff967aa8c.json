@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_putin01_cs",
+    "texture": "308464bb-2b04-4fdb-b593-bdfe424afe26",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      102,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      102,
+      72
+    ],
+    "capInsets": [
+      32,
+      35,
+      32,
+      35
+    ]
+  }
+}

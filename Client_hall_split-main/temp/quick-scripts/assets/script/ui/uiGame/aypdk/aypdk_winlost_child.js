@@ -1,0 +1,43 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/ui/uiGame/aypdk/aypdk_winlost_child.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'd3d67Pp5QVH6plsKKPlPkqB', 'aypdk_winlost_child', __filename);
+// script/ui/uiGame/aypdk/aypdk_winlost_child.js
+
+"use strict";
+
+/*
+ UICard01-04 牌局吃到的牌显示
+ */
+
+var app = require("app");
+
+cc.Class({
+   extends: require("BasePoker_winlost_child"),
+
+   properties: {},
+
+   // use this for initialization
+   OnLoad: function OnLoad() {},
+   ShowSpecData: function ShowSpecData(setEnd, playerAll, index) {
+      var player = setEnd.posResultList[index];
+      // //倍数默认1
+
+      //剩余牌数
+      this.node.getChildByName("lb_paishu").active = true;
+      var paishu = this.node.getChildByName("lb_paishu").getComponent(cc.Label);
+      paishu.string = player.surplusCardList[index];
+   }
+});
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=aypdk_winlost_child.js.map
+        

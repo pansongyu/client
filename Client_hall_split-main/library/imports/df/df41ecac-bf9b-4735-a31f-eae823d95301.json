@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_cyan1",
+    "texture": "466dd9a1-b449-4850-8832-8ce47b0f944e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      138,
+      77
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      138,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

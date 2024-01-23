@@ -1,0 +1,326 @@
+{
+  "DefaultManHead": {
+    "Name": "DefaultManHead",
+    "CnName": "默认头像",
+    "FilePath": "texture/comicon/morentouxiang",
+    "FileNameList": 0
+  },
+  "DefaultWomenHead": {
+    "Name": "DefaultWomenHead",
+    "CnName": "默认头像",
+    "FilePath": "texture/comicon/morentouxiang",
+    "FileNameList": 0
+  },
+  "MaleLogo": {
+    "Name": "MaleLogo",
+    "CnName": "男图标",
+    "FilePath": "texture/comicon/personal_male",
+    "FileNameList": 0
+  },
+  "FeMaleLogo": {
+    "Name": "FeMaleLogo",
+    "CnName": "女图标",
+    "FilePath": "texture/comicon/personal_female",
+    "FileNameList": 0
+  },
+  "CardBack_Self": {
+    "Name": "CardBack_Self",
+    "CnName": "卡背面",
+    "FilePath": "texture/majiang/hh_face_dao_39",
+    "FileNameList": 0
+  },
+  "EatCard_Self_11": {
+    "Name": "EatCard_Self_11",
+    "CnName": "1万",
+    "FilePath": "texture/majiang/hh_face_dao_26",
+    "FileNameList": 0
+  },
+  "EatCard_Self_12": {
+    "Name": "EatCard_Self_12",
+    "CnName": "2万",
+    "FilePath": "texture/majiang/hh_face_dao_27",
+    "FileNameList": 0
+  },
+  "EatCard_Self_13": {
+    "Name": "EatCard_Self_13",
+    "CnName": "3万",
+    "FilePath": "texture/majiang/hh_face_dao_28",
+    "FileNameList": 0
+  },
+  "EatCard_Self_14": {
+    "Name": "EatCard_Self_14",
+    "CnName": "4万",
+    "FilePath": "texture/majiang/hh_face_dao_37",
+    "FileNameList": 0
+  },
+  "EatCard_Self_15": {
+    "Name": "EatCard_Self_15",
+    "CnName": "5万",
+    "FilePath": "texture/majiang/hh_face_dao_42",
+    "FileNameList": 0
+  },
+  "EatCard_Self_16": {
+    "Name": "EatCard_Self_16",
+    "CnName": "6万",
+    "FilePath": "texture/majiang/hh_face_dao_36",
+    "FileNameList": 0
+  },
+  "EatCard_Self_17": {
+    "Name": "EatCard_Self_17",
+    "CnName": "7万",
+    "FilePath": "texture/majiang/hh_face_dao_25",
+    "FileNameList": 0
+  },
+  "EatCard_Self_18": {
+    "Name": "EatCard_Self_18",
+    "CnName": "8万",
+    "FilePath": "texture/majiang/hh_face_dao_41",
+    "FileNameList": 0
+  },
+  "EatCard_Self_19": {
+    "Name": "EatCard_Self_19",
+    "CnName": "9万",
+    "FilePath": "texture/majiang/hh_face_dao_35",
+    "FileNameList": 0
+  },
+  "EatCard_Self_21": {
+    "Name": "EatCard_Self_21",
+    "CnName": "1条",
+    "FilePath": "texture/majiang/hh_face_dao_24",
+    "FileNameList": 0
+  },
+  "EatCard_Self_22": {
+    "Name": "EatCard_Self_22",
+    "CnName": "2条",
+    "FilePath": "texture/majiang/hh_face_dao_21",
+    "FileNameList": 0
+  },
+  "EatCard_Self_23": {
+    "Name": "EatCard_Self_23",
+    "CnName": "3条",
+    "FilePath": "texture/majiang/hh_face_dao_31",
+    "FileNameList": 0
+  },
+  "EatCard_Self_24": {
+    "Name": "EatCard_Self_24",
+    "CnName": "4条",
+    "FilePath": "texture/majiang/hh_face_dao_30",
+    "FileNameList": 0
+  },
+  "EatCard_Self_25": {
+    "Name": "EatCard_Self_25",
+    "CnName": "5条",
+    "FilePath": "texture/majiang/hh_face_dao_29",
+    "FileNameList": 0
+  },
+  "EatCard_Self_26": {
+    "Name": "EatCard_Self_26",
+    "CnName": "6条",
+    "FilePath": "texture/majiang/hh_face_dao_40",
+    "FileNameList": 0
+  },
+  "EatCard_Self_27": {
+    "Name": "EatCard_Self_27",
+    "CnName": "7条",
+    "FilePath": "texture/majiang/hh_face_dao_34",
+    "FileNameList": 0
+  },
+  "EatCard_Self_28": {
+    "Name": "EatCard_Self_28",
+    "CnName": "8条",
+    "FilePath": "texture/majiang/hh_face_dao_23",
+    "FileNameList": 0
+  },
+  "EatCard_Self_29": {
+    "Name": "EatCard_Self_29",
+    "CnName": "9条",
+    "FilePath": "texture/majiang/hh_face_dao_14",
+    "FileNameList": 0
+  },
+  "EatCard_Self_31": {
+    "Name": "EatCard_Self_31",
+    "CnName": "1筒",
+    "FilePath": "texture/majiang/hh_face_dao_20",
+    "FileNameList": 0
+  },
+  "EatCard_Self_32": {
+    "Name": "EatCard_Self_32",
+    "CnName": "2筒",
+    "FilePath": "texture/majiang/hh_face_dao_19",
+    "FileNameList": 0
+  },
+  "EatCard_Self_33": {
+    "Name": "EatCard_Self_33",
+    "CnName": "3筒",
+    "FilePath": "texture/majiang/hh_face_dao_18",
+    "FileNameList": 0
+  },
+  "EatCard_Self_34": {
+    "Name": "EatCard_Self_34",
+    "CnName": "4筒",
+    "FilePath": "texture/majiang/hh_face_dao_17",
+    "FileNameList": 0
+  },
+  "EatCard_Self_35": {
+    "Name": "EatCard_Self_35",
+    "CnName": "5筒",
+    "FilePath": "texture/majiang/hh_face_dao_07",
+    "FileNameList": 0
+  },
+  "EatCard_Self_36": {
+    "Name": "EatCard_Self_36",
+    "CnName": "6筒",
+    "FilePath": "texture/majiang/hh_face_dao_13",
+    "FileNameList": 0
+  },
+  "EatCard_Self_37": {
+    "Name": "EatCard_Self_37",
+    "CnName": "7筒",
+    "FilePath": "texture/majiang/hh_face_dao_12",
+    "FileNameList": 0
+  },
+  "EatCard_Self_38": {
+    "Name": "EatCard_Self_38",
+    "CnName": "8筒",
+    "FilePath": "texture/majiang/hh_face_dao_11",
+    "FileNameList": 0
+  },
+  "EatCard_Self_39": {
+    "Name": "EatCard_Self_39",
+    "CnName": "9筒",
+    "FilePath": "texture/majiang/hh_face_dao_10",
+    "FileNameList": 0
+  },
+  "EatCard_Self_41": {
+    "Name": "EatCard_Self_41",
+    "CnName": "东",
+    "FilePath": "texture/majiang/hh_face_dao_16",
+    "FileNameList": 0
+  },
+  "EatCard_Self_43": {
+    "Name": "EatCard_Self_43",
+    "CnName": "西",
+    "FilePath": "texture/majiang/hh_face_dao_08",
+    "FileNameList": 0
+  },
+  "EatCard_Self_42": {
+    "Name": "EatCard_Self_42",
+    "CnName": "南",
+    "FilePath": "texture/majiang/hh_face_dao_15",
+    "FileNameList": 0
+  },
+  "EatCard_Self_44": {
+    "Name": "EatCard_Self_44",
+    "CnName": "北",
+    "FilePath": "texture/majiang/hh_face_dao_22",
+    "FileNameList": 0
+  },
+  "EatCard_Self_45": {
+    "Name": "EatCard_Self_45",
+    "CnName": "中",
+    "FilePath": "texture/majiang/hh_face_dao_01",
+    "FileNameList": 0
+  },
+  "EatCard_Self_46": {
+    "Name": "EatCard_Self_46",
+    "CnName": "发",
+    "FilePath": "texture/majiang/hh_face_dao_09",
+    "FileNameList": 0
+  },
+  "EatCard_Self_47": {
+    "Name": "EatCard_Self_47",
+    "CnName": "白",
+    "FilePath": "texture/majiang/hh_face_dao_33",
+    "FileNameList": 0
+  },
+  "EatCard_Self_48": {
+    "Name": "EatCard_Self_48",
+    "CnName": "全白",
+    "FilePath": "texture/majiang/hh_face_dao_44",
+    "FileNameList": 0
+  },
+  "EatCard_Self_49": {
+    "Name": "EatCard_Self_49",
+    "CnName": "百搭",
+    "FilePath": "texture/majiang/hh_face_dao_bd",
+    "FileNameList": 0
+  },
+  "EatCard_Self_51": {
+    "Name": "EatCard_Self_51",
+    "CnName": "梅",
+    "FilePath": "texture/majiang/hh_face_dao_02",
+    "FileNameList": 0
+  },
+  "EatCard_Self_52": {
+    "Name": "EatCard_Self_52",
+    "CnName": "兰",
+    "FilePath": "texture/majiang/hh_face_dao_03",
+    "FileNameList": 0
+  },
+  "EatCard_Self_53": {
+    "Name": "EatCard_Self_53",
+    "CnName": "竹",
+    "FilePath": "texture/majiang/hh_face_dao_32",
+    "FileNameList": 0
+  },
+  "EatCard_Self_54": {
+    "Name": "EatCard_Self_54",
+    "CnName": "菊",
+    "FilePath": "texture/majiang/hh_face_dao_04",
+    "FileNameList": 0
+  },
+  "EatCard_Self_55": {
+    "Name": "EatCard_Self_55",
+    "CnName": "春",
+    "FilePath": "texture/majiang/hh_face_dao_06",
+    "FileNameList": 0
+  },
+  "EatCard_Self_56": {
+    "Name": "EatCard_Self_56",
+    "CnName": "夏",
+    "FilePath": "texture/majiang/hh_face_dao_38",
+    "FileNameList": 0
+  },
+  "EatCard_Self_57": {
+    "Name": "EatCard_Self_57",
+    "CnName": "秋",
+    "FilePath": "texture/majiang/hh_face_dao_43",
+    "FileNameList": 0
+  },
+  "EatCard_Self_58": {
+    "Name": "EatCard_Self_58",
+    "CnName": "冬",
+    "FilePath": "texture/majiang/hh_face_dao_05",
+    "FileNameList": 0
+  },
+  "EatCard_Self_50": {
+    "Name": "EatCard_Self_50",
+    "CnName": "盖",
+    "FilePath": "texture/majiang/hh_face_dao_39",
+    "FileNameList": 0
+  },
+  "EatCard_Self_59": {
+    "Name": "EatCard_Self_59",
+    "CnName": "小白",
+    "FilePath": "texture/majiang/hh_face_dao_xb",
+    "FileNameList": 0
+  },
+  "EatCard_Self_60": {
+    "Name": "EatCard_Self_60",
+    "CnName": "小白",
+    "FilePath": "texture/majiang/hh_face_dao_xb",
+    "FileNameList": 0
+  },
+  "EatCard_Self_61": {
+    "Name": "EatCard_Self_61",
+    "CnName": "小白",
+    "FilePath": "texture/majiang/hh_face_dao_xb",
+    "FileNameList": 0
+  },
+  "EatCard_Self_62": {
+    "Name": "EatCard_Self_62",
+    "CnName": "小白",
+    "FilePath": "texture/majiang/hh_face_dao_xb",
+    "FileNameList": 0
+  }
+}

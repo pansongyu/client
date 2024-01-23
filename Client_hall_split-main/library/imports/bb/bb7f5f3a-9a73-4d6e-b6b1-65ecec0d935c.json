@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_dengji",
+    "texture": "57953ed2-4c5c-4d9a-ad55-250be6667dcc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      114,
+      36
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      114,
+      36
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_jianyi",
+    "texture": "74bda0b3-98bc-40a4-a299-0625254ebb5a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

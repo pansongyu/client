@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_biaoge",
+    "texture": "f64782a2-c370-4023-b65f-bbf3199347c4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      57,
+      94
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      57,
+      94
+    ],
+    "capInsets": [
+      17,
+      62,
+      16,
+      25
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_hann",
+    "texture": "a2018357-f065-4908-95c9-bc10f98040e8",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      254,
+      105
+    ],
+    "offset": [
+      0,
+      -1
+    ],
+    "originalSize": [
+      254,
+      107
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

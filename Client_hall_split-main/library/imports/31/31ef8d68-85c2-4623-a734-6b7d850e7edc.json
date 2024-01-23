@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_youke_enter",
+    "texture": "8eb6d852-e602-458b-b1db-983cd16a544b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      244,
+      82
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      244,
+      82
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

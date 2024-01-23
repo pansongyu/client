@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_xipai_16",
+    "texture": "fjssze96-8106-4bc3-a1cd-a3fa75989045",
+    "atlas": "",
+    "rect": [
+      80,
+      3,
+      92,
+      108
+    ],
+    "offset": [
+      10,
+      -1.5
+    ],
+    "originalSize": [
+      232,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

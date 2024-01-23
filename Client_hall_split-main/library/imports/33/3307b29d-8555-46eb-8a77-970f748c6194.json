@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_maima",
+    "texture": "9d6804ca-ac5b-40ab-ad4c-0efa63457efc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

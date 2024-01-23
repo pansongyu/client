@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_jianfen",
+    "texture": "fe51ae99-6bca-4f1f-a724-50dcacd04877",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      187,
+      82
+    ],
+    "offset": [
+      -32.5,
+      21
+    ],
+    "originalSize": [
+      256,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

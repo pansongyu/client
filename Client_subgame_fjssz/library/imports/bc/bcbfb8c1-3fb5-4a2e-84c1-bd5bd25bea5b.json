@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_big_king",
+    "texture": "98d73504-52d4-4699-aac8-8990e4659225",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      130,
+      197
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      130,
+      197
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sp_effect_sehz",
+    "texture": "845f355a-c36e-446c-b9fe-7ab9d2525d6e",
+    "atlas": "",
+    "rect": [
+      2,
+      5,
+      987,
+      982
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      991,
+      989
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_cylb",
+    "texture": "fb1b60a7-b30e-4125-aa16-1b8084e4d734",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      91,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

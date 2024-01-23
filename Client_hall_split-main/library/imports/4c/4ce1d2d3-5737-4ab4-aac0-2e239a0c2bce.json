@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_win",
+    "texture": "64be2fef-4945-4bbb-88ec-d78a140be8d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      92
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      92
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

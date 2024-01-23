@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tuodi",
+    "texture": "0f1d1bed-e152-4025-a861-aa1c2c718d81",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      55,
+      28
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      55,
+      28
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

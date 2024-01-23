@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_head_tj",
+    "texture": "90b2b488-7085-4cb0-9c00-5f49111841b4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      91,
+      90
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

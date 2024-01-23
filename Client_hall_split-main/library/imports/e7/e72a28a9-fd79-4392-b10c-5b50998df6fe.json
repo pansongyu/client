@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_zimohu",
+    "texture": "a9422428-4299-40f0-be2d-c0e4da6f19ac",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      224,
+      221
+    ],
+    "offset": [
+      -16,
+      17.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

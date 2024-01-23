@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_qingli",
+    "texture": "28f7be98-721e-486e-9bff-e064ae24d529",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      74,
+      29
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      74,
+      29
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

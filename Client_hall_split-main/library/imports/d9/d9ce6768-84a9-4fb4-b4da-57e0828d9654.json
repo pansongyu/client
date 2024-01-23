@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_kouting",
+    "texture": "0f13e349-4243-4572-8577-395a7cbd8b52",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      46,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      46,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

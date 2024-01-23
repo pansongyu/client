@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_yiwen",
+    "texture": "b1d7c414-73ca-4b7c-852c-f9b3577403a4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      69
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      69
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

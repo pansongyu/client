@@ -1,0 +1,1288 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "NewSysMsg",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "Code_500": {
+      "MsgID": "Code_500",
+      "Content": "服务器执行异常!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10001": {
+      "MsgID": "Code_10001",
+      "Content": "执行失败!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10002": {
+      "MsgID": "Code_10002",
+      "Content": "登陆过程异常!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10003": {
+      "MsgID": "Code_10003",
+      "Content": "创建角色失败!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10004": {
+      "MsgID": "Code_10004",
+      "Content": "账号服务器没有创建token!",
+      "Pos": 3
+    },
+    "Code_10005": {
+      "MsgID": "Code_10005",
+      "Content": "您的账号在其他地方登陆!",
+      "Pos": 4
+    },
+    "Code_10006": {
+      "MsgID": "Code_10006",
+      "Content": "账号不存在,请核实后再登录!",
+      "Pos": 3
+    },
+    "Code_10007": {
+      "MsgID": "Code_10007",
+      "Content": "账号密码错误,请核实后再登录!",
+      "Pos": 3
+    },
+    "Code_10008": {
+      "MsgID": "Code_10008",
+      "Content": "授权登录失败,请重新尝试登陆!",
+      "Pos": 4
+    },
+    "Code_10009": {
+      "MsgID": "Code_10009",
+      "Content": "登录过期,请重新登录!",
+      "Pos": 4
+    },
+    "Code_10010": {
+      "MsgID": "Code_10010",
+      "Content": "网络连接失败，请尝试更换网络重新登陆!",
+      "Pos": 4
+    },
+    "Code_10011": {
+      "MsgID": "Code_10011",
+      "Content": "账号请求执行失败!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10013": {
+      "MsgID": "Code_10013",
+      "Content": "账号服务器找不到封包逻辑！",
+      "Pos": 4
+    },
+    "Code_10014": {
+      "MsgID": "Code_10014",
+      "Content": "请求账号服务器超时!",
+      "Pos": 4
+    },
+    "Code_10015": {
+      "MsgID": "Code_10015",
+      "Content": "请求订单服务器超时",
+      "Pos": 4
+    },
+    "Code_10016": {
+      "MsgID": "Code_10016",
+      "Content": "服务器关闭中,请稍后尝试,更多信息敬请关注官方QQ群:483123899。",
+      "Pos": 4
+    },
+    "Code_10017": {
+      "MsgID": "Code_10017",
+      "Content": "账号登录过程失败!是否联系客服反馈？",
+      "Pos": 5
+    },
+    "Code_10018": {
+      "MsgID": "Code_10018",
+      "Content": "缓存密码错误,请输入密码重新登录",
+      "Pos": 3
+    },
+    "Code_10019": {
+      "MsgID": "Code_10019",
+      "Content": "多端口登录,连接数量超过上限",
+      "Pos": 3
+    },
+    "Code_10020": {
+      "MsgID": "Code_10020",
+      "Content": "游戏服务器封包模块不存在",
+      "Pos": 3
+    },
+    "Code_10021": {
+      "MsgID": "Code_10021",
+      "Content": "客户端资源版本错误!",
+      "Pos": 4
+    },
+    "Code_10022": {
+      "MsgID": "Code_10022",
+      "Content": "是否请求切换房间人数？",
+      "Pos": 5
+    },
+    "CodeErrorMsg": {
+      "MsgID": "CodeErrorMsg",
+      "Content": "Msg:{S1}",
+      "Pos": 4
+    },
+    "Kick_ByServer": {
+      "MsgID": "Kick_ByServer",
+      "Content": "你被服务器T下线!",
+      "Pos": 3
+    },
+    "Code_Login_PackFail": {
+      "MsgID": "Code_Login_PackFail",
+      "Content": "客户端登陆解析封包失败!",
+      "Pos": 4
+    },
+    "Code_Login_StateFail": {
+      "MsgID": "Code_Login_StateFail",
+      "Content": "客户端登陆过程失败,State:{S1}!",
+      "Pos": 4
+    },
+    "GM_NotInputString": {
+      "MsgID": "GM_NotInputString",
+      "Content": "没有输入GM命令",
+      "Pos": 3
+    },
+    "Net_ConnectFail": {
+      "MsgID": "Net_ConnectFail",
+      "Content": "连接网络失败!",
+      "Pos": 3
+    },
+    "MSG_ReConnect": {
+      "MsgID": "MSG_ReConnect",
+      "Content": "网络连接失败,是否重连!",
+      "Pos": 3
+    },
+    "Net_ReconnectConnectFail": {
+      "MsgID": "Net_ReconnectConnectFail",
+      "Content": "连接网络失败,检查网络是否开启,继续尝试连接!",
+      "Pos": 4
+    },
+    "Not_LocalStorage": {
+      "MsgID": "Not_LocalStorage",
+      "Content": "IOS浏览器Safari需要关闭\"无痕浏览\"才可以进入游戏,点击右下角可以选择关闭",
+      "Pos": 4
+    },
+    "Effect_NotFind": {
+      "MsgID": "Effect_NotFind",
+      "Content": "特效名有误，请检查配置表重新输入",
+      "Pos": 3
+    },
+    "Order_PrepayOrderFail": {
+      "MsgID": "Order_PrepayOrderFail",
+      "Content": "创建预付订单失败!",
+      "Pos": 4
+    },
+    "AccountLogin_NotInputAccount": {
+      "MsgID": "AccountLogin_NotInputAccount",
+      "Content": "请输入账号!",
+      "Pos": 3
+    },
+    "AccountLogin_NotInputPsw": {
+      "MsgID": "AccountLogin_NotInputPsw",
+      "Content": "请输入密码!",
+      "Pos": 3
+    },
+    "Account_PswNotSame": {
+      "MsgID": "Account_PswNotSame",
+      "Content": "2次输入的密码不一样!",
+      "Pos": 3
+    },
+    "Account_RegAccountFind": {
+      "MsgID": "Account_RegAccountFind",
+      "Content": "该账号已经被注册",
+      "Pos": 3
+    },
+    "Account_ChangePswPswError": {
+      "MsgID": "Account_ChangePswPswError",
+      "Content": "原始密码错误!",
+      "Pos": 3
+    },
+    "Account_ChangeAccountPswSame": {
+      "MsgID": "Account_ChangeAccountPswSame",
+      "Content": "原密码与新密码相同!",
+      "Pos": 3
+    },
+    "Account_ChangeAccountPswSuccess": {
+      "MsgID": "Account_ChangeAccountPswSuccess",
+      "Content": "修改密码成功!",
+      "Pos": 3
+    },
+    "Account_AccountInputError": {
+      "MsgID": "Account_AccountInputError",
+      "Content": "账号必须以字母开头,长度5~16之间,只能包含字母,数字和下划线组成!(例：a123456)",
+      "Pos": 4
+    },
+    "Account_PswInputError": {
+      "MsgID": "Account_PswInputError",
+      "Content": "密码长度必须在5~11之间,只能包含字母,数字和下划线组成!(可以是纯字母或纯数字组成)",
+      "Pos": 4
+    },
+    "Role_Banned": {
+      "MsgID": "Role_Banned",
+      "Content": "该角色已经被封,禁止登陆游戏!",
+      "Pos": 4
+    },
+    "UseGold_NotEnough": {
+      "MsgID": "UseGold_NotEnough",
+      "Content": "金币不足!",
+      "Pos": 3
+    },
+    "Diamond_NotEnough": {
+      "MsgID": "Diamond_NotEnough",
+      "Content": "钻石不足!",
+      "Pos": 3
+    },
+    "MSG_DaiLiSuccess": {
+      "MsgID": "MSG_DaiLiSuccess",
+      "Content": "代理申请提交成功!",
+      "Pos": 4
+    },
+    "WeChatShare_Help": {
+      "MsgID": "WeChatShare_Help",
+      "Content": "点击微信右上角分享",
+      "Pos": 3
+    },
+    "Chat_Input_Empty": {
+      "MsgID": "Chat_Input_Empty",
+      "Content": "输入不能为空",
+      "Pos": 3
+    },
+    "CreatRole_FindName": {
+      "MsgID": "CreatRole_FindName",
+      "Content": "角色名已经被使用!",
+      "Pos": 4
+    },
+    "CreatRole_SensitiveName": {
+      "MsgID": "CreatRole_SensitiveName",
+      "Content": "角色名存在非法词!",
+      "Pos": 4
+    },
+    "World_MaxOnLine": {
+      "MsgID": "World_MaxOnLine",
+      "Content": "在线人数已满!",
+      "Pos": 4
+    },
+    "Family_JoinFail": {
+      "MsgID": "Family_JoinFail",
+      "Content": "加入公会失败,未找到工会ID!",
+      "Pos": 4
+    },
+    "Debug_ClearServerIP": {
+      "MsgID": "Debug_ClearServerIP",
+      "Content": "清除本地缓存服务器IP成功,请重新运行游戏!",
+      "Pos": 4
+    },
+    "SDK_ShareSuccess": {
+      "MsgID": "SDK_ShareSuccess",
+      "Content": "分享成功",
+      "Pos": 4
+    },
+    "NowFirstPage": {
+      "MsgID": "NowFirstPage",
+      "Content": "当前已经在第一页",
+      "Pos": 4
+    },
+    "GZMJYaZhuSuccess": {
+      "MsgID": "GZMJYaZhuSuccess",
+      "Content": "您已经成功押注",
+      "Pos": 3
+    },
+    "NowLastPage": {
+      "MsgID": "NowLastPage",
+      "Content": "当前已是最后一页",
+      "Pos": 4
+    },
+    "AAAAAAAAAAAAAAAAA": {
+      "MsgID": "AAAAAAAAAAAAAAAAA",
+      "Content": "-----------------------------分割线(上面配置通用的)----------------------------------------------",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_hzmj": {
+      "MsgID": "UIMessageTip_Help1_hzmj",
+      "Content": "手牌中有4张红中时立即胡牌，且牌墙中未摸起的牌都为奖码，其中有1、5、9的牌都为中码。",
+      "Pos": 3
+    },
+    "UIMessageTip_Help2_hzmj": {
+      "MsgID": "UIMessageTip_Help2_hzmj",
+      "Content": "胡牌后翻开牌墙中最后一张牌，根据翻出牌的点数确定中码数，例如翻到9万，则计为中9码【一码全中】结算分：2+中码数，红中计为10码【一张定码】结算分：2+2*中码数，红中计为12码。",
+      "Pos": 3
+    },
+    "UIMessageTip_Help3_hzmj": {
+      "MsgID": "UIMessageTip_Help3_hzmj",
+      "Content": "游戏中红中是万能牌，如果胡牌时手牌中没有红中，在奖码环节可选择是否额外奖励奖码数。",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_sss_jd": {
+      "MsgID": "UIMessageTip_Help1_sss_jd",
+      "Content": "获得马牌的玩家与他人比牌时计分翻倍，但特殊牌型不参与",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_sss_zz": {
+      "MsgID": "UIMessageTip_Help1_sss_zz",
+      "Content": "坐庄玩法中无全垒打",
+      "Pos": 3
+    },
+    "UIMessageTip_Help2_sss_zz": {
+      "MsgID": "UIMessageTip_Help2_sss_zz",
+      "Content": "获得马牌的玩家与他人比牌时计分翻倍，但特殊牌型不参与",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_sss_dr": {
+      "MsgID": "UIMessageTip_Help1_sss_dr",
+      "Content": "获得马牌的玩家与他人比牌时计分翻倍，但特殊牌型不参与",
+      "Pos": 3
+    },
+    "UIMessageTip_Help2_sss": {
+      "MsgID": "UIMessageTip_Help2_sss",
+      "Content": "十三水帮助3",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_nn": {
+      "MsgID": "UIMessageTip_Help1_nn",
+      "Content": "闲家获胜后，下局可以将所赢的积分与底注一起下注，最大推注为底分的一定倍数，不可连续推注",
+      "Pos": 3
+    },
+    "UIMessageTip_Help2_nn": {
+      "MsgID": "UIMessageTip_Help2_nn",
+      "Content": "十三水帮助2",
+      "Pos": 3
+    },
+    "UIMessageTip_Help3_nn": {
+      "MsgID": "UIMessageTip_Help3_nn",
+      "Content": "十三水帮助3",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_zjjhmj": {
+      "MsgID": "UIMessageTip_Help1_zjjhmj",
+      "Content": "开放：吃碰可杠 财神归位 大小碰碰胡 全求人可自摸 豪华七对 无一条龙 无混一色。/n不开放：即不可三吃、三倍封顶",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_lymj": {
+      "MsgID": "UIMessageTip_Help1_lymj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help2_lymj": {
+      "MsgID": "UIMessageTip_Help2_lymj",
+      "Content": "半自摸玩法：可碰不可吃，不能点炮胡，只能自摸胡。/n全自摸玩法在半自摸玩法的基础上，对部分规则进行修改，以下是不同点：/n1/t开房时只能4倍游金。/n2/t不能碰和杠他人打出的牌，只能暗杠和自摸胡，不能抢杠胡。/n3/t开金时开两张金牌需不一样。/n4/t胡牌牌型差异：无三金倒和抢杠胡，4，5，6张金牌可构成四金倒，五金倒，六金倒。/n5/t白板可以替换两种金牌。/n6/t自己抓到4张相同的牌，即可报开杠，放在自己立牌子前，开杠分数以单游计算",
+      "Pos": 3
+    },
+    "UIMessageTip_Help3_lymj": {
+      "MsgID": "UIMessageTip_Help3_lymj",
+      "Content": "龙岩麻将帮助3",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_xmmj": {
+      "MsgID": "UIMessageTip_Help1_xmmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_xymj": {
+      "MsgID": "UIMessageTip_Help1_xymj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_npmj": {
+      "MsgID": "UIMessageTip_Help1_npmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_gzmj": {
+      "MsgID": "UIMessageTip_Help1_gzmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_pt13mj": {
+      "MsgID": "UIMessageTip_Help1_pt13mj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_fzmj": {
+      "MsgID": "UIMessageTip_Help1_fzmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_smmj": {
+      "MsgID": "UIMessageTip_Help1_smmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_qzmj": {
+      "MsgID": "UIMessageTip_Help1_qzmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_namj": {
+      "MsgID": "UIMessageTip_Help1_namj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_ssmj": {
+      "MsgID": "UIMessageTip_Help1_ssmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_zzmj": {
+      "MsgID": "UIMessageTip_Help1_zzmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_ptmj": {
+      "MsgID": "UIMessageTip_Help1_ptmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_ndmj": {
+      "MsgID": "UIMessageTip_Help1_ndmj",
+      "Content": "当人数只有2人或3人时，将默认缺少“筒”的花色牌进行游戏",
+      "Pos": 3
+    },
+    "UIMoreTuiChuFangJian": {
+      "MsgID": "UIMoreTuiChuFangJian",
+      "Content": "确定退出房间吗？",
+      "Pos": 5
+    },
+    "UIMoreQieHuanZhangHao": {
+      "MsgID": "UIMoreQieHuanZhangHao",
+      "Content": "确定要切换帐号吗？",
+      "Pos": 5
+    },
+    "UIPlay_BeKick": {
+      "MsgID": "UIPlay_BeKick",
+      "Content": "你被房主T出房间",
+      "Pos": 4
+    },
+    "UIMore_HZRoomState_Playing_CantLeave": {
+      "MsgID": "UIMore_HZRoomState_Playing_CantLeave",
+      "Content": "牌局已经开始不能退出房间",
+      "Pos": 4
+    },
+    "OwnnerForceRoom": {
+      "MsgID": "OwnnerForceRoom",
+      "Content": "房主解散了房间",
+      "Pos": 4
+    },
+    "DissolveRoom": {
+      "MsgID": "DissolveRoom",
+      "Content": "房间已经解散",
+      "Pos": 4
+    },
+    "PlayersRefusedToDisband": {
+      "MsgID": "PlayersRefusedToDisband",
+      "Content": "玩家({S1})拒绝解散房间",
+      "Pos": 4
+    },
+    "PlayerLeaveRoom": {
+      "MsgID": "PlayerLeaveRoom",
+      "Content": "开局前退出将关闭房间，不消耗钻石",
+      "Pos": 4
+    },
+    "AlreadySelectedYiZhangDingMa": {
+      "MsgID": "AlreadySelectedYiZhangDingMa",
+      "Content": "已选择一张定码不能再选择无鬼加码",
+      "Pos": 3
+    },
+    "AlreadySelectedYiMaQuanZhong": {
+      "MsgID": "AlreadySelectedYiMaQuanZhong",
+      "Content": "已选择一码全中不能再选择无鬼加码",
+      "Pos": 3
+    },
+    "AlreadySelectedBeiShu": {
+      "MsgID": "AlreadySelectedBeiShu",
+      "Content": "全自摸只能选择四倍",
+      "Pos": 3
+    },
+    "AlreadySelectedZiPai": {
+      "MsgID": "AlreadySelectedZiPai",
+      "Content": "有字牌只能选择四倍游金",
+      "Pos": 3
+    },
+    "AlreadySelectedYouJinBiYou": {
+      "MsgID": "AlreadySelectedYouJinBiYou",
+      "Content": "全自摸不能选择有金必游",
+      "Pos": 3
+    },
+    "AlreadySelectedYaZhu": {
+      "MsgID": "AlreadySelectedYaZhu",
+      "Content": "押注模式下不能选择扎码数",
+      "Pos": 3
+    },
+    "AlreadySelectedAnHu": {
+      "MsgID": "AlreadySelectedAnHu",
+      "Content": "暗胡不能选择可选玩法",
+      "Pos": 3
+    },
+    "YXMJSIREN": {
+      "MsgID": "YXMJSIREN",
+      "Content": "阳新麻将只能四人玩",
+      "Pos": 3
+    },
+    "YXMJBUKECHILANZI": {
+      "MsgID": "YXMJBUKECHILANZI",
+      "Content": "红中晃、发财晃不可吃赖子",
+      "Pos": 3
+    },
+    "YXMJQIANGBAOZIMO": {
+      "MsgID": "YXMJQIANGBAOZIMO",
+      "Content": "抢宝胡自摸胡不能同时勾选",
+      "Pos": 3
+    },
+    "EnterRoomNeedJoinFamily": {
+      "MsgID": "EnterRoomNeedJoinFamily",
+      "Content": "你还未加入工会,是否加入房主的工会?",
+      "Pos": 3
+    },
+    "RewardWholePlayer": {
+      "MsgID": "RewardWholePlayer",
+      "Content": "是否确认打赏同桌3个玩家,每人1张,共计3张钻石?",
+      "Pos": 5
+    },
+    "UIJoinFirstJoinRoomGuid": {
+      "MsgID": "UIJoinFirstJoinRoomGuid",
+      "Content": "加入房间需要先加入房主所在的公会！确定加入？",
+      "Pos": 5
+    },
+    "UIJoinFirstJoinGuid": {
+      "MsgID": "UIJoinFirstJoinGuid",
+      "Content": "确定加入此公会ID：{S1} ？",
+      "Pos": 5
+    },
+    "UIJoinFirstGuidError": {
+      "MsgID": "UIJoinFirstGuidError",
+      "Content": "请输入正确的工会ID！",
+      "Pos": 3
+    },
+    "UIJoinFirstRoomidError": {
+      "MsgID": "UIJoinFirstRoomidError",
+      "Content": "请输入正确的房间ID！",
+      "Pos": 3
+    },
+    "UIShorePayError": {
+      "MsgID": "UIShorePayError",
+      "Content": "还未选择需要购买的钻石数量",
+      "Pos": 3
+    },
+    "UIMainBestMessage": {
+      "MsgID": "UIMainBestMessage",
+      "Content": "留言不能为空",
+      "Pos": 3
+    },
+    "UIVideoChildSeeVideotape": {
+      "MsgID": "UIVideoChildSeeVideotape",
+      "Content": "功能未启用",
+      "Pos": 3
+    },
+    "UIVideoNoticePrompt": {
+      "MsgID": "UIVideoNoticePrompt",
+      "Content": "暂无活动公告",
+      "Pos": 3
+    },
+    "UIFeedBackNull": {
+      "MsgID": "UIFeedBackNull",
+      "Content": "请输入反馈内容",
+      "Pos": 3
+    },
+    "UIFeedBackSpace": {
+      "MsgID": "UIFeedBackSpace",
+      "Content": "不允许全为空格",
+      "Pos": 3
+    },
+    "UIFeedBackSuccess": {
+      "MsgID": "UIFeedBackSuccess",
+      "Content": "提交反馈成功",
+      "Pos": 3
+    },
+    "UIFeedBackFailure": {
+      "MsgID": "UIFeedBackFailure",
+      "Content": "提交反馈失败",
+      "Pos": 3
+    },
+    "Room_NotFindRoom": {
+      "MsgID": "Room_NotFindRoom",
+      "Content": "未找到该房间",
+      "Pos": 3
+    },
+    "HZRoom_RoomFullPlayer": {
+      "MsgID": "HZRoom_RoomFullPlayer",
+      "Content": "房间已经满员了",
+      "Pos": 3
+    },
+    "WarnFastCardNotEnough": {
+      "MsgID": "WarnFastCardNotEnough",
+      "Content": "钻石不足不能进行打赏玩家",
+      "Pos": 3
+    },
+    "WarnFastGoldNotEnough": {
+      "MsgID": "WarnFastGoldNotEnough",
+      "Content": "乐豆不足不能进行打赏玩家",
+      "Pos": 3
+    },
+    "ReceivedPlayerReward": {
+      "MsgID": "ReceivedPlayerReward",
+      "Content": "收到玩家:{S1}打赏的一张钻石",
+      "Pos": 3
+    },
+    "SSS_NOT_ALL_RANKED": {
+      "MsgID": "SSS_NOT_ALL_RANKED",
+      "Content": "请全部牌上墩后再提交",
+      "Pos": 3
+    },
+    "SSS_DUIZI_NOT_ENOUGH": {
+      "MsgID": "SSS_DUIZI_NOT_ENOUGH",
+      "Content": "未找到对子",
+      "Pos": 3
+    },
+    "SSS_LIANGDUI_NOT_ENOUGH": {
+      "MsgID": "SSS_LIANGDUI_NOT_ENOUGH",
+      "Content": "未找到两对",
+      "Pos": 3
+    },
+    "SSS_SANTIAO_NOT_ENOUGH": {
+      "MsgID": "SSS_SANTIAO_NOT_ENOUGH",
+      "Content": "未找到三条",
+      "Pos": 3
+    },
+    "SSS_SHUNZI_NOT_ENOUGH": {
+      "MsgID": "SSS_SHUNZI_NOT_ENOUGH",
+      "Content": "未找到顺子",
+      "Pos": 3
+    },
+    "SSS_HULU_NOT_ENOUGH": {
+      "MsgID": "SSS_HULU_NOT_ENOUGH",
+      "Content": "未找到葫芦",
+      "Pos": 3
+    },
+    "SSS_ZHADAN_NOT_ENOUGH": {
+      "MsgID": "SSS_ZHADAN_NOT_ENOUGH",
+      "Content": "未找到炸弹",
+      "Pos": 3
+    },
+    "SSS_TONGHUASHUN_NOT_ENOUGH": {
+      "MsgID": "SSS_TONGHUASHUN_NOT_ENOUGH",
+      "Content": "未找到同花顺",
+      "Pos": 3
+    },
+    "SSS_QIANGZHUANG_BEISHU": {
+      "MsgID": "SSS_QIANGZHUANG_BEISHU",
+      "Content": "玩家{S1}成功抢庄，倍数为{S2}倍",
+      "Pos": 3
+    },
+    "SSS_HUASE_SELECT": {
+      "MsgID": "SSS_HUASE_SELECT",
+      "Content": "人数与花色需对应",
+      "Pos": 3
+    },
+    "SSS_HUASE_NOT_ENOUGH": {
+      "MsgID": "SSS_HUASE_NOT_ENOUGH",
+      "Content": "花色选择不足",
+      "Pos": 3
+    },
+    "SSS_XIPAI_SUCCESS": {
+      "MsgID": "SSS_XIPAI_SUCCESS",
+      "Content": "玩家{S1}洗牌成功",
+      "Pos": 3
+    },
+    "SSS_XIPAI_FAILED": {
+      "MsgID": "SSS_XIPAI_FAILED",
+      "Content": "钻石不足或超过限制，无法洗牌",
+      "Pos": 3
+    },
+    "MSG_ROOM_FULL_PLAYER": {
+      "MsgID": "MSG_ROOM_FULL_PLAYER",
+      "Content": "房间已经满员或该房间设置不能中途加入",
+      "Pos": 3
+    },
+    "MSG_CARD_DAOSHUI": {
+      "MsgID": "MSG_CARD_DAOSHUI",
+      "Content": "当前牌型倒水,请重新选择",
+      "Pos": 3
+    },
+    "MSG_NotRoomCard": {
+      "MsgID": "MSG_NotRoomCard",
+      "Content": "钻石不足,是否前往购买!",
+      "Pos": 3
+    },
+    "MSG_NotDiamond": {
+      "MsgID": "MSG_NotDiamond",
+      "Content": "钻石不足,是否前往购买!",
+      "Pos": 3
+    },
+    "MSG_CanNotCreateRoom": {
+      "MsgID": "MSG_CanNotCreateRoom",
+      "Content": "需要的钻石数比人少,不能平分钻石,请重新设置房间属性",
+      "Pos": 3
+    },
+    "SSS_CANNOT_KICK": {
+      "MsgID": "SSS_CANNOT_KICK",
+      "Content": "游戏已开始，无法踢出玩家",
+      "Pos": 3
+    },
+    "MSG_EXIT_GAME": {
+      "MsgID": "MSG_EXIT_GAME",
+      "Content": "确定要离开游戏吗?",
+      "Pos": 5
+    },
+    "MSG_TIME_ONLINE": {
+      "MsgID": "MSG_TIME_ONLINE",
+      "Content": "您已在线{S1}小时",
+      "Pos": 3
+    },
+    "MSG_CAN_NOT_AUTOPLAY": {
+      "MsgID": "MSG_CAN_NOT_AUTOPLAY",
+      "Content": "当前游戏还未开始不能托管",
+      "Pos": 3
+    },
+    "MSG_WECHAT_BROW_SHARE": {
+      "MsgID": "MSG_WECHAT_BROW_SHARE",
+      "Content": "请点击右上角分享给好友",
+      "Pos": 5
+    },
+    "MSG_COUNT_NOTICE": {
+      "MsgID": "MSG_COUNT_NOTICE",
+      "Content": "未出牌将自动托管",
+      "Pos": 3
+    },
+    "MSG_GET_LOCATION_ERROR": {
+      "MsgID": "MSG_GET_LOCATION_ERROR",
+      "Content": "获取定位失败",
+      "Pos": 3
+    },
+    "MSG_NOT_USER_AGREE": {
+      "MsgID": "MSG_NOT_USER_AGREE",
+      "Content": "同意用户协议才能登陆",
+      "Pos": 3
+    },
+    "MSG_DOWNLOAD_ERROR": {
+      "MsgID": "MSG_DOWNLOAD_ERROR",
+      "Content": "下载失败,即将重新下载",
+      "Pos": 3
+    },
+    "MSG_TuiGUANG_SUCCESS": {
+      "MsgID": "MSG_TuiGUANG_SUCCESS",
+      "Content": "成功领取{S1}张钻石",
+      "Pos": 3
+    },
+    "MSG_TuiGUANG_ERROR1": {
+      "MsgID": "MSG_TuiGUANG_ERROR1",
+      "Content": "条件未达成",
+      "Pos": 3
+    },
+    "MSG_TuiGUANG_ERROR2": {
+      "MsgID": "MSG_TuiGUANG_ERROR2",
+      "Content": "系统出错，请稍后重试",
+      "Pos": 3
+    },
+    "MSG_TuiGUANG_ERROR3": {
+      "MsgID": "MSG_TuiGUANG_ERROR3",
+      "Content": "已经领取了该奖励",
+      "Pos": 3
+    },
+    "MSG_BangDing_Success": {
+      "MsgID": "MSG_BangDing_Success",
+      "Content": "绑定成功",
+      "Pos": 3
+    },
+    "MSG_BangDing_Error1": {
+      "MsgID": "MSG_BangDing_Error1",
+      "Content": "您要绑定{S1}信息不存在",
+      "Pos": 3
+    },
+    "MSG_BangDing_Error2": {
+      "MsgID": "MSG_BangDing_Error2",
+      "Content": "绑定失败，请稍后重试",
+      "Pos": 3
+    },
+    "MSG_REPLAY_ERROR": {
+      "MsgID": "MSG_REPLAY_ERROR",
+      "Content": "录像不存在",
+      "Pos": 3
+    },
+    "HZMJ_CREATEROOM_RENSHU_ERROR": {
+      "MsgID": "HZMJ_CREATEROOM_RENSHU_ERROR",
+      "Content": "红中麻将只能4人玩",
+      "Pos": 3
+    },
+    "MSG_STORE_EXCHANGE_OK": {
+      "MsgID": "MSG_STORE_EXCHANGE_OK",
+      "Content": "成功兑换{S1}金币",
+      "Pos": 3
+    },
+    "MSG_NOTROOMCOIN": {
+      "MsgID": "MSG_NOTROOMCOIN",
+      "Content": "金币不足是否前往兑换",
+      "Pos": 5
+    },
+    "MSG_EXCHANGE": {
+      "MsgID": "MSG_EXCHANGE",
+      "Content": "是否确定兑换",
+      "Pos": 5
+    },
+    "MSG_EXCHANGE_SUCCESS": {
+      "MsgID": "MSG_EXCHANGE_SUCCESS",
+      "Content": "兑换成功",
+      "Pos": 3
+    },
+    "MSG_EXCHANGE_FAIL": {
+      "MsgID": "MSG_EXCHANGE_FAIL",
+      "Content": "兑换失败",
+      "Pos": 3
+    },
+    "MSG_EXCHANGE_NOTENOUGH": {
+      "MsgID": "MSG_EXCHANGE_NOTENOUGH",
+      "Content": "兑换券不足",
+      "Pos": 3
+    },
+    "MSG_TOOMUCHCOIN": {
+      "MsgID": "MSG_TOOMUCHCOIN",
+      "Content": "您的金币超过当前房间上限",
+      "Pos": 5
+    },
+    "UIMoreCoinTuichu": {
+      "MsgID": "UIMoreCoinTuichu",
+      "Content": "是否直接退出乐豆场房间",
+      "Pos": 5
+    },
+    "MSG_GAME_NOT_OPEN": {
+      "MsgID": "MSG_GAME_NOT_OPEN",
+      "Content": "暂未开放,还在研发中",
+      "Pos": 3
+    },
+    "UISHIMING_SUCCESS": {
+      "MsgID": "UISHIMING_SUCCESS",
+      "Content": "实名认证成功！",
+      "Pos": 4
+    },
+    "UISHIMING_FAIL": {
+      "MsgID": "UISHIMING_FAIL",
+      "Content": "实名认证失败！",
+      "Pos": 4
+    },
+    "UISHIMING_INFO_ERROR": {
+      "MsgID": "UISHIMING_INFO_ERROR",
+      "Content": "输入信息有误，请重新输入！",
+      "Pos": 4
+    },
+    "PLAYER_NOT_ROOM": {
+      "MsgID": "PLAYER_NOT_ROOM",
+      "Content": "玩家不在房间",
+      "Pos": 3
+    },
+    "MSG_GO_ROOM": {
+      "MsgID": "MSG_GO_ROOM",
+      "Content": "您已在{S1}的房间游戏是否前往返回房间",
+      "Pos": 5
+    },
+    "MSG_IN_OTHER_ROOM_PLAY": {
+      "MsgID": "MSG_IN_OTHER_ROOM_PLAY",
+      "Content": "已在其他房间游戏等待或继续加入之前的游戏",
+      "Pos": 3
+    },
+    "MSG_AUDIO_ERROR": {
+      "MsgID": "MSG_AUDIO_ERROR",
+      "Content": "录音失败，请重新录制！",
+      "Pos": 3
+    },
+    "MSG_AUDIO_STOP_ERROR": {
+      "MsgID": "MSG_AUDIO_STOP_ERROR",
+      "Content": "录音停止失败，请重新录制！",
+      "Pos": 3
+    },
+    "MSG_AUDIO_DONOT_AUDIO": {
+      "MsgID": "MSG_AUDIO_DONOT_AUDIO",
+      "Content": "语音聊天被禁止，无法录音！",
+      "Pos": 3
+    },
+    "MSG_AUDIO_SEND_FAIL": {
+      "MsgID": "MSG_AUDIO_SEND_FAIL",
+      "Content": "录音发送失败，请重新录制！",
+      "Pos": 3
+    },
+    "MSG_PLAY_RECORD_ERROR": {
+      "MsgID": "MSG_PLAY_RECORD_ERROR",
+      "Content": "播放失败,请重新录制！",
+      "Pos": 3
+    },
+    "MSG_SSY_SEE": {
+      "MsgID": "MSG_SSY_SEE",
+      "Content": "玩家:{S1}开始明查",
+      "Pos": 3
+    },
+    "MSG_LAST_RECORDING": {
+      "MsgID": "MSG_LAST_RECORDING",
+      "Content": "录音太频繁了,请稍后重试!",
+      "Pos": 3
+    },
+    "MSG_GPS_LOST_PLAYER": {
+      "MsgID": "MSG_GPS_LOST_PLAYER",
+      "Content": "当前没有作弊嫌疑!",
+      "Pos": 3
+    },
+    "MSG_SERVICE_NOTALLOW": {
+      "MsgID": "MSG_SERVICE_NOTALLOW",
+      "Content": "操作错误,请联系客服！",
+      "Pos": 3
+    },
+    "MSG_SPACIAL_CARD": {
+      "MsgID": "MSG_SPACIAL_CARD",
+      "Content": "当前特殊牌型为{S1},是否上牌",
+      "Pos": 5
+    },
+    "CancelBanker": {
+      "MsgID": "CancelBanker",
+      "Content": "确定下庄后房间将解散,确定解散吗？",
+      "Pos": 5
+    },
+    "MSG_GAME_UPDATE_COMFIRM": {
+      "MsgID": "MSG_GAME_UPDATE_COMFIRM",
+      "Content": "当前版本不一致,将更新游戏",
+      "Pos": 4
+    },
+    "MSG_HOT_UPDATE_FAILED": {
+      "MsgID": "MSG_HOT_UPDATE_FAILED",
+      "Content": "更新出了些小问题，请重试。",
+      "Pos": 4
+    },
+    "MSG_NOT_AUTO": {
+      "MsgID": "MSG_NOT_AUTO",
+      "Content": "游戏已开始，无法托管",
+      "Pos": 3
+    },
+    "MSG_CANT_OUT": {
+      "MsgID": "MSG_CANT_OUT",
+      "Content": "不符合出牌规则",
+      "Pos": 3
+    },
+    "PDK_SHOUPAI_ERROR": {
+      "MsgID": "PDK_SHOUPAI_ERROR",
+      "Content": "4人两副牌必须与人数相对应",
+      "Pos": 3
+    },
+    "PDK_3A_ERROR": {
+      "MsgID": "PDK_3A_ERROR",
+      "Content": "3A玩法不能用于四人两副牌",
+      "Pos": 3
+    },
+    "PDK_FIGHTEND_ERROR": {
+      "MsgID": "PDK_FIGHTEND_ERROR",
+      "Content": "血战到底玩法只能选择牌多通赔",
+      "Pos": 3
+    },
+    "PDK_SHOUPAI23_ERROR": {
+      "MsgID": "PDK_SHOUPAI23_ERROR",
+      "Content": "2-3人只能选择15或16张手牌",
+      "Pos": 3
+    },
+    "PDK_SHOUPAI4_ERROR": {
+      "MsgID": "PDK_SHOUPAI4_ERROR",
+      "Content": "4人只能选择12或四人两副牌",
+      "Pos": 3
+    },
+    "PDK_ZDBUCHAI_ERROR": {
+      "MsgID": "PDK_ZDBUCHAI_ERROR",
+      "Content": "已选择炸弹不可拆",
+      "Pos": 3
+    },
+    "PDK_QUSANZHANG_ERROR": {
+      "MsgID": "PDK_QUSANZHANG_ERROR",
+      "Content": "去三张玩法只能用于3人15张牌",
+      "Pos": 3
+    },
+    "PDK_PASS": {
+      "MsgID": "PDK_PASS",
+      "Content": "您没有大于上家的牌",
+      "Pos": 3
+    },
+    "PDK_OPENCARD": {
+      "MsgID": "PDK_OPENCARD",
+      "Content": "明牌成功！",
+      "Pos": 3
+    },
+    "PDK_NOTDOUBLE": {
+      "MsgID": "PDK_NOTDOUBLE",
+      "Content": "不加倍！",
+      "Pos": 3
+    },
+    "PDK_ADDDOUBLE": {
+      "MsgID": "PDK_ADDDOUBLE",
+      "Content": "加倍成功！",
+      "Pos": 3
+    },
+    "PDK_ROOBCLOSE": {
+      "MsgID": "PDK_ROOBCLOSE",
+      "Content": "已成功发送抢关门消息！",
+      "Pos": 3
+    },
+    "PDK_ROBDOOR": {
+      "MsgID": "PDK_ROBDOOR",
+      "Content": "玩家{S1}成功抢关门，从他开始出牌",
+      "Pos": 3
+    },
+    "PDK_3FIRST": {
+      "MsgID": "PDK_3FIRST",
+      "Content": "先出黑桃{S1}",
+      "Pos": 3
+    },
+    "PDK_BAODAN": {
+      "MsgID": "PDK_BAODAN",
+      "Content": "下家报单，请从最大牌出",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_sg": {
+      "MsgID": "UIMessageTip_Help1_sg",
+      "Content": "闲家获胜后，下局可以将所赢的积分与底注一起下注，最大推注为底分的一定倍数，不可连续推注",
+      "Pos": 3
+    },
+    "MSG_CLUB_NOT_FIND_GAME": {
+      "MsgID": "MSG_CLUB_NOT_FIND_GAME",
+      "Content": "未能搜索到此类游戏",
+      "Pos": 3
+    },
+    "MSG_CLUB_NOT_FIND_Player": {
+      "MsgID": "MSG_CLUB_NOT_FIND_Player",
+      "Content": "未能搜索到玩家",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_JoinIng": {
+      "MsgID": "MSG_CLUB_JOIN_JoinIng",
+      "Content": "加入亲友圈成功,等待审批",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_NotFind": {
+      "MsgID": "MSG_CLUB_JOIN_NotFind",
+      "Content": "未找到亲友圈ID,找会长或代理要ID号码",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_ClubFull": {
+      "MsgID": "MSG_CLUB_JOIN_ClubFull",
+      "Content": "加入失败,当前亲友圈已满",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_NumMax": {
+      "MsgID": "MSG_CLUB_JOIN_NumMax",
+      "Content": "加入失败,您已加入的亲友圈数量达到上限",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_InList": {
+      "MsgID": "MSG_CLUB_JOIN_InList",
+      "Content": "您已经在申请列表内,请等待审批",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_Success": {
+      "MsgID": "MSG_CLUB_JOIN_Success",
+      "Content": "恭喜您已加入{S1}亲友圈!",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_ExistClub": {
+      "MsgID": "MSG_CLUB_JOIN_ExistClub",
+      "Content": "您已是亲友圈成员!",
+      "Pos": 3
+    },
+    "MSG_CLUB_JOIN_Refuse": {
+      "MsgID": "MSG_CLUB_JOIN_Refuse",
+      "Content": "{S1}亲友圈拒绝您加入!",
+      "Pos": 3
+    },
+    "MSG_CLUB_KICK": {
+      "MsgID": "MSG_CLUB_KICK",
+      "Content": "您被{S1}亲友圈管理员踢出了亲友圈!",
+      "Pos": 3
+    },
+    "MSG_CLUB_KICKPlayer": {
+      "MsgID": "MSG_CLUB_KICKPlayer",
+      "Content": "是否将{S1}踢出亲友圈",
+      "Pos": 5
+    },
+    "MSG_CLUB_Leave": {
+      "MsgID": "MSG_CLUB_Leave",
+      "Content": "您成功退出{S1}亲友圈!",
+      "Pos": 3
+    },
+    "MSG_CLUB_INVITE_Join": {
+      "MsgID": "MSG_CLUB_INVITE_Join",
+      "Content": "{S1}亲友圈邀请您加入",
+      "Pos": 5
+    },
+    "MSG_CLUB_Store": {
+      "MsgID": "MSG_CLUB_Store",
+      "Content": "购买{S1}亲友圈的圈卡?",
+      "Pos": 5
+    },
+    "MSG_CLUB_RefuseInvite": {
+      "MsgID": "MSG_CLUB_RefuseInvite",
+      "Content": "您的邀请{S1}加入亲友圈被无情拒绝了",
+      "Pos": 4
+    },
+    "MSG_CLUB_RoomCreateOk": {
+      "MsgID": "MSG_CLUB_RoomCreateOk",
+      "Content": "房间配置创建成功",
+      "Pos": 3
+    },
+    "MSG_CLUB_RoomReviseOk": {
+      "MsgID": "MSG_CLUB_RoomReviseOk",
+      "Content": "房间配置修改成功",
+      "Pos": 3
+    },
+    "MSG_CLUB_RoomCard_Not_Enough": {
+      "MsgID": "MSG_CLUB_RoomCard_Not_Enough",
+      "Content": "{S1}亲友圈钻石不足{S2}请提前充值以免不能正常游戏",
+      "Pos": 4
+    },
+    "MSG_CLUB_CreateCfgMax": {
+      "MsgID": "MSG_CLUB_CreateCfgMax",
+      "Content": "自动创建房间已达上限",
+      "Pos": 3
+    },
+    "MSG_CLUB_DissolveRoomCfg": {
+      "MsgID": "MSG_CLUB_DissolveRoomCfg",
+      "Content": "确定解散自动创建房间吗?",
+      "Pos": 5
+    },
+    "MSG_CLUB_EXIT": {
+      "MsgID": "MSG_CLUB_EXIT",
+      "Content": "确定退出亲友圈吗?",
+      "Pos": 5
+    },
+    "MSG_CLUB_DissolveRoom": {
+      "MsgID": "MSG_CLUB_DissolveRoom",
+      "Content": "确定解散亲友圈吗?",
+      "Pos": 5
+    },
+    "CLUB_NotClubJoinRoomErr": {
+      "MsgID": "CLUB_NotClubJoinRoomErr",
+      "Content": "您没有加入所在亲友圈,不能加入该房间",
+      "Pos": 3
+    },
+    "MSG_MailDelRead": {
+      "MsgID": "MSG_MailDelRead",
+      "Content": "是否阅读并且删除该邮件",
+      "Pos": 5
+    },
+    "MSG_MailSetAllRead": {
+      "MsgID": "MSG_MailSetAllRead",
+      "Content": "全部设为已读并领取所有附件!",
+      "Pos": 5
+    },
+    "MSG_MailDel": {
+      "MsgID": "MSG_MailDel",
+      "Content": "是否删除该邮件",
+      "Pos": 5
+    },
+    "UIMessageTip_Help1_yglfl": {
+      "MsgID": "UIMessageTip_Help1_yglfl",
+      "Content": "2人则由敌对阵营支付,3人则其他所有玩家支付",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_qdmj": {
+      "MsgID": "UIMessageTip_Help1_qdmj",
+      "Content": "无赖子玩法:可吃可碰，只可吃两口，吃第三、四口时吃幅打幅，可碰胡;/n赖子玩法:可碰不可吃，无赖子时可碰胡，手中有赖子时只能自摸",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_ddz": {
+      "MsgID": "UIMessageTip_Help1_ddz",
+      "Content": "Ip相同或地理位置太近的玩家无法进入同一个牌桌",
+      "Pos": 3
+    },
+    "UIMessageTip_Help1_jmhhmj": {
+      "MsgID": "UIMessageTip_Help1_jmhhmj",
+      "Content": "Ip相同或地理位置太近的玩家无法进入同一个牌桌",
+      "Pos": 3
+    },
+    "MSG_CHANGENAME_SUCCESS": {
+      "MsgID": "MSG_CHANGENAME_SUCCESS",
+      "Content": "成功修改玩家信息",
+      "Pos": 3
+    },
+    "MSG_NOT_ENOUGH_COIN": {
+      "MsgID": "MSG_NOT_ENOUGH_COIN",
+      "Content": "金币不足!修改玩家信息失败",
+      "Pos": 3
+    },
+    "MSG_FORCE_UPDATE": {
+      "MsgID": "MSG_FORCE_UPDATE",
+      "Content": "发现新版本，请重新打开游戏更新",
+      "Pos": 5
+    },
+    "MSG_CLUB_DelHeHuoXiaShu": {
+      "MsgID": "MSG_CLUB_DelHeHuoXiaShu",
+      "Content": "是否要移除该下属玩家",
+      "Pos": 5
+    },
+    "MSG_UNOIN_SAVE": {
+      "MsgID": "MSG_UNOIN_SAVE",
+      "Content": "是否保存修改内容？",
+      "Pos": 5
+    },
+    "MSG_UNION_INVITE_JOIN": {
+      "MsgID": "MSG_UNION_INVITE_JOIN",
+      "Content": "您所在的亲友圈<color=#e99819>{S1}</c>已成功加入赛事<color=#409c24>{S2}</c>该亲友圈房间列表已切换为赛事房间",
+      "Pos": 3
+    },
+    "MSG_UNION_INVITE_OUT": {
+      "MsgID": "MSG_UNION_INVITE_OUT",
+      "Content": "您所在的亲友圈<color=#e99819>{S1}</c>已退出赛事<color=#409c24>{S2}</c>该赛事房间列表已切换为亲友圈房间",
+      "Pos": 3
+    },
+    "MSG_UNION_INVITE_TICHU": {
+      "MsgID": "MSG_UNION_INVITE_TICHU",
+      "Content": "您所在的亲友圈<color=#e99819>{S1}</c>已被<color=#409c24>{S2}</c>踢出赛事<color=#67b619>{S3}</c>",
+      "Pos": 3
+    },
+    "MSG_UNION_INVITE_YAOQING": {
+      "MsgID": "MSG_UNION_INVITE_YAOQING",
+      "Content": "<color=#e99819>{S1}</c>邀请您所创建的亲友圈<color=#409c24>{S2}</c>加入赛事<color=#67b619>{S3}</c>",
+      "Pos": 5
+    },
+    "MSG_UNION_DEL_MEMBER": {
+      "MsgID": "MSG_UNION_DEL_MEMBER",
+      "Content": "是否将<color=#e99819>{S1}</c>踢出赛事",
+      "Pos": 5
+    },
+    "MSG_DISSOLVE_UNION": {
+      "MsgID": "MSG_DISSOLVE_UNION",
+      "Content": "确认解散赛事，解散后将清除赛事的所有数据",
+      "Pos": 5
+    },
+    "MSG_EXIT_UNION": {
+      "MsgID": "MSG_EXIT_UNION",
+      "Content": "是否确认退出赛事，退出后所有竞技点跟收益将清零，且不能使用赛事房间",
+      "Pos": 5
+    },
+    "MSG_DISSOLVE_CLUBROOM": {
+      "MsgID": "MSG_DISSOLVE_CLUBROOM",
+      "Content": "是否确认解散房间@{S1}，确认则将直接解散该房间，不需要房间内成员同意",
+      "Pos": 5
+    },
+    "MSG_TICHU_CLUBROOM": {
+      "MsgID": "MSG_TICHU_CLUBROOM",
+      "Content": "是否确认将@{S1}，从房间@{S2} 内踢出",
+      "Pos": 5
+    },
+    "MSG_DEL_UNIONROOM": {
+      "MsgID": "MSG_DEL_UNIONROOM",
+      "Content": "确定是否删除该房间玩法",
+      "Pos": 5
+    },
+    "MSG_NOT_CLUBMEMBER": {
+      "MsgID": "MSG_NOT_CLUBMEMBER",
+      "Content": "您还不是“{S1}”亲友圈的成员，是否申请加入该亲友圈",
+      "Pos": 5
+    },
+    "MSG_OPEN_GPS": {
+      "MsgID": "MSG_OPEN_GPS",
+      "Content": "玩家距离过近或定位未开启,是否前往开启？",
+      "Pos": 5
+    },
+    "MSG_OUT_RACE": {
+      "MsgID": "MSG_OUT_RACE",
+      "Content": "退赛后，比赛积分清零并且不能再参与赛事房间游戏，需申请复赛且赛事举办方同意后才可继续游戏，是否退赛?",
+      "Pos": 5
+    },
+    "MSG_CLUB_CHANGEROOM": {
+      "MsgID": "MSG_CLUB_CHANGEROOM",
+      "Content": "是否换房间？",
+      "Pos": null
+    },
+    "MSG_CLUB_ROOMCRAMMED": {
+      "MsgID": "MSG_CLUB_ROOMCRAMMED",
+      "Content": "您加入的房间已满人，是否进入房间？",
+      "Pos": null
+    }
+  }
+}

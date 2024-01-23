@@ -1,0 +1,967 @@
+{
+  "BtnClick": {
+    "SoundName": "BtnClick",
+    "SoundPath": "sound/background/anniu",
+    "Text": "控件点击"
+  },
+  "MainScene": {
+    "SoundName": "MainScene",
+    "SoundPath": "sound/background/dengruzhuchangjingyinyue",
+    "Text": "主场景"
+  },
+  "RoomWaitStart": {
+    "SoundName": "RoomWaitStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "牌局等待开始"
+  },
+  "RoomStart": {
+    "SoundName": "RoomStart",
+    "SoundPath": "sound/background/kaishipaiju",
+    "Text": "牌局开始"
+  },
+  "WaitRoomStart": {
+    "SoundName": "WaitRoomStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "等待牌局开始"
+  },
+  "zhuanpan": {
+    "SoundName": "zhuanpan",
+    "SoundPath": "sound/background/zhuanpan",
+    "Text": "转盘音效"
+  },
+  "boy_FastVoice_1": {
+    "SoundName": "boy_FastVoice_1",
+    "SoundPath": "sound/chat/boy/1",
+    "Text": "夸奖"
+  },
+  "boy_FastVoice_2": {
+    "SoundName": "boy_FastVoice_2",
+    "SoundPath": "sound/chat/boy/2",
+    "Text": "赞赏"
+  },
+  "boy_FastVoice_3": {
+    "SoundName": "boy_FastVoice_3",
+    "SoundPath": "sound/chat/boy/3",
+    "Text": "无奈"
+  },
+  "boy_FastVoice_4": {
+    "SoundName": "boy_FastVoice_4",
+    "SoundPath": "sound/chat/boy/4",
+    "Text": "求碰"
+  },
+  "boy_FastVoice_5": {
+    "SoundName": "boy_FastVoice_5",
+    "SoundPath": "sound/chat/boy/5",
+    "Text": "催促"
+  },
+  "boy_FastVoice_6": {
+    "SoundName": "boy_FastVoice_6",
+    "SoundPath": "sound/chat/boy/6",
+    "Text": "呵呵"
+  },
+  "boy_FastVoice_7": {
+    "SoundName": "boy_FastVoice_7",
+    "SoundPath": "sound/chat/boy/7",
+    "Text": "得意"
+  },
+  "boy_FastVoice_8": {
+    "SoundName": "boy_FastVoice_8",
+    "SoundPath": "sound/chat/boy/8",
+    "Text": "绝交"
+  },
+  "boy_FastVoice_9": {
+    "SoundName": "boy_FastVoice_9",
+    "SoundPath": "sound/chat/boy/9",
+    "Text": "嘲讽"
+  },
+  "boy_FastVoice_10": {
+    "SoundName": "boy_FastVoice_10",
+    "SoundPath": "sound/chat/boy/10",
+    "Text": "调侃"
+  },
+  "girl_FastVoice_1": {
+    "SoundName": "girl_FastVoice_1",
+    "SoundPath": "sound/chat/girl/1",
+    "Text": "夸奖"
+  },
+  "girl_FastVoice_2": {
+    "SoundName": "girl_FastVoice_2",
+    "SoundPath": "sound/chat/girl/2",
+    "Text": "赞赏"
+  },
+  "girl_FastVoice_3": {
+    "SoundName": "girl_FastVoice_3",
+    "SoundPath": "sound/chat/girl/3",
+    "Text": "无奈"
+  },
+  "girl_FastVoice_4": {
+    "SoundName": "girl_FastVoice_4",
+    "SoundPath": "sound/chat/girl/4",
+    "Text": "求碰"
+  },
+  "girl_FastVoice_5": {
+    "SoundName": "girl_FastVoice_5",
+    "SoundPath": "sound/chat/girl/5",
+    "Text": "催促"
+  },
+  "girl_FastVoice_6": {
+    "SoundName": "girl_FastVoice_6",
+    "SoundPath": "sound/chat/girl/6",
+    "Text": "呵呵"
+  },
+  "girl_FastVoice_7": {
+    "SoundName": "girl_FastVoice_7",
+    "SoundPath": "sound/chat/girl/7",
+    "Text": "得意"
+  },
+  "girl_FastVoice_8": {
+    "SoundName": "girl_FastVoice_8",
+    "SoundPath": "sound/chat/girl/8",
+    "Text": "绝交"
+  },
+  "girl_FastVoice_9": {
+    "SoundName": "girl_FastVoice_9",
+    "SoundPath": "sound/chat/girl/9",
+    "Text": "嘲讽"
+  },
+  "girl_FastVoice_10": {
+    "SoundName": "girl_FastVoice_10",
+    "SoundPath": "sound/chat/girl/10",
+    "Text": "调侃"
+  },
+  "gameBackGround": {
+    "SoundName": "gameBackGround",
+    "SoundPath": "sound/background/gameBackMusic",
+    "Text": "游戏背景音乐"
+  },
+  "back_1": {
+    "SoundName": "back_1",
+    "SoundPath": "sound/pdk/back_1",
+    "Text": "跑得快背景音乐"
+  },
+  "mofa_jidanAni": {
+    "SoundName": "mofa_jidanAni",
+    "SoundPath": "sound/mofa/mofa_jidanAni",
+    "Text": "鸡蛋"
+  },
+  "mofa_pengbeiAni": {
+    "SoundName": "mofa_pengbeiAni",
+    "SoundPath": "sound/mofa/mofa_pengbeiAni",
+    "Text": "碰杯"
+  },
+  "mofa_poshuiAni": {
+    "SoundName": "mofa_poshuiAni",
+    "SoundPath": "sound/mofa/mofa_poshuiAni",
+    "Text": "泼水"
+  },
+  "mofa_xianhuaAni": {
+    "SoundName": "mofa_xianhuaAni",
+    "SoundPath": "sound/mofa/mofa_xianhuaAni",
+    "Text": "献花"
+  },
+  "mofa_xianwenAni": {
+    "SoundName": "mofa_xianwenAni",
+    "SoundPath": "sound/mofa/mofa_xianwenAni",
+    "Text": "献吻"
+  },
+  "mofa_zhadanAni": {
+    "SoundName": "mofa_zhadanAni",
+    "SoundPath": "sound/mofa/mofa_zhadanAni",
+    "Text": "炸弹"
+  },
+  "mofa_zhuajiAni": {
+    "SoundName": "mofa_zhuajiAni",
+    "SoundPath": "sound/mofa/mofa_zhuajiAni",
+    "Text": "抓鸡"
+  },
+  "gameBackMusic": {
+    "SoundName": "gameBackMusic",
+    "SoundPath": "sound/background/gameBackMusic",
+    "Text": "十三水背景音乐"
+  },
+  "sssBaoZha": {
+    "SoundName": "sssBaoZha",
+    "SoundPath": "sound/fjssz/BaoZha",
+    "Text": "爆炸音乐"
+  },
+  "sssQiePai": {
+    "SoundName": "sssQiePai",
+    "SoundPath": "sound/fjssz/qiepai",
+    "Text": "切牌音乐"
+  },
+  "boyQuanLeiDa": {
+    "SoundName": "boyQuanLeiDa",
+    "SoundPath": "sound/fjssz/boy/QuanLeiDa",
+    "Text": "全垒打"
+  },
+  "sssFapai": {
+    "SoundName": "sssFapai",
+    "SoundPath": "sound/fjssz/poker_deal",
+    "Text": "发牌"
+  },
+  "boyShoot": {
+    "SoundName": "boyShoot",
+    "SoundPath": "sound/fjssz/boy/Shoot",
+    "Text": "打枪"
+  },
+  "boyStartShoot": {
+    "SoundName": "boyStartShoot",
+    "SoundPath": "sound/fjssz/boy/StartShoot",
+    "Text": "开始打枪"
+  },
+  "boyCardType0": {
+    "SoundName": "boyCardType0",
+    "SoundPath": "sound/fjssz/boy/CardType0",
+    "Text": "乌龙"
+  },
+  "boyCardType1": {
+    "SoundName": "boyCardType1",
+    "SoundPath": "sound/fjssz/boy/CardType1",
+    "Text": "对子"
+  },
+  "boyCardType2": {
+    "SoundName": "boyCardType2",
+    "SoundPath": "sound/fjssz/boy/CardType2",
+    "Text": "两对"
+  },
+  "boyCardType3": {
+    "SoundName": "boyCardType3",
+    "SoundPath": "sound/fjssz/boy/CardType3",
+    "Text": "三条"
+  },
+  "boyCardType4": {
+    "SoundName": "boyCardType4",
+    "SoundPath": "sound/fjssz/boy/CardType4",
+    "Text": "冲炸"
+  },
+  "boyCardType5": {
+    "SoundName": "boyCardType5",
+    "SoundPath": "sound/fjssz/boy/CardType5",
+    "Text": "双王冲头"
+  },
+  "boyCardType6": {
+    "SoundName": "boyCardType6",
+    "SoundPath": "sound/fjssz/boy/CardType6",
+    "Text": "三鬼"
+  },
+  "boyCardType7": {
+    "SoundName": "boyCardType7",
+    "SoundPath": "sound/fjssz/boy/CardType7",
+    "Text": "顺子"
+  },
+  "boyCardType8": {
+    "SoundName": "boyCardType8",
+    "SoundPath": "sound/fjssz/boy/CardType8",
+    "Text": "同花"
+  },
+  "boyCardType9": {
+    "SoundName": "boyCardType9",
+    "SoundPath": "sound/fjssz/boy/CardType9",
+    "Text": "一对同花"
+  },
+  "boyCardType10": {
+    "SoundName": "boyCardType10",
+    "SoundPath": "sound/fjssz/boy/CardType10",
+    "Text": "两对同花"
+  },
+  "boyCardType11": {
+    "SoundName": "boyCardType11",
+    "SoundPath": "sound/fjssz/boy/CardType11",
+    "Text": "葫芦"
+  },
+  "boyCardType12": {
+    "SoundName": "boyCardType12",
+    "SoundPath": "sound/fjssz/boy/CardType12",
+    "Text": "铁支"
+  },
+  "boyCardType13": {
+    "SoundName": "boyCardType13",
+    "SoundPath": "sound/fjssz/boy/CardType13",
+    "Text": "同花顺"
+  },
+  "boyCardType14": {
+    "SoundName": "boyCardType14",
+    "SoundPath": "sound/fjssz/boy/CardType14",
+    "Text": "五同"
+  },
+  "boyCardType15": {
+    "SoundName": "boyCardType15",
+    "SoundPath": "sound/fjssz/boy/CardType15",
+    "Text": "六同"
+  },
+  "boyCardType16": {
+    "SoundName": "boyCardType16",
+    "SoundPath": "sound/fjssz/boy/CardType16",
+    "Text": "五鬼"
+  },
+  "boyCardType84": {
+    "SoundName": "boyCardType84",
+    "SoundPath": "sound/fjssz/boy/CardType84",
+    "Text": "三顺子"
+  },
+  "boyCardType85": {
+    "SoundName": "boyCardType85",
+    "SoundPath": "sound/fjssz/boy/CardType85",
+    "Text": "三同花"
+  },
+  "boyCardType86": {
+    "SoundName": "boyCardType86",
+    "SoundPath": "sound/fjssz/boy/CardType86",
+    "Text": "六对半"
+  },
+  "boyCardType87": {
+    "SoundName": "boyCardType87",
+    "SoundPath": "sound/fjssz/boy/CardType87",
+    "Text": "三顺子"
+  },
+  "boyCardType88": {
+    "SoundName": "boyCardType88",
+    "SoundPath": "sound/fjssz/boy/CardType88",
+    "Text": "三同花"
+  },
+  "boyCardType89": {
+    "SoundName": "boyCardType89",
+    "SoundPath": "sound/fjssz/boy/CardType89",
+    "Text": "六对半"
+  },
+  "boyCardType90": {
+    "SoundName": "boyCardType90",
+    "SoundPath": "sound/fjssz/boy/CardType90",
+    "Text": "六对半"
+  },
+  "boyCardType91": {
+    "SoundName": "boyCardType91",
+    "SoundPath": "sound/fjssz/boy/CardType91",
+    "Text": "四套三条"
+  },
+  "boyCardType92": {
+    "SoundName": "boyCardType92",
+    "SoundPath": "sound/fjssz/boy/CardType92",
+    "Text": "三分天下"
+  },
+  "boyCardType93": {
+    "SoundName": "boyCardType93",
+    "SoundPath": "sound/fjssz/boy/CardType93",
+    "Text": "三同花顺"
+  },
+  "boyCardType94": {
+    "SoundName": "boyCardType94",
+    "SoundPath": "sound/fjssz/boy/CardType94",
+    "Text": "一条龙"
+  },
+  "boyCardType95": {
+    "SoundName": "boyCardType95",
+    "SoundPath": "sound/fjssz/boy/CardType95",
+    "Text": ""
+  },
+  "boyCardType96": {
+    "SoundName": "boyCardType96",
+    "SoundPath": "sound/fjssz/boy/CardType96",
+    "Text": ""
+  },
+  "boyCardType97": {
+    "SoundName": "boyCardType97",
+    "SoundPath": "sound/fjssz/boy/CardType97",
+    "Text": ""
+  },
+  "boyCardType98": {
+    "SoundName": "boyCardType98",
+    "SoundPath": "sound/fjssz/boy/CardType98",
+    "Text": ""
+  },
+  "boyCardType99": {
+    "SoundName": "boyCardType99",
+    "SoundPath": "sound/fjssz/boy/CardType99",
+    "Text": ""
+  },
+  "boyCardType100": {
+    "SoundName": "boyCardType100",
+    "SoundPath": "sound/fjssz/boy/CardType100",
+    "Text": "至尊清龙"
+  },
+  "girlQuanLeiDa": {
+    "SoundName": "girlQuanLeiDa",
+    "SoundPath": "sound/fjssz/girl/QuanLeiDa",
+    "Text": "全垒打"
+  },
+  "girlShoot": {
+    "SoundName": "girlShoot",
+    "SoundPath": "sound/fjssz/girl/Shoot",
+    "Text": "打枪"
+  },
+  "girlStartShoot": {
+    "SoundName": "girlStartShoot",
+    "SoundPath": "sound/fjssz/girl/StartShoot",
+    "Text": "开始打枪"
+  },
+  "girlCardType0": {
+    "SoundName": "girlCardType0",
+    "SoundPath": "sound/fjssz/girl/CardType0",
+    "Text": "乌龙"
+  },
+  "girlCardType1": {
+    "SoundName": "girlCardType1",
+    "SoundPath": "sound/fjssz/girl/CardType1",
+    "Text": "对子"
+  },
+  "girlCardType2": {
+    "SoundName": "girlCardType2",
+    "SoundPath": "sound/fjssz/girl/CardType2",
+    "Text": "两对"
+  },
+  "girlCardType3": {
+    "SoundName": "girlCardType3",
+    "SoundPath": "sound/fjssz/girl/CardType3",
+    "Text": "三条"
+  },
+  "girlCardType4": {
+    "SoundName": "girlCardType4",
+    "SoundPath": "sound/fjssz/girl/CardType4",
+    "Text": "冲炸"
+  },
+  "girlCardType5": {
+    "SoundName": "girlCardType5",
+    "SoundPath": "sound/fjssz/girl/CardType5",
+    "Text": "双王冲头"
+  },
+  "girlCardType6": {
+    "SoundName": "girlCardType6",
+    "SoundPath": "sound/fjssz/girl/CardType6",
+    "Text": "三鬼"
+  },
+  "girlCardType7": {
+    "SoundName": "girlCardType7",
+    "SoundPath": "sound/fjssz/girl/CardType7",
+    "Text": "顺子"
+  },
+  "girlCardType8": {
+    "SoundName": "girlCardType8",
+    "SoundPath": "sound/fjssz/girl/CardType8",
+    "Text": "同花"
+  },
+  "girlCardType9": {
+    "SoundName": "girlCardType9",
+    "SoundPath": "sound/fjssz/girl/CardType9",
+    "Text": "一对同花"
+  },
+  "girlCardType10": {
+    "SoundName": "girlCardType10",
+    "SoundPath": "sound/fjssz/girl/CardType10",
+    "Text": "两对同花"
+  },
+  "girlCardType11": {
+    "SoundName": "girlCardType11",
+    "SoundPath": "sound/fjssz/girl/CardType11",
+    "Text": "葫芦"
+  },
+  "girlCardType12": {
+    "SoundName": "girlCardType12",
+    "SoundPath": "sound/fjssz/girl/CardType12",
+    "Text": "铁支"
+  },
+  "girlCardType13": {
+    "SoundName": "girlCardType13",
+    "SoundPath": "sound/fjssz/girl/CardType13",
+    "Text": "同花顺"
+  },
+  "girlCardType14": {
+    "SoundName": "girlCardType14",
+    "SoundPath": "sound/fjssz/girl/CardType14",
+    "Text": "五同"
+  },
+  "girlCardType15": {
+    "SoundName": "girlCardType15",
+    "SoundPath": "sound/fjssz/girl/CardType15",
+    "Text": "六同"
+  },
+  "girlCardType16": {
+    "SoundName": "girlCardType16",
+    "SoundPath": "sound/fjssz/girl/CardType16",
+    "Text": "五鬼"
+  },
+  "girlCardType84": {
+    "SoundName": "girlCardType84",
+    "SoundPath": "sound/fjssz/girl/CardType84",
+    "Text": "三顺子"
+  },
+  "girlCardType85": {
+    "SoundName": "girlCardType85",
+    "SoundPath": "sound/fjssz/girl/CardType85",
+    "Text": "三同花"
+  },
+  "girlCardType86": {
+    "SoundName": "girlCardType86",
+    "SoundPath": "sound/fjssz/girl/CardType86",
+    "Text": "六对半"
+  },
+  "girlCardType87": {
+    "SoundName": "girlCardType87",
+    "SoundPath": "sound/fjssz/girl/CardType87",
+    "Text": "三顺子"
+  },
+  "girlCardType88": {
+    "SoundName": "girlCardType88",
+    "SoundPath": "sound/fjssz/girl/CardType88",
+    "Text": "三同花"
+  },
+  "girlCardType89": {
+    "SoundName": "girlCardType89",
+    "SoundPath": "sound/fjssz/girl/CardType89",
+    "Text": "六对半"
+  },
+  "girlCardType90": {
+    "SoundName": "girlCardType90",
+    "SoundPath": "sound/fjssz/girl/CardType90",
+    "Text": "六对半"
+  },
+  "girlCardType91": {
+    "SoundName": "girlCardType91",
+    "SoundPath": "sound/fjssz/girl/CardType91",
+    "Text": "四套三条"
+  },
+  "girlCardType92": {
+    "SoundName": "girlCardType92",
+    "SoundPath": "sound/fjssz/girl/CardType92",
+    "Text": "三分天下"
+  },
+  "girlCardType93": {
+    "SoundName": "girlCardType93",
+    "SoundPath": "sound/fjssz/girl/CardType93",
+    "Text": "三同花顺"
+  },
+  "girlCardType94": {
+    "SoundName": "girlCardType94",
+    "SoundPath": "sound/fjssz/girl/CardType94",
+    "Text": "一条龙"
+  },
+  "girlCardType95": {
+    "SoundName": "girlCardType95",
+    "SoundPath": "sound/fjssz/girl/CardType95",
+    "Text": ""
+  },
+  "girlCardType96": {
+    "SoundName": "girlCardType96",
+    "SoundPath": "sound/fjssz/girl/CardType96",
+    "Text": ""
+  },
+  "girlCardType97": {
+    "SoundName": "girlCardType97",
+    "SoundPath": "sound/fjssz/girl/CardType97",
+    "Text": ""
+  },
+  "girlCardType98": {
+    "SoundName": "girlCardType98",
+    "SoundPath": "sound/fjssz/girl/CardType98",
+    "Text": ""
+  },
+  "girlCardType99": {
+    "SoundName": "girlCardType99",
+    "SoundPath": "sound/fjssz/girl/CardType99",
+    "Text": ""
+  },
+  "girlCardType100": {
+    "SoundName": "girlCardType100",
+    "SoundPath": "sound/fjssz/girl/CardType100",
+    "Text": "至尊清龙"
+  },
+  "sssResult_Lose": {
+    "SoundName": "sssResult_Lose",
+    "SoundPath": "sound/fjssz/Result_Lose",
+    "Text": "输"
+  },
+  "sssResult_Ping": {
+    "SoundName": "sssResult_Ping",
+    "SoundPath": "sound/fjssz/Result_Ping",
+    "Text": "平"
+  },
+  "sssResult_Win": {
+    "SoundName": "sssResult_Win",
+    "SoundPath": "sound/fjssz/Result_Win",
+    "Text": "赢"
+  },
+  "boy17StartBiPai": {
+    "SoundName": "boy17StartBiPai",
+    "SoundPath": "sound/ls/boy/StartBiPai",
+    "Text": "开始比牌"
+  },
+  "boy17QuanLeiDa": {
+    "SoundName": "boy17QuanLeiDa",
+    "SoundPath": "sound/ls/boy/QuanLeiDa",
+    "Text": "全垒打"
+  },
+  "boy17BoBoBo": {
+    "SoundName": "boy17BoBoBo",
+    "SoundPath": "sound/fjssz/Sanshui_Shoot",
+    "Text": "啵啵啵"
+  },
+  "boy17Shoot": {
+    "SoundName": "boy17Shoot",
+    "SoundPath": "sound/fjssz/Sanshui_Shoot",
+    "Text": "打枪"
+  },
+  "boy17CardType0": {
+    "SoundName": "boy17CardType0",
+    "SoundPath": "sound/ls/boy/CardType0",
+    "Text": "乌龙"
+  },
+  "boy17CardType1": {
+    "SoundName": "boy17CardType1",
+    "SoundPath": "sound/ls/boy/CardType1",
+    "Text": "对子"
+  },
+  "boy17CardType2": {
+    "SoundName": "boy17CardType2",
+    "SoundPath": "sound/ls/boy/CardType2",
+    "Text": "两对"
+  },
+  "boy17CardType3": {
+    "SoundName": "boy17CardType3",
+    "SoundPath": "sound/ls/boy/CardType3",
+    "Text": "三条"
+  },
+  "boy17CardType4": {
+    "SoundName": "boy17CardType4",
+    "SoundPath": "sound/fjssz/boy/CardType4",
+    "Text": "冲炸"
+  },
+  "boy17CardType5": {
+    "SoundName": "boy17CardType5",
+    "SoundPath": "sound/fjssz/boy/CardType5",
+    "Text": "双王冲头"
+  },
+  "boy17CardType6": {
+    "SoundName": "boy17CardType6",
+    "SoundPath": "sound/fjssz/boy/CardType6",
+    "Text": "三鬼"
+  },
+  "boy17CardType7": {
+    "SoundName": "boy17CardType7",
+    "SoundPath": "sound/ls/boy/CardType7",
+    "Text": "顺子"
+  },
+  "boy17CardType8": {
+    "SoundName": "boy17CardType8",
+    "SoundPath": "sound/ls/boy/CardType8",
+    "Text": "同花"
+  },
+  "boy17CardType9": {
+    "SoundName": "boy17CardType9",
+    "SoundPath": "sound/fjssz/boy/CardType9",
+    "Text": "一对同花"
+  },
+  "boy17CardType10": {
+    "SoundName": "boy17CardType10",
+    "SoundPath": "sound/fjssz/boy/CardType10",
+    "Text": "两对同花"
+  },
+  "boy17CardType11": {
+    "SoundName": "boy17CardType11",
+    "SoundPath": "sound/ls/boy/CardType11",
+    "Text": "葫芦"
+  },
+  "boy17CardType12": {
+    "SoundName": "boy17CardType12",
+    "SoundPath": "sound/ls/boy/CardType12",
+    "Text": "铁支"
+  },
+  "boy17CardType13": {
+    "SoundName": "boy17CardType13",
+    "SoundPath": "sound/ls/boy/CardType13",
+    "Text": "同花顺"
+  },
+  "boy17CardType14": {
+    "SoundName": "boy17CardType14",
+    "SoundPath": "sound/ls/boy/CardType14",
+    "Text": "五同"
+  },
+  "boy17CardType15": {
+    "SoundName": "boy17CardType15",
+    "SoundPath": "sound/ls/boy/CardType15",
+    "Text": "六同"
+  },
+  "boy17CardType16": {
+    "SoundName": "boy17CardType16",
+    "SoundPath": "sound/fjssz/boy/CardType16",
+    "Text": "五鬼"
+  },
+  "boy17CardType84": {
+    "SoundName": "boy17CardType84",
+    "SoundPath": "sound/ls/boy/CardType84",
+    "Text": "三顺子"
+  },
+  "boy17CardType85": {
+    "SoundName": "boy17CardType85",
+    "SoundPath": "sound/fjssz/boy/CardType85",
+    "Text": "三同花"
+  },
+  "boy17CardType86": {
+    "SoundName": "boy17CardType86",
+    "SoundPath": "sound/ls/boy/CardType86",
+    "Text": "六对半"
+  },
+  "boy17CardType87": {
+    "SoundName": "boy17CardType87",
+    "SoundPath": "sound/ls/boy/CardType87",
+    "Text": "三顺子"
+  },
+  "boy17CardType88": {
+    "SoundName": "boy17CardType88",
+    "SoundPath": "sound/ls/boy/CardType88",
+    "Text": "三同花"
+  },
+  "boy17CardType89": {
+    "SoundName": "boy17CardType89",
+    "SoundPath": "sound/fjssz/boy/CardType89",
+    "Text": "六对半"
+  },
+  "boy17CardType90": {
+    "SoundName": "boy17CardType90",
+    "SoundPath": "sound/fjssz/boy/CardType90",
+    "Text": "六对半"
+  },
+  "boy17CardType91": {
+    "SoundName": "boy17CardType91",
+    "SoundPath": "sound/ls/boy/CardType91",
+    "Text": "四套三条"
+  },
+  "boy17CardType92": {
+    "SoundName": "boy17CardType92",
+    "SoundPath": "sound/ls/boy/CardType92",
+    "Text": "三分天下"
+  },
+  "boy17CardType93": {
+    "SoundName": "boy17CardType93",
+    "SoundPath": "sound/ls/boy/CardType93",
+    "Text": "三同花顺"
+  },
+  "boy17CardType94": {
+    "SoundName": "boy17CardType94",
+    "SoundPath": "sound/ls/boy/CardType94",
+    "Text": "一条龙"
+  },
+  "boy17CardType95": {
+    "SoundName": "boy17CardType95",
+    "SoundPath": "sound/ls/boy/CardType95",
+    "Text": ""
+  },
+  "boy17CardType96": {
+    "SoundName": "boy17CardType96",
+    "SoundPath": "sound/ls/boy/CardType96",
+    "Text": ""
+  },
+  "boy17CardType97": {
+    "SoundName": "boy17CardType97",
+    "SoundPath": "sound/ls/boy/CardType97",
+    "Text": ""
+  },
+  "boy17CardType98": {
+    "SoundName": "boy17CardType98",
+    "SoundPath": "sound/ls/boy/CardType98",
+    "Text": ""
+  },
+  "boy17CardType99": {
+    "SoundName": "boy17CardType99",
+    "SoundPath": "sound/ls/boy/CardType99",
+    "Text": ""
+  },
+  "boy17CardType100": {
+    "SoundName": "boy17CardType100",
+    "SoundPath": "sound/ls/boy/CardType100",
+    "Text": "至尊清龙"
+  },
+  "girl17StartBiPai": {
+    "SoundName": "girl17StartBiPai",
+    "SoundPath": "sound/ls/girl/StartBiPai",
+    "Text": "开始比牌"
+  },
+  "girl17QuanLeiDa": {
+    "SoundName": "girl17QuanLeiDa",
+    "SoundPath": "sound/ls/girl/QuanLeiDa",
+    "Text": "全垒打"
+  },
+  "girl17BoBoBo": {
+    "SoundName": "girl17BoBoBo",
+    "SoundPath": "sound/fjssz/Sanshui_Shoot",
+    "Text": "啵啵啵"
+  },
+  "girl17Shoot": {
+    "SoundName": "girl17Shoot",
+    "SoundPath": "sound/ls/girl/Shoot",
+    "Text": "打枪"
+  },
+  "girl17CardType0": {
+    "SoundName": "girl17CardType0",
+    "SoundPath": "sound/ls/girl/CardType0",
+    "Text": "乌龙"
+  },
+  "girl17CardType1": {
+    "SoundName": "girl17CardType1",
+    "SoundPath": "sound/ls/girl/CardType1",
+    "Text": "对子"
+  },
+  "girl17CardType2": {
+    "SoundName": "girl17CardType2",
+    "SoundPath": "sound/ls/girl/CardType2",
+    "Text": "两对"
+  },
+  "girl17CardType3": {
+    "SoundName": "girl17CardType3",
+    "SoundPath": "sound/ls/girl/CardType3",
+    "Text": "三条"
+  },
+  "girl17CardType4": {
+    "SoundName": "girl17CardType4",
+    "SoundPath": "sound/fjssz/girl/CardType4",
+    "Text": "冲炸"
+  },
+  "girl17CardType5": {
+    "SoundName": "girl17CardType5",
+    "SoundPath": "sound/fjssz/girl/CardType5",
+    "Text": "双王冲头"
+  },
+  "girl17CardType6": {
+    "SoundName": "girl17CardType6",
+    "SoundPath": "sound/fjssz/girl/CardType6",
+    "Text": "三鬼"
+  },
+  "girl17CardType7": {
+    "SoundName": "girl17CardType7",
+    "SoundPath": "sound/ls/girl/CardType7",
+    "Text": "顺子"
+  },
+  "girl17CardType8": {
+    "SoundName": "girl17CardType8",
+    "SoundPath": "sound/ls/girl/CardType8",
+    "Text": "同花"
+  },
+  "girl17CardType9": {
+    "SoundName": "girl17CardType9",
+    "SoundPath": "sound/fjssz/girl/CardType9",
+    "Text": "一对同花"
+  },
+  "girl17CardType10": {
+    "SoundName": "girl17CardType10",
+    "SoundPath": "sound/fjssz/girl/CardType10",
+    "Text": "两对同花"
+  },
+  "girl17CardType11": {
+    "SoundName": "girl17CardType11",
+    "SoundPath": "sound/ls/girl/CardType11",
+    "Text": "葫芦"
+  },
+  "girl17CardType12": {
+    "SoundName": "girl17CardType12",
+    "SoundPath": "sound/ls/girl/CardType12",
+    "Text": "铁支"
+  },
+  "girl17CardType13": {
+    "SoundName": "girl17CardType13",
+    "SoundPath": "sound/ls/girl/CardType13",
+    "Text": "同花顺"
+  },
+  "girl17CardType14": {
+    "SoundName": "girl17CardType14",
+    "SoundPath": "sound/ls/girl/CardType14",
+    "Text": "五同"
+  },
+  "girl17CardType15": {
+    "SoundName": "girl17CardType15",
+    "SoundPath": "sound/ls/girl/CardType15",
+    "Text": "六同"
+  },
+  "girl17CardType16": {
+    "SoundName": "girl17CardType16",
+    "SoundPath": "sound/fjssz/girl/CardType16",
+    "Text": "五鬼"
+  },
+  "girl17CardType84": {
+    "SoundName": "girl17CardType84",
+    "SoundPath": "sound/ls/girl/CardType84",
+    "Text": "三顺子"
+  },
+  "girl17CardType85": {
+    "SoundName": "girl17CardType85",
+    "SoundPath": "sound/fjssz/girl/CardType85",
+    "Text": "三同花"
+  },
+  "girl17CardType86": {
+    "SoundName": "girl17CardType86",
+    "SoundPath": "sound/ls/girl/CardType86",
+    "Text": "六对半"
+  },
+  "girl17CardType87": {
+    "SoundName": "girl17CardType87",
+    "SoundPath": "sound/ls/girl/CardType87",
+    "Text": "三顺子"
+  },
+  "girl17CardType88": {
+    "SoundName": "girl17CardType88",
+    "SoundPath": "sound/ls/girl/CardType88",
+    "Text": "三同花"
+  },
+  "girl17CardType89": {
+    "SoundName": "girl17CardType89",
+    "SoundPath": "sound/fjssz/girl/CardType89",
+    "Text": "六对半"
+  },
+  "girl17CardType90": {
+    "SoundName": "girl17CardType90",
+    "SoundPath": "sound/fjssz/girl/CardType90",
+    "Text": "六对半"
+  },
+  "girl17CardType91": {
+    "SoundName": "girl17CardType91",
+    "SoundPath": "sound/ls/girl/CardType91",
+    "Text": "四套三条"
+  },
+  "girl17CardType92": {
+    "SoundName": "girl17CardType92",
+    "SoundPath": "sound/ls/girl/CardType92",
+    "Text": "三分天下"
+  },
+  "girl17CardType93": {
+    "SoundName": "girl17CardType93",
+    "SoundPath": "sound/ls/girl/CardType93",
+    "Text": "三同花顺"
+  },
+  "girl17CardType94": {
+    "SoundName": "girl17CardType94",
+    "SoundPath": "sound/ls/girl/CardType94",
+    "Text": "一条龙"
+  },
+  "girl17CardType95": {
+    "SoundName": "girl17CardType95",
+    "SoundPath": "sound/ls/girl/CardType95",
+    "Text": ""
+  },
+  "girl17CardType96": {
+    "SoundName": "girl17CardType96",
+    "SoundPath": "sound/ls/girl/CardType96",
+    "Text": ""
+  },
+  "girl17CardType97": {
+    "SoundName": "girl17CardType97",
+    "SoundPath": "sound/ls/girl/CardType97",
+    "Text": ""
+  },
+  "girl17CardType98": {
+    "SoundName": "girl17CardType98",
+    "SoundPath": "sound/ls/girl/CardType98",
+    "Text": ""
+  },
+  "girl17CardType99": {
+    "SoundName": "girl17CardType99",
+    "SoundPath": "sound/ls/girl/CardType99",
+    "Text": ""
+  },
+  "girl17CardType100": {
+    "SoundName": "girl17CardType100",
+    "SoundPath": "sound/ls/girl/CardType100",
+    "Text": "至尊清龙"
+  },
+  "17RoomWaitStart": {
+    "SoundName": "17RoomWaitStart",
+    "SoundPath": "sound/ls/17RoomWaitStart",
+    "Text": "背景音乐"
+  }
+}

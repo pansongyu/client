@@ -1,0 +1,16 @@
+{
+    "git.repositoryScanIgnoredFolders": [
+        "node_modules",
+        "library",
+        "local",
+        "temp"
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/library": false,
+        "**/local": true,
+        "**/temp": true,
+        "**/*.code-search": true
+    }
+}

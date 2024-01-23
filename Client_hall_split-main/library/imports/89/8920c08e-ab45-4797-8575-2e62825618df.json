@@ -1,0 +1,38 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "selectCity",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1010000": {
+      "Id": 1010000,
+      "Type": 1,
+      "Ascription": 0,
+      "Name": "福建省",
+      "Popular": 0,
+      "DefaultCity": 0,
+      "Game": "14,34,5,7,30,0,11,26,1,84,66,87,8,6,15,67,127,129,126,131,138,140,142,119,10,17,3,154",
+      "Lock": 0
+    },
+    "1010500": {
+      "Id": 1010500,
+      "Type": 2,
+      "Ascription": 1010000,
+      "Name": "泉州市",
+      "Popular": 0,
+      "DefaultCity": 0,
+      "Game": "16,7,30,0,6,15,129",
+      "Lock": 0
+    },
+    "1010502": {
+      "Id": 1010502,
+      "Type": 3,
+      "Ascription": 1010500,
+      "Name": "泉州",
+      "Popular": 0,
+      "DefaultCity": 0,
+      "Game": "6,105,206,7,4",
+      "Lock": 0
+    }
+  }
+}

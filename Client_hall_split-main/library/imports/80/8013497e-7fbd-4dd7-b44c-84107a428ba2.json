@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_sjdi",
+    "texture": "cb33a36c-96a3-4cb2-b457-c50386b6d27b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      19,
+      19
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      19
+    ],
+    "capInsets": [
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+}

@@ -1,0 +1,672 @@
+{
+  "BtnClick": {
+    "SoundName": "BtnClick",
+    "SoundPath": "sound/background/anniu",
+    "Text": "控件点击"
+  },
+  "MainScene": {
+    "SoundName": "MainScene",
+    "SoundPath": "sound/background/dengruzhuchangjingyinyue",
+    "Text": "主场景"
+  },
+  "RoomWaitStart": {
+    "SoundName": "RoomWaitStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "牌局等待开始"
+  },
+  "RoomStart": {
+    "SoundName": "RoomStart",
+    "SoundPath": "sound/background/kaishipaiju",
+    "Text": "牌局开始"
+  },
+  "WaitRoomStart": {
+    "SoundName": "WaitRoomStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "等待牌局开始"
+  },
+  "zhuanpan": {
+    "SoundName": "zhuanpan",
+    "SoundPath": "sound/background/zhuanpan",
+    "Text": "转盘音效"
+  },
+  "boy_FastVoice_1": {
+    "SoundName": "boy_FastVoice_1",
+    "SoundPath": "sound/chat/boy/1",
+    "Text": "夸奖"
+  },
+  "boy_FastVoice_2": {
+    "SoundName": "boy_FastVoice_2",
+    "SoundPath": "sound/chat/boy/2",
+    "Text": "赞赏"
+  },
+  "boy_FastVoice_3": {
+    "SoundName": "boy_FastVoice_3",
+    "SoundPath": "sound/chat/boy/3",
+    "Text": "无奈"
+  },
+  "boy_FastVoice_4": {
+    "SoundName": "boy_FastVoice_4",
+    "SoundPath": "sound/chat/boy/4",
+    "Text": "求碰"
+  },
+  "boy_FastVoice_5": {
+    "SoundName": "boy_FastVoice_5",
+    "SoundPath": "sound/chat/boy/5",
+    "Text": "催促"
+  },
+  "boy_FastVoice_6": {
+    "SoundName": "boy_FastVoice_6",
+    "SoundPath": "sound/chat/boy/6",
+    "Text": "呵呵"
+  },
+  "boy_FastVoice_7": {
+    "SoundName": "boy_FastVoice_7",
+    "SoundPath": "sound/chat/boy/7",
+    "Text": "得意"
+  },
+  "boy_FastVoice_8": {
+    "SoundName": "boy_FastVoice_8",
+    "SoundPath": "sound/chat/boy/8",
+    "Text": "绝交"
+  },
+  "boy_FastVoice_9": {
+    "SoundName": "boy_FastVoice_9",
+    "SoundPath": "sound/chat/boy/9",
+    "Text": "嘲讽"
+  },
+  "boy_FastVoice_10": {
+    "SoundName": "boy_FastVoice_10",
+    "SoundPath": "sound/chat/boy/10",
+    "Text": "调侃"
+  },
+  "girl_FastVoice_1": {
+    "SoundName": "girl_FastVoice_1",
+    "SoundPath": "sound/chat/girl/1",
+    "Text": "夸奖"
+  },
+  "girl_FastVoice_2": {
+    "SoundName": "girl_FastVoice_2",
+    "SoundPath": "sound/chat/girl/2",
+    "Text": "赞赏"
+  },
+  "girl_FastVoice_3": {
+    "SoundName": "girl_FastVoice_3",
+    "SoundPath": "sound/chat/girl/3",
+    "Text": "无奈"
+  },
+  "girl_FastVoice_4": {
+    "SoundName": "girl_FastVoice_4",
+    "SoundPath": "sound/chat/girl/4",
+    "Text": "求碰"
+  },
+  "girl_FastVoice_5": {
+    "SoundName": "girl_FastVoice_5",
+    "SoundPath": "sound/chat/girl/5",
+    "Text": "催促"
+  },
+  "girl_FastVoice_6": {
+    "SoundName": "girl_FastVoice_6",
+    "SoundPath": "sound/chat/girl/6",
+    "Text": "呵呵"
+  },
+  "girl_FastVoice_7": {
+    "SoundName": "girl_FastVoice_7",
+    "SoundPath": "sound/chat/girl/7",
+    "Text": "得意"
+  },
+  "girl_FastVoice_8": {
+    "SoundName": "girl_FastVoice_8",
+    "SoundPath": "sound/chat/girl/8",
+    "Text": "绝交"
+  },
+  "girl_FastVoice_9": {
+    "SoundName": "girl_FastVoice_9",
+    "SoundPath": "sound/chat/girl/9",
+    "Text": "嘲讽"
+  },
+  "girl_FastVoice_10": {
+    "SoundName": "girl_FastVoice_10",
+    "SoundPath": "sound/chat/girl/10",
+    "Text": "调侃"
+  },
+  "gameBackGround": {
+    "SoundName": "gameBackGround",
+    "SoundPath": "sound/background/gameBackMusic",
+    "Text": "游戏背景音乐"
+  },
+  "pdkResult_Lose": {
+    "SoundName": "pdkResult_Lose",
+    "SoundPath": "sound/pdk/Result_Lose",
+    "Text": "输"
+  },
+  "pdkResult_Ping": {
+    "SoundName": "pdkResult_Ping",
+    "SoundPath": "sound/pdk/Result_Ping",
+    "Text": "平"
+  },
+  "pdkResult_Win": {
+    "SoundName": "pdkResult_Win",
+    "SoundPath": "sound/pdk/Result_Win",
+    "Text": "赢"
+  },
+  "commonBet": {
+    "SoundName": "commonBet",
+    "SoundPath": "sound/common/bet",
+    "Text": "下筹码"
+  },
+  "bBigger_1": {
+    "SoundName": "bBigger_1",
+    "SoundPath": "sound/pdk/game_boy/bigger_1",
+    "Text": "男大你"
+  },
+  "bBigger_2": {
+    "SoundName": "bBigger_2",
+    "SoundPath": "sound/pdk/game_boy/bigger_2",
+    "Text": "男管上"
+  },
+  "bBigger_3": {
+    "SoundName": "bBigger_3",
+    "SoundPath": "sound/pdk/game_boy/bigger_3",
+    "Text": "男我管"
+  },
+  "bBoom": {
+    "SoundName": "bBoom",
+    "SoundPath": "sound/pdk/game_boy/bomb",
+    "Text": "男炸弹"
+  },
+  "bDouble_2": {
+    "SoundName": "bDouble_2",
+    "SoundPath": "sound/pdk/game_boy/double_2",
+    "Text": "男对2"
+  },
+  "bDouble_3": {
+    "SoundName": "bDouble_3",
+    "SoundPath": "sound/pdk/game_boy/double_3",
+    "Text": "男对3"
+  },
+  "bDouble_4": {
+    "SoundName": "bDouble_4",
+    "SoundPath": "sound/pdk/game_boy/double_4",
+    "Text": "男对4"
+  },
+  "bDouble_5": {
+    "SoundName": "bDouble_5",
+    "SoundPath": "sound/pdk/game_boy/double_5",
+    "Text": "男对5"
+  },
+  "bDouble_6": {
+    "SoundName": "bDouble_6",
+    "SoundPath": "sound/pdk/game_boy/double_6",
+    "Text": "男对6"
+  },
+  "bDouble_7": {
+    "SoundName": "bDouble_7",
+    "SoundPath": "sound/pdk/game_boy/double_7",
+    "Text": "男对7"
+  },
+  "bDouble_8": {
+    "SoundName": "bDouble_8",
+    "SoundPath": "sound/pdk/game_boy/double_8",
+    "Text": "男对8"
+  },
+  "bDouble_9": {
+    "SoundName": "bDouble_9",
+    "SoundPath": "sound/pdk/game_boy/double_9",
+    "Text": "男对9"
+  },
+  "bDouble_10": {
+    "SoundName": "bDouble_10",
+    "SoundPath": "sound/pdk/game_boy/double_10",
+    "Text": "男对10"
+  },
+  "bDouble_11": {
+    "SoundName": "bDouble_11",
+    "SoundPath": "sound/pdk/game_boy/double_11",
+    "Text": "男对11"
+  },
+  "bDouble_12": {
+    "SoundName": "bDouble_12",
+    "SoundPath": "sound/pdk/game_boy/double_12",
+    "Text": "男对12"
+  },
+  "bDouble_13": {
+    "SoundName": "bDouble_13",
+    "SoundPath": "sound/pdk/game_boy/double_13",
+    "Text": "男对13"
+  },
+  "bDouble_14": {
+    "SoundName": "bDouble_14",
+    "SoundPath": "sound/pdk/game_boy/double_14",
+    "Text": "男对14"
+  },
+  "bFourAndOne": {
+    "SoundName": "bFourAndOne",
+    "SoundPath": "sound/pdk/game_boy/fourAndOne",
+    "Text": "男四带三"
+  },
+  "bFourAndTwo": {
+    "SoundName": "bFourAndTwo",
+    "SoundPath": "sound/pdk/game_boy/fourAndTwo",
+    "Text": "男四带三"
+  },
+  "bFourAndThree": {
+    "SoundName": "bFourAndThree",
+    "SoundPath": "sound/pdk/game_boy/fourAndThree",
+    "Text": "男四带三"
+  },
+  "bJiabei": {
+    "SoundName": "bJiabei",
+    "SoundPath": "sound/pdk/game_boy/jiabei",
+    "Text": "男加倍"
+  },
+  "bNot_1": {
+    "SoundName": "bNot_1",
+    "SoundPath": "sound/pdk/game_boy/not_1",
+    "Text": "男不要"
+  },
+  "bNot_2": {
+    "SoundName": "bNot_2",
+    "SoundPath": "sound/pdk/game_boy/not_2",
+    "Text": "男要不起"
+  },
+  "bNot_3": {
+    "SoundName": "bNot_3",
+    "SoundPath": "sound/pdk/game_boy/not_3",
+    "Text": "男过"
+  },
+  "bOne_3": {
+    "SoundName": "bOne_3",
+    "SoundPath": "sound/pdk/game_boy/one_3",
+    "Text": "男3"
+  },
+  "bOne_4": {
+    "SoundName": "bOne_4",
+    "SoundPath": "sound/pdk/game_boy/one_4",
+    "Text": "男4"
+  },
+  "bOne_5": {
+    "SoundName": "bOne_5",
+    "SoundPath": "sound/pdk/game_boy/one_5",
+    "Text": "男5"
+  },
+  "bOne_6": {
+    "SoundName": "bOne_6",
+    "SoundPath": "sound/pdk/game_boy/one_6",
+    "Text": "男6"
+  },
+  "bOne_7": {
+    "SoundName": "bOne_7",
+    "SoundPath": "sound/pdk/game_boy/one_7",
+    "Text": "男7"
+  },
+  "bOne_8": {
+    "SoundName": "bOne_8",
+    "SoundPath": "sound/pdk/game_boy/one_8",
+    "Text": "男8"
+  },
+  "bOne_9": {
+    "SoundName": "bOne_9",
+    "SoundPath": "sound/pdk/game_boy/one_9",
+    "Text": "男9"
+  },
+  "bOne_10": {
+    "SoundName": "bOne_10",
+    "SoundPath": "sound/pdk/game_boy/one_10",
+    "Text": "男10"
+  },
+  "bOne_11": {
+    "SoundName": "bOne_11",
+    "SoundPath": "sound/pdk/game_boy/one_11",
+    "Text": "男11"
+  },
+  "bOne_12": {
+    "SoundName": "bOne_12",
+    "SoundPath": "sound/pdk/game_boy/one_12",
+    "Text": "男12"
+  },
+  "bOne_13": {
+    "SoundName": "bOne_13",
+    "SoundPath": "sound/pdk/game_boy/one_13",
+    "Text": "男13"
+  },
+  "bOne_14": {
+    "SoundName": "bOne_14",
+    "SoundPath": "sound/pdk/game_boy/one_14",
+    "Text": "男14"
+  },
+  "bOne_15": {
+    "SoundName": "bOne_15",
+    "SoundPath": "sound/pdk/game_boy/one_15",
+    "Text": "男15"
+  },
+  "bOnlyOne": {
+    "SoundName": "bOnlyOne",
+    "SoundPath": "sound/pdk/game_boy/onlyOne",
+    "Text": "男就剩一张"
+  },
+  "bPlane": {
+    "SoundName": "bPlane",
+    "SoundPath": "sound/pdk/game_boy/plane",
+    "Text": "男飞机"
+  },
+  "bSeries": {
+    "SoundName": "bSeries",
+    "SoundPath": "sound/pdk/game_boy/series",
+    "Text": "男顺子"
+  },
+  "bSeriesTwo": {
+    "SoundName": "bSeriesTwo",
+    "SoundPath": "sound/pdk/game_boy/seriesTwo",
+    "Text": "男连对"
+  },
+  "bShowCard": {
+    "SoundName": "bShowCard",
+    "SoundPath": "sound/pdk/game_boy/showCard",
+    "Text": "男明牌"
+  },
+  "bThree": {
+    "SoundName": "bThree",
+    "SoundPath": "sound/pdk/game_boy/three",
+    "Text": "男三根"
+  },
+  "bThreeAndOne": {
+    "SoundName": "bThreeAndOne",
+    "SoundPath": "sound/pdk/game_boy/threeAndOne",
+    "Text": "男三带一"
+  },
+  "bThreeAndTwo": {
+    "SoundName": "bThreeAndTwo",
+    "SoundPath": "sound/pdk/game_boy/threeAndTwo",
+    "Text": "男三带二"
+  },
+  "gBigger_1": {
+    "SoundName": "gBigger_1",
+    "SoundPath": "sound/pdk/game_girl/bigger_1",
+    "Text": "女大你"
+  },
+  "gBigger_2": {
+    "SoundName": "gBigger_2",
+    "SoundPath": "sound/pdk/game_girl/bigger_2",
+    "Text": "女管上"
+  },
+  "gBigger_3": {
+    "SoundName": "gBigger_3",
+    "SoundPath": "sound/pdk/game_girl/bigger_3",
+    "Text": "女我管"
+  },
+  "gBoom": {
+    "SoundName": "gBoom",
+    "SoundPath": "sound/pdk/game_girl/bomb",
+    "Text": "女炸弹"
+  },
+  "gDouble_2": {
+    "SoundName": "gDouble_2",
+    "SoundPath": "sound/pdk/game_girl/double_2",
+    "Text": "女对2"
+  },
+  "gDouble_3": {
+    "SoundName": "gDouble_3",
+    "SoundPath": "sound/pdk/game_girl/double_3",
+    "Text": "女对3"
+  },
+  "gDouble_4": {
+    "SoundName": "gDouble_4",
+    "SoundPath": "sound/pdk/game_girl/double_4",
+    "Text": "女对4"
+  },
+  "gDouble_5": {
+    "SoundName": "gDouble_5",
+    "SoundPath": "sound/pdk/game_girl/double_5",
+    "Text": "女对5"
+  },
+  "gDouble_6": {
+    "SoundName": "gDouble_6",
+    "SoundPath": "sound/pdk/game_girl/double_6",
+    "Text": "女对6"
+  },
+  "gDouble_7": {
+    "SoundName": "gDouble_7",
+    "SoundPath": "sound/pdk/game_girl/double_7",
+    "Text": "女对7"
+  },
+  "gDouble_8": {
+    "SoundName": "gDouble_8",
+    "SoundPath": "sound/pdk/game_girl/double_8",
+    "Text": "女对8"
+  },
+  "gDouble_9": {
+    "SoundName": "gDouble_9",
+    "SoundPath": "sound/pdk/game_girl/double_9",
+    "Text": "女对9"
+  },
+  "gDouble_10": {
+    "SoundName": "gDouble_10",
+    "SoundPath": "sound/pdk/game_girl/double_10",
+    "Text": "女对10"
+  },
+  "gDouble_11": {
+    "SoundName": "gDouble_11",
+    "SoundPath": "sound/pdk/game_girl/double_11",
+    "Text": "女对11"
+  },
+  "gDouble_12": {
+    "SoundName": "gDouble_12",
+    "SoundPath": "sound/pdk/game_girl/double_12",
+    "Text": "女对12"
+  },
+  "gDouble_13": {
+    "SoundName": "gDouble_13",
+    "SoundPath": "sound/pdk/game_girl/double_13",
+    "Text": "女对13"
+  },
+  "gDouble_14": {
+    "SoundName": "gDouble_14",
+    "SoundPath": "sound/pdk/game_girl/double_14",
+    "Text": "女对14"
+  },
+  "gFourAndOne": {
+    "SoundName": "gFourAndOne",
+    "SoundPath": "sound/pdk/game_girl/fourAndOne",
+    "Text": "女四带三"
+  },
+  "gFourAndTwo": {
+    "SoundName": "gFourAndTwo",
+    "SoundPath": "sound/pdk/game_girl/fourAndTwo",
+    "Text": "女四带三"
+  },
+  "gFourAndThree": {
+    "SoundName": "gFourAndThree",
+    "SoundPath": "sound/pdk/game_girl/fourAndThree",
+    "Text": "女四带三"
+  },
+  "gJiabei": {
+    "SoundName": "gJiabei",
+    "SoundPath": "sound/pdk/game_girl/jiabei",
+    "Text": "女加倍"
+  },
+  "gNot_1": {
+    "SoundName": "gNot_1",
+    "SoundPath": "sound/pdk/game_girl/not_1",
+    "Text": "女不要"
+  },
+  "gNot_2": {
+    "SoundName": "gNot_2",
+    "SoundPath": "sound/pdk/game_girl/not_2",
+    "Text": "女要不起"
+  },
+  "gNot_3": {
+    "SoundName": "gNot_3",
+    "SoundPath": "sound/pdk/game_girl/not_3",
+    "Text": "女过"
+  },
+  "gOne_3": {
+    "SoundName": "gOne_3",
+    "SoundPath": "sound/pdk/game_girl/one_3",
+    "Text": "女3"
+  },
+  "gOne_4": {
+    "SoundName": "gOne_4",
+    "SoundPath": "sound/pdk/game_girl/one_4",
+    "Text": "女4"
+  },
+  "gOne_5": {
+    "SoundName": "gOne_5",
+    "SoundPath": "sound/pdk/game_girl/one_5",
+    "Text": "女5"
+  },
+  "gOne_6": {
+    "SoundName": "gOne_6",
+    "SoundPath": "sound/pdk/game_girl/one_6",
+    "Text": "女6"
+  },
+  "gOne_7": {
+    "SoundName": "gOne_7",
+    "SoundPath": "sound/pdk/game_girl/one_7",
+    "Text": "女7"
+  },
+  "gOne_8": {
+    "SoundName": "gOne_8",
+    "SoundPath": "sound/pdk/game_girl/one_8",
+    "Text": "女8"
+  },
+  "gOne_9": {
+    "SoundName": "gOne_9",
+    "SoundPath": "sound/pdk/game_girl/one_9",
+    "Text": "女9"
+  },
+  "gOne_10": {
+    "SoundName": "gOne_10",
+    "SoundPath": "sound/pdk/game_girl/one_10",
+    "Text": "女10"
+  },
+  "gOne_11": {
+    "SoundName": "gOne_11",
+    "SoundPath": "sound/pdk/game_girl/one_11",
+    "Text": "女11"
+  },
+  "gOne_12": {
+    "SoundName": "gOne_12",
+    "SoundPath": "sound/pdk/game_girl/one_12",
+    "Text": "女12"
+  },
+  "gOne_13": {
+    "SoundName": "gOne_13",
+    "SoundPath": "sound/pdk/game_girl/one_13",
+    "Text": "女13"
+  },
+  "gOne_14": {
+    "SoundName": "gOne_14",
+    "SoundPath": "sound/pdk/game_girl/one_14",
+    "Text": "女14"
+  },
+  "gOne_15": {
+    "SoundName": "gOne_15",
+    "SoundPath": "sound/pdk/game_girl/one_15",
+    "Text": "女15"
+  },
+  "gOnlyOne": {
+    "SoundName": "gOnlyOne",
+    "SoundPath": "sound/pdk/game_girl/onlyOne",
+    "Text": "女就剩一张"
+  },
+  "gPlane": {
+    "SoundName": "gPlane",
+    "SoundPath": "sound/pdk/game_girl/plane",
+    "Text": "女飞机"
+  },
+  "gSeries": {
+    "SoundName": "gSeries",
+    "SoundPath": "sound/pdk/game_girl/series",
+    "Text": "女顺子"
+  },
+  "gSeriesTwo": {
+    "SoundName": "gSeriesTwo",
+    "SoundPath": "sound/pdk/game_girl/seriesTwo",
+    "Text": "女连对"
+  },
+  "gShowCard": {
+    "SoundName": "gShowCard",
+    "SoundPath": "sound/pdk/game_girl/showCard",
+    "Text": "女明牌"
+  },
+  "gThree": {
+    "SoundName": "gThree",
+    "SoundPath": "sound/pdk/game_girl/three",
+    "Text": "女三根"
+  },
+  "gThreeAndOne": {
+    "SoundName": "gThreeAndOne",
+    "SoundPath": "sound/pdk/game_girl/threeAndOne",
+    "Text": "女三带一"
+  },
+  "gThreeAndTwo": {
+    "SoundName": "gThreeAndTwo",
+    "SoundPath": "sound/pdk/game_girl/threeAndTwo",
+    "Text": "女三带二"
+  },
+  "timeUp": {
+    "SoundName": "timeUp",
+    "SoundPath": "sound/pdk/timeup",
+    "Text": "倒计时"
+  },
+  "win": {
+    "SoundName": "win",
+    "SoundPath": "sound/pdk/win",
+    "Text": "胜利"
+  },
+  "fail": {
+    "SoundName": "fail",
+    "SoundPath": "sound/pdk/fail",
+    "Text": "失败"
+  },
+  "cardOut": {
+    "SoundName": "cardOut",
+    "SoundPath": "sound/pdk/cardOut",
+    "Text": "牌打出去"
+  },
+  "giveCard": {
+    "SoundName": "giveCard",
+    "SoundPath": "sound/pdk/giveCard",
+    "Text": "发牌"
+  },
+  "back_1": {
+    "SoundName": "back_1",
+    "SoundPath": "sound/pdk/back_1",
+    "Text": "跑得快背景音乐"
+  },
+  "mofa_jidanAni": {
+    "SoundName": "mofa_jidanAni",
+    "SoundPath": "sound/mofa/mofa_jidanAni",
+    "Text": "鸡蛋"
+  },
+  "mofa_pengbeiAni": {
+    "SoundName": "mofa_pengbeiAni",
+    "SoundPath": "sound/mofa/mofa_pengbeiAni",
+    "Text": "碰杯"
+  },
+  "mofa_xianwenAni": {
+    "SoundName": "mofa_xianwenAni",
+    "SoundPath": "sound/mofa/mofa_xianwenAni",
+    "Text": "献吻"
+  },
+  "mofa_poshuiAni": {
+    "SoundName": "mofa_poshuiAni",
+    "SoundPath": "sound/mofa/mofa_poshuiAni",
+    "Text": "泼水"
+  },
+  "mofa_xianhuaAni": {
+    "SoundName": "mofa_xianhuaAni",
+    "SoundPath": "sound/mofa/mofa_xianhuaAni",
+    "Text": "鲜花"
+  },
+  "mofa_zhadanAni": {
+    "SoundName": "mofa_zhadanAni",
+    "SoundPath": "sound/mofa/mofa_zhadanAni",
+    "Text": "炸弹"
+  },
+  "mofa_zhuajiAni": {
+    "SoundName": "mofa_zhuajiAni",
+    "SoundPath": "sound/mofa/mofa_zhuajiAni",
+    "Text": "抓鸡"
+  }
+}

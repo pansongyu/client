@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "SGFont",
+    "texture": "c7da6446-f8e0-4497-a3a4-e6e897187f56",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      236,
+      231
+    ],
+    "offset": [
+      -10,
+      12.5
+    ],
+    "originalSize": [
+      256,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

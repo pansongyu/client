@@ -1,0 +1,74 @@
+{
+  "1": {
+    "AppID": 1,
+    "AppName": "乐豆",
+    "AppPrice": 100,
+    "AppPriceType": 2,
+    "DiamondNum": 10000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld01",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  },
+  "2": {
+    "AppID": 2,
+    "AppName": "乐豆",
+    "AppPrice": 500,
+    "AppPriceType": 2,
+    "DiamondNum": 50000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld02",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  },
+  "3": {
+    "AppID": 3,
+    "AppName": "乐豆",
+    "AppPrice": 1000,
+    "AppPriceType": 2,
+    "DiamondNum": 100000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld03",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  },
+  "4": {
+    "AppID": 4,
+    "AppName": "乐豆",
+    "AppPrice": 5000,
+    "AppPriceType": 2,
+    "DiamondNum": 500000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld04",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  },
+  "5": {
+    "AppID": 5,
+    "AppName": "乐豆",
+    "AppPrice": 10000,
+    "AppPriceType": 2,
+    "DiamondNum": 1000000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld05",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  },
+  "6": {
+    "AppID": 6,
+    "AppName": "乐豆",
+    "AppPrice": 50000,
+    "AppPriceType": 2,
+    "DiamondNum": 5000000,
+    "ExtraReward": 0,
+    "ImageName": "icon_spld06",
+    "goodsType": 1,
+    "channelType": 2,
+    "Discount": "100"
+  }
+}

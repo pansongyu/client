@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_btl_wxz01",
+    "texture": "66497800-d168-46b1-997f-513a9bc65b8b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      35,
+      56
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      56
+    ],
+    "capInsets": [
+      10,
+      12,
+      10,
+      12
+    ]
+  }
+}

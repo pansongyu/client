@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "check_qr",
+    "texture": "bb89105a-9173-4ced-b581-e1ba25bfc620",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      150,
+      89
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

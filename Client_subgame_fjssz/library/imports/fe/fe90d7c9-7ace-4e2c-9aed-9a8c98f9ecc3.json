@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "sp_effect_ldb",
+    "texture": "5788623a-03ef-401b-9847-82d9eb74cf53",
+    "atlas": "",
+    "rect": [
+      2,
+      16,
+      1120,
+      1109
+    ],
+    "offset": [
+      -1.5,
+      -7
+    ],
+    "originalSize": [
+      1127,
+      1127
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_hb_dk02",
+    "texture": "a5743a78-4e5f-4939-82ab-91094cdcd6fc",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      690,
+      716
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      693,
+      717
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_paoqian",
+    "texture": "1e0b150d-dc57-4524-ae8a-e0b78f5a329b",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      28,
+      47
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      29,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

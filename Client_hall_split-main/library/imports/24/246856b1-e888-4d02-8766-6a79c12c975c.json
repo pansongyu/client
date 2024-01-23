@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_qing",
+    "texture": "9bb3d8af-64c8-4171-b29f-a80c57d804fa",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      263,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      263,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

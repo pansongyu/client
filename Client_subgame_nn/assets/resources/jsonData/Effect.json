@@ -1,0 +1,740 @@
+{
+  "WaitNet": {
+    "EffectRes": "WaitNet",
+    "FilePath": "effect/WaitNet/WaitNet",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 0,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "Finger": {
+    "EffectRes": "Finger",
+    "FilePath": "effect/Finger/Finger",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "RedPoint": {
+    "EffectRes": "RedPoint",
+    "FilePath": "effect/RedPoint/RedPoint",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 9,
+    "OffPosList": "[-10,-10]"
+  },
+  "OutCatTip": {
+    "EffectRes": "OutCatTip",
+    "FilePath": "game/base/effect/majiang/Tip/Tip",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "OutCatTip2": {
+    "EffectRes": "OutCatTip2",
+    "FilePath": "game/base/effect/majiang/Tip/Tip2",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "gangXY": {
+    "EffectRes": "gangXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/gang/gangXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "pengXY": {
+    "EffectRes": "pengXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/peng/pengXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "tingXY": {
+    "EffectRes": "tingXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/ting/tingXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "huXY": {
+    "EffectRes": "huXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/hu/huXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "zimoXY": {
+    "EffectRes": "zimoXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/zimo/zimoXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "dihuXY": {
+    "EffectRes": "dihuXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/dihu/dihuXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "tianhuXY": {
+    "EffectRes": "tianhuXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/tianhu/tianhuXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "qiduiXY": {
+    "EffectRes": "qiduiXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/qidui/qiduiXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "qiangganghuXY": {
+    "EffectRes": "qiangganghuXY",
+    "FilePath": "game/AYMJ/effect/aymjxy/qiangganghu/qiangganghuXY",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "Gang": {
+    "EffectRes": "Gang",
+    "FilePath": "game/base/effect/majiang/gang/gang",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "Peng": {
+    "EffectRes": "Peng",
+    "FilePath": "game/base/effect/majiang/peng/peng",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "Chi": {
+    "EffectRes": "Chi",
+    "FilePath": "game/base/effect/majiang/chi/chi",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "Zimo": {
+    "EffectRes": "Zimo",
+    "FilePath": "game/base/effect/majiang/zimo/zimo",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "touda": {
+    "EffectRes": "touda",
+    "FilePath": "game/base/effect/majiang/touda/touda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "erda": {
+    "EffectRes": "erda",
+    "FilePath": "game/base/effect/majiang/erda/erda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "beidongda": {
+    "EffectRes": "beidongda",
+    "FilePath": "game/base/effect/majiang/beidongda/beidongda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_guanerda": {
+    "EffectRes": "kx_guanerda",
+    "FilePath": "game/BDMJ/effect/guanerda/guanerda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_beidongda": {
+    "EffectRes": "kx_beidongda",
+    "FilePath": "game/BDMJ/effect/beidongda/beidongda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_Chi": {
+    "EffectRes": "kx_Chi",
+    "FilePath": "game/BDMJ/effect/chi/chi",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_erda": {
+    "EffectRes": "kx_erda",
+    "FilePath": "game/BDMJ/effect/erda/erda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_Gang": {
+    "EffectRes": "kx_Gang",
+    "FilePath": "game/BDMJ/effect/gang/gang",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_hu": {
+    "EffectRes": "kx_hu",
+    "FilePath": "game/BDMJ/effect/hu/hu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_liuju": {
+    "EffectRes": "kx_liuju",
+    "FilePath": "game/BDMJ/effect/liuju/liuju",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_Peng": {
+    "EffectRes": "kx_Peng",
+    "FilePath": "game/BDMJ/effect/peng/peng",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_touda": {
+    "EffectRes": "kx_touda",
+    "FilePath": "game/BDMJ/effect/touda/touda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_weierhu": {
+    "EffectRes": "kx_weierhu",
+    "FilePath": "game/BDMJ/effect/weierhu/weierhu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "kx_weisanhu": {
+    "EffectRes": "kx_weisanhu",
+    "FilePath": "game/BDMJ/effect/weisanhu/weisanhu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "guanerda": {
+    "EffectRes": "guanerda",
+    "FilePath": "game/base/effect/majiang/guanerda/guanerda",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "genzhang": {
+    "EffectRes": "genzhang",
+    "FilePath": "game/base/effect/majiang/genzhang/genzhang",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "QiangGangHu": {
+    "EffectRes": "QiangGangHu",
+    "FilePath": "game/base/effect/majiang/qiangganghu/qiangganghu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "DanYou": {
+    "EffectRes": "DanYou",
+    "FilePath": "game/base/effect/majiang/danyou/danyou",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "ShuangYou": {
+    "EffectRes": "ShuangYou",
+    "FilePath": "game/base/effect/majiang/shuangyou/shuangyou",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "SanYou": {
+    "EffectRes": "SanYou",
+    "FilePath": "game/base/effect/majiang/sanyou/sanyou",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "SanJinDao": {
+    "EffectRes": "SanJinDao",
+    "FilePath": "game/base/effect/majiang/sanjindao/sanjindao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "SiJinDao": {
+    "EffectRes": "SiJinDao",
+    "FilePath": "game/base/effect/majiang/sijindao/sijindao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "WuJinDao": {
+    "EffectRes": "WuJinDao",
+    "FilePath": "game/base/effect/majiang/wujindao/wujindao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "LiuJinDao": {
+    "EffectRes": "LiuJinDao",
+    "FilePath": "game/base/effect/majiang/liujindao/liujindao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "FenBing": {
+    "EffectRes": "FenBing",
+    "FilePath": "game/base/effect/majiang/fenbing/fenbing",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "QiangJin": {
+    "EffectRes": "QiangJin",
+    "FilePath": "game/base/effect/majiang/qiangjin/qiangjin",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "ShiSanYao": {
+    "EffectRes": "ShiSanYao",
+    "FilePath": "game/base/effect/majiang/shisanyao/shisanyao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "tianhu": {
+    "EffectRes": "tianhu",
+    "FilePath": "game/base/effect/majiang/tianhu/tianhu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "duiduihu": {
+    "EffectRes": "duiduihu",
+    "FilePath": "game/base/effect/majiang/duiduihu/duiduihu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "hu": {
+    "EffectRes": "hu",
+    "FilePath": "game/base/effect/majiang/hu/hu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "hunyise": {
+    "EffectRes": "hunyise",
+    "FilePath": "game/base/effect/majiang/hunyise/hunyise",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "jinlong": {
+    "EffectRes": "jinlong",
+    "FilePath": "game/base/effect/majiang/jinlong/jinlong",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "jinque": {
+    "EffectRes": "jinque",
+    "FilePath": "game/base/effect/majiang/jinque/jinque",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "dasanyuan": {
+    "EffectRes": "dasanyuan",
+    "FilePath": "game/base/effect/majiang/dasanyuan/dasanyuan",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "daduipeng": {
+    "EffectRes": "daduipeng",
+    "FilePath": "game/base/effect/majiang/daduipeng/daduipeng",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "sanjinyou": {
+    "EffectRes": "sanjinyou",
+    "FilePath": "game/base/effect/majiang/sanjinyou/sanjinyou",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "qingyise": {
+    "EffectRes": "qingyise",
+    "FilePath": "game/base/effect/majiang/qingyise/qingyise",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "yizhanghua": {
+    "EffectRes": "yizhanghua",
+    "FilePath": "game/base/effect/majiang/yizhanghua/yizhanghua",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "wuhuawugang": {
+    "EffectRes": "wuhuawugang",
+    "FilePath": "game/base/effect/majiang/wuhuawugang/wuhuawugang",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "dihu": {
+    "EffectRes": "dihu",
+    "FilePath": "game/base/effect/majiang/dihu/dihu",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "xiaozhadan": {
+    "EffectRes": "xiaozhadan",
+    "FilePath": "game/base/effect/majiang/xiaozhadan/xiaozhadan",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "dazhadan": {
+    "EffectRes": "dazhadan",
+    "FilePath": "game/base/effect/majiang/dazhadan/dazhadan",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "chaojizhadan": {
+    "EffectRes": "chaojizhadan",
+    "FilePath": "game/base/effect/majiang/chaojizhadan/chaojizhadan",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "liuju": {
+    "EffectRes": "liuju",
+    "FilePath": "game/base/effect/majiang/liuju/liuju",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "SiHongZhong": {
+    "EffectRes": "SiHongZhong",
+    "FilePath": "game/base/effect/majiang/sihongzhong/sihongzhong",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "BuHua": {
+    "EffectRes": "BuHua",
+    "FilePath": "game/base/effect/majiang/buhua/buhua",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "xipai": {
+    "EffectRes": "xipai",
+    "FilePath": "game/base/effect/majiang/xipai/xipai",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "KaiJin": {
+    "EffectRes": "KaiJin",
+    "FilePath": "game/base/effect/majiang/kaijin/kaijin",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "touxiangkuangtexiao": {
+    "EffectRes": "touxiangkuangtexiao",
+    "FilePath": "effect/Particle/touxiangkuangtexiao",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face1": {
+    "EffectRes": "face1",
+    "FilePath": "effect/face1/face1",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face2": {
+    "EffectRes": "face2",
+    "FilePath": "effect/face2/face2",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face3": {
+    "EffectRes": "face3",
+    "FilePath": "effect/face3/face3",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face4": {
+    "EffectRes": "face4",
+    "FilePath": "effect/face4/face4",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face5": {
+    "EffectRes": "face5",
+    "FilePath": "effect/face5/face5",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face6": {
+    "EffectRes": "face6",
+    "FilePath": "effect/face6/face6",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face7": {
+    "EffectRes": "face7",
+    "FilePath": "effect/face7/face7",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face8": {
+    "EffectRes": "face8",
+    "FilePath": "effect/face8/face8",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face9": {
+    "EffectRes": "face9",
+    "FilePath": "effect/face9/face9",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face10": {
+    "EffectRes": "face10",
+    "FilePath": "effect/face10/face10",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face11": {
+    "EffectRes": "face11",
+    "FilePath": "effect/face11/face11",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face12": {
+    "EffectRes": "face12",
+    "FilePath": "effect/face12/face12",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face13": {
+    "EffectRes": "face13",
+    "FilePath": "effect/face13/face13",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face14": {
+    "EffectRes": "face14",
+    "FilePath": "effect/face14/face14",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  },
+  "face15": {
+    "EffectRes": "face15",
+    "FilePath": "effect/face15/face15",
+    "ComponentName": "aymj_BaseEffect",
+    "Scale": 100,
+    "ZorderLv": 1,
+    "PosType": 0,
+    "OffPosList": "[]"
+  }
+}

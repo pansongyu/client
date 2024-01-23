@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_feiting",
+    "texture": "3e56d723-4b2d-420e-be1c-fa92443c5b84",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      35,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

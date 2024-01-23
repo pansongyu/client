@@ -1,0 +1,287 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "Effect",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "WaitNet": {
+      "EffectRes": "WaitNet",
+      "FilePath": "effect/WaitNet/WaitNet",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 0,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "Finger": {
+      "EffectRes": "Finger",
+      "FilePath": "effect/Finger/Finger",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "RedPoint": {
+      "EffectRes": "RedPoint",
+      "FilePath": "effect/RedPoint/RedPoint",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 9,
+      "OffPosList": "[-10,-10]"
+    },
+    "OutCatTip": {
+      "EffectRes": "OutCatTip",
+      "FilePath": "effect/majiang/Tip/Tip",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "OutCatTip2": {
+      "EffectRes": "OutCatTip2",
+      "FilePath": "effect/majiang/Tip/Tip2",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "Gang": {
+      "EffectRes": "Gang",
+      "FilePath": "effect/majiang/gang/gang",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "Peng": {
+      "EffectRes": "Peng",
+      "FilePath": "effect/majiang/peng/peng",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "Chi": {
+      "EffectRes": "Chi",
+      "FilePath": "effect/majiang/chi/chi",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "Zimo": {
+      "EffectRes": "Zimo",
+      "FilePath": "effect/majiang/zimo/zimo",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "hu": {
+      "EffectRes": "hu",
+      "FilePath": "effect/majiang/hu/hu",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "liuju": {
+      "EffectRes": "liuju",
+      "FilePath": "effect/majiang/liuju/liuju",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "BuHua": {
+      "EffectRes": "BuHua",
+      "FilePath": "effect/majiang/buhua/buhua",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "xipai": {
+      "EffectRes": "xipai",
+      "FilePath": "effect/majiang/xipai/xipai",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "KaiJin": {
+      "EffectRes": "KaiJin",
+      "FilePath": "effect/majiang/kaijin/kaijin",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "touxiangkuangtexiao": {
+      "EffectRes": "touxiangkuangtexiao",
+      "FilePath": "effect/Particle/touxiangkuangtexiao",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face1": {
+      "EffectRes": "face1",
+      "FilePath": "effect/face1/face1",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face2": {
+      "EffectRes": "face2",
+      "FilePath": "effect/face2/face2",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face3": {
+      "EffectRes": "face3",
+      "FilePath": "effect/face3/face3",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face4": {
+      "EffectRes": "face4",
+      "FilePath": "effect/face4/face4",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face5": {
+      "EffectRes": "face5",
+      "FilePath": "effect/face5/face5",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face6": {
+      "EffectRes": "face6",
+      "FilePath": "effect/face6/face6",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face7": {
+      "EffectRes": "face7",
+      "FilePath": "effect/face7/face7",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face8": {
+      "EffectRes": "face8",
+      "FilePath": "effect/face8/face8",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face9": {
+      "EffectRes": "face9",
+      "FilePath": "effect/face9/face9",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face10": {
+      "EffectRes": "face10",
+      "FilePath": "effect/face10/face10",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face11": {
+      "EffectRes": "face11",
+      "FilePath": "effect/face11/face11",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face12": {
+      "EffectRes": "face12",
+      "FilePath": "effect/face12/face12",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face13": {
+      "EffectRes": "face13",
+      "FilePath": "effect/face13/face13",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face14": {
+      "EffectRes": "face14",
+      "FilePath": "effect/face14/face14",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "face15": {
+      "EffectRes": "face15",
+      "FilePath": "effect/face15/face15",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    },
+    "startjsb": {
+      "EffectRes": "startjsb",
+      "FilePath": "game/JSB/effect/startjsb",
+      "ComponentName": "fzmj_BaseEffect",
+      "Scale": 100,
+      "ZorderLv": 1,
+      "PosType": 0,
+      "OffPosList": "[]"
+    }
+  }
+}

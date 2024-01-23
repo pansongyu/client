@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_button_07",
+    "texture": "f290f55f-9b79-4d20-8c5e-96066c15557d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      380,
+      124
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      380,
+      124
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

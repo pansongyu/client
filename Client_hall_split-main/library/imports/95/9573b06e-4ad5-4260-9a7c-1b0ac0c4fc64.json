@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_yincang",
+    "texture": "2d63092e-cebb-494f-af7b-b2e9cce48e83",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      35,
+      17
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      17
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "title_shibai",
+    "texture": "130c6d83-04ee-4133-8e1d-c7572cbaddb3",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      278,
+      145
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      280,
+      147
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

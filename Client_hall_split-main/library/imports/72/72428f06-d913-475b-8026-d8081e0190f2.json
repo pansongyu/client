@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guntong",
+    "texture": "80e7ce1b-5e6e-450e-bbd1-a628a59fee38",
+    "atlas": "",
+    "rect": [
+      62,
+      8,
+      318,
+      206
+    ],
+    "offset": [
+      3,
+      -2.5
+    ],
+    "originalSize": [
+      436,
+      217
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lost",
+    "texture": "95112d71-ad6b-4d4f-b775-ff6fe280b4eb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      119,
+      126
+    ],
+    "offset": [
+      -4.5,
+      1
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

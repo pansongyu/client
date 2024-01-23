@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_zuojt",
+    "texture": "ee9f491c-de40-49ae-951b-6cf0321cfb03",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

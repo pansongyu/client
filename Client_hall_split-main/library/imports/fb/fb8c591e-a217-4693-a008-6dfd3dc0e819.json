@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_chengse",
+    "texture": "2bb04ee8-8b00-4b0a-bcc6-a26f54d4ce77",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      201,
+      72
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      201,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

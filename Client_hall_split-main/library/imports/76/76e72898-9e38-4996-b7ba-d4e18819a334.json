@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_zn_bjl",
+    "texture": "93d121d1-72c0-4c68-8a54-0842ec00237f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      17,
+      18
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      17,
+      18
+    ],
+    "capInsets": [
+      6,
+      6,
+      7,
+      6
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+
+sp_effect_stcs.png
+size: 768,766
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base3
+  rotate: false
+  xy: 458, 643
+  size: 274, 121
+  orig: 274, 121
+  offset: 0, 0
+  index: -1
+base4
+  rotate: true
+  xy: 242, 301
+  size: 214, 120
+  orig: 214, 120
+  offset: 0, 0
+  index: -1
+jinbi1
+  rotate: true
+  xy: 320, 9
+  size: 66, 64
+  orig: 66, 64
+  offset: 0, 0
+  index: -1
+jinbi2
+  rotate: true
+  xy: 2, 8
+  size: 46, 39
+  orig: 46, 39
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 2, 280
+  size: 235, 238
+  orig: 235, 238
+  offset: 0, 0
+  index: -1
+light2
+  rotate: false
+  xy: 2, 659
+  size: 454, 105
+  orig: 454, 105
+  offset: 0, 0
+  index: -1
+niu
+  rotate: false
+  xy: 402, 401
+  size: 364, 240
+  orig: 364, 240
+  offset: 0, 0
+  index: -1
+ray
+  rotate: false
+  xy: 2, 517
+  size: 398, 140
+  orig: 398, 140
+  offset: 0, 0
+  index: -1
+sd/sd_00005
+  rotate: false
+  xy: 2, 56
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00006
+  rotate: false
+  xy: 108, 56
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00007
+  rotate: false
+  xy: 214, 56
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00008
+  rotate: false
+  xy: 320, 77
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00009
+  rotate: true
+  xy: 426, 295
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00010
+  rotate: true
+  xy: 426, 189
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+zi4
+  rotate: false
+  xy: 426, 80
+  size: 215, 107
+  orig: 215, 107
+  offset: 0, 0
+  index: -1
+zi5
+  rotate: true
+  xy: 650, 180
+  size: 219, 109
+  orig: 219, 109
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,117 @@
+/*
+    玩家个人数据管理器
+*/
+var app = require("nn_app");
+
+var nn_HeroManager = app.BaseClass.extend({
+
+    Init:function(){
+    	this.JS_Name = app["subGameName"] + "_HeroManager";
+
+        let SysDataManager = app[app.subGameName + "_SysDataManager"]();
+        this.NetManager = app[app.subGameName + "_NetManager"]();
+        this.ShareDefine = app[app.subGameName + "_ShareDefine"]();
+        this.ComTool = app[app.subGameName + "_ComTool"]();
+
+        this.NetManager.RegNetPack("playerchanged", this.OnPack_HeroProperty, this);
+
+        this.OnReload();
+
+    	// console.log("Init");
+    },
+
+    //切换账号
+    OnReload:function(){
+        this.dataInfo = {};
+        this.heroID = 0;
+    },
+
+
+    //登陆初始化数据
+    InitLoginData:function(heroID, heroInfo){
+        this.dataInfo = heroInfo;
+        this.heroID = heroID;
+        //记录用户活跃度
+        if(!cc.sys.isNative){
+            heroInfo['vipExp']=0;
+        }
+        app.LocalDataManager().SetConfigProperty("Account", "AccountActive",heroInfo['vipExp']);
+        app[app.subGameName + "Client"].OnEvent("ReloadHeroData",{});
+    },
+
+    //-------------------封包函数--------------------------
+    //属性变化
+    OnPack_HeroProperty:function(serverPack){
+
+	    let count = serverPack.length;
+	    for(let index=0; index<count; index++){
+		    let dataInfo = serverPack[index];
+		    let property = dataInfo["name"];
+		    this.SetHeroProperty(property, dataInfo["value"]);
+	    }
+    },
+
+    //----------------设置接口---------------------------
+    //设置英雄属性
+    SetHeroProperty:function(property, value){
+        if(!this.dataInfo.hasOwnProperty(property)){
+            console.error("SetHeroProperty(%s,%s) error", property, value);
+            return false
+        }
+        this.dataInfo[property] = value;
+
+        let argDict = {
+            "Property":property,
+            "Value":value,
+        };
+        app[app.subGameName + "Client"].OnEvent("HeroProperty", argDict);
+
+        return true
+    },
+
+    //----------------获取接口-----------------------------
+
+    //获取英雄ID
+    GetHeroID:function(){
+        return this.heroID;
+    },
+
+    GetHeroInfo:function(){
+        return this.dataInfo
+    },
+
+    //获取英雄属性值
+    GetHeroProperty:function(property){
+        if(!this.dataInfo.hasOwnProperty(property)){
+            console.error("GetHeroProperty(%s) error", property);
+            return 
+        }
+        return this.dataInfo[property];
+    },
+
+    //随机角色名
+    // GetRandHeroName:function(){
+    //     let familyKeyList = Object.keys(this.FamilyName);
+    //     let nameKeyList = Object.keys(this.Name);
+
+    //     let familyName = this.FamilyName[this.ComTool.ListChoice(familyKeyList)]["FamilyName"];
+    //     let name = this.Name[this.ComTool.ListChoice(nameKeyList)]["Name"];
+
+    //     return [familyName, name].join("");
+    // },
+
+    //-------------发包接口------------------------
+});
+
+
+var g_nn_HeroManager = null;
+
+/**
+ * 绑定模块外部方法
+ */
+exports.GetModel = function(){
+    if(!g_nn_HeroManager){
+        g_nn_HeroManager = new nn_HeroManager();
+    }
+    return g_nn_HeroManager;
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_hbp",
+    "texture": "e5db78c1-3378-48e7-9285-639564fd669c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      56,
+      70
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      70
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

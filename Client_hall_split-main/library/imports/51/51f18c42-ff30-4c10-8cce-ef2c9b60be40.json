@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_huangguan",
+    "texture": "7b98d064-ee48-4d65-b082-1c250363cd46",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      89,
+      65
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      89,
+      65
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

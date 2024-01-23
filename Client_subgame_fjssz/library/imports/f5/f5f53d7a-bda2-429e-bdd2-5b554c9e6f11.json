@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_hann",
+    "texture": "bbd37177-4e69-4d07-a9a8-e022897733d1",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      180,
+      57
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      180,
+      58
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

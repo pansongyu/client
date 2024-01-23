@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_difendi",
+    "texture": "38f2c7c5-af70-475f-9209-ec488b323666",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      93,
+      60
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      93,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

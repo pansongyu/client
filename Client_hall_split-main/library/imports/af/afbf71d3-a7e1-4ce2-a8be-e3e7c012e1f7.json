@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "xiaomi",
+    "texture": "67a401df-155e-48f3-9a9c-35719b822dda",
+    "atlas": "",
+    "rect": [
+      6,
+      18,
+      111,
+      70
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      122,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

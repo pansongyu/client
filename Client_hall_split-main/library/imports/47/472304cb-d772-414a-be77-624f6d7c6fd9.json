@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_jin01",
+    "texture": "054e461a-af0f-4d45-9c5e-7c1d93218c80",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      34,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

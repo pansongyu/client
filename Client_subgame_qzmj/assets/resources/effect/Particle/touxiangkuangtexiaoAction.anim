@@ -1,0 +1,61 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "touxiangkuangtexiaoAction",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "paths": {
+      "Particle/touxiangkuangtexiao": {
+        "props": {
+          "position": [
+            {
+              "frame": 0,
+              "value": [
+                -30.1,
+                30.1
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 0.5,
+              "value": [
+                30.1,
+                29.9
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1,
+              "value": [
+                29.6,
+                -30.8
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 1.5,
+              "value": [
+                -30.3,
+                -30.1
+              ],
+              "motionPath": []
+            },
+            {
+              "frame": 2,
+              "value": [
+                -30.2,
+                29.7
+              ],
+              "motionPath": []
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

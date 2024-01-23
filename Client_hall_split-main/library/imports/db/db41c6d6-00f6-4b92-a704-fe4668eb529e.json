@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_jiaru",
+    "texture": "a338bb67-676e-4d01-bce6-c740cdb06718",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      127,
+      55
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      127,
+      55
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

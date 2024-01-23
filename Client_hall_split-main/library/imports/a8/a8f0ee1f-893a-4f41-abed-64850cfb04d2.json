@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_hong",
+    "texture": "1da16ec6-ce2a-4ead-ad5e-dfc372798f47",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      128,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      128,
+      52
+    ],
+    "capInsets": [
+      56,
+      19,
+      59,
+      20
+    ]
+  }
+}

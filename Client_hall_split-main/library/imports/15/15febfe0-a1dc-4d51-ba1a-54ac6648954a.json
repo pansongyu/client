@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fengding",
+    "texture": "7ee73f9d-ffe9-4237-bb85-cc455038a70e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      59,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      59,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

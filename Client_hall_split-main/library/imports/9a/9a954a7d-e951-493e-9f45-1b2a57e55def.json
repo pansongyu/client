@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_ksff_qyq",
+    "texture": "4a3eb14b-8b29-498e-bbf3-70f5cede9ebf",
+    "atlas": "",
+    "rect": [
+      10,
+      3,
+      105,
+      94
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      125,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

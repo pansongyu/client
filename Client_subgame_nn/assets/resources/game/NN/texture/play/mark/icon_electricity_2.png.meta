@@ -1,0 +1,34 @@
+{
+  "ver": "2.3.3",
+  "uuid": "d84f3225-054b-4d67-8243-9029b521f2fc",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "platformSettings": {},
+  "subMetas": {
+    "icon_electricity_2": {
+      "ver": "1.0.4",
+      "uuid": "a5e982a5-9d45-4f88-a894-1b677e52f6ca",
+      "rawTextureUuid": "d84f3225-054b-4d67-8243-9029b521f2fc",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 47,
+      "height": 21,
+      "rawWidth": 47,
+      "rawHeight": 21,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

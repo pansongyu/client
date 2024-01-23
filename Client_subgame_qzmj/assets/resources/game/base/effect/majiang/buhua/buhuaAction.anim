@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "buhuaAction",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.65,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "qzmjmj90-ef84-483b-8548-1afa9d8b433a"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "qzmjmjf5-ed1a-4d50-8a88-747e59f84fca"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "qzmjmj2f-5e51-4d19-82a6-e8861e6ee4a0"
+            }
+          },
+          {
+            "frame": 0.38333333333333336,
+            "value": {
+              "__uuid__": "qzmjmj57-1bda-4f56-abb7-3207c7357d58"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "qzmjmj04-01e3-491f-aa9d-ab795d34797c"
+            }
+          },
+          {
+            "frame": 0.6333333333333333,
+            "value": {
+              "__uuid__": "qzmjmjce-0e01-40c8-b1c6-b0691baf9ab9"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_sousuo",
+    "texture": "4597dde7-7f44-4f92-834e-9e9b49ea7b74",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      126,
+      49
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      126,
+      49
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

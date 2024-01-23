@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_shuxing",
+    "texture": "d89a67a1-bdf2-4c81-8233-2a7333b3d783",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      99,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      99,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

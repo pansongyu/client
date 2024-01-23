@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_jtlan2",
+    "texture": "3c003247-55b7-4ae3-ae5e-9659a8aa573c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

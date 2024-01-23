@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_uderline",
+    "texture": "cf760cc0-bbd9-4a6e-8f08-a72a87748d20",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      713,
+      3
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      713,
+      3
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

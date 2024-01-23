@@ -1,0 +1,42 @@
+{
+  "qzmjMainScene": {
+    "SceneType": "qzmjMainScene",
+    "Name": "主场景",
+    "ComponentName": "qzmjSceneMain",
+    "gamePrefab": "0",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "qzmjScene": {
+    "SceneType": "qzmjScene",
+    "Name": "保定麻将麻将场景",
+    "ComponentName": "qzmjScene",
+    "gamePrefab": "game/QZMJ/ui/UIQZMJPlay",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  },
+  "qzmjVideoScene": {
+    "SceneType": "qzmjVideoScene",
+    "Name": "保定麻将麻将回放场景",
+    "ComponentName": "qzmjVideoScene",
+    "gamePrefab": "game/base/ui/majiang/qzmj_UIMJVideo",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  },
+  "qzmjLoginScene": {
+    "SceneType": "qzmjLoginScene",
+    "Name": "登陆场景",
+    "ComponentName": "qzmj_SceneLogin",
+    "gamePrefab": "ui/qzmj_UILogin",
+    "IsCanMove": 0,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  }
+}

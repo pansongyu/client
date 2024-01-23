@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_mai",
+    "texture": "f7284680-d18b-435f-a905-11e6fa535696",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      35,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      35,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

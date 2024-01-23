@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_dt_yxmc",
+    "texture": "59e0551c-9773-48bb-89fe-e2ff2628c99b",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      493,
+      228
+    ],
+    "offset": [
+      -7.5,
+      12
+    ],
+    "originalSize": [
+      512,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

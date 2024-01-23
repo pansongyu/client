@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fgx",
+    "texture": "ac732830-c97c-48ff-99f6-97457a545447",
+    "atlas": "",
+    "rect": [
+      203,
+      450,
+      955,
+      4
+    ],
+    "offset": [
+      0.5,
+      -72
+    ],
+    "originalSize": [
+      1360,
+      760
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

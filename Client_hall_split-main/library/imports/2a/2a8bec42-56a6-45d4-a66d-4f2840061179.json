@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_qk",
+    "texture": "790d6dd0-1e1f-416d-9717-c28470a67931",
+    "atlas": "",
+    "rect": [
+      6,
+      5,
+      54,
+      42
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      65,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_youjt",
+    "texture": "210b1150-001a-42fa-a016-4eafffbedc31",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      53,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

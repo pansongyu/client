@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tspx",
+    "texture": "d6685dca-2ecb-469b-a222-2490aa65221e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      159,
+      40
+    ],
+    "offset": [
+      -1.5,
+      0
+    ],
+    "originalSize": [
+      162,
+      40
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

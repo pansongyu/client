@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_short_gre",
+    "texture": "d9a34083-52a9-4c4d-85db-9c33ab545229",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      223,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      223,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

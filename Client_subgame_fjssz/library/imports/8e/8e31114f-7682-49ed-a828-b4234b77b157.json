@@ -1,0 +1,539 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "sp_effect_qiang",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "6VPoq7x5u73WyS3H7lt939MgarQ",
+      "spine": "3.6.53",
+      "width": 0,
+      "height": 0,
+      "images": "./sp_effect_qiang_ReversePic/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "Qiang",
+        "parent": "root",
+        "x": 53.72,
+        "y": 51.05
+      },
+      {
+        "name": "qiang",
+        "parent": "Qiang",
+        "rotation": -58.18,
+        "x": 55.27,
+        "y": -10.7
+      },
+      {
+        "name": "fire",
+        "parent": "qiang",
+        "rotation": -95.04,
+        "x": -4.43,
+        "y": 200.99,
+        "scaleY": -1
+      },
+      {
+        "name": "light",
+        "parent": "qiang",
+        "rotation": -20.15,
+        "x": -0.24,
+        "y": 200.22
+      },
+      {
+        "name": "light2",
+        "parent": "qiang",
+        "rotation": -20.15,
+        "x": -0.24,
+        "y": 200.22
+      }
+    ],
+    "slots": [
+      {
+        "name": "gunfire",
+        "bone": "fire"
+      },
+      {
+        "name": "qiang",
+        "bone": "qiang"
+      },
+      {
+        "name": "light",
+        "bone": "light",
+        "blend": "additive"
+      },
+      {
+        "name": "light2",
+        "bone": "light2",
+        "blend": "additive"
+      }
+    ],
+    "skins": {
+      "default": {
+        "gunfire": {
+          "gunfire": {
+            "x": -60.9,
+            "y": 2.06,
+            "width": 150,
+            "height": 110
+          }
+        },
+        "light": {
+          "light_00000": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00001": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00002": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00003": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          }
+        },
+        "light2": {
+          "light_00000": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00001": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00002": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          },
+          "light_00003": {
+            "x": -6.25,
+            "y": 56.06,
+            "rotation": -28.62,
+            "width": 120,
+            "height": 141
+          }
+        },
+        "qiang": {
+          "qiang_00000": {
+            "x": 18.34,
+            "y": 75.24,
+            "width": 172,
+            "height": 275
+          },
+          "qiang_00001": {
+            "x": 18.34,
+            "y": 75.24,
+            "width": 172,
+            "height": 275
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "gunfire": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "gunfire"
+              },
+              {
+                "time": 0.0667,
+                "name": null
+              },
+              {
+                "time": 0.1,
+                "name": "gunfire"
+              },
+              {
+                "time": 0.2333,
+                "name": null
+              },
+              {
+                "time": 0.2667,
+                "name": "gunfire"
+              },
+              {
+                "time": 0.4,
+                "name": null
+              },
+              {
+                "time": 0.4333,
+                "name": "gunfire"
+              }
+            ]
+          },
+          "light": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "light_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": null
+              },
+              {
+                "time": 0.1667,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.2,
+                "name": "light_00001"
+              },
+              {
+                "time": 0.2333,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.2667,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.3,
+                "name": null
+              },
+              {
+                "time": 0.3333,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.3667,
+                "name": "light_00001"
+              },
+              {
+                "time": 0.4,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.4333,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              },
+              {
+                "time": 0.5,
+                "name": "light_00000"
+              }
+            ]
+          },
+          "light2": {
+            "attachment": [
+              {
+                "time": 0.0333,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.0667,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.1,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.1333,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.2333,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.2667,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.3,
+                "name": null
+              },
+              {
+                "time": 0.3667,
+                "name": "light_00000"
+              },
+              {
+                "time": 0.4,
+                "name": "light_00002"
+              },
+              {
+                "time": 0.4333,
+                "name": "light_00003"
+              },
+              {
+                "time": 0.4667,
+                "name": null
+              }
+            ]
+          },
+          "qiang": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.0333,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.0667,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.1,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.1333,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.1667,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.2,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.2333,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.2667,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.3,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.3333,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.3667,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.4,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.4333,
+                "name": "qiang_00001"
+              },
+              {
+                "time": 0.4667,
+                "name": "qiang_00000"
+              },
+              {
+                "time": 0.5,
+                "name": "qiang_00001"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "fire": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 4.36
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.0333,
+                "x": 1.366,
+                "y": 0.418,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1,
+                "x": 0.657,
+                "y": 0.765,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.1667,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2,
+                "x": 1.366,
+                "y": 0.418,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.2667,
+                "x": 0.657,
+                "y": 0.765,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3333,
+                "x": 1,
+                "y": 1,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.3667,
+                "x": 1.366,
+                "y": 0.418,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4333,
+                "x": 0.657,
+                "y": 0.765,
+                "curve": "stepped"
+              },
+              {
+                "time": 0.4667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "light": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 21.11
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -3.72,
+                "y": -7.18
+              }
+            ],
+            "scale": [
+              {
+                "time": 0,
+                "x": 0.97,
+                "y": 1
+              }
+            ]
+          },
+          "light2": {
+            "rotate": [
+              {
+                "time": 0.0333,
+                "angle": 16.07
+              }
+            ],
+            "translate": [
+              {
+                "time": 0.0333,
+                "x": 7.98,
+                "y": -3.85
+              }
+            ],
+            "scale": [
+              {
+                "time": 0.0333,
+                "x": -0.627,
+                "y": 1.01
+              }
+            ]
+          },
+          "Qiang": {
+            "rotate": [
+              {
+                "time": 0,
+                "angle": 57.35
+              }
+            ],
+            "translate": [
+              {
+                "time": 0,
+                "x": -91.72,
+                "y": -62.58
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\nsp_effect_qiang.png\nsize: 472,470\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ngunfire\n  rotate: false\n  xy: 246, 72\n  size: 150, 110\n  orig: 150, 110\n  offset: 0, 0\n  index: -1\nlight_00000\n  rotate: false\n  xy: 2, 50\n  size: 120, 141\n  orig: 120, 141\n  offset: 0, 0\n  index: -1\nlight_00001\n  rotate: false\n  xy: 350, 327\n  size: 120, 141\n  orig: 120, 141\n  offset: 0, 0\n  index: -1\nlight_00002\n  rotate: false\n  xy: 124, 50\n  size: 120, 141\n  orig: 120, 141\n  offset: 0, 0\n  index: -1\nlight_00003\n  rotate: false\n  xy: 350, 184\n  size: 120, 141\n  orig: 120, 141\n  offset: 0, 0\n  index: -1\nqiang_00000\n  rotate: false\n  xy: 2, 193\n  size: 172, 275\n  orig: 172, 275\n  offset: 0, 0\n  index: -1\nqiang_00001\n  rotate: false\n  xy: 176, 193\n  size: 172, 275\n  orig: 172, 275\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "19e53be3-eb37-491a-8e8d-576f3d6d8747"
+    }
+  ],
+  "textureNames": [
+    "sp_effect_qiang.png"
+  ],
+  "scale": 1
+}

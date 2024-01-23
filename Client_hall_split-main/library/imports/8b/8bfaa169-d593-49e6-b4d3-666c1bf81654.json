@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_xl",
+    "texture": "aa82ec86-eaf7-48c7-8077-5308b651886e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      84
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      84
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

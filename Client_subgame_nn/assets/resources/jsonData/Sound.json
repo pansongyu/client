@@ -1,0 +1,1442 @@
+{
+  "BtnClick": {
+    "SoundName": "BtnClick",
+    "SoundPath": "sound/background/anniu",
+    "Text": "控件点击"
+  },
+  "dasaizi": {
+    "SoundName": "dasaizi",
+    "SoundPath": "sound/majiang/ui/dasaizi",
+    "Text": "色子"
+  },
+  "dapai": {
+    "SoundName": "dapai",
+    "SoundPath": "sound/majiang/ui/dapai",
+    "Text": "打牌"
+  },
+  "lost": {
+    "SoundName": "lost",
+    "SoundPath": "sound/majiang/ui/lost",
+    "Text": "慌庄"
+  },
+  "shengli": {
+    "SoundName": "shengli",
+    "SoundPath": "sound/majiang/ui/shengli",
+    "Text": "胡"
+  },
+  "wufachupai": {
+    "SoundName": "wufachupai",
+    "SoundPath": "sound/majiang/ui/wufachupai",
+    "Text": "无法出牌"
+  },
+  "paizhengli": {
+    "SoundName": "paizhengli",
+    "SoundPath": "sound/majiang/ui/paizhengli",
+    "Text": "开局发牌整理"
+  },
+  "mopai": {
+    "SoundName": "mopai",
+    "SoundPath": "sound/majiang/ui/mopai",
+    "Text": "摸牌"
+  },
+  "nnFaPai": {
+    "SoundName": "nnFaPai",
+    "SoundPath": "game/NN/sound/nn_fapai",
+    "Text": "发牌"
+  },
+  "nnTimeOut": {
+    "SoundName": "nnTimeOut",
+    "SoundPath": "game/NN/sound/nn_time",
+    "Text": "时间到"
+  },
+  "nnSureBanker": {
+    "SoundName": "nnSureBanker",
+    "SoundPath": "game/NN/sound/nn_dingzhuang",
+    "Text": "确认庄家"
+  },
+  "nnMJiaBei": {
+    "SoundName": "nnMJiaBei",
+    "SoundPath": "game/NN/sound/nan_jiabei",
+    "Text": "男加倍"
+  },
+  "nnGJiaBei": {
+    "SoundName": "nnGJiaBei",
+    "SoundPath": "game/NN/sound/nv_jiabei",
+    "Text": "女加倍"
+  },
+  "nnMQiangZhuang": {
+    "SoundName": "nnMQiangZhuang",
+    "SoundPath": "game/NN/sound/nan_qiangzhuang",
+    "Text": "男抢"
+  },
+  "nnMBuQiang": {
+    "SoundName": "nnMBuQiang",
+    "SoundPath": "game/NN/sound/nan_buqiang",
+    "Text": "男不抢"
+  },
+  "nnGQiangZhuang": {
+    "SoundName": "nnGQiangZhuang",
+    "SoundPath": "game/NN/sound/nv_qiangzhuang",
+    "Text": "女抢"
+  },
+  "nnGBuQiang": {
+    "SoundName": "nnGBuQiang",
+    "SoundPath": "game/NN/sound/nv_buqiang",
+    "Text": "女不抢"
+  },
+  "Result_Lose": {
+    "SoundName": "Result_Lose",
+    "SoundPath": "game/NN/sound/Result_Lose",
+    "Text": "输了"
+  },
+  "Result_Win": {
+    "SoundName": "Result_Win",
+    "SoundPath": "game/NN/sound/Result_Win",
+    "Text": "赢了"
+  },
+  "Result_Ping": {
+    "SoundName": "Result_Ping",
+    "SoundPath": "game/NN/sound/Result_Ping",
+    "Text": "平了"
+  },
+  "nnMCardType0": {
+    "SoundName": "nnMCardType0",
+    "SoundPath": "game/NN/sound/nan_niu0",
+    "Text": "男没牛"
+  },
+  "nnMCardType1": {
+    "SoundName": "nnMCardType1",
+    "SoundPath": "game/NN/sound/nan_niu1",
+    "Text": "男没牛"
+  },
+  "nnMCardType2": {
+    "SoundName": "nnMCardType2",
+    "SoundPath": "game/NN/sound/nan_niu2",
+    "Text": "男没牛"
+  },
+  "nnMCardType3": {
+    "SoundName": "nnMCardType3",
+    "SoundPath": "game/NN/sound/nan_niu3",
+    "Text": "男没牛"
+  },
+  "nnMCardType4": {
+    "SoundName": "nnMCardType4",
+    "SoundPath": "game/NN/sound/nan_niu4",
+    "Text": "男没牛"
+  },
+  "nnMCardType5": {
+    "SoundName": "nnMCardType5",
+    "SoundPath": "game/NN/sound/nan_niu5",
+    "Text": "男没牛"
+  },
+  "nnMCardType6": {
+    "SoundName": "nnMCardType6",
+    "SoundPath": "game/NN/sound/nan_niu6",
+    "Text": "男没牛"
+  },
+  "nnMCardType7": {
+    "SoundName": "nnMCardType7",
+    "SoundPath": "game/NN/sound/nan_niu7",
+    "Text": "男没牛"
+  },
+  "nnMCardType8": {
+    "SoundName": "nnMCardType8",
+    "SoundPath": "game/NN/sound/nan_niu8",
+    "Text": "男没牛"
+  },
+  "nnMCardType9": {
+    "SoundName": "nnMCardType9",
+    "SoundPath": "game/NN/sound/nan_niu9",
+    "Text": "男没牛"
+  },
+  "nnMCardType10": {
+    "SoundName": "nnMCardType10",
+    "SoundPath": "game/NN/sound/nan_niu10",
+    "Text": "男牛牛"
+  },
+  "nnMCardType103": {
+    "SoundName": "nnMCardType103",
+    "SoundPath": "game/NN/sound/nan_wuhuaniu",
+    "Text": "男五花牛"
+  },
+  "nnMCardType104": {
+    "SoundName": "nnMCardType104",
+    "SoundPath": "game/NN/sound/nan_zhadanniu",
+    "Text": "男炸弹牛"
+  },
+  "nnMCardType105": {
+    "SoundName": "nnMCardType105",
+    "SoundPath": "game/NN/sound/nan_wuxiaoniu",
+    "Text": "男五小牛"
+  },
+  "nnGCardType0": {
+    "SoundName": "nnGCardType0",
+    "SoundPath": "game/NN/sound/nv_niu0",
+    "Text": "女没牛"
+  },
+  "nnGCardType1": {
+    "SoundName": "nnGCardType1",
+    "SoundPath": "game/NN/sound/nv_niu1",
+    "Text": "女没牛"
+  },
+  "nnGCardType2": {
+    "SoundName": "nnGCardType2",
+    "SoundPath": "game/NN/sound/nv_niu2",
+    "Text": "女没牛"
+  },
+  "nnGCardType3": {
+    "SoundName": "nnGCardType3",
+    "SoundPath": "game/NN/sound/nv_niu3",
+    "Text": "女没牛"
+  },
+  "nnGCardType4": {
+    "SoundName": "nnGCardType4",
+    "SoundPath": "game/NN/sound/nv_niu4",
+    "Text": "女没牛"
+  },
+  "nnGCardType5": {
+    "SoundName": "nnGCardType5",
+    "SoundPath": "game/NN/sound/nv_niu5",
+    "Text": "女没牛"
+  },
+  "nnGCardType6": {
+    "SoundName": "nnGCardType6",
+    "SoundPath": "game/NN/sound/nv_niu6",
+    "Text": "女没牛"
+  },
+  "nnGCardType7": {
+    "SoundName": "nnGCardType7",
+    "SoundPath": "game/NN/sound/nv_niu7",
+    "Text": "女没牛"
+  },
+  "nnGCardType8": {
+    "SoundName": "nnGCardType8",
+    "SoundPath": "game/NN/sound/nv_niu8",
+    "Text": "女没牛"
+  },
+  "nnGCardType9": {
+    "SoundName": "nnGCardType9",
+    "SoundPath": "game/NN/sound/nv_niu9",
+    "Text": "女没牛"
+  },
+  "nnGCardType10": {
+    "SoundName": "nnGCardType10",
+    "SoundPath": "game/NN/sound/nv_niu10",
+    "Text": "女牛牛"
+  },
+  "nnGCardType103": {
+    "SoundName": "nnGCardType103",
+    "SoundPath": "game/NN/sound/nv_wuhuaniu",
+    "Text": "女五花牛"
+  },
+  "nnGCardType104": {
+    "SoundName": "nnGCardType104",
+    "SoundPath": "game/NN/sound/nv_zhadanniu",
+    "Text": "女炸弹牛"
+  },
+  "nnGCardType105": {
+    "SoundName": "nnGCardType105",
+    "SoundPath": "game/NN/sound/nv_wuxiaoniu",
+    "Text": "女五小牛"
+  },
+  "boy_11": {
+    "SoundName": "boy_11",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_yiwan",
+    "Text": "普通话男1万"
+  },
+  "boy_12": {
+    "SoundName": "boy_12",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_liangwan",
+    "Text": "普通话男2万"
+  },
+  "boy_13": {
+    "SoundName": "boy_13",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_sanwan",
+    "Text": "普通话男3万"
+  },
+  "boy_14": {
+    "SoundName": "boy_14",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_siwan",
+    "Text": "普通话男4万"
+  },
+  "boy_15": {
+    "SoundName": "boy_15",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_wuwan",
+    "Text": "普通话男5万"
+  },
+  "boy_16": {
+    "SoundName": "boy_16",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_liuwan",
+    "Text": "普通话男6万"
+  },
+  "boy_17": {
+    "SoundName": "boy_17",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_qiwan",
+    "Text": "普通话男7万"
+  },
+  "boy_18": {
+    "SoundName": "boy_18",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_bawan",
+    "Text": "普通话男8万"
+  },
+  "boy_19": {
+    "SoundName": "boy_19",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_wan_jiuwan",
+    "Text": "普通话男9万"
+  },
+  "boy_21": {
+    "SoundName": "boy_21",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_yitiao",
+    "Text": "普通话男1条"
+  },
+  "boy_22": {
+    "SoundName": "boy_22",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_liangtiao",
+    "Text": "普通话男2条"
+  },
+  "boy_23": {
+    "SoundName": "boy_23",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_santiao",
+    "Text": "普通话男3条"
+  },
+  "boy_24": {
+    "SoundName": "boy_24",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_sitiao",
+    "Text": "普通话男4条"
+  },
+  "boy_25": {
+    "SoundName": "boy_25",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_wutiao",
+    "Text": "普通话男5条"
+  },
+  "boy_26": {
+    "SoundName": "boy_26",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_liutiao",
+    "Text": "普通话男6条"
+  },
+  "boy_27": {
+    "SoundName": "boy_27",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_qitiao",
+    "Text": "普通话男7条"
+  },
+  "boy_28": {
+    "SoundName": "boy_28",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_batiao",
+    "Text": "普通话男8条"
+  },
+  "boy_29": {
+    "SoundName": "boy_29",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tiao_jiutiao",
+    "Text": "普通话男9条"
+  },
+  "boy_31": {
+    "SoundName": "boy_31",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_yitong",
+    "Text": "普通话男1筒"
+  },
+  "boy_32": {
+    "SoundName": "boy_32",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_liangtong",
+    "Text": "普通话男2筒"
+  },
+  "boy_33": {
+    "SoundName": "boy_33",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_santong",
+    "Text": "普通话男3筒"
+  },
+  "boy_34": {
+    "SoundName": "boy_34",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_sitong",
+    "Text": "普通话男4筒"
+  },
+  "boy_35": {
+    "SoundName": "boy_35",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_wutong",
+    "Text": "普通话男5筒"
+  },
+  "boy_36": {
+    "SoundName": "boy_36",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_liutong",
+    "Text": "普通话男6筒"
+  },
+  "boy_37": {
+    "SoundName": "boy_37",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_qitong",
+    "Text": "普通话男7筒"
+  },
+  "boy_38": {
+    "SoundName": "boy_38",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_batong",
+    "Text": "普通话男8筒"
+  },
+  "boy_39": {
+    "SoundName": "boy_39",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_tong_jiutong",
+    "Text": "普通话男9筒"
+  },
+  "boy_41": {
+    "SoundName": "boy_41",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_dongfeng",
+    "Text": "普通话男东"
+  },
+  "boy_43": {
+    "SoundName": "boy_43",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_xifeng",
+    "Text": "普通话男西"
+  },
+  "boy_42": {
+    "SoundName": "boy_42",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_nanfeng",
+    "Text": "普通话男南"
+  },
+  "boy_44": {
+    "SoundName": "boy_44",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_beifeng",
+    "Text": "普通话男北"
+  },
+  "boy_45": {
+    "SoundName": "boy_45",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_hongzhong",
+    "Text": "普通话男红中"
+  },
+  "boy_46": {
+    "SoundName": "boy_46",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_facai",
+    "Text": "普通话男发财"
+  },
+  "boy_47": {
+    "SoundName": "boy_47",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/pai/card_boy_feng_baiban",
+    "Text": "普通话男白板"
+  },
+  "boy_gang": {
+    "SoundName": "boy_gang",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/caozuo/op_boy_gang",
+    "Text": "普通话男杆"
+  },
+  "boy_jiegang": {
+    "SoundName": "boy_jiegang",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/caozuo/op_boy_gang",
+    "Text": "普通话男杆"
+  },
+  "boy_chi": {
+    "SoundName": "boy_chi",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/caozuo/op_boy_chi",
+    "Text": "普通话男吃"
+  },
+  "boy_peng": {
+    "SoundName": "boy_peng",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/caozuo/op_boy_peng",
+    "Text": "普通话男碰"
+  },
+  "boy_haidilaoyue": {
+    "SoundName": "boy_haidilaoyue",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/hu/op_boy_haidilaoyue",
+    "Text": "普通话男海底捞"
+  },
+  "boy_qiangganghu": {
+    "SoundName": "boy_qiangganghu",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/hu/op_boy_qiangganghu",
+    "Text": "普通话男抢杠胡"
+  },
+  "boy_qiangjin": {
+    "SoundName": "boy_qiangjin",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/hu/op_boy_qiangjin",
+    "Text": "普通话男抢金"
+  },
+  "boy_zimo": {
+    "SoundName": "boy_zimo",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/hu/op_boy_zimo",
+    "Text": "普通话男自摸"
+  },
+  "boy_hu": {
+    "SoundName": "boy_hu",
+    "SoundPath": "game/base/sound/majiang/putonghua/boy/hu/op_boy_pinghu",
+    "Text": "普通话男胡"
+  },
+  "girl_11": {
+    "SoundName": "girl_11",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_yiwan",
+    "Text": "普通话女1万"
+  },
+  "girl_12": {
+    "SoundName": "girl_12",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_liangwan",
+    "Text": "普通话女2万"
+  },
+  "girl_13": {
+    "SoundName": "girl_13",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_sanwan",
+    "Text": "普通话女3万"
+  },
+  "girl_14": {
+    "SoundName": "girl_14",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_siwan",
+    "Text": "普通话女4万"
+  },
+  "girl_15": {
+    "SoundName": "girl_15",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_wuwan",
+    "Text": "普通话女5万"
+  },
+  "girl_16": {
+    "SoundName": "girl_16",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_liuwan",
+    "Text": "普通话女6万"
+  },
+  "girl_17": {
+    "SoundName": "girl_17",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_qiwan",
+    "Text": "普通话女7万"
+  },
+  "girl_18": {
+    "SoundName": "girl_18",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_bawan",
+    "Text": "普通话女8万"
+  },
+  "girl_19": {
+    "SoundName": "girl_19",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_wan_jiuwan",
+    "Text": "普通话女9万"
+  },
+  "girl_21": {
+    "SoundName": "girl_21",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_yitiao",
+    "Text": "普通话女1条"
+  },
+  "girl_22": {
+    "SoundName": "girl_22",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_liangtiao",
+    "Text": "普通话女2条"
+  },
+  "girl_23": {
+    "SoundName": "girl_23",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_santiao",
+    "Text": "普通话女3条"
+  },
+  "girl_24": {
+    "SoundName": "girl_24",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_sitiao",
+    "Text": "普通话女4条"
+  },
+  "girl_25": {
+    "SoundName": "girl_25",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_wutiao",
+    "Text": "普通话女5条"
+  },
+  "girl_26": {
+    "SoundName": "girl_26",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_liutiao",
+    "Text": "普通话女6条"
+  },
+  "girl_27": {
+    "SoundName": "girl_27",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_qitiao",
+    "Text": "普通话女7条"
+  },
+  "girl_28": {
+    "SoundName": "girl_28",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_batiao",
+    "Text": "普通话女8条"
+  },
+  "girl_29": {
+    "SoundName": "girl_29",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tiao_jiutiao",
+    "Text": "普通话女9条"
+  },
+  "girl_31": {
+    "SoundName": "girl_31",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_yitong",
+    "Text": "普通话女1筒"
+  },
+  "girl_32": {
+    "SoundName": "girl_32",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_liangtong",
+    "Text": "普通话女2筒"
+  },
+  "girl_33": {
+    "SoundName": "girl_33",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_santong",
+    "Text": "普通话女3筒"
+  },
+  "girl_34": {
+    "SoundName": "girl_34",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_sitong",
+    "Text": "普通话女4筒"
+  },
+  "girl_35": {
+    "SoundName": "girl_35",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_wutong",
+    "Text": "普通话女5筒"
+  },
+  "girl_36": {
+    "SoundName": "girl_36",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_liutong",
+    "Text": "普通话女6筒"
+  },
+  "girl_37": {
+    "SoundName": "girl_37",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_qitong",
+    "Text": "普通话女7筒"
+  },
+  "girl_38": {
+    "SoundName": "girl_38",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_batong",
+    "Text": "普通话女8筒"
+  },
+  "girl_39": {
+    "SoundName": "girl_39",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_tong_jiutong",
+    "Text": "普通话女9筒"
+  },
+  "girl_41": {
+    "SoundName": "girl_41",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_dongfeng",
+    "Text": "普通话女东"
+  },
+  "girl_43": {
+    "SoundName": "girl_43",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_xifeng",
+    "Text": "普通话女西"
+  },
+  "girl_42": {
+    "SoundName": "girl_42",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_nanfeng",
+    "Text": "普通话女南"
+  },
+  "girl_44": {
+    "SoundName": "girl_44",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_beifeng",
+    "Text": "普通话女北"
+  },
+  "girl_45": {
+    "SoundName": "girl_45",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_hongzhong",
+    "Text": "普通话女红中"
+  },
+  "girl_46": {
+    "SoundName": "girl_46",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_facai",
+    "Text": "普通话女发财"
+  },
+  "girl_47": {
+    "SoundName": "girl_47",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/pai/card_girl_feng_baiban",
+    "Text": "普通话女白板"
+  },
+  "girl_gang": {
+    "SoundName": "girl_gang",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/caozuo/op_girl_gang",
+    "Text": "普通话女杆"
+  },
+  "girl_chi": {
+    "SoundName": "girl_chi",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/caozuo/op_girl_chi",
+    "Text": "普通话女吃"
+  },
+  "girl_peng": {
+    "SoundName": "girl_peng",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/caozuo/op_girl_peng",
+    "Text": "普通话女碰"
+  },
+  "girl_zimo": {
+    "SoundName": "girl_zimo",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/hu/op_girl_zimo",
+    "Text": "普通话女自摸"
+  },
+  "girl_hu": {
+    "SoundName": "girl_hu",
+    "SoundPath": "game/base/sound/majiang/putonghua/girl/hu/op_girl_pinghu",
+    "Text": "普通话女平胡"
+  },
+  "boy_aymj_11": {
+    "SoundName": "boy_aymj_11",
+    "SoundPath": "game/AYMJ/sound/girl/female_01",
+    "Text": "普通话男1万"
+  },
+  "boy_aymj_12": {
+    "SoundName": "boy_aymj_12",
+    "SoundPath": "game/AYMJ/sound/girl/female_02",
+    "Text": "普通话男2万"
+  },
+  "boy_aymj_13": {
+    "SoundName": "boy_aymj_13",
+    "SoundPath": "game/AYMJ/sound/girl/female_03",
+    "Text": "普通话男3万"
+  },
+  "boy_aymj_14": {
+    "SoundName": "boy_aymj_14",
+    "SoundPath": "game/AYMJ/sound/girl/female_04",
+    "Text": "普通话男4万"
+  },
+  "boy_aymj_15": {
+    "SoundName": "boy_aymj_15",
+    "SoundPath": "game/AYMJ/sound/girl/female_05",
+    "Text": "普通话男5万"
+  },
+  "boy_aymj_16": {
+    "SoundName": "boy_aymj_16",
+    "SoundPath": "game/AYMJ/sound/girl/female_06",
+    "Text": "普通话男6万"
+  },
+  "boy_aymj_17": {
+    "SoundName": "boy_aymj_17",
+    "SoundPath": "game/AYMJ/sound/girl/female_07",
+    "Text": "普通话男7万"
+  },
+  "boy_aymj_18": {
+    "SoundName": "boy_aymj_18",
+    "SoundPath": "game/AYMJ/sound/girl/female_08",
+    "Text": "普通话男8万"
+  },
+  "boy_aymj_19": {
+    "SoundName": "boy_aymj_19",
+    "SoundPath": "game/AYMJ/sound/girl/female_09",
+    "Text": "普通话男9万"
+  },
+  "boy_aymj_21": {
+    "SoundName": "boy_aymj_21",
+    "SoundPath": "game/AYMJ/sound/girl/female_11",
+    "Text": "普通话男1条"
+  },
+  "boy_aymj_22": {
+    "SoundName": "boy_aymj_22",
+    "SoundPath": "game/AYMJ/sound/girl/female_12",
+    "Text": "普通话男2条"
+  },
+  "boy_aymj_23": {
+    "SoundName": "boy_aymj_23",
+    "SoundPath": "game/AYMJ/sound/girl/female_13",
+    "Text": "普通话男3条"
+  },
+  "boy_aymj_24": {
+    "SoundName": "boy_aymj_24",
+    "SoundPath": "game/AYMJ/sound/girl/female_14",
+    "Text": "普通话男4条"
+  },
+  "boy_aymj_25": {
+    "SoundName": "boy_aymj_25",
+    "SoundPath": "game/AYMJ/sound/girl/female_15",
+    "Text": "普通话男5条"
+  },
+  "boy_aymj_26": {
+    "SoundName": "boy_aymj_26",
+    "SoundPath": "game/AYMJ/sound/girl/female_16",
+    "Text": "普通话男6条"
+  },
+  "boy_aymj_27": {
+    "SoundName": "boy_aymj_27",
+    "SoundPath": "game/AYMJ/sound/girl/female_17",
+    "Text": "普通话男7条"
+  },
+  "boy_aymj_28": {
+    "SoundName": "boy_aymj_28",
+    "SoundPath": "game/AYMJ/sound/girl/female_18",
+    "Text": "普通话男8条"
+  },
+  "boy_aymj_29": {
+    "SoundName": "boy_aymj_29",
+    "SoundPath": "game/AYMJ/sound/girl/female_19",
+    "Text": "普通话男9条"
+  },
+  "boy_aymj_31": {
+    "SoundName": "boy_aymj_31",
+    "SoundPath": "game/AYMJ/sound/girl/female_21",
+    "Text": "普通话男1筒"
+  },
+  "boy_aymj_32": {
+    "SoundName": "boy_aymj_32",
+    "SoundPath": "game/AYMJ/sound/girl/female_22",
+    "Text": "普通话男2筒"
+  },
+  "boy_aymj_33": {
+    "SoundName": "boy_aymj_33",
+    "SoundPath": "game/AYMJ/sound/girl/female_23",
+    "Text": "普通话男3筒"
+  },
+  "boy_aymj_34": {
+    "SoundName": "boy_aymj_34",
+    "SoundPath": "game/AYMJ/sound/girl/female_24",
+    "Text": "普通话男4筒"
+  },
+  "boy_aymj_35": {
+    "SoundName": "boy_aymj_35",
+    "SoundPath": "game/AYMJ/sound/girl/female_25",
+    "Text": "普通话男5筒"
+  },
+  "boy_aymj_36": {
+    "SoundName": "boy_aymj_36",
+    "SoundPath": "game/AYMJ/sound/girl/female_26",
+    "Text": "普通话男6筒"
+  },
+  "boy_aymj_37": {
+    "SoundName": "boy_aymj_37",
+    "SoundPath": "game/AYMJ/sound/girl/female_27",
+    "Text": "普通话男7筒"
+  },
+  "boy_aymj_38": {
+    "SoundName": "boy_aymj_38",
+    "SoundPath": "game/AYMJ/sound/girl/female_28",
+    "Text": "普通话男8筒"
+  },
+  "boy_aymj_39": {
+    "SoundName": "boy_aymj_39",
+    "SoundPath": "game/AYMJ/sound/girl/female_29",
+    "Text": "普通话男9筒"
+  },
+  "boy_aymj_baoting": {
+    "SoundName": "boy_aymj_baoting",
+    "SoundPath": "game/AYMJ/sound/girl/female_baoting",
+    "Text": "普通话男报听"
+  },
+  "boy_aymj_piao": {
+    "SoundName": "boy_aymj_piao",
+    "SoundPath": "game/AYMJ/sound/girl/female_piao",
+    "Text": "普通话男飘"
+  },
+  "boy_aymj_bupiao": {
+    "SoundName": "boy_aymj_bupiao",
+    "SoundPath": "game/AYMJ/sound/girl/female_bupiao",
+    "Text": "普通话男不飘"
+  },
+  "boy_aymj_peng": {
+    "SoundName": "boy_aymj_peng",
+    "SoundPath": "game/AYMJ/sound/girl/female_peng",
+    "Text": "普通话男碰"
+  },
+  "boy_aymj_gang": {
+    "SoundName": "boy_aymj_gang",
+    "SoundPath": "game/AYMJ/sound/girl/female_gang",
+    "Text": "普通话男杠"
+  },
+  "boy_aymj_hu": {
+    "SoundName": "boy_aymj_hu",
+    "SoundPath": "game/AYMJ/sound/girl/female_hu",
+    "Text": "普通话男胡"
+  },
+  "boy_aymj_zimo": {
+    "SoundName": "boy_aymj_zimo",
+    "SoundPath": "game/AYMJ/sound/girl/female_zimo",
+    "Text": "普通话男自摸"
+  },
+  "girl_aymj_11": {
+    "SoundName": "girl_aymj_11",
+    "SoundPath": "game/AYMJ/sound/girl/female_01",
+    "Text": "普通话男1万"
+  },
+  "girl_aymj_12": {
+    "SoundName": "girl_aymj_12",
+    "SoundPath": "game/AYMJ/sound/girl/female_02",
+    "Text": "普通话男2万"
+  },
+  "girl_aymj_13": {
+    "SoundName": "girl_aymj_13",
+    "SoundPath": "game/AYMJ/sound/girl/female_03",
+    "Text": "普通话男3万"
+  },
+  "girl_aymj_14": {
+    "SoundName": "girl_aymj_14",
+    "SoundPath": "game/AYMJ/sound/girl/female_04",
+    "Text": "普通话男4万"
+  },
+  "girl_aymj_15": {
+    "SoundName": "girl_aymj_15",
+    "SoundPath": "game/AYMJ/sound/girl/female_05",
+    "Text": "普通话男5万"
+  },
+  "girl_aymj_16": {
+    "SoundName": "girl_aymj_16",
+    "SoundPath": "game/AYMJ/sound/girl/female_06",
+    "Text": "普通话男6万"
+  },
+  "girl_aymj_17": {
+    "SoundName": "girl_aymj_17",
+    "SoundPath": "game/AYMJ/sound/girl/female_07",
+    "Text": "普通话男7万"
+  },
+  "girl_aymj_18": {
+    "SoundName": "girl_aymj_18",
+    "SoundPath": "game/AYMJ/sound/girl/female_08",
+    "Text": "普通话男8万"
+  },
+  "girl_aymj_19": {
+    "SoundName": "girl_aymj_19",
+    "SoundPath": "game/AYMJ/sound/girl/female_09",
+    "Text": "普通话男9万"
+  },
+  "girl_aymj_21": {
+    "SoundName": "girl_aymj_21",
+    "SoundPath": "game/AYMJ/sound/girl/female_11",
+    "Text": "普通话男1条"
+  },
+  "girl_aymj_22": {
+    "SoundName": "girl_aymj_22",
+    "SoundPath": "game/AYMJ/sound/girl/female_12",
+    "Text": "普通话男2条"
+  },
+  "girl_aymj_23": {
+    "SoundName": "girl_aymj_23",
+    "SoundPath": "game/AYMJ/sound/girl/female_13",
+    "Text": "普通话男3条"
+  },
+  "girl_aymj_24": {
+    "SoundName": "girl_aymj_24",
+    "SoundPath": "game/AYMJ/sound/girl/female_14",
+    "Text": "普通话男4条"
+  },
+  "girl_aymj_25": {
+    "SoundName": "girl_aymj_25",
+    "SoundPath": "game/AYMJ/sound/girl/female_15",
+    "Text": "普通话男5条"
+  },
+  "girl_aymj_26": {
+    "SoundName": "girl_aymj_26",
+    "SoundPath": "game/AYMJ/sound/girl/female_16",
+    "Text": "普通话男6条"
+  },
+  "girl_aymj_27": {
+    "SoundName": "girl_aymj_27",
+    "SoundPath": "game/AYMJ/sound/girl/female_17",
+    "Text": "普通话男7条"
+  },
+  "girl_aymj_28": {
+    "SoundName": "girl_aymj_28",
+    "SoundPath": "game/AYMJ/sound/girl/female_18",
+    "Text": "普通话男8条"
+  },
+  "girl_aymj_29": {
+    "SoundName": "girl_aymj_29",
+    "SoundPath": "game/AYMJ/sound/girl/female_19",
+    "Text": "普通话男9条"
+  },
+  "girl_aymj_31": {
+    "SoundName": "girl_aymj_31",
+    "SoundPath": "game/AYMJ/sound/girl/female_21",
+    "Text": "普通话男1筒"
+  },
+  "girl_aymj_32": {
+    "SoundName": "girl_aymj_32",
+    "SoundPath": "game/AYMJ/sound/girl/female_22",
+    "Text": "普通话男2筒"
+  },
+  "girl_aymj_33": {
+    "SoundName": "girl_aymj_33",
+    "SoundPath": "game/AYMJ/sound/girl/female_23",
+    "Text": "普通话男3筒"
+  },
+  "girl_aymj_34": {
+    "SoundName": "girl_aymj_34",
+    "SoundPath": "game/AYMJ/sound/girl/female_24",
+    "Text": "普通话男4筒"
+  },
+  "girl_aymj_35": {
+    "SoundName": "girl_aymj_35",
+    "SoundPath": "game/AYMJ/sound/girl/female_25",
+    "Text": "普通话男5筒"
+  },
+  "girl_aymj_36": {
+    "SoundName": "girl_aymj_36",
+    "SoundPath": "game/AYMJ/sound/girl/female_26",
+    "Text": "普通话男6筒"
+  },
+  "girl_aymj_37": {
+    "SoundName": "girl_aymj_37",
+    "SoundPath": "game/AYMJ/sound/girl/female_27",
+    "Text": "普通话男7筒"
+  },
+  "girl_aymj_38": {
+    "SoundName": "girl_aymj_38",
+    "SoundPath": "game/AYMJ/sound/girl/female_28",
+    "Text": "普通话男8筒"
+  },
+  "girl_aymj_39": {
+    "SoundName": "girl_aymj_39",
+    "SoundPath": "game/AYMJ/sound/girl/female_29",
+    "Text": "普通话男9筒"
+  },
+  "girl_aymj_baoting": {
+    "SoundName": "girl_aymj_baoting",
+    "SoundPath": "game/AYMJ/sound/girl/female_baoting",
+    "Text": "普通话男报听"
+  },
+  "girl_aymj_piao": {
+    "SoundName": "girl_aymj_piao",
+    "SoundPath": "game/AYMJ/sound/girl/female_piao",
+    "Text": "普通话男飘"
+  },
+  "girl_aymj_bupiao": {
+    "SoundName": "girl_aymj_bupiao",
+    "SoundPath": "game/AYMJ/sound/girl/female_bupiao",
+    "Text": "普通话男不飘"
+  },
+  "girl_aymj_peng": {
+    "SoundName": "girl_aymj_peng",
+    "SoundPath": "game/AYMJ/sound/girl/female_peng",
+    "Text": "普通话男碰"
+  },
+  "girl_aymj_gang": {
+    "SoundName": "girl_aymj_gang",
+    "SoundPath": "game/AYMJ/sound/girl/female_gang",
+    "Text": "普通话男杠"
+  },
+  "girl_aymj_hu": {
+    "SoundName": "girl_aymj_hu",
+    "SoundPath": "game/AYMJ/sound/girl/female_hu",
+    "Text": "普通话男胡"
+  },
+  "girl_aymj_zimo": {
+    "SoundName": "girl_aymj_zimo",
+    "SoundPath": "game/AYMJ/sound/girl/female_zimo",
+    "Text": "普通话男自摸"
+  },
+  "boy_ay_1": {
+    "SoundName": "boy_ay_1",
+    "SoundPath": "sound/chat/boy/ay_1",
+    "Text": "劳资是安岳的"
+  },
+  "boy_ay_2": {
+    "SoundName": "boy_ay_2",
+    "SoundPath": "sound/chat/boy/ay_2",
+    "Text": "莫慌，再整两盘多"
+  },
+  "boy_ay_3": {
+    "SoundName": "boy_ay_3",
+    "SoundPath": "sound/chat/boy/ay_3",
+    "Text": "整哦，整到天亮好睡瞌睡哦"
+  },
+  "boy_ay_4": {
+    "SoundName": "boy_ay_4",
+    "SoundPath": "sound/chat/boy/ay_4",
+    "Text": "几哈打撒，紧到炫啥子嘛"
+  },
+  "boy_ay_5": {
+    "SoundName": "boy_ay_5",
+    "SoundPath": "sound/chat/boy/ay_5",
+    "Text": "莫梭哟，搞爽性点嘛"
+  },
+  "boy_ay_6": {
+    "SoundName": "boy_ay_6",
+    "SoundPath": "sound/chat/boy/ay_6",
+    "Text": "快点嘛！你还耍不耍哟！"
+  },
+  "boy_ay_7": {
+    "SoundName": "boy_ay_7",
+    "SoundPath": "sound/chat/boy/ay_7",
+    "Text": "等一哈，我接个电话多"
+  },
+  "boy_ay_8": {
+    "SoundName": "boy_ay_8",
+    "SoundPath": "sound/chat/boy/ay_8",
+    "Text": "我这里有点事，等一哈再耍"
+  },
+  "boy_ay_9": {
+    "SoundName": "boy_ay_9",
+    "SoundPath": "sound/chat/boy/ay_9",
+    "Text": "今天你哈皮的很说"
+  },
+  "boy_ay_10": {
+    "SoundName": "boy_ay_10",
+    "SoundPath": "sound/chat/boy/ay_10",
+    "Text": "你吃了药的呀，手气那么好"
+  },
+  "boy_ay_11": {
+    "SoundName": "boy_ay_11",
+    "SoundPath": "sound/chat/boy/ay_11",
+    "Text": "你昨天晚上做过啥子"
+  },
+  "boy_ay_12": {
+    "SoundName": "boy_ay_12",
+    "SoundPath": "sound/chat/boy/ay_12",
+    "Text": "搞串串，霉的起稿稿"
+  },
+  "boy_ay_13": {
+    "SoundName": "boy_ay_13",
+    "SoundPath": "sound/chat/boy/ay_13",
+    "Text": "哦豁，腰裤儿都输脱了"
+  },
+  "boy_ay_14": {
+    "SoundName": "boy_ay_14",
+    "SoundPath": "sound/chat/boy/ay_14",
+    "Text": "哦豁！这哈又洗白了！"
+  },
+  "boy_ay_15": {
+    "SoundName": "boy_ay_15",
+    "SoundPath": "sound/chat/boy/ay_15",
+    "Text": "看我今天把你们全部弄翻"
+  },
+  "boy_ay_16": {
+    "SoundName": "boy_ay_16",
+    "SoundPath": "sound/chat/boy/ay_16",
+    "Text": "今天赢了嗨皮哟"
+  },
+  "girl_ay_1": {
+    "SoundName": "girl_ay_1",
+    "SoundPath": "sound/chat/girl/ay_1",
+    "Text": "劳资是安岳的"
+  },
+  "girl_ay_2": {
+    "SoundName": "girl_ay_2",
+    "SoundPath": "sound/chat/girl/ay_2",
+    "Text": "莫慌，再整两盘多"
+  },
+  "girl_ay_3": {
+    "SoundName": "girl_ay_3",
+    "SoundPath": "sound/chat/girl/ay_3",
+    "Text": "整哦，整到天亮好睡瞌睡哦"
+  },
+  "girl_ay_4": {
+    "SoundName": "girl_ay_4",
+    "SoundPath": "sound/chat/girl/ay_4",
+    "Text": "几哈打撒，紧到炫啥子嘛"
+  },
+  "girl_ay_5": {
+    "SoundName": "girl_ay_5",
+    "SoundPath": "sound/chat/girl/ay_5",
+    "Text": "莫梭哟，搞爽性点嘛"
+  },
+  "girl_ay_6": {
+    "SoundName": "girl_ay_6",
+    "SoundPath": "sound/chat/girl/ay_6",
+    "Text": "快点嘛！你还耍不耍哟！"
+  },
+  "girl_ay_7": {
+    "SoundName": "girl_ay_7",
+    "SoundPath": "sound/chat/girl/ay_7",
+    "Text": "等一哈，我接个电话多"
+  },
+  "girl_ay_8": {
+    "SoundName": "girl_ay_8",
+    "SoundPath": "sound/chat/girl/ay_8",
+    "Text": "我这里有点事，等一哈再耍"
+  },
+  "girl_ay_9": {
+    "SoundName": "girl_ay_9",
+    "SoundPath": "sound/chat/girl/ay_9",
+    "Text": "今天你哈皮的很说"
+  },
+  "girl_ay_10": {
+    "SoundName": "girl_ay_10",
+    "SoundPath": "sound/chat/girl/ay_10",
+    "Text": "你吃了药的呀，手气那么好"
+  },
+  "girl_ay_11": {
+    "SoundName": "girl_ay_11",
+    "SoundPath": "sound/chat/girl/ay_11",
+    "Text": "你昨天晚上做过啥子"
+  },
+  "girl_ay_12": {
+    "SoundName": "girl_ay_12",
+    "SoundPath": "sound/chat/girl/ay_12",
+    "Text": "搞串串，霉的起稿稿"
+  },
+  "girl_ay_13": {
+    "SoundName": "girl_ay_13",
+    "SoundPath": "sound/chat/girl/ay_13",
+    "Text": "哦豁，腰裤儿都输脱了"
+  },
+  "girl_ay_14": {
+    "SoundName": "girl_ay_14",
+    "SoundPath": "sound/chat/girl/ay_14",
+    "Text": "哦豁！这哈又洗白了！"
+  },
+  "girl_ay_15": {
+    "SoundName": "girl_ay_15",
+    "SoundPath": "sound/chat/girl/ay_15",
+    "Text": "看我今天把你们全部弄翻"
+  },
+  "girl_ay_16": {
+    "SoundName": "girl_ay_16",
+    "SoundPath": "sound/chat/girl/ay_16",
+    "Text": "今天赢了嗨皮哟"
+  },
+  "boy_aymj_FastVoice_1": {
+    "SoundName": "boy_aymj_FastVoice_1",
+    "SoundPath": "game/AYMJ/sound/girl/fast_1",
+    "Text": "莫慌，再整两盘多"
+  },
+  "boy_aymj_FastVoice_2": {
+    "SoundName": "boy_aymj_FastVoice_2",
+    "SoundPath": "game/AYMJ/sound/girl/fast_2",
+    "Text": "整哦，整到天亮好睡瞌睡"
+  },
+  "boy_aymj_FastVoice_3": {
+    "SoundName": "boy_aymj_FastVoice_3",
+    "SoundPath": "game/AYMJ/sound/girl/fast_3",
+    "Text": "该你娃歪哦，高兴了嘛"
+  },
+  "boy_aymj_FastVoice_4": {
+    "SoundName": "boy_aymj_FastVoice_4",
+    "SoundPath": "game/AYMJ/sound/girl/fast_4",
+    "Text": "耶，小伙子技术还可以嘛"
+  },
+  "boy_aymj_FastVoice_5": {
+    "SoundName": "boy_aymj_FastVoice_5",
+    "SoundPath": "game/AYMJ/sound/girl/fast_5",
+    "Text": "莫梭哟，搞爽性点嘛"
+  },
+  "boy_aymj_FastVoice_6": {
+    "SoundName": "boy_aymj_FastVoice_6",
+    "SoundPath": "game/AYMJ/sound/girl/fast_6",
+    "Text": "你吃了药的呀，手气那么好"
+  },
+  "boy_aymj_FastVoice_7": {
+    "SoundName": "boy_aymj_FastVoice_7",
+    "SoundPath": "game/AYMJ/sound/girl/fast_7",
+    "Text": "你昨天晚上在做啥子哟，运气那么好"
+  },
+  "boy_aymj_FastVoice_8": {
+    "SoundName": "boy_aymj_FastVoice_8",
+    "SoundPath": "game/AYMJ/sound/girl/fast_8",
+    "Text": "搞串串，霉得起稿稿"
+  },
+  "boy_aymj_FastVoice_9": {
+    "SoundName": "boy_aymj_FastVoice_9",
+    "SoundPath": "game/AYMJ/sound/girl/fast_9",
+    "Text": "哦豁，腰裤儿都输脱了"
+  },
+  "boy_aymj_FastVoice_10": {
+    "SoundName": "boy_aymj_FastVoice_10",
+    "SoundPath": "game/AYMJ/sound/girl/fast_10",
+    "Text": "几哈打撒，紧到炫啥子哟"
+  },
+  "boy_aymj_FastVoice_11": {
+    "SoundName": "boy_aymj_FastVoice_11",
+    "SoundPath": "game/AYMJ/sound/girl/fast_11",
+    "Text": "打的劳资毛焦火辣的"
+  },
+  "boy_aymj_FastVoice_12": {
+    "SoundName": "boy_aymj_FastVoice_12",
+    "SoundPath": "game/AYMJ/sound/girl/fast_12",
+    "Text": "劳资这盘整个卡心五，板板高"
+  },
+  "girl_aymj_FastVoice_1": {
+    "SoundName": "girl_aymj_FastVoice_1",
+    "SoundPath": "game/AYMJ/sound/girl/fast_1",
+    "Text": "莫慌，再整两盘多"
+  },
+  "girl_aymj_FastVoice_2": {
+    "SoundName": "girl_aymj_FastVoice_2",
+    "SoundPath": "game/AYMJ/sound/girl/fast_2",
+    "Text": "整哦，整到天亮好睡瞌睡"
+  },
+  "girl_aymj_FastVoice_3": {
+    "SoundName": "girl_aymj_FastVoice_3",
+    "SoundPath": "game/AYMJ/sound/girl/fast_3",
+    "Text": "该你娃歪哦，高兴了嘛"
+  },
+  "girl_aymj_FastVoice_4": {
+    "SoundName": "girl_aymj_FastVoice_4",
+    "SoundPath": "game/AYMJ/sound/girl/fast_4",
+    "Text": "耶，小伙子技术还可以嘛"
+  },
+  "girl_aymj_FastVoice_5": {
+    "SoundName": "girl_aymj_FastVoice_5",
+    "SoundPath": "game/AYMJ/sound/girl/fast_5",
+    "Text": "莫梭哟，搞爽性点嘛"
+  },
+  "girl_aymj_FastVoice_6": {
+    "SoundName": "girl_aymj_FastVoice_6",
+    "SoundPath": "game/AYMJ/sound/girl/fast_6",
+    "Text": "你吃了药的呀，手气那么好"
+  },
+  "girl_aymj_FastVoice_7": {
+    "SoundName": "girl_aymj_FastVoice_7",
+    "SoundPath": "game/AYMJ/sound/girl/fast_7",
+    "Text": "你昨天晚上在做啥子哟，运气那么好"
+  },
+  "girl_aymj_FastVoice_8": {
+    "SoundName": "girl_aymj_FastVoice_8",
+    "SoundPath": "game/AYMJ/sound/girl/fast_8",
+    "Text": "搞串串，霉得起稿稿"
+  },
+  "girl_aymj_FastVoice_9": {
+    "SoundName": "girl_aymj_FastVoice_9",
+    "SoundPath": "game/AYMJ/sound/girl/fast_9",
+    "Text": "哦豁，腰裤儿都输脱了"
+  },
+  "girl_aymj_FastVoice_10": {
+    "SoundName": "girl_aymj_FastVoice_10",
+    "SoundPath": "game/AYMJ/sound/girl/fast_10",
+    "Text": "几哈打撒，紧到炫啥子哟"
+  },
+  "girl_aymj_FastVoice_11": {
+    "SoundName": "girl_aymj_FastVoice_11",
+    "SoundPath": "game/AYMJ/sound/girl/fast_11",
+    "Text": "打的劳资毛焦火辣的"
+  },
+  "girl_aymj_FastVoice_12": {
+    "SoundName": "girl_aymj_FastVoice_12",
+    "SoundPath": "game/AYMJ/sound/girl/fast_12",
+    "Text": "劳资这盘整个卡心五，板板高"
+  },
+  "MainScene": {
+    "SoundName": "MainScene",
+    "SoundPath": "sound/background/dengruzhuchangjingyinyue",
+    "Text": "主场景"
+  },
+  "RoomWaitStart": {
+    "SoundName": "RoomWaitStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "牌局等待开始"
+  },
+  "RoomStart": {
+    "SoundName": "RoomStart",
+    "SoundPath": "sound/background/kaishipaiju",
+    "Text": "牌局开始"
+  },
+  "WaitRoomStart": {
+    "SoundName": "WaitRoomStart",
+    "SoundPath": "sound/background/dengdaikaiju",
+    "Text": "等待牌局开始"
+  },
+  "zhuanpan": {
+    "SoundName": "zhuanpan",
+    "SoundPath": "sound/background/zhuanpan",
+    "Text": "转盘音效"
+  },
+  "boy_FastVoice_1": {
+    "SoundName": "boy_FastVoice_1",
+    "SoundPath": "sound/chat/boy/1",
+    "Text": "夸奖"
+  },
+  "boy_FastVoice_2": {
+    "SoundName": "boy_FastVoice_2",
+    "SoundPath": "sound/chat/boy/2",
+    "Text": "赞赏"
+  },
+  "boy_FastVoice_3": {
+    "SoundName": "boy_FastVoice_3",
+    "SoundPath": "sound/chat/boy/3",
+    "Text": "无奈"
+  },
+  "boy_FastVoice_4": {
+    "SoundName": "boy_FastVoice_4",
+    "SoundPath": "sound/chat/boy/4",
+    "Text": "求碰"
+  },
+  "boy_FastVoice_5": {
+    "SoundName": "boy_FastVoice_5",
+    "SoundPath": "sound/chat/boy/5",
+    "Text": "催促"
+  },
+  "boy_FastVoice_6": {
+    "SoundName": "boy_FastVoice_6",
+    "SoundPath": "sound/chat/boy/6",
+    "Text": "呵呵"
+  },
+  "boy_FastVoice_7": {
+    "SoundName": "boy_FastVoice_7",
+    "SoundPath": "sound/chat/boy/7",
+    "Text": "得意"
+  },
+  "boy_FastVoice_8": {
+    "SoundName": "boy_FastVoice_8",
+    "SoundPath": "sound/chat/boy/8",
+    "Text": "绝交"
+  },
+  "boy_FastVoice_9": {
+    "SoundName": "boy_FastVoice_9",
+    "SoundPath": "sound/chat/boy/9",
+    "Text": "嘲讽"
+  },
+  "boy_FastVoice_10": {
+    "SoundName": "boy_FastVoice_10",
+    "SoundPath": "sound/chat/boy/10",
+    "Text": "调侃"
+  },
+  "girl_FastVoice_1": {
+    "SoundName": "girl_FastVoice_1",
+    "SoundPath": "sound/chat/girl/1",
+    "Text": "夸奖"
+  },
+  "girl_FastVoice_2": {
+    "SoundName": "girl_FastVoice_2",
+    "SoundPath": "sound/chat/girl/2",
+    "Text": "赞赏"
+  },
+  "girl_FastVoice_3": {
+    "SoundName": "girl_FastVoice_3",
+    "SoundPath": "sound/chat/girl/3",
+    "Text": "无奈"
+  },
+  "girl_FastVoice_4": {
+    "SoundName": "girl_FastVoice_4",
+    "SoundPath": "sound/chat/girl/4",
+    "Text": "求碰"
+  },
+  "girl_FastVoice_5": {
+    "SoundName": "girl_FastVoice_5",
+    "SoundPath": "sound/chat/girl/5",
+    "Text": "催促"
+  },
+  "girl_FastVoice_6": {
+    "SoundName": "girl_FastVoice_6",
+    "SoundPath": "sound/chat/girl/6",
+    "Text": "呵呵"
+  },
+  "girl_FastVoice_7": {
+    "SoundName": "girl_FastVoice_7",
+    "SoundPath": "sound/chat/girl/7",
+    "Text": "得意"
+  },
+  "girl_FastVoice_8": {
+    "SoundName": "girl_FastVoice_8",
+    "SoundPath": "sound/chat/girl/8",
+    "Text": "绝交"
+  },
+  "girl_FastVoice_9": {
+    "SoundName": "girl_FastVoice_9",
+    "SoundPath": "sound/chat/girl/9",
+    "Text": "嘲讽"
+  },
+  "girl_FastVoice_10": {
+    "SoundName": "girl_FastVoice_10",
+    "SoundPath": "sound/chat/girl/10",
+    "Text": "调侃"
+  },
+  "gameBackGround": {
+    "SoundName": "gameBackGround",
+    "SoundPath": "sound/background/gameBackMusic",
+    "Text": "游戏背景音乐"
+  },
+  "back_1": {
+    "SoundName": "back_1",
+    "SoundPath": "sound/background/back_1",
+    "Text": "跑得快背景音乐"
+  },
+  "mofa_jidanAni": {
+    "SoundName": "mofa_jidanAni",
+    "SoundPath": "sound/mofa/mofa_jidanAni",
+    "Text": "鸡蛋"
+  },
+  "mofa_pengbeiAni": {
+    "SoundName": "mofa_pengbeiAni",
+    "SoundPath": "sound/mofa/mofa_pengbeiAni",
+    "Text": "碰杯"
+  },
+  "mofa_poshuiAni": {
+    "SoundName": "mofa_poshuiAni",
+    "SoundPath": "sound/mofa/mofa_poshuiAni",
+    "Text": "泼水"
+  },
+  "mofa_xianhuaAni": {
+    "SoundName": "mofa_xianhuaAni",
+    "SoundPath": "sound/mofa/mofa_xianhuaAni",
+    "Text": "献花"
+  },
+  "mofa_xianwenAni": {
+    "SoundName": "mofa_xianwenAni",
+    "SoundPath": "sound/mofa/mofa_xianwenAni",
+    "Text": "献吻"
+  },
+  "mofa_zhadanAni": {
+    "SoundName": "mofa_zhadanAni",
+    "SoundPath": "sound/mofa/mofa_zhadanAni",
+    "Text": "炸弹"
+  },
+  "mofa_zhuajiAni": {
+    "SoundName": "mofa_zhuajiAni",
+    "SoundPath": "sound/mofa/mofa_zhuajiAni",
+    "Text": "抓鸡"
+  }
+}

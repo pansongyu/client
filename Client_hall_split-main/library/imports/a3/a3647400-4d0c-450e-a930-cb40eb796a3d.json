@@ -1,0 +1,710 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "robot",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1": {
+      "id": 1,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001012",
+      "Characters2": "1002012",
+      "Characters3": "1003012"
+    },
+    "2": {
+      "id": 2,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001013",
+      "Characters2": "1002013",
+      "Characters3": "1003013"
+    },
+    "3": {
+      "id": 3,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001014",
+      "Characters2": "1002014",
+      "Characters3": "1003014"
+    },
+    "4": {
+      "id": 4,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001015",
+      "Characters2": "1002015",
+      "Characters3": "1003015"
+    },
+    "5": {
+      "id": 5,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001016",
+      "Characters2": "1002016",
+      "Characters3": "1003016"
+    },
+    "6": {
+      "id": 6,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001017",
+      "Characters2": "1002017",
+      "Characters3": "1003017"
+    },
+    "7": {
+      "id": 7,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001018",
+      "Characters2": "1002018",
+      "Characters3": "1003018"
+    },
+    "8": {
+      "id": 8,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001019",
+      "Characters2": "1002019",
+      "Characters3": "1003019"
+    },
+    "9": {
+      "id": 9,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001020",
+      "Characters2": "1002020",
+      "Characters3": "1003020"
+    },
+    "10": {
+      "id": 10,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001021",
+      "Characters2": "1002021",
+      "Characters3": "1003021"
+    },
+    "11": {
+      "id": 11,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001022",
+      "Characters2": "1002022",
+      "Characters3": "1003022"
+    },
+    "12": {
+      "id": 12,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001023",
+      "Characters2": "1002023",
+      "Characters3": "1003023"
+    },
+    "13": {
+      "id": 13,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001024",
+      "Characters2": "1002024",
+      "Characters3": "1003024"
+    },
+    "14": {
+      "id": 14,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001025",
+      "Characters2": "1002025",
+      "Characters3": "1003025"
+    },
+    "15": {
+      "id": 15,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001026",
+      "Characters2": "1002026",
+      "Characters3": "1003026"
+    },
+    "16": {
+      "id": 16,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001027",
+      "Characters2": "1002027",
+      "Characters3": "1003027"
+    },
+    "17": {
+      "id": 17,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001028",
+      "Characters2": "1002028",
+      "Characters3": "1003028"
+    },
+    "18": {
+      "id": 18,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001029",
+      "Characters2": "1002029",
+      "Characters3": "1003029"
+    },
+    "19": {
+      "id": 19,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001030",
+      "Characters2": "1002030",
+      "Characters3": "1003030"
+    },
+    "20": {
+      "id": 20,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001031",
+      "Characters2": "1002031",
+      "Characters3": "1003031"
+    },
+    "21": {
+      "id": 21,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001032",
+      "Characters2": "1002032",
+      "Characters3": "1003032"
+    },
+    "22": {
+      "id": 22,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001033",
+      "Characters2": "1002033",
+      "Characters3": "1003033"
+    },
+    "23": {
+      "id": 23,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001034",
+      "Characters2": "1002034",
+      "Characters3": "1003034"
+    },
+    "24": {
+      "id": 24,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001035",
+      "Characters2": "1002035",
+      "Characters3": "1003035"
+    },
+    "25": {
+      "id": 25,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001036",
+      "Characters2": "1002036",
+      "Characters3": "1003036"
+    },
+    "26": {
+      "id": 26,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001037",
+      "Characters2": "1002037",
+      "Characters3": "1003037"
+    },
+    "27": {
+      "id": 27,
+      "Count": 50,
+      "Level": 38,
+      "VIP": 0,
+      "Characters1": "1001038",
+      "Characters2": "1002038",
+      "Characters3": "1003038"
+    },
+    "28": {
+      "id": 28,
+      "Count": 50,
+      "Level": 39,
+      "VIP": 0,
+      "Characters1": "1001039",
+      "Characters2": "1002039",
+      "Characters3": "1003039"
+    },
+    "29": {
+      "id": 29,
+      "Count": 25,
+      "Level": 40,
+      "VIP": 0,
+      "Characters1": "1001040;1002040",
+      "Characters2": "1002040;1003040",
+      "Characters3": "1001040;1003040"
+    },
+    "30": {
+      "id": 30,
+      "Count": 25,
+      "Level": 41,
+      "VIP": 0,
+      "Characters1": "1001041;1002041",
+      "Characters2": "1002041;1003041",
+      "Characters3": "1001041;1003041"
+    },
+    "31": {
+      "id": 31,
+      "Count": 25,
+      "Level": 42,
+      "VIP": 0,
+      "Characters1": "1001042;1002042",
+      "Characters2": "1002042;1003042",
+      "Characters3": "1001042;1003042"
+    },
+    "32": {
+      "id": 32,
+      "Count": 25,
+      "Level": 43,
+      "VIP": 0,
+      "Characters1": "1001043;1002043",
+      "Characters2": "1002043;1003043",
+      "Characters3": "1001043;1003043"
+    },
+    "33": {
+      "id": 33,
+      "Count": 25,
+      "Level": 44,
+      "VIP": 0,
+      "Characters1": "1001044;1002044",
+      "Characters2": "1002044;1003044",
+      "Characters3": "1001044;1003044"
+    },
+    "34": {
+      "id": 34,
+      "Count": 25,
+      "Level": 45,
+      "VIP": 0,
+      "Characters1": "1001045;1002045",
+      "Characters2": "1002045;1003045",
+      "Characters3": "1001045;1003045"
+    },
+    "35": {
+      "id": 35,
+      "Count": 25,
+      "Level": 46,
+      "VIP": 0,
+      "Characters1": "1001046;1002046",
+      "Characters2": "1002046;1003046",
+      "Characters3": "1001046;1003046"
+    },
+    "36": {
+      "id": 36,
+      "Count": 25,
+      "Level": 47,
+      "VIP": 0,
+      "Characters1": "1001047;1002047",
+      "Characters2": "1002047;1003047",
+      "Characters3": "1001047;1003047"
+    },
+    "37": {
+      "id": 37,
+      "Count": 25,
+      "Level": 48,
+      "VIP": 0,
+      "Characters1": "1001048;1002048",
+      "Characters2": "1002048;1003048",
+      "Characters3": "1001048;1003048"
+    },
+    "38": {
+      "id": 38,
+      "Count": 25,
+      "Level": 49,
+      "VIP": 0,
+      "Characters1": "1001049;1002049",
+      "Characters2": "1002049;1003049",
+      "Characters3": "1001049;1003049"
+    },
+    "39": {
+      "id": 39,
+      "Count": 25,
+      "Level": 50,
+      "VIP": 0,
+      "Characters1": "1001050;1002050",
+      "Characters2": "1002050;1003050",
+      "Characters3": "1001050;1003050"
+    },
+    "40": {
+      "id": 40,
+      "Count": 25,
+      "Level": 51,
+      "VIP": 0,
+      "Characters1": "1001051;1002051",
+      "Characters2": "1002051;1003051",
+      "Characters3": "1001051;1003051"
+    },
+    "41": {
+      "id": 41,
+      "Count": 25,
+      "Level": 52,
+      "VIP": 0,
+      "Characters1": "1001052;1002052",
+      "Characters2": "1002052;1003052",
+      "Characters3": "1001052;1003052"
+    },
+    "42": {
+      "id": 42,
+      "Count": 25,
+      "Level": 53,
+      "VIP": 0,
+      "Characters1": "1001053;1002053",
+      "Characters2": "1002053;1003053",
+      "Characters3": "1001053;1003053"
+    },
+    "43": {
+      "id": 43,
+      "Count": 25,
+      "Level": 54,
+      "VIP": 0,
+      "Characters1": "1001054;1002054",
+      "Characters2": "1002054;1003054",
+      "Characters3": "1001054;1003054"
+    },
+    "44": {
+      "id": 44,
+      "Count": 25,
+      "Level": 55,
+      "VIP": 0,
+      "Characters1": "1001055;1002055",
+      "Characters2": "1002055;1003055",
+      "Characters3": "1001055;1003055"
+    },
+    "45": {
+      "id": 45,
+      "Count": 25,
+      "Level": 56,
+      "VIP": 0,
+      "Characters1": "1001056;1002056",
+      "Characters2": "1002056;1003056",
+      "Characters3": "1001056;1003056"
+    },
+    "46": {
+      "id": 46,
+      "Count": 25,
+      "Level": 57,
+      "VIP": 0,
+      "Characters1": "1001057;1002057",
+      "Characters2": "1002057;1003057",
+      "Characters3": "1001057;1003057"
+    },
+    "47": {
+      "id": 47,
+      "Count": 25,
+      "Level": 58,
+      "VIP": 0,
+      "Characters1": "1001058;1002058",
+      "Characters2": "1002058;1003058",
+      "Characters3": "1001058;1003058"
+    },
+    "48": {
+      "id": 48,
+      "Count": 25,
+      "Level": 59,
+      "VIP": 0,
+      "Characters1": "1001059;1002059",
+      "Characters2": "1002059;1003059",
+      "Characters3": "1001059;1003059"
+    },
+    "49": {
+      "id": 49,
+      "Count": 25,
+      "Level": 60,
+      "VIP": 0,
+      "Characters1": "1001060;1002060",
+      "Characters2": "1002060;1003060",
+      "Characters3": "1001060;1003060"
+    },
+    "50": {
+      "id": 50,
+      "Count": 25,
+      "Level": 61,
+      "VIP": 0,
+      "Characters1": "1001061;1002061",
+      "Characters2": "1002061;1003061",
+      "Characters3": "1001061;1003061"
+    },
+    "51": {
+      "id": 51,
+      "Count": 25,
+      "Level": 62,
+      "VIP": 0,
+      "Characters1": "1001062;1002062",
+      "Characters2": "1002062;1003062",
+      "Characters3": "1001062;1003062"
+    },
+    "52": {
+      "id": 52,
+      "Count": 25,
+      "Level": 63,
+      "VIP": 0,
+      "Characters1": "1001063;1002063",
+      "Characters2": "1002063;1003063",
+      "Characters3": "1001063;1003063"
+    },
+    "53": {
+      "id": 53,
+      "Count": 25,
+      "Level": 64,
+      "VIP": 0,
+      "Characters1": "1001064;1002064",
+      "Characters2": "1002064;1003064",
+      "Characters3": "1001064;1003064"
+    },
+    "54": {
+      "id": 54,
+      "Count": 25,
+      "Level": 65,
+      "VIP": 0,
+      "Characters1": "1001065;1002065",
+      "Characters2": "1002065;1003065",
+      "Characters3": "1001065;1003065"
+    },
+    "55": {
+      "id": 55,
+      "Count": 25,
+      "Level": 66,
+      "VIP": 0,
+      "Characters1": "1001066;1002066",
+      "Characters2": "1002066;1003066",
+      "Characters3": "1001066;1003066"
+    },
+    "56": {
+      "id": 56,
+      "Count": 25,
+      "Level": 67,
+      "VIP": 0,
+      "Characters1": "1001067;1002067",
+      "Characters2": "1002067;1003067",
+      "Characters3": "1001067;1003067"
+    },
+    "57": {
+      "id": 57,
+      "Count": 25,
+      "Level": 68,
+      "VIP": 0,
+      "Characters1": "1001068;1002068",
+      "Characters2": "1002068;1003068",
+      "Characters3": "1001068;1003068"
+    },
+    "58": {
+      "id": 58,
+      "Count": 25,
+      "Level": 69,
+      "VIP": 0,
+      "Characters1": "1001069;1002069",
+      "Characters2": "1002069;1003069",
+      "Characters3": "1001069;1003069"
+    },
+    "59": {
+      "id": 59,
+      "Count": 25,
+      "Level": 70,
+      "VIP": 0,
+      "Characters1": "1001070;1002070",
+      "Characters2": "1002070;1003070",
+      "Characters3": "1001070;1003070"
+    },
+    "60": {
+      "id": 60,
+      "Count": 15,
+      "Level": 71,
+      "VIP": 0,
+      "Characters1": "1001071;1002071",
+      "Characters2": "1002071;1003071",
+      "Characters3": "1001071;1003071"
+    },
+    "61": {
+      "id": 61,
+      "Count": 15,
+      "Level": 72,
+      "VIP": 0,
+      "Characters1": "1001072;1002072",
+      "Characters2": "1002072;1003072",
+      "Characters3": "1001072;1003072"
+    },
+    "62": {
+      "id": 62,
+      "Count": 15,
+      "Level": 73,
+      "VIP": 0,
+      "Characters1": "1001073;1002073",
+      "Characters2": "1002073;1003073",
+      "Characters3": "1001073;1003073"
+    },
+    "63": {
+      "id": 63,
+      "Count": 15,
+      "Level": 74,
+      "VIP": 0,
+      "Characters1": "1001074;1002074",
+      "Characters2": "1002074;1003074",
+      "Characters3": "1001074;1003074"
+    },
+    "64": {
+      "id": 64,
+      "Count": 15,
+      "Level": 75,
+      "VIP": 0,
+      "Characters1": "1001075;1002075",
+      "Characters2": "1002075;1003075",
+      "Characters3": "1001075;1003075"
+    },
+    "65": {
+      "id": 65,
+      "Count": 15,
+      "Level": 76,
+      "VIP": 0,
+      "Characters1": "1001076;1002076",
+      "Characters2": "1002076;1003076",
+      "Characters3": "1001076;1003076"
+    },
+    "66": {
+      "id": 66,
+      "Count": 15,
+      "Level": 77,
+      "VIP": 0,
+      "Characters1": "1001077;1002077",
+      "Characters2": "1002077;1003077",
+      "Characters3": "1001077;1003077"
+    },
+    "67": {
+      "id": 67,
+      "Count": 15,
+      "Level": 78,
+      "VIP": 0,
+      "Characters1": "1001078;1002078",
+      "Characters2": "1002078;1003078",
+      "Characters3": "1001078;1003078"
+    },
+    "68": {
+      "id": 68,
+      "Count": 15,
+      "Level": 79,
+      "VIP": 0,
+      "Characters1": "1001079;1002079",
+      "Characters2": "1002079;1003079",
+      "Characters3": "1001079;1003079"
+    },
+    "69": {
+      "id": 69,
+      "Count": 5,
+      "Level": 80,
+      "VIP": 0,
+      "Characters1": "1001080;1002080;1003080",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "70": {
+      "id": 70,
+      "Count": 5,
+      "Level": 81,
+      "VIP": 0,
+      "Characters1": "1001081;1002081;1003081",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "71": {
+      "id": 71,
+      "Count": 5,
+      "Level": 82,
+      "VIP": 0,
+      "Characters1": "1001082;1002082;1003082",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "72": {
+      "id": 72,
+      "Count": 5,
+      "Level": 83,
+      "VIP": 0,
+      "Characters1": "1001083;1002083;1003083",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "73": {
+      "id": 73,
+      "Count": 5,
+      "Level": 84,
+      "VIP": 0,
+      "Characters1": "1001084;1002084;1003084",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "74": {
+      "id": 74,
+      "Count": 5,
+      "Level": 85,
+      "VIP": 0,
+      "Characters1": "1001085;1002085;1003085",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "75": {
+      "id": 75,
+      "Count": 5,
+      "Level": 86,
+      "VIP": 0,
+      "Characters1": "1001086;1002086;1003086",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "76": {
+      "id": 76,
+      "Count": 5,
+      "Level": 87,
+      "VIP": 0,
+      "Characters1": "1001087;1002087;1003087",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "77": {
+      "id": 77,
+      "Count": 5,
+      "Level": 88,
+      "VIP": 0,
+      "Characters1": "1001088;1002088;1003088",
+      "Characters2": "",
+      "Characters3": ""
+    },
+    "78": {
+      "id": 78,
+      "Count": 5,
+      "Level": 89,
+      "VIP": 0,
+      "Characters1": "1001089;1002089;1003089",
+      "Characters2": "",
+      "Characters3": ""
+    }
+  }
+}

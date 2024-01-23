@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_wifidi",
+    "texture": "2f4591f8-d84f-4e47-9109-36701d21c06c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      170,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      170,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

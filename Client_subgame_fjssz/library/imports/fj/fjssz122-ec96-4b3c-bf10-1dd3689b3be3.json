@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_wen_02",
+    "texture": "fjsszbad-5729-45ec-accb-2b627000f7f8",
+    "atlas": "",
+    "rect": [
+      7,
+      0,
+      95,
+      58
+    ],
+    "offset": [
+      3.5,
+      10
+    ],
+    "originalSize": [
+      102,
+      78
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

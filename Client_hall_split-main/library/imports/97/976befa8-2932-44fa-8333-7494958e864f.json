@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_baida",
+    "texture": "08ee0f64-ce10-4e40-ab3b-366c8c69e763",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      52,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      52,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_bjl_shang",
+    "texture": "8d58e836-2c2c-4ebd-9da0-f548749724ca",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1360,
+      85
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1360,
+      85
+    ],
+    "capInsets": [
+      610,
+      36,
+      610,
+      36
+    ]
+  }
+}

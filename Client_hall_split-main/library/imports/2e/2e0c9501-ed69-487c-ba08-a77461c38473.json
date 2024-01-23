@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_zhezhao",
+    "texture": "bef0db80-41fc-4792-a41f-298fdce1ac0f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      188,
+      312
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      189,
+      312
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

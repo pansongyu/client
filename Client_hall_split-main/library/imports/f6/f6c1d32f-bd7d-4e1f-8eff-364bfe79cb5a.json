@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_luozuo",
+    "texture": "b98c648b-764e-410b-838b-a540ba7a40ff",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      181
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      181
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

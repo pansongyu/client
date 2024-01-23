@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_turn",
+    "texture": "552bf4dd-2a2c-47a0-8be9-b96040f1e0d7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      614,
+      612
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      614,
+      612
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

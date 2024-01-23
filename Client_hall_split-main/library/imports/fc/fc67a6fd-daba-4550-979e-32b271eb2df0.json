@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iPadPro",
+    "texture": "02f145d2-227e-4e79-93cc-61e42dc31eb8",
+    "atlas": "",
+    "rect": [
+      16,
+      0,
+      90,
+      106
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      122,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

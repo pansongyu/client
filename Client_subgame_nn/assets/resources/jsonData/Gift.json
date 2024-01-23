@@ -1,0 +1,58 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "鸡蛋",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_jd",
+    "channelType": 2
+  },
+  "2": {
+    "ID": 2,
+    "Name": "啤酒",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_pj",
+    "channelType": 2
+  },
+  "3": {
+    "ID": 3,
+    "Name": "亲吻",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_qw",
+    "channelType": 2
+  },
+  "4": {
+    "ID": 4,
+    "Name": "水桶",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_st",
+    "channelType": 2
+  },
+  "5": {
+    "ID": 5,
+    "Name": "鲜花",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_xh",
+    "channelType": 2
+  },
+  "6": {
+    "ID": 6,
+    "Name": "炸弹",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_zd",
+    "channelType": 2
+  },
+  "7": {
+    "ID": 7,
+    "Name": "抓鸡",
+    "Type": 1,
+    "Num": 0,
+    "ImageName": "icon_zj",
+    "channelType": 2
+  }
+}

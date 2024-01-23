@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_srk_1",
+    "texture": "cbe18ab6-59ea-4e4b-bb23-71654be80f8d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      40,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      71
+    ],
+    "capInsets": [
+      15,
+      15,
+      15,
+      15
+    ]
+  }
+}

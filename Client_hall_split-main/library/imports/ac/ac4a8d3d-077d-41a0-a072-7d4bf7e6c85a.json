@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_qiandao_dt",
+    "texture": "08ca3339-ebbf-42b7-9560-e4c3a3e933f0",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      115,
+      120
+    ],
+    "offset": [
+      -5.5,
+      4
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

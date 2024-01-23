@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_dt_djsl",
+    "texture": "ca445bfb-9c74-4cc7-8bf6-6e6091e00152",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      60,
+      63
+    ],
+    "offset": [
+      -2,
+      0.5
+    ],
+    "originalSize": [
+      64,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

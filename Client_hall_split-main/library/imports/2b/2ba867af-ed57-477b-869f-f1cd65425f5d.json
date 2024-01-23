@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_dan",
+    "texture": "0d229152-5105-470b-aee1-06f23ebd9ba9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      308,
+      252
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      308,
+      252
+    ],
+    "capInsets": [
+      20,
+      120,
+      20,
+      110
+    ]
+  }
+}

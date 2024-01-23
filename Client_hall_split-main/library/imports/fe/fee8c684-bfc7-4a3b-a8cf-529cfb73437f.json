@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_saishi",
+    "texture": "2f9658f6-151d-4c5e-b97d-3c2a8f7b74fc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      52,
+      71
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      52,
+      71
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

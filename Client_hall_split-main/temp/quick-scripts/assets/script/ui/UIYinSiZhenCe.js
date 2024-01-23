@@ -1,0 +1,35 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/ui/UIYinSiZhenCe.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, '04726wHncpA85AWxYmNsH50', 'UIYinSiZhenCe', __filename);
+// script/ui/UIYinSiZhenCe.js
+
+"use strict";
+
+/*
+ UIYinSiZhenCe 登陆界面
+ */
+var app = require("app");
+cc.Class({
+    extends: require("BaseForm"),
+
+    properties: {},
+    OnCreateInit: function OnCreateInit() {},
+
+    OnShow: function OnShow() {},
+
+    //---------点击函数---------------------
+    OnClick: function OnClick(btnName, btnNode) {}
+});
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=UIYinSiZhenCe.js.map
+        

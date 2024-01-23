@@ -1,0 +1,55 @@
+
+sp_effect_qiang.png
+size: 472,470
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+gunfire
+  rotate: false
+  xy: 246, 72
+  size: 150, 110
+  orig: 150, 110
+  offset: 0, 0
+  index: -1
+light_00000
+  rotate: false
+  xy: 2, 50
+  size: 120, 141
+  orig: 120, 141
+  offset: 0, 0
+  index: -1
+light_00001
+  rotate: false
+  xy: 350, 327
+  size: 120, 141
+  orig: 120, 141
+  offset: 0, 0
+  index: -1
+light_00002
+  rotate: false
+  xy: 124, 50
+  size: 120, 141
+  orig: 120, 141
+  offset: 0, 0
+  index: -1
+light_00003
+  rotate: false
+  xy: 350, 184
+  size: 120, 141
+  orig: 120, 141
+  offset: 0, 0
+  index: -1
+qiang_00000
+  rotate: false
+  xy: 2, 193
+  size: 172, 275
+  orig: 172, 275
+  offset: 0, 0
+  index: -1
+qiang_00001
+  rotate: false
+  xy: 176, 193
+  size: 172, 275
+  orig: 172, 275
+  offset: 0, 0
+  index: -1

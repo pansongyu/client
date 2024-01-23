@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_kou02",
+    "texture": "7a8abc0b-6234-4dac-8e8d-4db5b86aa5dc",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      36,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      40,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

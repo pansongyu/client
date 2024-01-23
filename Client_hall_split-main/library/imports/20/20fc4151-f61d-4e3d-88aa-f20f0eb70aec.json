@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "puke",
+    "texture": "27353331-acc9-4e3f-849c-fcfb0d00aea8",
+    "atlas": "",
+    "rect": [
+      7,
+      11,
+      187,
+      188
+    ],
+    "offset": [
+      1,
+      -1
+    ],
+    "originalSize": [
+      199,
+      208
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

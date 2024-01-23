@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_linedl",
+    "texture": "9478ec18-6992-4dff-90a3-12dfc2ec1001",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      245,
+      96
+    ],
+    "offset": [
+      0,
+      1
+    ],
+    "originalSize": [
+      245,
+      98
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

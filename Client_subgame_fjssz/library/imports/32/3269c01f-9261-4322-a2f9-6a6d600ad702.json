@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_2bei",
+    "texture": "8cb44207-39a8-4bea-a18a-ddb3306f79af",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      69,
+      72
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      70,
+      72
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

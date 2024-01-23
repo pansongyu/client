@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "gameList",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "85": {
+      "id": 85,
+      "gameName": "fjssz",
+      "gameType": "poker",
+      "region": "fujian",
+      "imgUrl": "texture/ui/newMain/btn_fjssz",
+      "sortNum": 1,
+      "isOpen": 1
+    }
+  }
+}

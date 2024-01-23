@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "small_bg_diamond1_2",
+    "texture": "e8b20db8-ef19-4a84-897b-0f57b82fa236",
+    "atlas": "",
+    "rect": [
+      6,
+      34,
+      23,
+      27
+    ],
+    "offset": [
+      0,
+      -16
+    ],
+    "originalSize": [
+      35,
+      63
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

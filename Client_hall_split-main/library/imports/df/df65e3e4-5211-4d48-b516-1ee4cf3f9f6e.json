@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_kqgps",
+    "texture": "dbb4fa26-7438-4c1a-ab94-5e33c1a2c7a7",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      167,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      167,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

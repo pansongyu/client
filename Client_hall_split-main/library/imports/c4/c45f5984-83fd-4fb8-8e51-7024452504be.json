@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_ssdi",
+    "texture": "ac9ea345-ebac-4dcc-80b5-36b36bccaf51",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      19,
+      20
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      19,
+      20
+    ],
+    "capInsets": [
+      8,
+      8,
+      8,
+      8
+    ]
+  }
+}

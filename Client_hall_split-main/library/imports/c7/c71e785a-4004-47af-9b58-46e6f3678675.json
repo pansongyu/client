@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ctn_shop_02",
+    "texture": "4c8e175a-f1d5-4b4f-8dca-fde210cddd86",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      109,
+      62
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      109,
+      62
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

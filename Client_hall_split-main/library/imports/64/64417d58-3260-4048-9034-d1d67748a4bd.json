@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_xldl",
+    "texture": "b14671d7-c65c-40dc-b36d-d8915825ddf5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      255,
+      99
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      255,
+      99
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

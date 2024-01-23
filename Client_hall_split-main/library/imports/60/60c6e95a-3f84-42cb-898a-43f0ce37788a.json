@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_yiyou",
+    "texture": "14a179f4-ccaf-4df2-926e-4139478b417b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      91,
+      100
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      91,
+      100
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

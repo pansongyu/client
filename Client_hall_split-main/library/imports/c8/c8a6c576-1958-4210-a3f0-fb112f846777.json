@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "yellow_4",
+    "texture": "0bad58e6-c328-470f-a998-67b65464dbc5",
+    "atlas": "",
+    "rect": [
+      5,
+      0,
+      16,
+      24
+    ],
+    "offset": [
+      0.5,
+      0.5
+    ],
+    "originalSize": [
+      25,
+      25
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_wuyou",
+    "texture": "67da45e1-bd73-4c23-8367-798dc84941e9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      41,
+      89
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      41,
+      89
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

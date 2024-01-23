@@ -1,0 +1,233 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "dailyworldrefresh",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1": {
+      "Index": 1,
+      "Comment": "每日0点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 86400,
+      "EventTypes": "Day_h0",
+      "EventValues": ""
+    },
+    "2": {
+      "Index": 2,
+      "Comment": "每日3点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 10800,
+      "Interval": 86400,
+      "EventTypes": "Day_h4",
+      "EventValues": ""
+    },
+    "3": {
+      "Index": 3,
+      "Comment": "每日7点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 25200,
+      "Interval": 86400,
+      "EventTypes": "Day_h7",
+      "EventValues": ""
+    },
+    "4": {
+      "Index": 4,
+      "Comment": "每日8点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 28800,
+      "Interval": 86400,
+      "EventTypes": "Day_h8",
+      "EventValues": ""
+    },
+    "5": {
+      "Index": 5,
+      "Comment": "每日9点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 32400,
+      "Interval": 86400,
+      "EventTypes": "Day_h9",
+      "EventValues": ""
+    },
+    "6": {
+      "Index": 6,
+      "Comment": "每日12点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 43190,
+      "Interval": 86400,
+      "EventTypes": "Day_h12",
+      "EventValues": ""
+    },
+    "7": {
+      "Index": 7,
+      "Comment": "每日13点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 46790,
+      "Interval": 86400,
+      "EventTypes": "Day_h13",
+      "EventValues": ""
+    },
+    "8": {
+      "Index": 8,
+      "Comment": "每日16点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 57590,
+      "Interval": 86400,
+      "EventTypes": "Day_h16",
+      "EventValues": ""
+    },
+    "9": {
+      "Index": 9,
+      "Comment": "每日18点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 64800,
+      "Interval": 86400,
+      "EventTypes": "Day_h18",
+      "EventValues": ""
+    },
+    "10": {
+      "Index": 10,
+      "Comment": "每日19点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 68400,
+      "Interval": 86400,
+      "EventTypes": "Day_h19",
+      "EventValues": ""
+    },
+    "11": {
+      "Index": 11,
+      "Comment": "每日20点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 72000,
+      "Interval": 86400,
+      "EventTypes": "Day_h20",
+      "EventValues": ""
+    },
+    "12": {
+      "Index": 12,
+      "Comment": "每日21点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 75600,
+      "Interval": 86400,
+      "EventTypes": "Day_h21",
+      "EventValues": ""
+    },
+    "13": {
+      "Index": 13,
+      "Comment": "每日22点触发",
+      "StartRefer": "NowDay",
+      "FirstSec": 79200,
+      "Interval": 86400,
+      "EventTypes": "Day_h22",
+      "EventValues": ""
+    },
+    "14": {
+      "Index": 14,
+      "Comment": "每周星期一0点",
+      "StartRefer": "NowWeek",
+      "FirstSec": 0,
+      "Interval": 604800,
+      "EventTypes": "Week_d1h0",
+      "EventValues": ""
+    },
+    "15": {
+      "Index": 15,
+      "Comment": "每周星期一3点",
+      "StartRefer": "NowWeek",
+      "FirstSec": 97200,
+      "Interval": 604800,
+      "EventTypes": "Week_d1h4",
+      "EventValues": ""
+    },
+    "16": {
+      "Index": 16,
+      "Comment": "每隔5分钟",
+      "StartRefer": "NowSec",
+      "FirstSec": 300,
+      "Interval": 300,
+      "EventTypes": "Every_m5",
+      "EventValues": ""
+    },
+    "17": {
+      "Index": 17,
+      "Comment": "每隔15分钟",
+      "StartRefer": "NowSec",
+      "FirstSec": 900,
+      "Interval": 900,
+      "EventTypes": "Every_m15",
+      "EventValues": ""
+    },
+    "18": {
+      "Index": 18,
+      "Comment": "每隔30分钟",
+      "StartRefer": "NowSec",
+      "FirstSec": 1800,
+      "Interval": 1800,
+      "EventTypes": "Every_m30",
+      "EventValues": ""
+    },
+    "19": {
+      "Index": 19,
+      "Comment": "每隔一小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 3600,
+      "EventTypes": "Every_h1",
+      "EventValues": ""
+    },
+    "20": {
+      "Index": 20,
+      "Comment": "每隔两小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 7200,
+      "EventTypes": "Every_h2",
+      "EventValues": ""
+    },
+    "21": {
+      "Index": 21,
+      "Comment": "每隔三小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 10800,
+      "EventTypes": "Every_h3",
+      "EventValues": ""
+    },
+    "22": {
+      "Index": 22,
+      "Comment": "每隔四小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 14400,
+      "EventTypes": "Every_h4",
+      "EventValues": ""
+    },
+    "23": {
+      "Index": 23,
+      "Comment": "每隔六小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 21600,
+      "EventTypes": "Every_h6",
+      "EventValues": ""
+    },
+    "24": {
+      "Index": 24,
+      "Comment": "每隔八小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 28800,
+      "EventTypes": "Every_h8",
+      "EventValues": ""
+    },
+    "25": {
+      "Index": 25,
+      "Comment": "每隔十二小时",
+      "StartRefer": "NowDay",
+      "FirstSec": 0,
+      "Interval": 43200,
+      "EventTypes": "Every_h12",
+      "EventValues": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+info face="lb_bh" size=1 bold=0 italic=0 charset="" unicode=0 stretchH=0 smooth=1 aa=1 padding=0,0,0,0 spacing=0,0
+common lineHeight=30 base=0 scaleW=128 scaleH=64 pages=1 packed=0
+page id=0 file="lb_bh.png"
+chars count=7
+
+char  id=32  x=0  y=0  width=0  height=0  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=49  x=0  y=0  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=50  x=0  y=30  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=51  x=30  y=0  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=52  x=30  y=30  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=53  x=60  y=0  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0
+char  id=54  x=60  y=30  width=30  height=30  xoffset=0  yoffset=0  xadvance=30  page=0  chnl=0

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_waf_di",
+    "texture": "99c5ce6b-b22d-4dc5-9847-9c553e4e008a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      222,
+      176
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      222,
+      176
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

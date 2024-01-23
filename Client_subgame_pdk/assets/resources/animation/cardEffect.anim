@@ -1,0 +1,566 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "cardEffect",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 2.19,
+  "sample": 32,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {},
+    "paths": {
+      "card1": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.15625,
+              "value": 30
+            },
+            {
+              "frame": 0.3125,
+              "value": 15
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card2": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.15625,
+              "value": 15
+            },
+            {
+              "frame": 0.3125,
+              "value": 30
+            },
+            {
+              "frame": 0.46875,
+              "value": 15
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card3": {
+        "props": {
+          "y": [
+            {
+              "frame": 0.15625,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 15
+            },
+            {
+              "frame": 0.46875,
+              "value": 30
+            },
+            {
+              "frame": 0.625,
+              "value": 15
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card4": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 15
+            },
+            {
+              "frame": 0.625,
+              "value": 30
+            },
+            {
+              "frame": 0.78125,
+              "value": 15
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card5": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 15
+            },
+            {
+              "frame": 0.78125,
+              "value": 30
+            },
+            {
+              "frame": 0.9375,
+              "value": 15
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card6": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 15
+            },
+            {
+              "frame": 0.9375,
+              "value": 30
+            },
+            {
+              "frame": 1.09375,
+              "value": 15
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card7": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 15
+            },
+            {
+              "frame": 1.09375,
+              "value": 30
+            },
+            {
+              "frame": 1.25,
+              "value": 15
+            },
+            {
+              "frame": 1.40625,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card8": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 15
+            },
+            {
+              "frame": 1.25,
+              "value": 30
+            },
+            {
+              "frame": 1.40625,
+              "value": 15
+            },
+            {
+              "frame": 1.5625,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card9": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 15
+            },
+            {
+              "frame": 1.40625,
+              "value": 30
+            },
+            {
+              "frame": 1.5625,
+              "value": 15
+            },
+            {
+              "frame": 1.71875,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card10": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.40625,
+              "value": 15
+            },
+            {
+              "frame": 1.5625,
+              "value": 30
+            },
+            {
+              "frame": 1.71875,
+              "value": 15
+            },
+            {
+              "frame": 1.875,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card11": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.40625,
+              "value": 0
+            },
+            {
+              "frame": 1.5625,
+              "value": 15
+            },
+            {
+              "frame": 1.71875,
+              "value": 30
+            },
+            {
+              "frame": 1.875,
+              "value": 15
+            },
+            {
+              "frame": 2.03125,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card12": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.40625,
+              "value": 0
+            },
+            {
+              "frame": 1.5625,
+              "value": 0
+            },
+            {
+              "frame": 1.71875,
+              "value": 15
+            },
+            {
+              "frame": 1.875,
+              "value": 30
+            },
+            {
+              "frame": 2.03125,
+              "value": 15
+            },
+            {
+              "frame": 2.1875,
+              "value": 0
+            }
+          ]
+        }
+      },
+      "card13": {
+        "props": {
+          "y": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0.3125,
+              "value": 0
+            },
+            {
+              "frame": 0.46875,
+              "value": 0
+            },
+            {
+              "frame": 0.625,
+              "value": 0
+            },
+            {
+              "frame": 0.78125,
+              "value": 0
+            },
+            {
+              "frame": 0.9375,
+              "value": 0
+            },
+            {
+              "frame": 1.09375,
+              "value": 0
+            },
+            {
+              "frame": 1.25,
+              "value": 0
+            },
+            {
+              "frame": 1.40625,
+              "value": 0
+            },
+            {
+              "frame": 1.5625,
+              "value": 0
+            },
+            {
+              "frame": 1.71875,
+              "value": 0
+            },
+            {
+              "frame": 1.875,
+              "value": 15
+            },
+            {
+              "frame": 2.03125,
+              "value": 30
+            },
+            {
+              "frame": 2.1875,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

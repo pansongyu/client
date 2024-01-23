@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_benquan",
+    "texture": "f5e79927-9913-4907-90f1-20f9532c347d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      72,
+      22
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      72,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

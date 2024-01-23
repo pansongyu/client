@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "smallGhost",
+    "texture": "b8b8956c-59e7-4e66-b7b1-2580df110988",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      164,
+      204
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      164,
+      204
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

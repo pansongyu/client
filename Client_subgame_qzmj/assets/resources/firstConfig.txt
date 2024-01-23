@@ -1,0 +1,85 @@
+#首次请求地址
+GateServerIP=
+GateServerPortList=[1032,1034]
+#客户端标示
+GameID=p7
+#客户端配置标示(同一个项目不同版本配置标示)
+ConfigVersion=default
+
+#更新apk地址
+apkUpdateURL =http://dev.zle.com/HZ-release.apk
+#获取apk版本地址
+apkVersionUpdateURL =http://dev.zle.com/zle.txt
+
+#打包类型
+appPackType=NORMAL
+#---------------远程下载配置--------------------
+
+#Native版本使用的授权支付相关配置 AccountType OrderType MPID Channel H5版本会通过启动连接替换掉这4个参数(ddmchannel,ddmmp)
+#账号登陆模式,3是微信,0是登录框
+AccountType=3
+
+#支付订单模式
+OrderType=10
+
+#公众号标示
+MPID=dph
+
+#渠道标示
+Channel=company
+
+#app资源更新地址
+UpdateUrl=http://restest.zle.com/update
+
+
+#服务IP配置 192.168.100.162 9999 9902
+GameServerIP=47.103.77.205
+GameServerPort=9998
+
+AccountServerIP=47.103.77.205
+AccountServerPort=904
+
+OrderServerIP=yangzhong.wanzikj.com
+OrderServerPort=803
+
+ResServerIP=47.103.77.205
+ResServerPort=92
+
+ServerID=10086
+
+apkVersion=1.0.1
+hotUpdateURL=http://updatefb.qp355.com:82/hall/remote-assets/version.manifest
+hotUpdateVersion=1.0.3
+
+#微信分享配置
+
+#分享标题
+WeChatShareTitle = 正宗仙游麻将
+#分享描述
+WeChatShareDesc = 朋友圈游戏，千万人在线，随时随地开线上棋牌室
+
+#房间分享标题
+WeChatShareRoomTitle = {游戏名}，房号：({房间号})
+#房间分享描述
+WeChatShareRoomDesc = 朋友圈游戏，随时随地开线上棋牌室！
+
+#H5微信分享默认贴图地址
+WeChatShareImageUrl = https://www.qp355.com/index_files/suibian/icon.png
+
+#h5游戏登录地址
+GameLoadUrl=http://www.qp355.com/weixin.php
+
+#h5游戏公众号2微码地址
+WeChatMPAddress=http://mp.weixin.qq.com/s?__biz=MzI0MjQ3NjU1MA==&mid=2247483657&idx=1&sn=aa03fddc70c59fba0846b3266cfb40f8&chksm=e97af260de0d7b7646b8af086750ee5b1b2c484c7c274d4e44ce8632d422787bf9cf3e4c0b81#rd
+
+#QQ群连接
+QQQunLink=https://jq.qq.com/?_wv=1027&k=43tghSC
+
+#官网地址
+WebSiteUrl=http://www.qp355.com/
+
+#app分享跳转地址
+WeChatAppShareUrl=https://fir.im/89dh
+
+
+

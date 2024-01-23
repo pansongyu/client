@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_xiangqing",
+    "texture": "9cb9f446-8a24-4e1e-adef-4d9666f43e9a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      49,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      49,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "pdkMainScene": {
+    "SceneType": "pdkMainScene",
+    "Name": "主场景",
+    "ComponentName": "pdk_SceneMain",
+    "gamePrefab": "0",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "pdkScene": {
+    "SceneType": "pdkScene",
+    "Name": "万年跑得快场景",
+    "ComponentName": "pdk_BaseScene",
+    "gamePrefab": "game/PDK/UIPDK_Play",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  },
+  "pdkLoginScene": {
+    "SceneType": "pdkLoginScene",
+    "Name": "登陆场景",
+    "ComponentName": "pdk_SceneLogin",
+    "gamePrefab": "pdk_UILogin",
+    "IsCanMove": 0,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "pdkVideoScene": {
+    "SceneType": "pdkVideoScene",
+    "Name": "万年跑得快回放场景",
+    "ComponentName": "pdkVideoScene",
+    "gamePrefab": "game/PDK/UIPDKVideo",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  }
+}

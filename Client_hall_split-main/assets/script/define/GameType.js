@@ -1,0 +1,6 @@
+var GameType = {
+	//HZMJ = 'HZMJ',
+
+
+};
+

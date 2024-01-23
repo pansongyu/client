@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_game_mjpx_zt",
+    "texture": "2b615a15-44b6-45d8-8afe-8cf6ea3b083d",
+    "atlas": "",
+    "rect": [
+      3,
+      5,
+      462,
+      457
+    ],
+    "offset": [
+      -22,
+      22.5
+    ],
+    "originalSize": [
+      512,
+      512
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

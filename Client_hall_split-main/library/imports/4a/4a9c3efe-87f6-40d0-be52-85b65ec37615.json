@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_cai",
+    "texture": "24f7c450-766a-42ca-8cc5-1213c8e1a3c2",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

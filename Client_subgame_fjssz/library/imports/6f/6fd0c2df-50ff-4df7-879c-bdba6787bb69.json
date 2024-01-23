@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_mask_btn",
+    "texture": "d8dbfe12-aac3-463d-be04-484a84f0747e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      113,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      113,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

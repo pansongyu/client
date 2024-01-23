@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_gengxin",
+    "texture": "1841400b-8430-4527-9f9a-d5329566ee73",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      72,
+      49
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      72,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

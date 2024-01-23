@@ -1,0 +1,16 @@
+{
+  "8501": {
+    "id": 8501,
+    "GameType": "fjssz",
+    "ClientTime": 60000,
+    "ServerTime": 3600000,
+    "Roomtype": 1
+  },
+  "8502": {
+    "id": 8502,
+    "GameType": "fjssz",
+    "ClientTime": 60000,
+    "ServerTime": 65000,
+    "Roomtype": 2
+  }
+}

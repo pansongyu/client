@@ -1,0 +1,85 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "createRoomBtnAnimation",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.05,
+  "sample": 1000,
+  "speed": 0.02,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.04,
+            "value": {
+              "__uuid__": "c7767391-b5e1-4118-ab14-468197890119"
+            }
+          },
+          {
+            "frame": 0.041,
+            "value": {
+              "__uuid__": "9256e571-706c-4061-8338-9b746cea4774"
+            }
+          },
+          {
+            "frame": 0.042,
+            "value": {
+              "__uuid__": "7e48446f-cfca-4dbc-8c46-10ad659b2acd"
+            }
+          },
+          {
+            "frame": 0.043,
+            "value": {
+              "__uuid__": "41b167d5-f33e-4078-bed3-55b2bbce5683"
+            }
+          },
+          {
+            "frame": 0.044,
+            "value": {
+              "__uuid__": "147d8334-0188-4836-b6d9-1bf688c66c3e"
+            }
+          },
+          {
+            "frame": 0.045,
+            "value": {
+              "__uuid__": "48dbd1cf-2474-4ed8-b8c2-a7e8d5340d7d"
+            }
+          },
+          {
+            "frame": 0.046,
+            "value": {
+              "__uuid__": "b1507dc6-742b-4903-a0dc-ff22432d1eda"
+            }
+          },
+          {
+            "frame": 0.047,
+            "value": {
+              "__uuid__": "f74cb938-4fb7-495b-823b-f05d7950c58e"
+            }
+          },
+          {
+            "frame": 0.048,
+            "value": {
+              "__uuid__": "3fe4b594-00d2-41a2-a2ad-b85579887556"
+            }
+          },
+          {
+            "frame": 0.049,
+            "value": {
+              "__uuid__": "db373886-c83e-441d-b32b-61ca30b71085"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "",
+      "params": []
+    }
+  ]
+}

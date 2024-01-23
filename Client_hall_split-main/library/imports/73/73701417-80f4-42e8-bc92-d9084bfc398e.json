@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iphonex",
+    "texture": "5384da99-050b-4afc-a078-1d21667c2cbe",
+    "atlas": "",
+    "rect": [
+      16,
+      1,
+      89,
+      103
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      122,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

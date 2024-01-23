@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_shouqi",
+    "texture": "40a7be78-5485-4751-b128-1ec4dc74e3ed",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      182
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      48,
+      182
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

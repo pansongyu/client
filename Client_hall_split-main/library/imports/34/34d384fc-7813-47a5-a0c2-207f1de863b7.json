@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_pinghu",
+    "texture": "100c7f2f-fd78-4d37-bf70-f13b124c0d25",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      88,
+      87
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      88,
+      87
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

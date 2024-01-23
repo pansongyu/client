@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "mg_nub_ye",
+    "texture": "7250d445-b462-4759-9bd7-a3fd84709bda",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      200,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      200,
+      48
+    ],
+    "capInsets": [
+      28,
+      22,
+      27,
+      22
+    ]
+  }
+}

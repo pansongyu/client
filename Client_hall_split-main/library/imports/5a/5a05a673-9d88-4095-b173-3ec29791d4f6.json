@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_hua",
+    "texture": "4e29e5e5-8ee0-48c0-a0cc-f11a667fe583",
+    "atlas": "",
+    "rect": [
+      8,
+      16,
+      35,
+      144
+    ],
+    "offset": [
+      -66,
+      31.5
+    ],
+    "originalSize": [
+      183,
+      239
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_anzi",
+    "texture": "1b38f38d-65a3-4611-9f30-6a6825b03762",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      262,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      262,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

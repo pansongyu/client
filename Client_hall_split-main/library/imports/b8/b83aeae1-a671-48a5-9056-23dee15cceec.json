@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_chun",
+    "texture": "21ebb098-56e4-442d-9e90-f6c0bf2a2def",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      67,
+      59
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      67,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_wxfx",
+    "texture": "432c2839-face-4a43-b734-edfe6aac76f4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      171,
+      172
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      171,
+      172
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

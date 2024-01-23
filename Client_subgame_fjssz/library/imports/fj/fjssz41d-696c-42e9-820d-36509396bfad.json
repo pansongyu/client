@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_chat_huatong2",
+    "texture": "fjssz81d-6ea8-4f53-bae8-06b4dd16895d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      7,
+      22
+    ],
+    "offset": [
+      -0.5,
+      0
+    ],
+    "originalSize": [
+      8,
+      22
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

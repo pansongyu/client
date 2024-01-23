@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_ssq",
+    "texture": "3fb118e7-1521-4e5c-ad73-3b305ac51fe9",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      120,
+      47
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      120,
+      47
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

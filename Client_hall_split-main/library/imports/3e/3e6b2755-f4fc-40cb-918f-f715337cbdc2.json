@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_guolv",
+    "texture": "60bb101a-fc3e-4c28-9fb5-8921119c1efb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      263,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      263,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

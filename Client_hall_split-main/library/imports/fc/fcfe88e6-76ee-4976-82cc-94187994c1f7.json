@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_chazhao",
+    "texture": "6066b4d5-210a-4486-8b00-57d74c51b207",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      43,
+      35
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      35
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

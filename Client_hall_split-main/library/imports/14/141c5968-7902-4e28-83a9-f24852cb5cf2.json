@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_xiaoguan",
+    "texture": "96cc98d4-0f3e-4b12-a3a0-5320d9649417",
+    "atlas": "",
+    "rect": [
+      2,
+      2,
+      39,
+      39
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      44,
+      44
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

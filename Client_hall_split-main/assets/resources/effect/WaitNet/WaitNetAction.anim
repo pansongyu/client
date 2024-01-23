@@ -1,0 +1,156 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "WaitNetAction",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.0166666666666666,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {},
+    "comps": {
+      "cc.Sprite": {}
+    },
+    "paths": {
+      "1": {
+        "props": {},
+        "comps": {
+          "cc.Sprite": {
+            "spriteFrame": [
+              {
+                "frame": 0,
+                "value": {
+                  "__uuid__": "d015a5cc-c5b9-4b78-b4b3-e779564a2480"
+                }
+              },
+              {
+                "frame": 0.06666666666666667,
+                "value": {
+                  "__uuid__": "b4614bf0-3a2e-45ad-aee8-1ed2af1713b8"
+                }
+              },
+              {
+                "frame": 0.13333333333333333,
+                "value": {
+                  "__uuid__": "981a4089-aa4b-4f16-95b1-5b51909a856d"
+                }
+              },
+              {
+                "frame": 0.2,
+                "value": {
+                  "__uuid__": "630beadc-37f2-4a17-8bf5-3e982eb3cc6e"
+                }
+              },
+              {
+                "frame": 0.26666666666666666,
+                "value": {
+                  "__uuid__": "63b45f96-9754-45b6-b294-46909b40d8f8"
+                }
+              },
+              {
+                "frame": 0.3333333333333333,
+                "value": {
+                  "__uuid__": "807e014d-80ec-4cf5-9bb7-5b26c308eb5b"
+                }
+              },
+              {
+                "frame": 0.4,
+                "value": {
+                  "__uuid__": "737bb1ff-a3fc-419c-8389-e477259523a5"
+                }
+              },
+              {
+                "frame": 0.4666666666666667,
+                "value": {
+                  "__uuid__": "981a4089-aa4b-4f16-95b1-5b51909a856d"
+                }
+              },
+              {
+                "frame": 0.5333333333333333,
+                "value": {
+                  "__uuid__": "2eed8d2c-359d-4739-8165-a2c2c618d291"
+                }
+              },
+              {
+                "frame": 0.6,
+                "value": {
+                  "__uuid__": "747dd142-2835-4bd2-a641-a19713b9b3b5"
+                }
+              },
+              {
+                "frame": 0.6666666666666666,
+                "value": {
+                  "__uuid__": "928903e5-6412-4210-8fdd-587449c63d57"
+                }
+              },
+              {
+                "frame": 0.7333333333333333,
+                "value": {
+                  "__uuid__": "d51a24fe-a2ce-48b8-8cb8-422c8c5d68f0"
+                }
+              },
+              {
+                "frame": 0.8,
+                "value": {
+                  "__uuid__": "31670222-b03d-4e81-bc90-420e9a920e09"
+                }
+              },
+              {
+                "frame": 0.8666666666666667,
+                "value": {
+                  "__uuid__": "b74fa0ee-7b2b-4caa-bec1-03c889cf0a4d"
+                }
+              },
+              {
+                "frame": 0.9333333333333333,
+                "value": {
+                  "__uuid__": "a8708556-3656-4429-97c3-ca3fbcb5d530"
+                }
+              },
+              {
+                "frame": 1,
+                "value": {
+                  "__uuid__": "dc597d0e-6d78-4ca3-b9fd-a221ed9eb3e0"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "2": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": 0
+            },
+            {
+              "frame": 0,
+              "value": -0.24479999992007606
+            },
+            {
+              "frame": 1,
+              "value": -360
+            }
+          ]
+        }
+      },
+      "3": {
+        "props": {
+          "angle": [
+            {
+              "frame": 0,
+              "value": -360
+            },
+            {
+              "frame": 1,
+              "value": 0
+            }
+          ]
+        }
+      }
+    }
+  },
+  "events": []
+}

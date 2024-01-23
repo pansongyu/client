@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_xiadi",
+    "texture": "143e8573-ed9b-4c87-b887-396a73672a31",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      43,
+      37
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      37
+    ],
+    "capInsets": [
+      19,
+      16,
+      19,
+      17
+    ]
+  }
+}

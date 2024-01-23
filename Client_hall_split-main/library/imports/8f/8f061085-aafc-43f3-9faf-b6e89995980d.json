@@ -1,0 +1,74 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "flowerAnimation2",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 20.6,
+  "sample": 5,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "props": {
+      "position": [
+        {
+          "frame": 0,
+          "value": [
+            -495,
+            252
+          ],
+          "motionPath": [
+            [
+              -540,
+              44,
+              -542,
+              112,
+              -537,
+              -43
+            ],
+            [
+              -481,
+              -134,
+              -495,
+              -51,
+              -476,
+              -164
+            ],
+            [
+              -462,
+              -244,
+              -460,
+              -224,
+              -465,
+              -270
+            ],
+            [
+              -461,
+              -287,
+              -458,
+              -283,
+              -461,
+              -286
+            ]
+          ]
+        },
+        {
+          "frame": 9.6,
+          "value": [
+            -448,
+            -349
+          ],
+          "motionPath": []
+        },
+        {
+          "frame": 20.6,
+          "value": [
+            -451,
+            -355
+          ],
+          "motionPath": []
+        }
+      ]
+    }
+  },
+  "events": []
+}

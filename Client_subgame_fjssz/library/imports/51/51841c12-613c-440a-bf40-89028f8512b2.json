@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_game_zs",
+    "texture": "0764d633-43a9-4a11-a2c9-c3582fe37281",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      107,
+      99
+    ],
+    "offset": [
+      -10.5,
+      14.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

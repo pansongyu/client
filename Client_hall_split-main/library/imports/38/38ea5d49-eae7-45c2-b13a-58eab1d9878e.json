@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_green03_big",
+    "texture": "9cedb9c4-1589-427d-aa5c-ca9a4dc20a7a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      185,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      185,
+      61
+    ],
+    "capInsets": [
+      44,
+      17,
+      41,
+      20
+    ]
+  }
+}

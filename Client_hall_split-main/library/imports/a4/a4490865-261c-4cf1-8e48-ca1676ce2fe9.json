@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fcb",
+    "texture": "8f363127-76ad-4b87-9146-390fca0b9773",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      95,
+      66
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      95,
+      66
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

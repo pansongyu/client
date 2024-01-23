@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_zdown",
+    "texture": "f6c378fa-17c9-4602-b3ec-6c0b56378dd6",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      150,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      150,
+      38
+    ],
+    "capInsets": [
+      20,
+      0,
+      20,
+      0
+    ]
+  }
+}

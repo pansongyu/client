@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tongdi",
+    "texture": "44871778-9883-4036-9f8a-ce807f46c589",
+    "atlas": "",
+    "rect": [
+      0,
+      2,
+      86,
+      58
+    ],
+    "offset": [
+      -1,
+      -1
+    ],
+    "originalSize": [
+      88,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_glzcy",
+    "texture": "5d2ea321-5c36-4684-88ca-4114b157428a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      133,
+      41
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      133,
+      41
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

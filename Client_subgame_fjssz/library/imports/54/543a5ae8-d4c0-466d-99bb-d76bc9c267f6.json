@@ -1,0 +1,172 @@
+{
+  "__type__": "sp.SkeletonData",
+  "_name": "dankong",
+  "_objFlags": 0,
+  "_native": "",
+  "_skeletonJson": {
+    "skeleton": {
+      "hash": "ZQYstVXEevoWWwiZ52hp3QhQN3M",
+      "spine": "3.6.53",
+      "width": 221.45,
+      "height": 214.73,
+      "images": "./dankong_ReversePic/"
+    },
+    "bones": [
+      {
+        "name": "root"
+      },
+      {
+        "name": "bone",
+        "parent": "root",
+        "length": 98.64,
+        "x": -31.65,
+        "y": 57.48
+      },
+      {
+        "name": "bone2",
+        "parent": "root",
+        "length": 65.34,
+        "rotation": 19.36,
+        "x": 51.48,
+        "y": -5.23
+      },
+      {
+        "name": "bone3",
+        "parent": "root",
+        "length": 53.34,
+        "rotation": -88.21,
+        "x": -84.3,
+        "y": -66.04
+      }
+    ],
+    "slots": [
+      {
+        "name": "dk_01",
+        "bone": "bone",
+        "attachment": "dk_01"
+      },
+      {
+        "name": "dk_02",
+        "bone": "bone2",
+        "attachment": "dk_02"
+      },
+      {
+        "name": "dk_03",
+        "bone": "bone3",
+        "attachment": "dk_03"
+      }
+    ],
+    "skins": {
+      "default": {
+        "dk_01": {
+          "dk_01": {
+            "width": 89,
+            "height": 88
+          }
+        },
+        "dk_02": {
+          "dk_02": {
+            "x": -1.16,
+            "y": 2.87,
+            "rotation": -19.36,
+            "width": 89,
+            "height": 88
+          }
+        },
+        "dk_03": {
+          "dk_03": {
+            "x": 3.25,
+            "y": 1.18,
+            "rotation": 88.21,
+            "width": 89,
+            "height": 88
+          }
+        }
+      }
+    },
+    "animations": {
+      "animation": {
+        "slots": {
+          "dk_02": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.2,
+                "name": "dk_02"
+              }
+            ]
+          },
+          "dk_03": {
+            "attachment": [
+              {
+                "time": 0,
+                "name": null
+              },
+              {
+                "time": 0.4,
+                "name": "dk_03"
+              }
+            ]
+          }
+        },
+        "bones": {
+          "bone2": {
+            "scale": [
+              {
+                "time": 0.2,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.4667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bone3": {
+            "scale": [
+              {
+                "time": 0.4,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.6667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          },
+          "bone": {
+            "scale": [
+              {
+                "time": 0,
+                "x": 0,
+                "y": 0
+              },
+              {
+                "time": 0.2667,
+                "x": 1,
+                "y": 1
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "_atlasText": "\ndankong.png\nsize: 184,182\nformat: RGBA8888\nfilter: Linear,Linear\nrepeat: none\ndk_01\n  rotate: false\n  xy: 2, 92\n  size: 89, 88\n  orig: 89, 88\n  offset: 0, 0\n  index: -1\ndk_02\n  rotate: false\n  xy: 2, 2\n  size: 89, 88\n  orig: 89, 88\n  offset: 0, 0\n  index: -1\ndk_03\n  rotate: false\n  xy: 93, 92\n  size: 89, 88\n  orig: 89, 88\n  offset: 0, 0\n  index: -1\n",
+  "textures": [
+    {
+      "__uuid__": "c68c7784-ba3c-40eb-be11-9537d59543a6"
+    }
+  ],
+  "textureNames": [
+    "dankong.png"
+  ],
+  "scale": 1
+}

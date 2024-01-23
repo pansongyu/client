@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "iphone8",
+    "texture": "56dab6b1-fccb-4c72-b819-d70c0c97c6e5",
+    "atlas": "",
+    "rect": [
+      15,
+      1,
+      91,
+      103
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      122,
+      106
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

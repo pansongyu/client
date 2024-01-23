@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_toudao",
+    "texture": "79e212ea-35a2-41f1-96ce-3631e8d7eeb4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      66,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      31
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

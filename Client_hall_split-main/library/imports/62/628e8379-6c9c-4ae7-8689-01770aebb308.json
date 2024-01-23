@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_jrlm",
+    "texture": "286600b5-83c1-437b-9411-e0e9321bccae",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      341,
+      389
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      341,
+      389
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

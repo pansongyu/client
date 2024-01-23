@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_yel_wz04",
+    "texture": "4f04bddb-7918-4f20-a1d7-8729cfc49ca8",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      130,
+      37
+    ],
+    "offset": [
+      -0.5,
+      -0.5
+    ],
+    "originalSize": [
+      131,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "jidanAni",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.06666666666666667,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "qzmjmj71-7ae2-4bdb-9a74-a6b113e51e37"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "qzmjmj88-aca4-4366-aa3a-120c7eb1a738"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "qzmjmj69-83b0-441b-a6dc-08dab714b7b0"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "qzmjmj07-c592-41b3-8461-279e8ff748e8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "gangAction",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6,
+  "sample": 60,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "lznn18b3-2e4a-47e2-ac98-e6c59db84c8f"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "lznnbc67-d464-40e6-9adb-5974ce65d89d"
+            }
+          },
+          {
+            "frame": 0.16666666666666666,
+            "value": {
+              "__uuid__": "lznna329-2334-42d4-b297-bed0d37b3313"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "lznn002c-d91f-494e-865f-898efe206dcb"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "lznnf26e-5904-4097-a8fa-cb65a37f743a"
+            }
+          },
+          {
+            "frame": 0.4166666666666667,
+            "value": {
+              "__uuid__": "lznnb13c-cb52-4853-a771-243e6a09b1d5"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "lznn0dd2-f116-4ed5-8ff7-d2838ac17f48"
+            }
+          },
+          {
+            "frame": 0.5833333333333334,
+            "value": {
+              "__uuid__": "lznn37f0-555d-48a8-b737-a64e72ac58b1"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

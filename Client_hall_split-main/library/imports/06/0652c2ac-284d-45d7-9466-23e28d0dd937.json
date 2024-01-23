@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_fhdi",
+    "texture": "24f94c54-05d3-4c4e-aaf7-1f6276f1993a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      414,
+      76
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      414,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

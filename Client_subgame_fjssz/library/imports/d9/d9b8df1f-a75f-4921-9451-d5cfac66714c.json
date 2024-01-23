@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_likai",
+    "texture": "b687c2a2-117c-464f-9c19-d8bcb6fdb030",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      55,
+      53
+    ],
+    "offset": [
+      -1,
+      0
+    ],
+    "originalSize": [
+      57,
+      53
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

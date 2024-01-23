@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "qiangzhuang_tip_bg",
+    "texture": "13046c63-9da5-40b3-9a93-d41fa5aa6f18",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      296,
+      100
+    ],
+    "offset": [
+      -6.5,
+      0
+    ],
+    "originalSize": [
+      309,
+      108
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_spld07",
+    "texture": "7fbcc099-cf2d-4668-af7e-6d7aaafce566",
+    "atlas": "",
+    "rect": [
+      10,
+      5,
+      139,
+      111
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      159,
+      120
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

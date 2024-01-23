@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_sqjs",
+    "texture": "a514e148-7a5d-4b1e-a6a9-8f1170452bb5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      165,
+      59
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      166,
+      60
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

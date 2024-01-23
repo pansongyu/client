@@ -1,0 +1,16 @@
+{
+  "801": {
+    "id": 801,
+    "GameType": "pdk",
+    "ClientTime": 60000,
+    "ServerTime": 3600000,
+    "Roomtype": 1
+  },
+  "802": {
+    "id": 802,
+    "GameType": "pdk",
+    "ClientTime": 60000,
+    "ServerTime": 65000,
+    "Roomtype": 2
+  }
+}

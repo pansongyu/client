@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_hspl",
+    "texture": "469a895b-7c81-462a-bdd4-771ef7866036",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      75,
+      72
+    ],
+    "offset": [
+      -0.5,
+      -2
+    ],
+    "originalSize": [
+      76,
+      76
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

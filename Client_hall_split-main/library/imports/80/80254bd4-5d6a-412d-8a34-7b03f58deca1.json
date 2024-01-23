@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_time",
+    "texture": "559e943e-d4f0-4d8d-b208-61e3c35a2871",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      105,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      105,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

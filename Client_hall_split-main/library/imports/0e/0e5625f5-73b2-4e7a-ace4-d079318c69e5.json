@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_jp",
+    "texture": "a7bb1338-f551-41db-865d-a5c365be58ef",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      163,
+      163
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      163,
+      163
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

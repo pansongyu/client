@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "face6Action",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.3,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "qzmjmj16-f357-4b89-b5b7-f99a1800eb78"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "qzmjmj5e-9ebe-4cfd-a1fd-e98ce511b9a5"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "qzmjmjc7-ac78-4801-95fb-16ff9e4ec939"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "qzmjmj11-44dd-47a5-b490-baf6535a4972"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "qzmjmjf7-9f20-4ef2-b890-c3cb4188508c"
+            }
+          },
+          {
+            "frame": 1.25,
+            "value": {
+              "__uuid__": "qzmjmj9a-37cc-480d-b683-63917b5acc6d"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

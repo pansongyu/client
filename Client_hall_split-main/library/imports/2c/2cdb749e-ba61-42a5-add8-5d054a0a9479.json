@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tianting",
+    "texture": "b7e3adad-f44c-44b3-b7e4-6fc355b80a21",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      36,
+      34
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      36,
+      34
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

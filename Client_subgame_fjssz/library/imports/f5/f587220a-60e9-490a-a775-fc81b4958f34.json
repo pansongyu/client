@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "kashiyouxi",
+    "texture": "67b8dd06-0eb8-49de-8f42-13e59720a8ed",
+    "atlas": "",
+    "rect": [
+      2,
+      9,
+      998,
+      1026
+    ],
+    "offset": [
+      -17.5,
+      -3.5
+    ],
+    "originalSize": [
+      1037,
+      1037
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

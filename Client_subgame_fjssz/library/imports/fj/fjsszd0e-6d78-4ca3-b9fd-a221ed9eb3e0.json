@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "game_loading_16",
+    "texture": "fjssz4b7-e683-4583-bf16-ddcf43a11efe",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      50,
+      51
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      50,
+      51
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

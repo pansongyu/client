@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_down_yel01",
+    "texture": "a8011280-f7ae-4483-8064-45816dc384ab",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      924,
+      136
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      924,
+      136
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

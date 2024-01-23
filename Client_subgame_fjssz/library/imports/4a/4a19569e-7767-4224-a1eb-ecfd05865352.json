@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_zhongdao",
+    "texture": "aac87064-4ab9-4695-bb4d-6f2c979a9f17",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      66,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      66,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

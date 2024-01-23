@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "dankong",
+    "texture": "c68c7784-ba3c-40eb-be11-9537d59543a6",
+    "atlas": "",
+    "rect": [
+      12,
+      14,
+      170,
+      157
+    ],
+    "offset": [
+      5,
+      -1.5
+    ],
+    "originalSize": [
+      184,
+      182
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

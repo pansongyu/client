@@ -1,0 +1,16 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "FirstCharge",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1": {
+      "AppID": 1,
+      "AppValue": 66,
+      "AppPrice": 6,
+      "Time": "7",
+      "Goods": "1,210000,icon_jb;0,1000,icon_zs;2,50,icon_fk",
+      "ChannelType": 2
+    }
+  }
+}

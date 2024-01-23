@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_checkmap_cs",
+    "texture": "9bee99bf-7b63-4973-972c-38e688f953cd",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      33,
+      42
+    ],
+    "offset": [
+      0,
+      -0.5
+    ],
+    "originalSize": [
+      35,
+      43
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

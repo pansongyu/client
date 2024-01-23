@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_hulan",
+    "texture": "a1328366-d0c5-41e4-9e96-e5cb14a6e6eb",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      264,
+      233
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      264,
+      234
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "loginScene": {
+    "SceneType": "loginScene",
+    "Name": "登陆场景",
+    "ComponentName": "SceneLogin",
+    "gamePrefab": "0",
+    "IsCanMove": 0,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "mainScene": {
+    "SceneType": "mainScene",
+    "Name": "主场景",
+    "ComponentName": "SceneMain",
+    "gamePrefab": "0",
+    "IsCanMove": 1,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "MainScene"
+  },
+  "clubScene": {
+    "SceneType": "clubScene",
+    "Name": "亲友圈",
+    "ComponentName": "SceneClub",
+    "gamePrefab": "0",
+    "IsCanMove": 0,
+    "CameraMoveType": 0,
+    "SwitchImage": "0",
+    "BackGroundSound": "0"
+  }
+}

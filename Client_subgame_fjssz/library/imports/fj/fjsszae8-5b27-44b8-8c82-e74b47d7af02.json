@@ -1,0 +1,305 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "signin",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "1001": {
+      "id": 1001,
+      "Day": 1,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 1,
+      "VIPTimes": 1
+    },
+    "1002": {
+      "id": 1002,
+      "Day": 2,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 1,
+      "VIPTimes": 1
+    },
+    "1003": {
+      "id": 1003,
+      "Day": 3,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 2,
+      "VIPTimes": 1
+    },
+    "1004": {
+      "id": 1004,
+      "Day": 4,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 2,
+      "VIPTimes": 1
+    },
+    "1005": {
+      "id": 1005,
+      "Day": 5,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 3,
+      "VIPTimes": 1
+    },
+    "1006": {
+      "id": 1006,
+      "Day": 6,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 3,
+      "VIPTimes": 1
+    },
+    "1007": {
+      "id": 1007,
+      "Day": 7,
+      "Type": "SignIn",
+      "UniformitemId": "6;1",
+      "Count": "1;3000",
+      "VIPLevel": 4,
+      "VIPTimes": 1
+    },
+    "1008": {
+      "id": 1008,
+      "Day": 8,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 4,
+      "VIPTimes": 1
+    },
+    "1009": {
+      "id": 1009,
+      "Day": 9,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 5,
+      "VIPTimes": 1
+    },
+    "1010": {
+      "id": 1010,
+      "Day": 10,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 5,
+      "VIPTimes": 1
+    },
+    "1011": {
+      "id": 1011,
+      "Day": 11,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 6,
+      "VIPTimes": 1
+    },
+    "1012": {
+      "id": 1012,
+      "Day": 12,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 6,
+      "VIPTimes": 1
+    },
+    "1013": {
+      "id": 1013,
+      "Day": 13,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 7,
+      "VIPTimes": 1
+    },
+    "1014": {
+      "id": 1014,
+      "Day": 14,
+      "Type": "SignIn",
+      "UniformitemId": "6;1",
+      "Count": "2;3000",
+      "VIPLevel": 7,
+      "VIPTimes": 1
+    },
+    "1015": {
+      "id": 1015,
+      "Day": 15,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 8,
+      "VIPTimes": 1
+    },
+    "1016": {
+      "id": 1016,
+      "Day": 16,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 8,
+      "VIPTimes": 1
+    },
+    "1017": {
+      "id": 1017,
+      "Day": 17,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 9,
+      "VIPTimes": 1
+    },
+    "1018": {
+      "id": 1018,
+      "Day": 18,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 9,
+      "VIPTimes": 1
+    },
+    "1019": {
+      "id": 1019,
+      "Day": 19,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 10,
+      "VIPTimes": 1
+    },
+    "1020": {
+      "id": 1020,
+      "Day": 20,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 10,
+      "VIPTimes": 1
+    },
+    "1021": {
+      "id": 1021,
+      "Day": 21,
+      "Type": "SignIn",
+      "UniformitemId": "6;1",
+      "Count": "3;3000",
+      "VIPLevel": 11,
+      "VIPTimes": 1
+    },
+    "1022": {
+      "id": 1022,
+      "Day": 22,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 11,
+      "VIPTimes": 1
+    },
+    "1023": {
+      "id": 1023,
+      "Day": 23,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 12,
+      "VIPTimes": 1
+    },
+    "1024": {
+      "id": 1024,
+      "Day": 24,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 12,
+      "VIPTimes": 1
+    },
+    "1025": {
+      "id": 1025,
+      "Day": 25,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 13,
+      "VIPTimes": 1
+    },
+    "1026": {
+      "id": 1026,
+      "Day": 26,
+      "Type": "SignIn",
+      "UniformitemId": "1",
+      "Count": 3000,
+      "VIPLevel": 13,
+      "VIPTimes": 1
+    },
+    "1027": {
+      "id": 1027,
+      "Day": 27,
+      "Type": "SignIn",
+      "UniformitemId": "6",
+      "Count": 1,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "1028": {
+      "id": 1028,
+      "Day": 28,
+      "Type": "SignIn",
+      "UniformitemId": "6;1",
+      "Count": "4;3000",
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "2003": {
+      "id": 2003,
+      "Day": 3,
+      "Type": "LoginIn",
+      "UniformitemId": "2",
+      "Count": 28,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "2007": {
+      "id": 2007,
+      "Day": 7,
+      "Type": "LoginIn",
+      "UniformitemId": "2",
+      "Count": 68,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "2015": {
+      "id": 2015,
+      "Day": 15,
+      "Type": "LoginIn",
+      "UniformitemId": "2",
+      "Count": 108,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "2021": {
+      "id": 2021,
+      "Day": 21,
+      "Type": "LoginIn",
+      "UniformitemId": "2",
+      "Count": 128,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    },
+    "2028": {
+      "id": 2028,
+      "Day": 28,
+      "Type": "LoginIn",
+      "UniformitemId": "2",
+      "Count": 288,
+      "VIPLevel": 14,
+      "VIPTimes": 1
+    }
+  }
+}

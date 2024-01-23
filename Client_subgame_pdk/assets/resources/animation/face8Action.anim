@@ -1,0 +1,55 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "face8Action",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 1.3,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "typdke9f-605f-4f9b-8987-097ffc663fcc"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "typdkb63-9576-4f1e-baad-ad86b757a682"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "typdk86d-c723-4451-ae1b-93a8419b315e"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "typdkdb6-9adc-487f-9616-faafa2cee9b1"
+            }
+          },
+          {
+            "frame": 1,
+            "value": {
+              "__uuid__": "typdk935-e7f1-4b21-bde0-feb6cf61cf5d"
+            }
+          },
+          {
+            "frame": 1.25,
+            "value": {
+              "__uuid__": "typdk476-0090-4085-b300-6833b39a3d3e"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_ksjr",
+    "texture": "2c8bad3d-89ec-401a-a937-c3b55b975f8e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      168,
+      67
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      168,
+      67
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

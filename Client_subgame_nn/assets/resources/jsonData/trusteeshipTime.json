@@ -1,0 +1,16 @@
+{
+  "501": {
+    "id": 501,
+    "GameType": "nn",
+    "ClientTime": 60000,
+    "ServerTime": 3600000,
+    "Roomtype": 1
+  },
+  "502": {
+    "id": 502,
+    "GameType": "nn",
+    "ClientTime": 60000,
+    "ServerTime": 65000,
+    "Roomtype": 2
+  }
+}

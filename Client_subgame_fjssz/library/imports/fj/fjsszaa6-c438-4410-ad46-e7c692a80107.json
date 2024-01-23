@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_pb_12",
+    "texture": "fjssze14-101c-4f2d-9663-522d7a71acc1",
+    "atlas": "",
+    "rect": [
+      40,
+      22,
+      107,
+      80
+    ],
+    "offset": [
+      -4.5,
+      26
+    ],
+    "originalSize": [
+      196,
+      176
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

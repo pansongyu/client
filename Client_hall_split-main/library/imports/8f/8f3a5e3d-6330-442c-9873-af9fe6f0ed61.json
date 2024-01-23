@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_shopnub_dt_red",
+    "texture": "3216bce7-425b-4af6-a13b-65359393a3c9",
+    "atlas": "",
+    "rect": [
+      1,
+      1,
+      126,
+      113
+    ],
+    "offset": [
+      0,
+      6.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

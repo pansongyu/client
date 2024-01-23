@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_mjz_02-03",
+    "texture": "d60d99a7-1984-4781-a947-b344e1f7b759",
+    "atlas": "",
+    "rect": [
+      30,
+      4,
+      235,
+      208
+    ],
+    "offset": [
+      -4,
+      -2
+    ],
+    "originalSize": [
+      303,
+      212
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "shopLineAnimation",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.07,
+  "sample": 300,
+  "speed": 0.03,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0.056666666666666664,
+            "value": {
+              "__uuid__": "4369ebef-897a-4c61-80b5-3366134fc804"
+            }
+          },
+          {
+            "frame": 0.06,
+            "value": {
+              "__uuid__": "a40d7428-5b67-4513-8a75-ef95d369ac7b"
+            }
+          },
+          {
+            "frame": 0.06333333333333334,
+            "value": {
+              "__uuid__": "548dd378-2893-4d0b-b2b9-7862e321a5ee"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "e79fc95f-a12c-45b9-9309-eae56ae3485f"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

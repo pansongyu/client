@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_jthong1",
+    "texture": "6031a939-ab02-43b7-bd4b-58747efa1e16",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      63,
+      39
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      63,
+      39
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

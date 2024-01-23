@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_rhgz",
+    "texture": "4d9b75f3-4ea6-485c-bcd6-45fc351870e4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      323,
+      80
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      323,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

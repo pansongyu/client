@@ -1,0 +1,49 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "gametype",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "4": {
+      "Id": 4,
+      "Name": "nn",
+      "Type": 2,
+      "Name_1": "拼十",
+      "imgUrl": "btn_nn",
+      "imgUrl_1": "模式1是自由抢庄牛，模式2是牛牛上庄牛，模式3是固定庄家牛，模式4是明牌抢庄牛，模式5是通比牛，模式6是轮庄牛"
+    },
+    "6": {
+      "Id": 6,
+      "Name": "qzmj",
+      "Type": 1,
+      "Name_1": "泉州麻将",
+      "imgUrl": "btn_qzmj",
+      "imgUrl_1": ""
+    },
+    "7": {
+      "Id": 7,
+      "Name": "pdk",
+      "Type": 2,
+      "Name_1": "跑得快",
+      "imgUrl": "btn_pdk",
+      "imgUrl_1": ""
+    },
+    "105": {
+      "Id": 105,
+      "Name": "gdtuo",
+      "Type": 2,
+      "Name_1": "广东拖",
+      "imgUrl": "btn_pxcn",
+      "imgUrl_1": ""
+    },
+    "206": {
+      "Id": 206,
+      "Name": "fjssz",
+      "Type": 2,
+      "Name_1": "福建十三水",
+      "imgUrl": "btn_fjssz",
+      "imgUrl_1": "",
+      "GuanZhan": 1
+    }
+  }
+}

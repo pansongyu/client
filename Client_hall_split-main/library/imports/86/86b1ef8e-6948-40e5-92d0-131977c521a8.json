@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_tobs",
+    "texture": "57473aa6-2ac5-4c6b-b4bf-6054e61b82b4",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      33,
+      31
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      35,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

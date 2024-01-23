@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_tiaozheng",
+    "texture": "6be91fd4-b15d-4973-9d7a-cc2aa56084dc",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      97,
+      38
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      97,
+      38
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

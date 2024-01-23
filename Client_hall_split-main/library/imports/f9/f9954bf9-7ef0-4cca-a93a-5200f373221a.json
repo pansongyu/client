@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "lb_title_dt",
+    "texture": "329e8213-bb27-4310-9039-aae8a5d9560c",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      340,
+      220
+    ],
+    "offset": [
+      -85,
+      18
+    ],
+    "originalSize": [
+      512,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

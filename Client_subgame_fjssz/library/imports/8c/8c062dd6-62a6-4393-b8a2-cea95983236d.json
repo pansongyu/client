@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_lixian",
+    "texture": "3a76d11f-5bc5-41a1-bf5b-d5bf0524eee8",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      56,
+      52
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      56,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "btn_yuanAni",
+  "_objFlags": 0,
+  "_native": "",
+  "_duration": 0.15,
+  "sample": 60,
+  "speed": 0.1,
+  "wrapMode": "2",
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "680a27c3-5f2e-4b74-8257-e1e025122c88"
+            }
+          },
+          {
+            "frame": 0.016666666666666666,
+            "value": {
+              "__uuid__": "57d62383-6687-4c78-9e3c-85825133cdbf"
+            }
+          },
+          {
+            "frame": 0.03333333333333333,
+            "value": {
+              "__uuid__": "c4ff880f-dedc-4f53-bf40-8c5db8339cc1"
+            }
+          },
+          {
+            "frame": 0.05,
+            "value": {
+              "__uuid__": "6f926e50-eaa4-4c14-b3c1-5a6b047de5c5"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "7edd401d-0fd7-4a43-a30d-51286df208cd"
+            }
+          },
+          {
+            "frame": 0.08333333333333333,
+            "value": {
+              "__uuid__": "2999a40a-f613-444b-9bb6-b5cf6b3e66bd"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "000d6ec1-b38f-4f5a-9245-39ad5feb2c61"
+            }
+          },
+          {
+            "frame": 0.11666666666666667,
+            "value": {
+              "__uuid__": "d4f0e74b-266d-4cbf-bcd4-ea6169c9bcc4"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "bca1f1a0-efc5-4bbc-b322-41b41dfb802c"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

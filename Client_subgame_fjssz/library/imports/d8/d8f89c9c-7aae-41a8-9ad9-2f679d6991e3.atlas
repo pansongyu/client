@@ -1,0 +1,139 @@
+
+sp_effect_wdcs.png
+size: 840,838
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+base1
+  rotate: false
+  xy: 282, 595
+  size: 235, 99
+  orig: 235, 99
+  offset: 0, 0
+  index: -1
+base2
+  rotate: false
+  xy: 282, 503
+  size: 235, 90
+  orig: 235, 90
+  offset: 0, 0
+  index: -1
+hu
+  rotate: true
+  xy: 2, 246
+  size: 301, 262
+  orig: 301, 262
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 2, 6
+  size: 235, 238
+  orig: 235, 238
+  offset: 0, 0
+  index: -1
+long
+  rotate: false
+  xy: 2, 549
+  size: 278, 287
+  orig: 278, 287
+  offset: 0, 0
+  index: -1
+ray
+  rotate: false
+  xy: 282, 696
+  size: 398, 140
+  orig: 398, 140
+  offset: 0, 0
+  index: -1
+sd/sd_00000
+  rotate: false
+  xy: 266, 279
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00001
+  rotate: false
+  xy: 372, 279
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00002
+  rotate: false
+  xy: 628, 472
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00003
+  rotate: false
+  xy: 585, 248
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00004
+  rotate: false
+  xy: 691, 248
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00005
+  rotate: false
+  xy: 239, 22
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00006
+  rotate: false
+  xy: 345, 55
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00007
+  rotate: false
+  xy: 451, 45
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00008
+  rotate: true
+  xy: 557, 142
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00009
+  rotate: true
+  xy: 557, 36
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+sd/sd_00010
+  rotate: false
+  xy: 734, 614
+  size: 104, 222
+  orig: 104, 222
+  offset: 0, 0
+  index: -1
+zi1
+  rotate: true
+  xy: 478, 269
+  size: 208, 105
+  orig: 208, 105
+  offset: 0, 0
+  index: -1
+zi2
+  rotate: true
+  xy: 519, 479
+  size: 215, 107
+  orig: 215, 107
+  offset: 0, 0
+  index: -1

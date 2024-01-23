@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_gd",
+    "texture": "fjssz428-d4d0-4564-9ab4-ec4ee585bdeb",
+    "atlas": "",
+    "rect": [
+      0,
+      4,
+      74,
+      75
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      74,
+      80
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_quanh",
+    "texture": "bjpk31d1-51ca-44bb-99bd-00c20fbf4972",
+    "atlas": "",
+    "rect": [
+      0,
+      1,
+      75,
+      43
+    ],
+    "offset": [
+      -2,
+      -0.5
+    ],
+    "originalSize": [
+      79,
+      44
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

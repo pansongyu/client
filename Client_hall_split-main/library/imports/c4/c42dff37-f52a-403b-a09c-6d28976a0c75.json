@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_dlxy",
+    "texture": "ec343954-ae21-41b8-9168-8cacbec12d32",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      215,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      215,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

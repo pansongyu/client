@@ -1,0 +1,29 @@
+info face="lb_btn_game_blue" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=64 base=26 scaleW=218 scaleH=220 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="lb_btn_game_blue.png"
+chars count=23
+char id=21462 x=45 y=0 width=44 height=42 xoffset=0 yoffset=22 xadvance=49 page=0 chnl=0 letter="取"
+char id=28040 x=134 y=44 width=42 height=44 xoffset=1 yoffset=20 xadvance=47 page=0 chnl=0 letter="消"
+char id=25176 x=0 y=174 width=44 height=43 xoffset=0 yoffset=20 xadvance=49 page=0 chnl=0 letter="托"
+char id=31649 x=134 y=0 width=42 height=43 xoffset=1 yoffset=20 xadvance=47 page=0 chnl=0 letter="管"
+char id=24323 x=0 y=0 width=44 height=44 xoffset=0 yoffset=20 xadvance=49 page=0 chnl=0 letter="弃"
+char id=29260 x=90 y=45 width=43 height=43 xoffset=0 yoffset=21 xadvance=48 page=0 chnl=0 letter="牌"
+char id=24320 x=89 y=177 width=43 height=42 xoffset=0 yoffset=22 xadvance=48 page=0 chnl=0 letter="开"
+char id=22797 x=133 y=89 width=43 height=44 xoffset=0 yoffset=20 xadvance=48 page=0 chnl=0 letter="复"
+char id=21046 x=176 y=134 width=41 height=43 xoffset=1 yoffset=21 xadvance=46 page=0 chnl=0 letter="制"
+char id=20998 x=45 y=43 width=44 height=44 xoffset=0 yoffset=20 xadvance=49 page=0 chnl=0 letter="分"
+char id=20139 x=133 y=134 width=42 height=44 xoffset=1 yoffset=20 xadvance=47 page=0 chnl=0 letter="享"
+char id=36807 x=45 y=88 width=44 height=43 xoffset=0 yoffset=20 xadvance=49 page=0 chnl=0 letter="过"
+char id=36864 x=45 y=132 width=43 height=43 xoffset=0 yoffset=21 xadvance=48 page=0 chnl=0 letter="退"
+char id=20986 x=90 y=89 width=40 height=42 xoffset=2 yoffset=21 xadvance=45 page=0 chnl=0 letter="出"
+char id=25151 x=90 y=0 width=43 height=44 xoffset=0 yoffset=20 xadvance=48 page=0 chnl=0 letter="房"
+char id=38388 x=177 y=0 width=40 height=44 xoffset=2 yoffset=20 xadvance=45 page=0 chnl=0 letter="间"
+char id=19981 x=45 y=176 width=43 height=41 xoffset=0 yoffset=23 xadvance=48 page=0 chnl=0 letter="不"
+char id=25250 x=0 y=131 width=44 height=42 xoffset=0 yoffset=21 xadvance=49 page=0 chnl=0 letter="抢"
+char id=25619 x=0 y=87 width=44 height=43 xoffset=0 yoffset=21 xadvance=49 page=0 chnl=0 letter="搓"
+char id=35201 x=0 y=45 width=44 height=41 xoffset=0 yoffset=22 xadvance=49 page=0 chnl=0 letter="要"
+char id=36215 x=89 y=132 width=43 height=44 xoffset=0 yoffset=20 xadvance=48 page=0 chnl=0 letter="起"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=29 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=232 page=0 chnl=0 letter="	"
+
+kernings count=0

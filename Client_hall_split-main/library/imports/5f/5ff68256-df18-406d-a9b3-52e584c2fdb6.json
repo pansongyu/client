@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_zheng",
+    "texture": "8b79ef23-e01a-42cd-94d2-57e34f6284af",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      69,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      69,
+      61
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

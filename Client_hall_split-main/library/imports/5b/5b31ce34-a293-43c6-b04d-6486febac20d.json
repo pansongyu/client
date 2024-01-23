@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_ys",
+    "texture": "6066eae6-12f6-4828-9bb7-5a7c1856904e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      53,
+      132
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      53,
+      133
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
