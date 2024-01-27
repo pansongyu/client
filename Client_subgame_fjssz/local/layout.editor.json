@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 0,
-      "y": 0,
-      "width": 1920,
+      "x": -18,
+      "y": 36,
+      "width": 1940,
       "height": 1032,
       "layout": {
         "children": [
@@ -20,7 +20,7 @@
                 ],
                 "height": 456,
                 "type": "panel",
-                "width": 282
+                "width": 313
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 455,
                 "type": "panel",
-                "width": 282
+                "width": 313
               }
             ],
             "height": 914,
             "type": "dock-v",
-            "width": 282
+            "width": 313
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 645,
                     "type": "panel",
-                    "width": 1045
+                    "width": 951
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 645,
                     "type": "panel",
-                    "width": 264
+                    "width": 347
                   }
                 ],
                 "height": 645,
                 "type": "dock-h",
-                "width": 1312
+                "width": 1301
               },
               {
                 "active": 0,
@@ -72,12 +72,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 1312
+                "width": 1301
               }
             ],
             "height": 914,
             "type": "dock-v",
-            "width": 1312
+            "width": 1301
           },
           {
             "active": 0,
@@ -142,12 +142,20 @@
       "y": 131,
       "width": 816,
       "height": 638
+    },
+    "preferences": {
+      "x": 178,
+      "y": 264,
+      "width": 600,
+      "height": 565
     }
   },
   "panelLabelWidth.inspector": null,
   "panelLabelWidth": {
     "inspector": null,
-    "builder": null
+    "builder": null,
+    "preferences": null
   },
-  "panelLabelWidth.builder": null
+  "panelLabelWidth.builder": null,
+  "panelLabelWidth.preferences": null
 }

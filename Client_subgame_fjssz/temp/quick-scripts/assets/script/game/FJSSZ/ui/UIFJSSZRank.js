@@ -144,7 +144,7 @@ cc.Class({
 		}, function (success) {
 			console.log("RANK OnShow", success);
 			if (success == true) {
-				//玩家已经离好牌了
+				//玩家已经理好牌了
 				self.CloseForm();
 			} else {
 				//玩家没离开，开启理排

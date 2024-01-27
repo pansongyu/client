@@ -72,8 +72,27 @@ cc.Class({
     Sure: function Sure() {
         var _this = this;
 
+        //        ["方块",      "草花" ，   "红桃" , "黑桃" ]
+        // 1: (4) ["0x0e" 14, "0x1e" 30, "0x2e" 46, "0x3e" 62]
+        // 2: (3) ["0x02" 2, "0x12" 18, "0x22" 34]
+        // 3: (3) ["0x03" 3, "0x13" 19, "0x23" 35]
+        // 4: (3) ["0x04" 4, "0x14" 20， "0x24" 36]
+        // 5: (3) ["0x05" 5, "0x15" 21, "0x25" 37] 
+        // 6: (3) ["0x06" 6, "0x16" 22, "0x26" 38]
+        // 7: (3) ["0x07" 7, "0x17" 23, "0x27" 39]
+        // 8: (3) ["0x08" 8, "0x18" 24, "0x28" 40]
+        // 9: (3) ["0x09" 9, "0x19" 25, "0x29" 41]
+        // 10: (4) ["0x0a" 10, "0x1a" 26, "0x2a" 42, "0x3a"58]
+        // 11: (4) ["0x0b" 11, "0x1b" 27, "0x2b" 43, "0x3b"59]
+        // 12: (4) ["0x0c" 12, "0x1c" 28, "0x2c" 44, "0x3c" 60]
+        // 13: (4) ["0x0d" 13, "0x1d" 29, "0x2d" 45, "0x3d" 61]
+        // 14: (8) ["0x42" 66, "0x43" 67, "0x44" 68, "0x45" 69, "0x46" 70, "0x47" 71, "0x48" 72 , "0x49" 73]
         var bg = this.node.getChildByName("bg");
-        var test = [];
+
+        var test = []
+        // [0x3e,0x2d,0x1d,0x3b,0x25,0x05,0x24,0x43,0x3c,0x45,0x17,0x47,0x42]
+        //  [0x3e,0x12,0x22,0x25,0x08,0x09,0x1b,0x3b,0x2c,0x3c,0x42,0x43,0x45]
+        // [(0x2e, 0x1e, 0x13, 0x24, 0x06, 0x16, 0x27, 0x0a, 0x3a, 0x0b, 0x0c, 0x42, 0x44)];
         for (var i = 0; i < bg.children.length; i++) {
             var element = bg.children[i].name;
             if (!this.cardMap[element] || this.cardMap[element].length == 0) continue;
@@ -91,6 +110,7 @@ cc.Class({
         var roomID = RoomMgr.GetEnterRoom().GetRoomProperty("roomID");
         if (!roomID) return;
         var that = this;
+        // 传9988 设置测试牌
         this.SendChat(5, 9988, roomID, JSON.stringify(test), function (msg) {
             console.log(msg);
             if (msg.code == "Success") {

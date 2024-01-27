@@ -3197,14 +3197,14 @@ var GQPLSLogicGame = app.BaseClass.extend({
 				}
 			}
 		}
-		if (guipai.length >= 3) {
-			var sanZhangGuis = [];
-			this.PokerCombination(3, guipai, sanZhangGuis);
-			for (var _i67 = 0; _i67 < sanZhangGuis.length; _i67++) {
+		if (guipai.length >= 4) {
+			var siZhangGuis = [];
+			this.PokerCombination(4, guipai, siZhangGuis);
+			for (var _i67 = 0; _i67 < siZhangGuis.length; _i67++) {
 				for (var j = 0; j < zhangs.length; j++) {
-					var temp = this.copyArr(sanZhangGuis[_i67]);
+					var temp = this.copyArr(siZhangGuis[_i67]);
 					var zhang = this.copyArr(zhangs[j]);
-					if (zhang.length == 2) {
+					if (zhang.length == 1) {
 						for (var k = 0; k < zhang.length; k++) {
 							var one = this.copyArr(zhang[k]);
 							if (temp.indexOf(one) != -1) {
@@ -3219,14 +3219,14 @@ var GQPLSLogicGame = app.BaseClass.extend({
 				}
 			}
 		}
-		if (guipai.length >= 2) {
-			var liangZhangGuis = [];
-			this.PokerCombination(2, guipai, liangZhangGuis);
-			for (var _i68 = 0; _i68 < liangZhangGuis.length; _i68++) {
+		if (guipai.length >= 3) {
+			var sanZhangGuis = [];
+			this.PokerCombination(3, guipai, sanZhangGuis);
+			for (var _i68 = 0; _i68 < sanZhangGuis.length; _i68++) {
 				for (var _j27 = 0; _j27 < zhangs.length; _j27++) {
-					var _temp12 = this.copyArr(liangZhangGuis[_i68]);
+					var _temp12 = this.copyArr(sanZhangGuis[_i68]);
 					var _zhang = this.copyArr(zhangs[_j27]);
-					if (_zhang.length == 3) {
+					if (_zhang.length == 2) {
 						for (var _k11 = 0; _k11 < _zhang.length; _k11++) {
 							var _one = this.copyArr(_zhang[_k11]);
 							if (_temp12.indexOf(_one) != -1) {
@@ -3241,19 +3241,41 @@ var GQPLSLogicGame = app.BaseClass.extend({
 				}
 			}
 		}
+		if (guipai.length >= 2) {
+			var liangZhangGuis = [];
+			this.PokerCombination(2, guipai, liangZhangGuis);
+			for (var _i69 = 0; _i69 < liangZhangGuis.length; _i69++) {
+				for (var _j28 = 0; _j28 < zhangs.length; _j28++) {
+					var _temp13 = this.copyArr(liangZhangGuis[_i69]);
+					var _zhang2 = this.copyArr(zhangs[_j28]);
+					if (_zhang2.length == 3) {
+						for (var _k12 = 0; _k12 < _zhang2.length; _k12++) {
+							var _one2 = this.copyArr(_zhang2[_k12]);
+							if (_temp13.indexOf(_one2) != -1) {
+								continue;
+							}
+							_temp13.push(_one2);
+							if (_temp13.length == 5) {
+								liutongs.push(_temp13);
+							}
+						}
+					}
+				}
+			}
+		}
 		if (guipai.length >= 1) {
-			for (var _i69 = 0; _i69 < zhangs.length; _i69++) {
-				var _zhang2 = zhangs[_i69];
-				if (_zhang2.length == 4) {
-					for (var _j28 = 0; _j28 < guipai.length; _j28++) {
-						var _temp13 = this.copyArr(_zhang2);
-						var gui = guipai[_j28];
-						if (_temp13.indexOf(gui) != -1) {
+			for (var _i70 = 0; _i70 < zhangs.length; _i70++) {
+				var _zhang3 = zhangs[_i70];
+				if (_zhang3.length == 4) {
+					for (var _j29 = 0; _j29 < guipai.length; _j29++) {
+						var _temp14 = this.copyArr(_zhang3);
+						var gui = guipai[_j29];
+						if (_temp14.indexOf(gui) != -1) {
 							continue;
 						}
-						_temp13.push(gui);
-						if (_temp13.length == 5) {
-							liutongs.push(_temp13);
+						_temp14.push(gui);
+						if (_temp14.length == 5) {
+							liutongs.push(_temp14);
 						}
 					}
 				}
@@ -3490,8 +3512,8 @@ var GQPLSLogicGame = app.BaseClass.extend({
 			if (pokers.length == 3) {
 				var _clearListDict = {};
 				var guipai = this.GetGuiPai(pokers);
-				for (var _i70 = 0; _i70 < pokers.length; _i70++) {
-					var _poker8 = pokers[_i70];
+				for (var _i71 = 0; _i71 < pokers.length; _i71++) {
+					var _poker8 = pokers[_i71];
 					var _cardValue4 = this.GetCardValue(_poker8);
 					var _clearList = this.guiClearCardDict[this.wangPaiNum];
 					if (_clearList.indexOf(_cardValue4) > -1) {

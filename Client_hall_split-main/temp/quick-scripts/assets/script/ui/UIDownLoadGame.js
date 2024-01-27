@@ -76,7 +76,7 @@ cc.Class({
             if (gameName == "nn") {
                 this.lb_gameName.string = "妞妞";
             } else {
-                this.lb_gameName.string = "十三支";
+                this.lb_gameName.string = "十三水";
             }
         } else {
             this.lb_gameName.string = gametypeData.Name_1;

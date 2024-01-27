@@ -746,7 +746,8 @@ cc.Class({
 				"difen": difen,
 				"xianShi": xianShi,
 				"jiesan": jiesan,
-				"gaoji": gaoji
+				"gaoji": gaoji,
+				"beishu": 4
 			};
 		}
 

@@ -846,12 +846,11 @@ var fjssz_ClientManager = cc.Class({
 	//---------------------客户端事件分发接口-----------------------------
 	//客户端封包事件
 	OnEvent: function OnEvent(eventName, argDict) {
-		// if(argDict){
-		// console.log("客户端事件分发 OnEvent:" + eventName + "," + argDict);
-		// }
-		// else{
-		//     console.log("客户端事件分发 OnEvent:" + eventName);
-		// }
+		if (argDict) {
+			console.log("客户端事件分发 OnEvent:" + eventName + "," + argDict);
+		} else {
+			console.log("客户端事件分发 OnEvent:" + eventName);
+		}
 
 		try {
 			var curRunGame = cc.sys.localStorage.getItem("curRunGame");

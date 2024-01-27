@@ -742,6 +742,7 @@ cc.Class({
 				"xianShi": xianShi,
 				"jiesan": jiesan,
 				"gaoji": gaoji,
+				"beishu":4,
 			};
 		}
 

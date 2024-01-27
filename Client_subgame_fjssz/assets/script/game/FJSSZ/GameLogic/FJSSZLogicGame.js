@@ -3185,6 +3185,28 @@ var GQPLSLogicGame = app.BaseClass.extend({
 				}
 			}
 		}
+		if (guipai.length >= 4) {
+			let siZhangGuis = [];
+			this.PokerCombination(4, guipai, siZhangGuis);
+			for (let i = 0; i < siZhangGuis.length; i++) {
+				for (let j = 0; j < zhangs.length; j++) {
+					let temp = this.copyArr(siZhangGuis[i]);
+					let zhang = this.copyArr(zhangs[j]);
+					if (zhang.length == 1) {
+						for (let k = 0; k < zhang.length; k++) {
+							let one = this.copyArr(zhang[k]);
+							if (temp.indexOf(one) != -1) {
+								continue;
+							}
+							temp.push(one);
+							if (temp.length == 5) {
+								liutongs.push(temp);
+							}
+						}
+					}
+				}
+			}
+		}
 		if (guipai.length >= 3) {
 			let sanZhangGuis = [];
 			this.PokerCombination(3, guipai, sanZhangGuis);
