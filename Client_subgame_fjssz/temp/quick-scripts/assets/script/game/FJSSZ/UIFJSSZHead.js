@@ -602,11 +602,12 @@ cc.Class({
 	UpDateLabJiFen: function UpDateLabJiFen() {
 		var playerIntegral = 0;
 		if (this.playerInfo) {
-			if (typeof this.playerInfo.sportsPoint != "undefined") {
-				playerIntegral = this.playerInfo.sportsPoint;
-			} else {
-				playerIntegral = this.playerInfo.point;
-			}
+			// if (typeof(this.playerInfo.sportsPoint) != "undefined") {
+			// 	playerIntegral = this.playerInfo.sportsPoint;
+			// } else {
+			// 	playerIntegral = this.playerInfo.point;
+			// }
+			playerIntegral = this.playerInfo.point;
 		}
 		var unionId = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("unionId");
 		var dianbo = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("dianbo");

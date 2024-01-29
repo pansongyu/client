@@ -598,12 +598,12 @@ cc.Class({
 	UpDateLabJiFen: function () {
 		let playerIntegral = 0;
 		if (this.playerInfo) {
-			if (typeof(this.playerInfo.sportsPoint) != "undefined") {
-				playerIntegral = this.playerInfo.sportsPoint;
-			} else {
-				playerIntegral = this.playerInfo.point;
-			}
-			
+			// if (typeof(this.playerInfo.sportsPoint) != "undefined") {
+			// 	playerIntegral = this.playerInfo.sportsPoint;
+			// } else {
+			// 	playerIntegral = this.playerInfo.point;
+			// }
+			playerIntegral = this.playerInfo.point;
 		}
 		let unionId = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("unionId");
 		let dianbo = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("dianbo");

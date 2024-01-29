@@ -1,11 +1,12 @@
 {
   "actualPlatform": "android",
-  "apiLevel": "android-25",
+  "apiLevel": "android-33",
   "appABIs": [
     "armeabi-v7a",
-    "arm64-v8a"
+    "arm64-v8a",
+    "x86"
   ],
-  "buildPath": "D:\\work\\qinghuai\\Client\\builds\\fjssz",
+  "buildPath": "F:\\work\\sjssz",
   "debug": false,
   "embedWebDebugger": false,
   "keystoreAlias": "",

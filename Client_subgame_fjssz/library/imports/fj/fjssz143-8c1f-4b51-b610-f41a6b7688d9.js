@@ -26,7 +26,7 @@ var fjssz_HotUpdateMgr = app.BaseClass.extend({
 
         this._storagePath = (jsb.fileUtils ? jsb.fileUtils.getWritablePath() : '/') + 'ALLGame/' + app.subGameName;
         /// 替换该地址
-        var UIRLFILE = "http://updateqh.qp355.com:82/" + app.subGameName + "/remote-assets";
+        var UIRLFILE = "http://222.187.232.68:88/" + app.subGameName + "/remote-assets";
 
         var customManifestStr = JSON.stringify({
             'packageUrl': UIRLFILE,
