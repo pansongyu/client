@@ -599,6 +599,7 @@ cc.Class({
 		// this.lb_id.string = "ID:" + this.playerInfo.accountID;
 		this.lb_id.string = "ID:" + this.playerInfo.pid;
 	},
+	//头像下的积分
 	UpDateLabJiFen: function UpDateLabJiFen() {
 		var playerIntegral = 0;
 		if (this.playerInfo) {
@@ -611,8 +612,12 @@ cc.Class({
 		}
 		var unionId = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("unionId");
 		var dianbo = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("dianbo");
+		var beishu = this.RoomMgr.GetEnterRoom().GetRoomConfigByProperty("beishu");
+		if (!beishu) {
+			beishu = 1;
+		}
 		if (dianbo && unionId > 0) {
-			playerIntegral += dianbo;
+			playerIntegral = dianbo + playerIntegral;
 		}
 		this.lb_jifen.string = playerIntegral;
 	},

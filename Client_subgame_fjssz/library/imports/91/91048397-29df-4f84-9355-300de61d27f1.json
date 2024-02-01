@@ -1636,7 +1636,7 @@
     "node": {
       "__id__": 39
     },
-    "_enabled": true,
+    "_enabled": false,
     "_layoutSize": {
       "__type__": "cc.Size",
       "width": 300,
@@ -1651,12 +1651,12 @@
       "height": 40
     },
     "_N$startAxis": 0,
-    "_N$paddingLeft": 50,
-    "_N$paddingRight": 50,
-    "_N$paddingTop": 90,
+    "_N$paddingLeft": 0,
+    "_N$paddingRight": 0,
+    "_N$paddingTop": 100,
     "_N$paddingBottom": 0,
-    "_N$spacingX": 20,
-    "_N$spacingY": 20,
+    "_N$spacingX": -60,
+    "_N$spacingY": -80,
     "_N$verticalDirection": 1,
     "_N$horizontalDirection": 0,
     "_N$affectedByScale": false,
@@ -2424,6 +2424,10 @@
     "ShowEffectType": 0,
     "CloseEffectType": 0,
     "ZorderLv": 8,
+    "cardPrefab": {
+      "__uuid__": "fjssz85f-dcc0-44ff-bd2c-ca1faabe74c8"
+    },
+    "icon_mapai": null,
     "_id": ""
   },
   {

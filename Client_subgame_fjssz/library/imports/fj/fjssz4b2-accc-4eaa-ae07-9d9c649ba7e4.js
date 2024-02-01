@@ -206,7 +206,7 @@ var FJSSZRoomPosMgr = app.BaseClass.extend({
 			this.Log("OnPosUpdate not find:%s", pos);
 			return false;
 		}
-		playerInfo.point += player.shui;
+		playerInfo.point += player.shui1;
 	},
 	//每局竞技点更新
 	onPosSportsPoint: function onPosSportsPoint(player) {

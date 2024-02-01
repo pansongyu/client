@@ -2187,4 +2187,24 @@ cc.Class({
 			this.Click_btn_handLiPai();
 		}
 	},
+	OnTest:function(){
+		console.log('点击了测试按钮');
+        let RoomMgr = app[app.subGameName.toUpperCase()+"RoomMgr"]();
+        if(!RoomMgr) return;
+		let roomID = RoomMgr.GetEnterRoom().GetRoomProperty("roomID");
+        if(!roomID) return
+        this.SendChat(5, 999, roomID, "test",(msg)=>{
+            console.log(msg)
+            if(msg.code == "Success")
+            {   
+                let cards = JSON.parse(msg.msg)
+                let FormManager = app[app.subGameName + "_FormManager"]();
+                FormManager.ShowForm(app.subGameName + '_UIRoomTest', cards);
+            }
+        });
+    },
+	SendChat:function (type, quickID, roomID, content,success) {
+		app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "Chat", 
+        {"type":type, "quickID":quickID, "targetID":roomID, "content":content}, success);
+	},
 });

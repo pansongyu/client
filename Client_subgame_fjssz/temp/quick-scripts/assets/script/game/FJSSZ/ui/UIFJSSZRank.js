@@ -2206,6 +2206,24 @@ cc.Class({
 		if ("MSG_NOTPAI" == msgID) {
 			this.Click_btn_handLiPai();
 		}
+	},
+	OnTest: function OnTest() {
+		console.log('点击了测试按钮');
+		var RoomMgr = app[app.subGameName.toUpperCase() + "RoomMgr"]();
+		if (!RoomMgr) return;
+		var roomID = RoomMgr.GetEnterRoom().GetRoomProperty("roomID");
+		if (!roomID) return;
+		this.SendChat(5, 999, roomID, "test", function (msg) {
+			console.log(msg);
+			if (msg.code == "Success") {
+				var cards = JSON.parse(msg.msg);
+				var FormManager = app[app.subGameName + "_FormManager"]();
+				FormManager.ShowForm(app.subGameName + '_UIRoomTest', cards);
+			}
+		});
+	},
+	SendChat: function SendChat(type, quickID, roomID, content, success) {
+		app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "Chat", { "type": type, "quickID": quickID, "targetID": roomID, "content": content }, success);
 	}
 });
 
