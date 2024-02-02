@@ -1,0 +1,81 @@
+{
+  "mtimes": {
+    "f0b122af-72dc-4faa-adf9-767a874f0b9e": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886494
+    },
+    "b408162a-ec0a-40cb-b1a9-899f29142b4d": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886494
+    },
+    "b4739328-8e3a-467e-86ac-013615596990": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886494
+    }
+  },
+  "result": {
+    "name": "playAtlas",
+    "width": 1024,
+    "height": 1024,
+    "ver": "1.2.0",
+    "uuid": "f0b122af-72dc-4faa-adf9-767a874f0b9e",
+    "maxWidth": 1024,
+    "maxHeight": 1024,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": false,
+    "paddingBleed": false,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 0,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "paipinzhi",
+            "uuid": "b408162a-ec0a-40cb-b1a9-899f29142b4d",
+            "textureUuid": "b4739328-8e3a-467e-86ac-013615596990",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636873176_image_0.png",
+            "trim": {
+              "x": 2,
+              "y": 2,
+              "width": 27,
+              "height": 27,
+              "rotatedWidth": 27,
+              "rotatedHeight": 27
+            },
+            "rawWidth": 27,
+            "rawHeight": 27,
+            "width": 31,
+            "height": 31,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/b4/b4739328-8e3a-467e-86ac-013615596990.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 31,
+            "rotatedHeight": 31
+          }
+        ],
+        "width": 32,
+        "height": 32,
+        "name": "playAtlas-1",
+        "imagePath": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\play\\playAtlas.pac\\playAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\play\\playAtlas.pac\\compressed\\playAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

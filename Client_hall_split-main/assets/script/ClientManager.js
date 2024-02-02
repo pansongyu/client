@@ -1,5 +1,5 @@
 /*
-    客户端初始化管理类(该组件节点不会被释放)
+	客户端初始化管理类(该组件节点不会被释放)
 */
 
 var app = require("app");
@@ -113,7 +113,7 @@ cc.Class({
 		this.reConnectLable = this.reConnectTip.getChildByName('sp_info').getChildByName('lb_info').getComponent(cc.Label);
 		this.RegAllEvent();
 		let version = cc.sys.localStorage.getItem('version');
-		if (version == null || typeof(version) == "undefined") {
+		if (version == null || typeof (version) == "undefined") {
 			version = app.NativeManager().CallToNative("getVersion", [], "String");
 			cc.sys.localStorage.setItem('version', version);
 		}
@@ -210,13 +210,13 @@ cc.Class({
 	//网速检测
 	SpeedTest: function (serverPack) {
 		let yanci = new Date().getTime() - this.lastHearTime;
-		this.OnEvent("EvtSpeedTest", {"yanci": yanci});
+		this.OnEvent("EvtSpeedTest", { "yanci": yanci });
 	},
 	//从子游戏切换回大厅，重新登录
 	OnPack_RoleTest: function (serverPack) {
 		console.log("发送重新登录请求...");
 		app.HeroAccountManager().SetAccountProperty("reloginSign", serverPack["sign"]);
-		app.NetManager().SendPack("base.C1006RoleLogin", {"accountID": serverPack["accountID"]});
+		app.NetManager().SendPack("base.C1006RoleLogin", { "accountID": serverPack["accountID"] });
 		this.RunSwitchGameAction();
 		this.RunRecordAction();
 		app.SceneManager().LoadScene("mainScene");
@@ -240,16 +240,16 @@ cc.Class({
 				case 'openClub':
 					// app.FormManager().AddDefaultFormName("ui/club/UIClubMain");
 					let lastClubData = app.ClubManager().GetLastClubData();
-				    if (lastClubData != null) {
-				        let sendPack = {};
-        				sendPack.clubId = lastClubData.club_data.id;
-				        app.NetManager().SendPack("union.CUnionGetSkinInfo",sendPack, function(serverPack){
-				            // app.ClubManager().AddDefaultClubFrom(serverPack.skinType);
-				            app.ClubManager().ShowClubFrom(serverPack.skinType);
-				        }, function(){
+					if (lastClubData != null) {
+						let sendPack = {};
+						sendPack.clubId = lastClubData.club_data.id;
+						app.NetManager().SendPack("union.CUnionGetSkinInfo", sendPack, function (serverPack) {
+							// app.ClubManager().AddDefaultClubFrom(serverPack.skinType);
+							app.ClubManager().ShowClubFrom(serverPack.skinType);
+						}, function () {
 
-				        });
-				    }
+						});
+					}
 					break;
 				default:
 					console.log('未知动作: ' + action);
@@ -274,11 +274,11 @@ cc.Class({
 					if (gameType == this.ShareDefine.GameType_GZMJ) {
 						let gameTypeStr = this.ShareDefine.GametTypeID2PinYin[gameType];
 						app.FormManager().ShowForm("UIRecordAllResult_" + gameTypeStr, allSwitchGameData[i].roomId, allSwitchGameData[i].playerAll, allSwitchGameData[i].gameType, allSwitchGameData[i].unionId, allSwitchGameData[i].roomKey, allSwitchGameData[i].page);
-					} 
+					}
 					else if (gameType == this.ShareDefine.GameType_CP) {
 						let gameTypeStr = this.ShareDefine.GametTypeID2PinYin[gameType];
 						app.FormManager().ShowForm("ui/uiGame/cp/UIRecordAllResult_cp", allSwitchGameData[i].roomId, allSwitchGameData[i].playerAll, allSwitchGameData[i].gameType, allSwitchGameData[i].unionId, allSwitchGameData[i].roomKey, allSwitchGameData[i].page);
-					} 
+					}
 					else {
 						app.FormManager().ShowForm("UIRecordAllResult", allSwitchGameData[i].roomId, allSwitchGameData[i].playerAll, allSwitchGameData[i].gameType, allSwitchGameData[i].unionId, allSwitchGameData[i].roomKey, allSwitchGameData[i].page);
 					}
@@ -324,7 +324,7 @@ cc.Class({
 				});
 			} else {
 				console.log("登录已有账号");
-				NetManager.SendPack("base.C1006RoleLogin", {"accountID": accountID});
+				NetManager.SendPack("base.C1006RoleLogin", { "accountID": accountID });
 			}
 		}
 		//获取游戏列表
@@ -342,7 +342,7 @@ cc.Class({
 			this.GetAllGameIdFromServer();
 			//初始化实时语音
 			console.log("初始化实时语音");
-			let argList = [{"Name": "pid", "Value": heroID.toString()}];
+			let argList = [{ "Name": "pid", "Value": heroID.toString() }];
 			app.NativeManager().CallToNative("OnGVInit", argList);
 			//请求玩家工会数据
 			app.PlayerFamilyManager().SendInitPlayerFamily();
@@ -744,8 +744,8 @@ cc.Class({
 	OnInitClientData: function (clientPath, appVersion) {
 		this.clientState = this.ShareDefine.State_InitSuccess;
 	},
-	ShareDefineGame:function(allGames){
-		if(!allGames || allGames.length == 0) return;
+	ShareDefineGame: function (allGames) {
+		if (!allGames || allGames.length == 0) return;
 		this.ShareDefine.GametTypeNameDict = {};
 		this.ShareDefine.GametTypeID2Name = {};
 		this.ShareDefine.GametTypeID2PinYin = {};
@@ -1094,7 +1094,7 @@ cc.Class({
 				break;
 			}
 		}
-		this.OnEvent("OnKeyDown", {"KeyCode": keyCode});
+		this.OnEvent("OnKeyDown", { "KeyCode": keyCode });
 	},
 	//----------------逻辑函数----------------------
 	//客户端是否登录封包完成
@@ -1278,7 +1278,7 @@ cc.Class({
 		return clientConfig;
 	},
 	GetAppName: function () {
-        return "xinhua";
+		return "xinhua";
 	},
 	//获取客户端启动配置属性值
 	GetClientConfigProperty: function (property) {
@@ -1392,7 +1392,7 @@ cc.Class({
 		}
 		if (roomKey > 0) {
 			let self = this;
-			app.NetManager().SendPack("room.CBaseGetRoomCfg", {"roomKey": roomKey}, function (event) {
+			app.NetManager().SendPack("room.CBaseGetRoomCfg", { "roomKey": roomKey }, function (event) {
 				console.log("roomCfg === " + JSON.stringify(event));
 				if (event.lianmai == 2) {
 					let switchGameDataStr = "";
@@ -1402,7 +1402,7 @@ cc.Class({
 					app.NativeManager().CallToNative("CheckMicPermission", [{
 						"Name": "name",
 						"Value": name
-					}, {"Name": "switchGameData", "Value": switchGameDataStr}]);
+					}, { "Name": "switchGameData", "Value": switchGameDataStr }]);
 				} else {
 					self.StartEnterGame(name, switchGameData);
 				}
@@ -1436,10 +1436,10 @@ cc.Class({
 			//刷新GameServerIp给子游戏
 			cc.sys.localStorage.setItem("localConfig", JSON.stringify(clientConfig));
 			app.SoundManager().StopAllSound();
-			app.NetManager().SendPack("base.C1110UUID", {"gameName": name}, function (event) {
+			app.NetManager().SendPack("base.C1110UUID", { "gameName": name }, function (event) {
 				app.LocalDataManager().SetConfigProperty("Account", "uuid", event);
-			    //停止场景音乐
-			    app.SoundManager().StopAllSound();
+				//停止场景音乐
+				app.SoundManager().StopAllSound();
 				if (app.NetWork().isConnectIng) {
 					console.log("获取uuid成功，断开连接");
 					app.NetManager().Disconnect(true);
@@ -1456,8 +1456,8 @@ cc.Class({
 		if (that.gameInfo && that.gameInfo[gamtTypeID] && that.gameInfo[gamtTypeID]["gameServerIP"]) {
 			successFunc(that.gameInfo[gamtTypeID])
 		}
-		else{
-			app.NetManager().SendPack("room.CBaseGameTypeUrl", {"gametype": gamtTypeID}, successFunc, failFunc)
+		else {
+			app.NetManager().SendPack("room.CBaseGameTypeUrl", { "gametype": gamtTypeID }, successFunc, failFunc)
 		}
 	},
 
@@ -1659,7 +1659,7 @@ cc.Class({
 					app.FormManager().ShowForm("UIDownLoadGame", gameName, 0, null, 0, practiceId);
 				} else {
 					//子游戏不需要更新;
-					app.NetManager().SendPack("room.CBaseGoldRoom", {"practiceId": practiceId}, function (event) {
+					app.NetManager().SendPack("room.CBaseGoldRoom", { "practiceId": practiceId }, function (event) {
 						let gameType = event.gameType;
 						let name = app.ShareDefine().GametTypeID2PinYin[gameType];
 						self.EnterSubGame(name, null, 0);
@@ -1670,7 +1670,7 @@ cc.Class({
 			}, () => {
 				console.log("子游戏更新失败");
 				//下载失败如果已经下载了游戏，直接进。热更服有可能被攻击
-				app.NetManager().SendPack("room.CBaseGoldRoom", {"practiceId": practiceId}, function (event) {
+				app.NetManager().SendPack("room.CBaseGoldRoom", { "practiceId": practiceId }, function (event) {
 					let gameType = event.gameType;
 					let name = app.ShareDefine().GametTypeID2PinYin[gameType];
 					self.EnterSubGame(name, null, 0);
@@ -1690,13 +1690,13 @@ cc.Class({
 			gameName = "sss";
 		}
 		if (sendPack.gaoji && app.Client.GetClientConfigProperty("dianbo")) {
-            if (sendPack.gaoji.indexOf(5) < 0) {
-                sendPack.gaoji.push(5)
-            }
-            if (sendPack.gaoji.indexOf(6) < 0) {
-                sendPack.gaoji.push(6)
-            }
-        }
+			if (sendPack.gaoji.indexOf(5) < 0) {
+				sendPack.gaoji.push(5)
+			}
+			if (sendPack.gaoji.indexOf(6) < 0) {
+				sendPack.gaoji.push(6)
+			}
+		}
 		if (!cc.sys.isNative) {
 			if (sendPack.clubId && sendPack.clubId != 0) {
 				app.NetManager().SendPack("club.CClubCreateRoom", sendPack, function (event) {
@@ -1797,13 +1797,13 @@ cc.Class({
 					app.FormManager().ShowForm("UIDownLoadGame", gameName, 0, null, playBackCode);
 				} else {
 					//子游戏不需要更新;
-					let videoData = {action: "showVideo", backCode: playBackCode};
+					let videoData = { action: "showVideo", backCode: playBackCode };
 					self.EnterSubGame(gameName, videoData);
 				}
 			}, () => {
 				console.log("子游戏更新失败");
 				//下载失败如果已经下载了游戏，直接进。热更服有可能被攻击
-				let videoData = {action: "showVideo", backCode: playBackCode};
+				let videoData = { action: "showVideo", backCode: playBackCode };
 				self.EnterSubGame(gameName, videoData);
 				//app.SysNotifyManager().ShowSysMsg("游戏检测更新失败，建议重启游戏再进");
 			});
@@ -1831,7 +1831,7 @@ cc.Class({
 			}
 			let self = this;
 			//根据选择的城市向服务端请求所有游戏
-			app.NetManager().SendPack("room.CBaseGameIdList", {"selectCityId": selectId}, function (event) {
+			app.NetManager().SendPack("room.CBaseGameIdList", { "selectCityId": selectId }, function (event) {
 				self.allGameIdFormServer = event.split(",");
 				if (isNeedOnEvent) {
 					let curGameList = self.GetAllGameId();
@@ -1886,15 +1886,15 @@ cc.Class({
 		let that = this
 		for (let i = 0; i < allGameId.length; i++) {
 			const gameId = Number(allGameId[i]);
-			if (!this.gameInfo[gameId]){
+			if (!this.gameInfo[gameId]) {
 				this.gameInfo[gameId] = {}
 			}
-			if(!this.gameInfo[gameId]["gameServerIP"]) {
-				app.NetManager().SendPack("room.CBaseGameTypeUrl", {"gametype": gameId}, function (success) {
+			if (!this.gameInfo[gameId]["gameServerIP"]) {
+				app.NetManager().SendPack("room.CBaseGameTypeUrl", { "gametype": gameId }, function (success) {
 					that.gameInfo[gameId]["isStart"] = success.isStart;
 					that.gameInfo[gameId]["gameServerIP"] = success.gameServerIP;
 					that.gameInfo[gameId]["gameServerPort"] = success.gameServerPort;
-				},  ()=>{});
+				}, () => { });
 			}
 		}
 		return allGameId;
@@ -1928,7 +1928,7 @@ cc.Class({
 				return;
 			}
 			//根据选择的城市向服务端请求所有游戏
-			app.NetManager().SendPack("room.CBaseGameIdList", {"selectCityId": backArgList[0]}, function (event) {
+			app.NetManager().SendPack("room.CBaseGameIdList", { "selectCityId": backArgList[0] }, function (event) {
 				self.allGameIdFormServer = event.split(",");
 				let curGameList = self.GetAllGameId();
 				let argDict = {

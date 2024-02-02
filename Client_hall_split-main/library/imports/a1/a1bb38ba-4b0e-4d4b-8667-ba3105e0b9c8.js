@@ -5,7 +5,7 @@ cc._RF.push(module, 'a1bb3i6Sw5NS4ZnujEF4LnI', 'ClientManager');
 'use strict';
 
 /*
-    客户端初始化管理类(该组件节点不会被释放)
+	客户端初始化管理类(该组件节点不会被释放)
 */
 
 var app = require("app");

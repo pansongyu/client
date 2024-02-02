@@ -76,7 +76,7 @@ cc.Class({
             if (gameName == "nn") {
                 this.lb_gameName.string = "妞妞";
             } else {
-                this.lb_gameName.string = "十三水";
+                this.lb_gameName.string = "十三支";
             }
         } else {
             this.lb_gameName.string = gametypeData.Name_1;
@@ -236,7 +236,7 @@ cc.Class({
         this.btn_updateGame.active = false;
         this.btn_enterGame.active = false;
         //下载子游戏/更新子游戏
-        if (!cc.sys.isNative) return;
+        // if(!cc.sys.isNative) return;
         var that = this;
         SubgameManager.downloadSubgame(name, function (progress, downloadedBytes, totalBytes) {
             if (isNaN(progress)) {

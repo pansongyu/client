@@ -1,0 +1,219 @@
+{
+  "mtimes": {
+    "68ac7e20-55aa-4aa3-8485-bb87f73aa9e6": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886136
+    },
+    "31ef8d68-85c2-4623-a734-6b7d850e7edc": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886136
+    },
+    "8eb6d852-e602-458b-b1db-983cd16a544b": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886136
+    },
+    "7feea8a6-3f3c-4ac5-9599-a21ea88686f5": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886134
+    },
+    "1c1c8b86-f3ae-4fa6-ae4c-33104f6309bf": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886134
+    },
+    "89916ec8-6e37-4c1e-b57f-90d78433052c": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886099
+    },
+    "9478ec18-6992-4dff-90a3-12dfc2ec1001": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886099
+    },
+    "ac4f606a-036f-42e9-a719-3360b7a4701c": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886090
+    },
+    "19fabae8-96b5-4075-b24b-07a45af70188": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886090
+    },
+    "f7d6cf2c-0186-498c-b7c8-fe10cc309f0c": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886096
+    },
+    "2512a922-a956-4abc-bbc1-0df387fb1c74": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635886096
+    }
+  },
+  "result": {
+    "name": "loginAtlas-2",
+    "width": 512,
+    "height": 128,
+    "ver": "1.2.0",
+    "uuid": "68ac7e20-55aa-4aa3-8485-bb87f73aa9e6",
+    "maxWidth": 512,
+    "maxHeight": 128,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": false,
+    "paddingBleed": false,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 0,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "btn_weixin_enter1",
+            "uuid": "7feea8a6-3f3c-4ac5-9599-a21ea88686f5",
+            "textureUuid": "1c1c8b86-f3ae-4fa6-ae4c-33104f6309bf",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872998_image_1.png",
+            "trim": {
+              "x": 2,
+              "y": 2,
+              "width": 286,
+              "height": 98,
+              "rotatedWidth": 286,
+              "rotatedHeight": 98
+            },
+            "rawWidth": 286,
+            "rawHeight": 98,
+            "width": 290,
+            "height": 102,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/1c/1c1c8b86-f3ae-4fa6-ae4c-33104f6309bf.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 290,
+            "rotatedHeight": 102
+          },
+          {
+            "name": "btn_check",
+            "uuid": "ac4f606a-036f-42e9-a719-3360b7a4701c",
+            "textureUuid": "19fabae8-96b5-4075-b24b-07a45af70188",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872999_image_3.png",
+            "trim": {
+              "x": 292,
+              "y": 2,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 44,
+            "height": 44,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/19/19fabae8-96b5-4075-b24b-07a45af70188.png",
+            "x": 290,
+            "y": 0,
+            "rotatedWidth": 44,
+            "rotatedHeight": 44
+          },
+          {
+            "name": "btn_Don'tcheck",
+            "uuid": "f7d6cf2c-0186-498c-b7c8-fe10cc309f0c",
+            "textureUuid": "2512a922-a956-4abc-bbc1-0df387fb1c74",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872999_image_4.png",
+            "trim": {
+              "x": 292,
+              "y": 46,
+              "width": 40,
+              "height": 40,
+              "rotatedWidth": 40,
+              "rotatedHeight": 40
+            },
+            "rawWidth": 40,
+            "rawHeight": 40,
+            "width": 44,
+            "height": 44,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/25/2512a922-a956-4abc-bbc1-0df387fb1c74.png",
+            "x": 290,
+            "y": 44,
+            "rotatedWidth": 44,
+            "rotatedHeight": 44
+          }
+        ],
+        "width": 512,
+        "height": 128,
+        "name": "loginAtlas-1",
+        "imagePath": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\login\\loginAtlas.pac\\loginAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\login\\loginAtlas.pac\\compressed\\loginAtlas-1"
+        }
+      },
+      {
+        "files": [
+          {
+            "name": "btn_linedl",
+            "uuid": "89916ec8-6e37-4c1e-b57f-90d78433052c",
+            "textureUuid": "9478ec18-6992-4dff-90a3-12dfc2ec1001",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872999_image_2.png",
+            "trim": {
+              "x": 2,
+              "y": 2,
+              "width": 245,
+              "height": 96,
+              "rotatedWidth": 245,
+              "rotatedHeight": 96
+            },
+            "rawWidth": 245,
+            "rawHeight": 98,
+            "width": 249,
+            "height": 100,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/94/9478ec18-6992-4dff-90a3-12dfc2ec1001.png",
+            "x": 0,
+            "y": 0,
+            "rotatedWidth": 249,
+            "rotatedHeight": 100
+          },
+          {
+            "name": "btn_youke_enter",
+            "uuid": "31ef8d68-85c2-4623-a734-6b7d850e7edc",
+            "textureUuid": "8eb6d852-e602-458b-b1db-983cd16a544b",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872998_image_0.png",
+            "trim": {
+              "x": 251,
+              "y": 2,
+              "width": 244,
+              "height": 82,
+              "rotatedWidth": 244,
+              "rotatedHeight": 82
+            },
+            "rawWidth": 244,
+            "rawHeight": 82,
+            "width": 248,
+            "height": 86,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/8e/8eb6d852-e602-458b-b1db-983cd16a544b.png",
+            "x": 249,
+            "y": 0,
+            "rotatedWidth": 248,
+            "rotatedHeight": 86
+          }
+        ],
+        "width": 512,
+        "height": 128,
+        "name": "loginAtlas-2",
+        "imagePath": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\login\\loginAtlas.pac\\loginAtlas-2.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\ui\\login\\loginAtlas.pac\\compressed\\loginAtlas-2"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

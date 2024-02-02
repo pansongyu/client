@@ -1,0 +1,82 @@
+{
+  "mtimes": {
+    "c77aa49b-c9b3-4848-bf80-8d4bdb2432ad": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635882547
+    },
+    "48c8c30d-35e4-4b73-96bf-fe25bef6d7e0": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635882548
+    },
+    "ca8a733d-c554-493a-8bfa-5c740bb75b18": {
+      "assetMtime": 1673837316000,
+      "metaMtime": 1701635882548
+    }
+  },
+  "result": {
+    "name": "comctlAtlas",
+    "width": 512,
+    "height": 256,
+    "ver": "1.2.0",
+    "uuid": "c77aa49b-c9b3-4848-bf80-8d4bdb2432ad",
+    "maxWidth": 512,
+    "maxHeight": 256,
+    "padding": 2,
+    "allowRotation": true,
+    "forceSquared": false,
+    "powerOfTwo": true,
+    "algorithm": "MaxRects",
+    "format": "png",
+    "quality": 80,
+    "contourBleed": false,
+    "paddingBleed": false,
+    "filterUnused": false,
+    "packable": false,
+    "premultiplyAlpha": false,
+    "filterMode": "bilinear",
+    "platformSettings": {},
+    "subMetas": {},
+    "bleed": 0,
+    "atlases": [
+      {
+        "files": [
+          {
+            "name": "anniu",
+            "uuid": "48c8c30d-35e4-4b73-96bf-fe25bef6d7e0",
+            "textureUuid": "ca8a733d-c554-493a-8bfa-5c740bb75b18",
+            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636871894_image_0.png",
+            "trim": {
+              "x": 2,
+              "y": 2,
+              "width": 169,
+              "height": 48,
+              "rotatedWidth": 48,
+              "rotatedHeight": 169
+            },
+            "rawWidth": 169,
+            "rawHeight": 48,
+            "width": 173,
+            "height": 52,
+            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/ca/ca8a733d-c554-493a-8bfa-5c740bb75b18.png",
+            "x": 0,
+            "y": 0,
+            "rotated": true,
+            "rotatedWidth": 52,
+            "rotatedHeight": 173
+          }
+        ],
+        "width": 64,
+        "height": 256,
+        "name": "comctlAtlas-1",
+        "imagePath": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comctl\\comctlAtlas.pac\\comctlAtlas-1.png",
+        "compressd": {
+          "suffix": [
+            ".png"
+          ],
+          "imagePathNoExt": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comctl\\comctlAtlas.pac\\compressed\\comctlAtlas-1"
+        }
+      }
+    ],
+    "unpackedTextures": []
+  }
+}

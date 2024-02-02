@@ -113,7 +113,7 @@ cc.Class({
 
         //如果密码等于token为token登录
         /*if(this.isToken){
-        psw = this.HeroAccountManager.GetAccountToken(charAccount);
+            psw = this.HeroAccountManager.GetAccountToken(charAccount);
         }*/
 
         //账号密码登陆
@@ -129,8 +129,8 @@ cc.Class({
 
         //如果点击了密码输入,则清除token标示
         /*if(sender == this.EditBoxPsw){
-         this.isToken = 0;
-         sender.string = "";
+            this.isToken = 0;
+            sender.string = "";
         }*/
     },
 
