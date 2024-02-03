@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "游戏界面4",
+    "texture": "717e850e-8492-4220-aa62-6af9022a8d89",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      1360,
+      760
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      1360,
+      760
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "title_dissolve",
+    "texture": "typdke80-2a4a-4727-bcdf-b601d5bf6c1d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      212,
+      54
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      212,
+      54
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

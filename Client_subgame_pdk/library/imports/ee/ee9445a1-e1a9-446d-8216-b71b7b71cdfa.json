@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_gps",
+    "texture": "dd9bba5d-abaf-459d-b103-ec2fe194823c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      43,
+      59
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      43,
+      59
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

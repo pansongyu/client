@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_paix2",
+    "texture": "typdk122-b5d5-4431-a424-2824ce0eec3a",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      145,
+      64
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      145,
+      64
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

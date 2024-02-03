@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_dou",
+    "texture": "typdk09a-fc30-4fcd-af34-8caae1c1688b",
+    "atlas": "",
+    "rect": [
+      0,
+      6,
+      55,
+      46
+    ],
+    "offset": [
+      0,
+      -3
+    ],
+    "originalSize": [
+      55,
+      52
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

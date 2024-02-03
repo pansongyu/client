@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_qgm_win",
+    "texture": "typdkfe7-d18d-42ef-ae0e-3e643ed4647f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      179,
+      49
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      180,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

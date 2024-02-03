@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_white_down",
+    "texture": "typdkacd-4e54-476c-9019-44d7ba8a9850",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      806,
+      163
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      806,
+      163
+    ],
+    "capInsets": [
+      0,
+      99,
+      0,
+      39
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_spade1_2",
+    "texture": "typdk271-5b39-45ce-96a9-148012b39923",
+    "atlas": "",
+    "rect": [
+      12,
+      78,
+      161,
+      146
+    ],
+    "offset": [
+      1,
+      -31.5
+    ],
+    "originalSize": [
+      183,
+      239
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

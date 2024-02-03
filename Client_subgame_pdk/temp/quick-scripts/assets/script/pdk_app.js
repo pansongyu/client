@@ -1,0 +1,66 @@
+(function() {"use strict";var __module = CC_EDITOR ? module : {exports:{}};var __filename = 'preview-scripts/assets/script/pdk_app.js';var __require = CC_EDITOR ? function (request) {return cc.require(request, require);} : function (request) {return cc.require(request, __filename);};function __define (exports, require, module) {"use strict";
+cc._RF.push(module, 'typdkd1a-b34a-45a5-baea-4592f5384b8c', 'pdk_app', __filename);
+// script/pdk_app.js
+
+'use strict';
+
+/*
+    客户端公共require模块
+*/
+
+require('JSBaseModule');
+var BaseClass = require('BaseClass');
+var bluebird = require("bluebird");
+var i18n = require("i18n");
+var MD5Tool = require("MD5Tool");
+
+//不需要创建单例的API
+var apiDict = {
+    "BaseClass": BaseClass["BaseClass"],
+    "DBBaseClass": BaseClass["DBBaseClass"],
+    "bluebird": bluebird,
+    "i18n": i18n,
+    "MD5": MD5Tool
+};
+
+module.exports = apiDict;
+
+//子游戏名称
+var subGameName = "pdk";
+
+module.exports.subGameName = subGameName;
+
+//需要创建单例的API
+var NeedCreateList = [
+//define
+subGameName.toLowerCase() + "_ShareDefine", subGameName.toLowerCase() + "_ComTool", "LocalDataManager", subGameName.toLowerCase() + "_UtilsWord",
+
+//基础模块
+subGameName.toLowerCase() + "_SysDataManager", subGameName.toLowerCase() + "_SysNotifyManager", subGameName.toLowerCase() + "_ConfirmManager", subGameName.toLowerCase() + "_ControlManager", subGameName.toLowerCase() + "_HttpPack", subGameName.toLowerCase() + "_NetRequest", subGameName.toLowerCase() + "_NetWork", subGameName.toLowerCase() + "_NetManager", subGameName.toLowerCase() + "_SDKManager", subGameName.toLowerCase() + "_WeChatManager", subGameName.toLowerCase() + "_WeChatAppManager", subGameName.toLowerCase() + "_DownLoadMgr", subGameName.toLowerCase() + "_LocationOnStartMgr", subGameName.toLowerCase() + "_HotUpdateMgr",
+
+//资源模块
+subGameName.toLowerCase() + "_SceneManager", subGameName.toLowerCase() + "_FormManager", subGameName.toLowerCase() + "_EffectManager", subGameName.toLowerCase() + "_SoundManager", subGameName.toLowerCase() + "_AudioManager", subGameName.toLowerCase() + "_HeadManager",
+//数据管理器
+subGameName.toLowerCase() + "_ServerTimeManager", subGameName.toLowerCase() + "_HeroAccountManager", subGameName.toLowerCase() + "_HeroManager", subGameName.toLowerCase() + "_NativeManager",
+
+//-----汇总数据管理器----
+subGameName.toLowerCase() + "_GameManager",
+
+//-----牌局相关-------
+subGameName.toUpperCase() + "Define", subGameName.toLowerCase() + "_PokerCard", subGameName.toUpperCase() + "RoomMgr", subGameName.toUpperCase() + "Room", subGameName.toUpperCase() + "RoomSet", subGameName.toUpperCase() + "RoomPosMgr", subGameName.toUpperCase() + "SetPos", "Logic" + subGameName.toUpperCase() + "Game", "Logic" + subGameName.toUpperCase() + "Rank"];
+
+module.exports.NeedCreateList = NeedCreateList;
+
+cc._RF.pop();
+        }
+        if (CC_EDITOR) {
+            __define(__module.exports, __require, __module);
+        }
+        else {
+            cc.registerModuleFunc(__filename, function () {
+                __define(__module.exports, __require, __module);
+            });
+        }
+        })();
+        //# sourceMappingURL=pdk_app.js.map
+        

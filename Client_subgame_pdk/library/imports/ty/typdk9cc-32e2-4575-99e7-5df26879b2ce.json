@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_zypk",
+    "texture": "typdk9aa-97be-453d-b0b5-d295ca55a513",
+    "atlas": "",
+    "rect": [
+      47,
+      6,
+      280,
+      87
+    ],
+    "offset": [
+      20.5,
+      1.5
+    ],
+    "originalSize": [
+      333,
+      102
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

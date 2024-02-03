@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_club1_1",
+    "texture": "typdk6d6-bd27-4dd6-a0db-bc5f4653a1fe",
+    "atlas": "",
+    "rect": [
+      10,
+      59,
+      31,
+      32
+    ],
+    "offset": [
+      -41.5,
+      17.5
+    ],
+    "originalSize": [
+      134,
+      185
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_weixin1",
+    "texture": "typdkb27-2f4f-4752-b8d1-34d0d980a1a0",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      110,
+      89
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      110,
+      90
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

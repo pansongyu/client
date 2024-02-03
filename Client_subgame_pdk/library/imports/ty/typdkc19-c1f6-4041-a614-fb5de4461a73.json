@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_teshu",
+    "texture": "typdk536-a638-4dc4-9ae6-48cf0552bb6b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      191,
+      48
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      191,
+      48
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

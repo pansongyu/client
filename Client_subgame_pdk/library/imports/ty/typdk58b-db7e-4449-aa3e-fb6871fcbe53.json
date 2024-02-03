@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_settlement",
+    "texture": "typdka14-0f25-4100-8842-b33774dcc3f5",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      45,
+      95
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      45,
+      95
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

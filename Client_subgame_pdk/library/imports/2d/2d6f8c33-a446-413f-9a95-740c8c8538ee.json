@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "logo_pdk",
+    "texture": "49c447fc-8582-4d4e-b4bd-cb7d8136b247",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      225,
+      75
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      225,
+      75
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

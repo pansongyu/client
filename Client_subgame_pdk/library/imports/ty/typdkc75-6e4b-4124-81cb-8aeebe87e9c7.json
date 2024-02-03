@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "red_xipai_16",
+    "texture": "typdk4d6-5953-46ba-99ec-cea1881a3d8e",
+    "atlas": "",
+    "rect": [
+      80,
+      3,
+      92,
+      108
+    ],
+    "offset": [
+      10,
+      -1.5
+    ],
+    "originalSize": [
+      232,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

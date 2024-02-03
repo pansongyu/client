@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_black_worddown",
+    "texture": "typdk36d-a0f8-488a-8608-2ad9cd60478e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      149,
+      102
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      149,
+      102
+    ],
+    "capInsets": [
+      18,
+      28,
+      64,
+      22
+    ]
+  }
+}

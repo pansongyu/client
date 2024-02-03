@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_buchu",
+    "texture": "typdk155-f7b6-4c93-a439-2623312d4b82",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      103,
+      50
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      103,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

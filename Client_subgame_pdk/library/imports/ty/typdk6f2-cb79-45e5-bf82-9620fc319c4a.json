@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_qgm_lose",
+    "texture": "typdkb29-cd75-4fac-b972-8765a941b76c",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      179,
+      49
+    ],
+    "offset": [
+      -0.5,
+      0.5
+    ],
+    "originalSize": [
+      180,
+      50
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "home_run",
+    "texture": "typdkdac-7ad4-4bc6-b5b0-6a74000ad3ae",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      584,
+      426
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      584,
+      426
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

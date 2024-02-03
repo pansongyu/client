@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_shoot6",
+    "texture": "typdkea8-482d-4d6a-8803-3bec5e3b94f1",
+    "atlas": "",
+    "rect": [
+      1,
+      7,
+      316,
+      130
+    ],
+    "offset": [
+      -17.5,
+      -3.5
+    ],
+    "originalSize": [
+      353,
+      137
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

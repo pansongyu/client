@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_fendi",
+    "texture": "81e85c75-7909-489a-9c85-9d0e641c3c8b",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      103,
+      32
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      103,
+      32
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

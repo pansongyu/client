@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "win_number",
+    "texture": "typdk42a-4793-4c71-a53c-681555069100",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      115,
+      234
+    ],
+    "offset": [
+      -6.5,
+      11
+    ],
+    "originalSize": [
+      128,
+      256
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

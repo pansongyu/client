@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_dingwei",
+    "texture": "1f3222f4-a710-4506-add0-e8a13beea6ec",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      42,
+      61
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      42,
+      61
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

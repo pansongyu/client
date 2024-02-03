@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_wifi01",
+    "texture": "f426a33b-824b-4951-ae69-395efc08e58d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      34,
+      26
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      34,
+      26
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

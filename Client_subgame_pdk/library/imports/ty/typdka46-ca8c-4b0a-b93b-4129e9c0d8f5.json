@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_Card",
+    "texture": "typdk7aa-00f7-4171-be37-fc83f4d0130e",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      48,
+      29
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      48,
+      30
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

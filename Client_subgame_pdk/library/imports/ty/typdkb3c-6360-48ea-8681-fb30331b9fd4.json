@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_fgm_06",
+    "texture": "typdk61f-4722-41cd-bcd6-3d0417aead6d",
+    "atlas": "",
+    "rect": [
+      77,
+      25,
+      237,
+      79
+    ],
+    "offset": [
+      0,
+      0.5
+    ],
+    "originalSize": [
+      391,
+      130
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

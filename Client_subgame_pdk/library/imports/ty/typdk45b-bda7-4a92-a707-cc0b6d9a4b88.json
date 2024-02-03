@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_ps_shui_08",
+    "texture": "typdk80d-f088-490c-8693-fe57bced7a65",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      119,
+      84
+    ],
+    "offset": [
+      -1,
+      1
+    ],
+    "originalSize": [
+      121,
+      86
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

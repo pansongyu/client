@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_small_king_01",
+    "texture": "typdk337-a748-4327-bd66-e2908d9c063e",
+    "atlas": "",
+    "rect": [
+      12,
+      18,
+      27,
+      148
+    ],
+    "offset": [
+      -41.5,
+      0.5
+    ],
+    "originalSize": [
+      134,
+      185
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

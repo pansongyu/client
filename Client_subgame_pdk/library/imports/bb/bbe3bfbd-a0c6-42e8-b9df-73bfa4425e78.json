@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "btn_hyp",
+    "texture": "3c88cd82-de28-4cd4-91f8-059afd28fc2f",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      114,
+      31
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      114,
+      31
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

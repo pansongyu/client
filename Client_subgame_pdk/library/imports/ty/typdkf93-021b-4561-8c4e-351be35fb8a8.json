@@ -1,0 +1,17 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "gameList",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "8": {
+      "id": 8,
+      "gameName": "pdk",
+      "gameType": "poker",
+      "region": "all",
+      "imgUrl": "texture/ui/newMain/btn_pdk",
+      "sortNum": 1,
+      "isOpen": 1
+    }
+  }
+}

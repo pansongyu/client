@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_zhadan_04",
+    "texture": "typdk9f3-c226-4ce7-a64a-c98c77e3ccb1",
+    "atlas": "",
+    "rect": [
+      32,
+      61,
+      139,
+      136
+    ],
+    "offset": [
+      4,
+      -19.5
+    ],
+    "originalSize": [
+      195,
+      219
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

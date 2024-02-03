@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "niuniu_num1",
+    "texture": "typdkb09-1710-46ff-b39b-a1fe2bea898d",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      104,
+      107
+    ],
+    "offset": [
+      -12,
+      10.5
+    ],
+    "originalSize": [
+      128,
+      128
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

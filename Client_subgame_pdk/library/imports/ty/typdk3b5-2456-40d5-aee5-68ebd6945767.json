@@ -1,0 +1,3326 @@
+{
+  "__type__": "cc.JsonAsset",
+  "_name": "IntegrateImage",
+  "_objFlags": 0,
+  "_native": "",
+  "json": {
+    "DefaultManHead": {
+      "Name": "DefaultManHead",
+      "CnName": "默认头像",
+      "FilePath": "texture/comicon/morentouxiang",
+      "FileNameList": 0
+    },
+    "DefaultWomenHead": {
+      "Name": "DefaultWomenHead",
+      "CnName": "默认头像",
+      "FilePath": "texture/comicon/morentouxiang",
+      "FileNameList": 0
+    },
+    "MaleLogo": {
+      "Name": "MaleLogo",
+      "CnName": "男图标",
+      "FilePath": "texture/comicon/personal_male",
+      "FileNameList": 0
+    },
+    "FeMaleLogo": {
+      "Name": "FeMaleLogo",
+      "CnName": "女图标",
+      "FilePath": "texture/comicon/personal_female",
+      "FileNameList": 0
+    },
+    "zhi_left": {
+      "Name": "zhi_left",
+      "CnName": "左",
+      "FilePath": "texture/game/majiang/icon_jt",
+      "FileNameList": 0
+    },
+    "zhi_up": {
+      "Name": "zhi_up",
+      "CnName": "左",
+      "FilePath": "texture/game/majiang/icon_top_jt",
+      "FileNameList": 0
+    },
+    "zhi_right": {
+      "Name": "zhi_right",
+      "CnName": "左",
+      "FilePath": "texture/game/majiang/icon_right_jt",
+      "FileNameList": 0
+    },
+    "zhi_down": {
+      "Name": "zhi_down",
+      "CnName": "左",
+      "FilePath": "texture/game/majiang/icon_bottom_jt",
+      "FileNameList": 0
+    },
+    "UIPlay_East0_1": {
+      "Name": "UIPlay_East0_1",
+      "CnName": "东0_1位置",
+      "FilePath": "texture/game/majiang/seat/dong1",
+      "FileNameList": 0
+    },
+    "UIPlay_East0_2": {
+      "Name": "UIPlay_East0_2",
+      "CnName": "东0_2位置",
+      "FilePath": "texture/game/majiang/seat/dong11",
+      "FileNameList": 0
+    },
+    "UIPlay_East1_1": {
+      "Name": "UIPlay_East1_1",
+      "CnName": "东1_1位置",
+      "FilePath": "texture/game/majiang/seat/dong2",
+      "FileNameList": 0
+    },
+    "UIPlay_East1_2": {
+      "Name": "UIPlay_East1_2",
+      "CnName": "东1_2位置",
+      "FilePath": "texture/game/majiang/seat/dong22",
+      "FileNameList": 0
+    },
+    "UIPlay_East2_1": {
+      "Name": "UIPlay_East2_1",
+      "CnName": "东2_1位置",
+      "FilePath": "texture/game/majiang/seat/dong3",
+      "FileNameList": 0
+    },
+    "UIPlay_East2_2": {
+      "Name": "UIPlay_East2_2",
+      "CnName": "东2_2位置",
+      "FilePath": "texture/game/majiang/seat/dong33",
+      "FileNameList": 0
+    },
+    "UIPlay_East3_1": {
+      "Name": "UIPlay_East3_1",
+      "CnName": "东3_1位置",
+      "FilePath": "texture/game/majiang/seat/dong2",
+      "FileNameList": 0
+    },
+    "UIPlay_East3_2": {
+      "Name": "UIPlay_East3_2",
+      "CnName": "东3_2位置",
+      "FilePath": "texture/game/majiang/seat/dong22",
+      "FileNameList": 0
+    },
+    "UIPlay_South0_1": {
+      "Name": "UIPlay_South0_1",
+      "CnName": "南0_1位置",
+      "FilePath": "texture/game/majiang/seat/nan1",
+      "FileNameList": 0
+    },
+    "UIPlay_South0_2": {
+      "Name": "UIPlay_South0_2",
+      "CnName": "南0_2位置",
+      "FilePath": "texture/game/majiang/seat/nan11",
+      "FileNameList": 0
+    },
+    "UIPlay_South1_1": {
+      "Name": "UIPlay_South1_1",
+      "CnName": "南1_1位置",
+      "FilePath": "texture/game/majiang/seat/nan2",
+      "FileNameList": 0
+    },
+    "UIPlay_South1_2": {
+      "Name": "UIPlay_South1_2",
+      "CnName": "南1_2位置",
+      "FilePath": "texture/game/majiang/seat/nan22",
+      "FileNameList": 0
+    },
+    "UIPlay_South2_1": {
+      "Name": "UIPlay_South2_1",
+      "CnName": "南2_1位置",
+      "FilePath": "texture/game/majiang/seat/nan3",
+      "FileNameList": 0
+    },
+    "UIPlay_South2_2": {
+      "Name": "UIPlay_South2_2",
+      "CnName": "南2_2位置",
+      "FilePath": "texture/game/majiang/seat/nan33",
+      "FileNameList": 0
+    },
+    "UIPlay_South3_1": {
+      "Name": "UIPlay_South3_1",
+      "CnName": "南3_1位置",
+      "FilePath": "texture/game/majiang/seat/nan2",
+      "FileNameList": 0
+    },
+    "UIPlay_South3_2": {
+      "Name": "UIPlay_South3_2",
+      "CnName": "南3_2位置",
+      "FilePath": "texture/game/majiang/seat/nan22",
+      "FileNameList": 0
+    },
+    "UIPlay_West0_1": {
+      "Name": "UIPlay_West0_1",
+      "CnName": "西0_1位置",
+      "FilePath": "texture/game/majiang/seat/xi11",
+      "FileNameList": 0
+    },
+    "UIPlay_West0_2": {
+      "Name": "UIPlay_West0_2",
+      "CnName": "西0_2位置",
+      "FilePath": "texture/game/majiang/seat/xi1",
+      "FileNameList": 0
+    },
+    "UIPlay_West1_1": {
+      "Name": "UIPlay_West1_1",
+      "CnName": "西1_1位置",
+      "FilePath": "texture/game/majiang/seat/xi2",
+      "FileNameList": 0
+    },
+    "UIPlay_West1_2": {
+      "Name": "UIPlay_West1_2",
+      "CnName": "西1_2位置",
+      "FilePath": "texture/game/majiang/seat/xi22",
+      "FileNameList": 0
+    },
+    "UIPlay_West2_1": {
+      "Name": "UIPlay_West2_1",
+      "CnName": "西2_1位置",
+      "FilePath": "texture/game/majiang/seat/xi3",
+      "FileNameList": 0
+    },
+    "UIPlay_West2_2": {
+      "Name": "UIPlay_West2_2",
+      "CnName": "西2_2位置",
+      "FilePath": "texture/game/majiang/seat/xi33",
+      "FileNameList": 0
+    },
+    "UIPlay_West3_1": {
+      "Name": "UIPlay_West3_1",
+      "CnName": "西3_1位置",
+      "FilePath": "texture/game/majiang/seat/xi2",
+      "FileNameList": 0
+    },
+    "UIPlay_West3_2": {
+      "Name": "UIPlay_West3_2",
+      "CnName": "西3_2位置",
+      "FilePath": "texture/game/majiang/seat/xi22",
+      "FileNameList": 0
+    },
+    "UIPlay_North0_1": {
+      "Name": "UIPlay_North0_1",
+      "CnName": "北0_1位置",
+      "FilePath": "texture/game/majiang/seat/bei1",
+      "FileNameList": 0
+    },
+    "UIPlay_North0_2": {
+      "Name": "UIPlay_North0_2",
+      "CnName": "北0_2位置",
+      "FilePath": "texture/game/majiang/seat/bei11",
+      "FileNameList": 0
+    },
+    "UIPlay_North1_1": {
+      "Name": "UIPlay_North1_1",
+      "CnName": "北1_1位置",
+      "FilePath": "texture/game/majiang/seat/bei2",
+      "FileNameList": 0
+    },
+    "UIPlay_North1_2": {
+      "Name": "UIPlay_North1_2",
+      "CnName": "北1_2位置",
+      "FilePath": "texture/game/majiang/seat/bei22",
+      "FileNameList": 0
+    },
+    "UIPlay_North2_1": {
+      "Name": "UIPlay_North2_1",
+      "CnName": "北2_1位置",
+      "FilePath": "texture/game/majiang/seat/bei3",
+      "FileNameList": 0
+    },
+    "UIPlay_North2_2": {
+      "Name": "UIPlay_North2_2",
+      "CnName": "北2_2位置",
+      "FilePath": "texture/game/majiang/seat/bei33",
+      "FileNameList": 0
+    },
+    "UIPlay_North3_1": {
+      "Name": "UIPlay_North3_1",
+      "CnName": "北3_1位置",
+      "FilePath": "texture/game/majiang/seat/bei2",
+      "FileNameList": 0
+    },
+    "UIPlay_North3_2": {
+      "Name": "UIPlay_North3_2",
+      "CnName": "北3_2位置",
+      "FilePath": "texture/game/majiang/seat/bei22",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East0_1": {
+      "Name": "UIPlay_2d_East0_1",
+      "CnName": "东0_1位置",
+      "FilePath": "texture/game/majiang/seat2d/dong1",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East0_2": {
+      "Name": "UIPlay_2d_East0_2",
+      "CnName": "东0_2位置",
+      "FilePath": "texture/game/majiang/seat2d/dong11",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East1_1": {
+      "Name": "UIPlay_2d_East1_1",
+      "CnName": "东1_1位置",
+      "FilePath": "texture/game/majiang/seat2d/dong2",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East1_2": {
+      "Name": "UIPlay_2d_East1_2",
+      "CnName": "东1_2位置",
+      "FilePath": "texture/game/majiang/seat2d/dong22",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East2_1": {
+      "Name": "UIPlay_2d_East2_1",
+      "CnName": "东2_1位置",
+      "FilePath": "texture/game/majiang/seat2d/dong3",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East2_2": {
+      "Name": "UIPlay_2d_East2_2",
+      "CnName": "东2_2位置",
+      "FilePath": "texture/game/majiang/seat2d/dong33",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East3_1": {
+      "Name": "UIPlay_2d_East3_1",
+      "CnName": "东3_1位置",
+      "FilePath": "texture/game/majiang/seat2d/dong4",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_East3_2": {
+      "Name": "UIPlay_2d_East3_2",
+      "CnName": "东3_2位置",
+      "FilePath": "texture/game/majiang/seat2d/dong44",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South0_1": {
+      "Name": "UIPlay_2d_South0_1",
+      "CnName": "南0_1位置",
+      "FilePath": "texture/game/majiang/seat2d/nan1",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South0_2": {
+      "Name": "UIPlay_2d_South0_2",
+      "CnName": "南0_2位置",
+      "FilePath": "texture/game/majiang/seat2d/nan11",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South1_1": {
+      "Name": "UIPlay_2d_South1_1",
+      "CnName": "南1_1位置",
+      "FilePath": "texture/game/majiang/seat2d/nan2",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South1_2": {
+      "Name": "UIPlay_2d_South1_2",
+      "CnName": "南1_2位置",
+      "FilePath": "texture/game/majiang/seat2d/nan22",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South2_1": {
+      "Name": "UIPlay_2d_South2_1",
+      "CnName": "南2_1位置",
+      "FilePath": "texture/game/majiang/seat2d/nan3",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South2_2": {
+      "Name": "UIPlay_2d_South2_2",
+      "CnName": "南2_2位置",
+      "FilePath": "texture/game/majiang/seat2d/nan33",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South3_1": {
+      "Name": "UIPlay_2d_South3_1",
+      "CnName": "南3_1位置",
+      "FilePath": "texture/game/majiang/seat2d/nan4",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_South3_2": {
+      "Name": "UIPlay_2d_South3_2",
+      "CnName": "南3_2位置",
+      "FilePath": "texture/game/majiang/seat2d/nan44",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West0_1": {
+      "Name": "UIPlay_2d_West0_1",
+      "CnName": "西0_1位置",
+      "FilePath": "texture/game/majiang/seat2d/xi1",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West0_2": {
+      "Name": "UIPlay_2d_West0_2",
+      "CnName": "西0_2位置",
+      "FilePath": "texture/game/majiang/seat2d/xi11",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West1_1": {
+      "Name": "UIPlay_2d_West1_1",
+      "CnName": "西1_1位置",
+      "FilePath": "texture/game/majiang/seat2d/xi2",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West1_2": {
+      "Name": "UIPlay_2d_West1_2",
+      "CnName": "西1_2位置",
+      "FilePath": "texture/game/majiang/seat2d/xi22",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West2_1": {
+      "Name": "UIPlay_2d_West2_1",
+      "CnName": "西2_1位置",
+      "FilePath": "texture/game/majiang/seat2d/xi3",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West2_2": {
+      "Name": "UIPlay_2d_West2_2",
+      "CnName": "西2_2位置",
+      "FilePath": "texture/game/majiang/seat2d/xi33",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West3_1": {
+      "Name": "UIPlay_2d_West3_1",
+      "CnName": "西3_1位置",
+      "FilePath": "texture/game/majiang/seat2d/xi4",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_West3_2": {
+      "Name": "UIPlay_2d_West3_2",
+      "CnName": "西3_2位置",
+      "FilePath": "texture/game/majiang/seat2d/xi44",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North0_1": {
+      "Name": "UIPlay_2d_North0_1",
+      "CnName": "北0_1位置",
+      "FilePath": "texture/game/majiang/seat2d/bei1",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North0_2": {
+      "Name": "UIPlay_2d_North0_2",
+      "CnName": "北0_2位置",
+      "FilePath": "texture/game/majiang/seat2d/bei11",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North1_1": {
+      "Name": "UIPlay_2d_North1_1",
+      "CnName": "北1_1位置",
+      "FilePath": "texture/game/majiang/seat2d/bei2",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North1_2": {
+      "Name": "UIPlay_2d_North1_2",
+      "CnName": "北1_2位置",
+      "FilePath": "texture/game/majiang/seat2d/bei22",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North2_1": {
+      "Name": "UIPlay_2d_North2_1",
+      "CnName": "北2_1位置",
+      "FilePath": "texture/game/majiang/seat2d/bei3",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North2_2": {
+      "Name": "UIPlay_2d_North2_2",
+      "CnName": "北2_2位置",
+      "FilePath": "texture/game/majiang/seat2d/bei33",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North3_1": {
+      "Name": "UIPlay_2d_North3_1",
+      "CnName": "北3_1位置",
+      "FilePath": "texture/game/majiang/seat2d/bei4",
+      "FileNameList": 0
+    },
+    "UIPlay_2d_North3_2": {
+      "Name": "UIPlay_2d_North3_2",
+      "CnName": "北3_2位置",
+      "FilePath": "texture/game/majiang/seat2d/bei44",
+      "FileNameList": 0
+    },
+    "CardBack_Self": {
+      "Name": "CardBack_Self",
+      "CnName": "卡背面",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_39",
+      "FileNameList": 0
+    },
+    "CardBack_Down": {
+      "Name": "CardBack_Down",
+      "CnName": "卡背面",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_40",
+      "FileNameList": 0
+    },
+    "CardBack_Up": {
+      "Name": "CardBack_Up",
+      "CnName": "卡背面",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_40",
+      "FileNameList": 0
+    },
+    "AnyCard": {
+      "Name": "AnyCard",
+      "CnName": "任意牌",
+      "FilePath": "texture/game/majiang/renyi1",
+      "FileNameList": 0
+    },
+    "CardShow11": {
+      "Name": "CardShow11",
+      "CnName": "本家手牌1万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_26",
+      "FileNameList": 0
+    },
+    "CardShow12": {
+      "Name": "CardShow12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_25",
+      "FileNameList": 0
+    },
+    "CardShow13": {
+      "Name": "CardShow13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_42",
+      "FileNameList": 0
+    },
+    "CardShow14": {
+      "Name": "CardShow14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_38",
+      "FileNameList": 0
+    },
+    "CardShow15": {
+      "Name": "CardShow15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_34",
+      "FileNameList": 0
+    },
+    "CardShow16": {
+      "Name": "CardShow16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_30",
+      "FileNameList": 0
+    },
+    "CardShow17": {
+      "Name": "CardShow17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_24",
+      "FileNameList": 0
+    },
+    "CardShow18": {
+      "Name": "CardShow18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_20",
+      "FileNameList": 0
+    },
+    "CardShow19": {
+      "Name": "CardShow19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_19",
+      "FileNameList": 0
+    },
+    "CardShow21": {
+      "Name": "CardShow21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_18",
+      "FileNameList": 0
+    },
+    "CardShow22": {
+      "Name": "CardShow22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_17",
+      "FileNameList": 0
+    },
+    "CardShow23": {
+      "Name": "CardShow23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_16",
+      "FileNameList": 0
+    },
+    "CardShow24": {
+      "Name": "CardShow24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_15",
+      "FileNameList": 0
+    },
+    "CardShow25": {
+      "Name": "CardShow25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_14",
+      "FileNameList": 0
+    },
+    "CardShow26": {
+      "Name": "CardShow26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_41",
+      "FileNameList": 0
+    },
+    "CardShow27": {
+      "Name": "CardShow27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_37",
+      "FileNameList": 0
+    },
+    "CardShow28": {
+      "Name": "CardShow28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_33",
+      "FileNameList": 0
+    },
+    "CardShow29": {
+      "Name": "CardShow29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_29",
+      "FileNameList": 0
+    },
+    "CardShow31": {
+      "Name": "CardShow31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_23",
+      "FileNameList": 0
+    },
+    "CardShow32": {
+      "Name": "CardShow32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_13",
+      "FileNameList": 0
+    },
+    "CardShow33": {
+      "Name": "CardShow33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_40",
+      "FileNameList": 0
+    },
+    "CardShow34": {
+      "Name": "CardShow34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_36",
+      "FileNameList": 0
+    },
+    "CardShow35": {
+      "Name": "CardShow35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_32",
+      "FileNameList": 0
+    },
+    "CardShow36": {
+      "Name": "CardShow36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_28",
+      "FileNameList": 0
+    },
+    "CardShow37": {
+      "Name": "CardShow37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_22",
+      "FileNameList": 0
+    },
+    "CardShow38": {
+      "Name": "CardShow38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_12",
+      "FileNameList": 0
+    },
+    "CardShow39": {
+      "Name": "CardShow39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_10",
+      "FileNameList": 0
+    },
+    "CardShow41": {
+      "Name": "CardShow41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_07",
+      "FileNameList": 0
+    },
+    "CardShow43": {
+      "Name": "CardShow43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_11",
+      "FileNameList": 0
+    },
+    "CardShow42": {
+      "Name": "CardShow42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_21",
+      "FileNameList": 0
+    },
+    "CardShow44": {
+      "Name": "CardShow44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_08",
+      "FileNameList": 0
+    },
+    "CardShow45": {
+      "Name": "CardShow45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_01",
+      "FileNameList": 0
+    },
+    "CardShow46": {
+      "Name": "CardShow46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_06",
+      "FileNameList": 0
+    },
+    "CardShow47": {
+      "Name": "CardShow47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_09",
+      "FileNameList": 0
+    },
+    "CardShow51": {
+      "Name": "CardShow51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_39",
+      "FileNameList": 0
+    },
+    "CardShow52": {
+      "Name": "CardShow52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_02",
+      "FileNameList": 0
+    },
+    "CardShow53": {
+      "Name": "CardShow53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_27",
+      "FileNameList": 0
+    },
+    "CardShow54": {
+      "Name": "CardShow54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_03",
+      "FileNameList": 0
+    },
+    "CardShow55": {
+      "Name": "CardShow55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_05",
+      "FileNameList": 0
+    },
+    "CardShow56": {
+      "Name": "CardShow56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_31",
+      "FileNameList": 0
+    },
+    "CardShow57": {
+      "Name": "CardShow57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_35",
+      "FileNameList": 0
+    },
+    "CardShow58": {
+      "Name": "CardShow58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/self/show/hh_face_li_04",
+      "FileNameList": 0
+    },
+    "EatCard_Self_11": {
+      "Name": "EatCard_Self_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_26",
+      "FileNameList": 0
+    },
+    "EatCard_Self_12": {
+      "Name": "EatCard_Self_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_27",
+      "FileNameList": 0
+    },
+    "EatCard_Self_13": {
+      "Name": "EatCard_Self_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_28",
+      "FileNameList": 0
+    },
+    "EatCard_Self_14": {
+      "Name": "EatCard_Self_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_37",
+      "FileNameList": 0
+    },
+    "EatCard_Self_15": {
+      "Name": "EatCard_Self_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_42",
+      "FileNameList": 0
+    },
+    "EatCard_Self_16": {
+      "Name": "EatCard_Self_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_36",
+      "FileNameList": 0
+    },
+    "EatCard_Self_17": {
+      "Name": "EatCard_Self_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_25",
+      "FileNameList": 0
+    },
+    "EatCard_Self_18": {
+      "Name": "EatCard_Self_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_41",
+      "FileNameList": 0
+    },
+    "EatCard_Self_19": {
+      "Name": "EatCard_Self_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_35",
+      "FileNameList": 0
+    },
+    "EatCard_Self_21": {
+      "Name": "EatCard_Self_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_24",
+      "FileNameList": 0
+    },
+    "EatCard_Self_22": {
+      "Name": "EatCard_Self_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_21",
+      "FileNameList": 0
+    },
+    "EatCard_Self_23": {
+      "Name": "EatCard_Self_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_31",
+      "FileNameList": 0
+    },
+    "EatCard_Self_24": {
+      "Name": "EatCard_Self_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_30",
+      "FileNameList": 0
+    },
+    "EatCard_Self_25": {
+      "Name": "EatCard_Self_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_29",
+      "FileNameList": 0
+    },
+    "EatCard_Self_26": {
+      "Name": "EatCard_Self_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_40",
+      "FileNameList": 0
+    },
+    "EatCard_Self_27": {
+      "Name": "EatCard_Self_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_34",
+      "FileNameList": 0
+    },
+    "EatCard_Self_28": {
+      "Name": "EatCard_Self_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_23",
+      "FileNameList": 0
+    },
+    "EatCard_Self_29": {
+      "Name": "EatCard_Self_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_14",
+      "FileNameList": 0
+    },
+    "EatCard_Self_31": {
+      "Name": "EatCard_Self_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_20",
+      "FileNameList": 0
+    },
+    "EatCard_Self_32": {
+      "Name": "EatCard_Self_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_19",
+      "FileNameList": 0
+    },
+    "EatCard_Self_33": {
+      "Name": "EatCard_Self_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_18",
+      "FileNameList": 0
+    },
+    "EatCard_Self_34": {
+      "Name": "EatCard_Self_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_17",
+      "FileNameList": 0
+    },
+    "EatCard_Self_35": {
+      "Name": "EatCard_Self_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_07",
+      "FileNameList": 0
+    },
+    "EatCard_Self_36": {
+      "Name": "EatCard_Self_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_13",
+      "FileNameList": 0
+    },
+    "EatCard_Self_37": {
+      "Name": "EatCard_Self_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_12",
+      "FileNameList": 0
+    },
+    "EatCard_Self_38": {
+      "Name": "EatCard_Self_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_11",
+      "FileNameList": 0
+    },
+    "EatCard_Self_39": {
+      "Name": "EatCard_Self_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_10",
+      "FileNameList": 0
+    },
+    "EatCard_Self_41": {
+      "Name": "EatCard_Self_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_16",
+      "FileNameList": 0
+    },
+    "EatCard_Self_43": {
+      "Name": "EatCard_Self_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_08",
+      "FileNameList": 0
+    },
+    "EatCard_Self_42": {
+      "Name": "EatCard_Self_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_15",
+      "FileNameList": 0
+    },
+    "EatCard_Self_44": {
+      "Name": "EatCard_Self_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_22",
+      "FileNameList": 0
+    },
+    "EatCard_Self_45": {
+      "Name": "EatCard_Self_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_01",
+      "FileNameList": 0
+    },
+    "EatCard_Self_46": {
+      "Name": "EatCard_Self_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_09",
+      "FileNameList": 0
+    },
+    "EatCard_Self_47": {
+      "Name": "EatCard_Self_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_33",
+      "FileNameList": 0
+    },
+    "EatCard_Self_51": {
+      "Name": "EatCard_Self_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_02",
+      "FileNameList": 0
+    },
+    "EatCard_Self_52": {
+      "Name": "EatCard_Self_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_03",
+      "FileNameList": 0
+    },
+    "EatCard_Self_53": {
+      "Name": "EatCard_Self_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_32",
+      "FileNameList": 0
+    },
+    "EatCard_Self_54": {
+      "Name": "EatCard_Self_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_04",
+      "FileNameList": 0
+    },
+    "EatCard_Self_55": {
+      "Name": "EatCard_Self_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_06",
+      "FileNameList": 0
+    },
+    "EatCard_Self_56": {
+      "Name": "EatCard_Self_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_38",
+      "FileNameList": 0
+    },
+    "EatCard_Self_57": {
+      "Name": "EatCard_Self_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_43",
+      "FileNameList": 0
+    },
+    "EatCard_Self_58": {
+      "Name": "EatCard_Self_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_05",
+      "FileNameList": 0
+    },
+    "EatCard_Self_50": {
+      "Name": "EatCard_Self_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_39",
+      "FileNameList": 0
+    },
+    "EatCard_Down_11": {
+      "Name": "EatCard_Down_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_33",
+      "FileNameList": 0
+    },
+    "EatCard_Down_12": {
+      "Name": "EatCard_Down_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_32",
+      "FileNameList": 0
+    },
+    "EatCard_Down_13": {
+      "Name": "EatCard_Down_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_31",
+      "FileNameList": 0
+    },
+    "EatCard_Down_14": {
+      "Name": "EatCard_Down_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_26",
+      "FileNameList": 0
+    },
+    "EatCard_Down_15": {
+      "Name": "EatCard_Down_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_34",
+      "FileNameList": 0
+    },
+    "EatCard_Down_16": {
+      "Name": "EatCard_Down_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_39",
+      "FileNameList": 0
+    },
+    "EatCard_Down_17": {
+      "Name": "EatCard_Down_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_30",
+      "FileNameList": 0
+    },
+    "EatCard_Down_18": {
+      "Name": "EatCard_Down_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_23",
+      "FileNameList": 0
+    },
+    "EatCard_Down_19": {
+      "Name": "EatCard_Down_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_25",
+      "FileNameList": 0
+    },
+    "EatCard_Down_21": {
+      "Name": "EatCard_Down_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_24",
+      "FileNameList": 0
+    },
+    "EatCard_Down_22": {
+      "Name": "EatCard_Down_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_43",
+      "FileNameList": 0
+    },
+    "EatCard_Down_23": {
+      "Name": "EatCard_Down_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_38",
+      "FileNameList": 0
+    },
+    "EatCard_Down_24": {
+      "Name": "EatCard_Down_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_29",
+      "FileNameList": 0
+    },
+    "EatCard_Down_25": {
+      "Name": "EatCard_Down_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_22",
+      "FileNameList": 0
+    },
+    "EatCard_Down_26": {
+      "Name": "EatCard_Down_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_42",
+      "FileNameList": 0
+    },
+    "EatCard_Down_27": {
+      "Name": "EatCard_Down_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_37",
+      "FileNameList": 0
+    },
+    "EatCard_Down_28": {
+      "Name": "EatCard_Down_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_28",
+      "FileNameList": 0
+    },
+    "EatCard_Down_29": {
+      "Name": "EatCard_Down_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_21",
+      "FileNameList": 0
+    },
+    "EatCard_Down_31": {
+      "Name": "EatCard_Down_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_18",
+      "FileNameList": 0
+    },
+    "EatCard_Down_32": {
+      "Name": "EatCard_Down_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_17",
+      "FileNameList": 0
+    },
+    "EatCard_Down_33": {
+      "Name": "EatCard_Down_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_16",
+      "FileNameList": 0
+    },
+    "EatCard_Down_34": {
+      "Name": "EatCard_Down_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_15",
+      "FileNameList": 0
+    },
+    "EatCard_Down_35": {
+      "Name": "EatCard_Down_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_36",
+      "FileNameList": 0
+    },
+    "EatCard_Down_36": {
+      "Name": "EatCard_Down_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_27",
+      "FileNameList": 0
+    },
+    "EatCard_Down_37": {
+      "Name": "EatCard_Down_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_20",
+      "FileNameList": 0
+    },
+    "EatCard_Down_38": {
+      "Name": "EatCard_Down_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_14",
+      "FileNameList": 0
+    },
+    "EatCard_Down_39": {
+      "Name": "EatCard_Down_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_12",
+      "FileNameList": 0
+    },
+    "EatCard_Down_41": {
+      "Name": "EatCard_Down_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_09",
+      "FileNameList": 0
+    },
+    "EatCard_Down_43": {
+      "Name": "EatCard_Down_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_02",
+      "FileNameList": 0
+    },
+    "EatCard_Down_42": {
+      "Name": "EatCard_Down_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_03",
+      "FileNameList": 0
+    },
+    "EatCard_Down_44": {
+      "Name": "EatCard_Down_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_10",
+      "FileNameList": 0
+    },
+    "EatCard_Down_45": {
+      "Name": "EatCard_Down_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_01",
+      "FileNameList": 0
+    },
+    "EatCard_Down_46": {
+      "Name": "EatCard_Down_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_08",
+      "FileNameList": 0
+    },
+    "EatCard_Down_47": {
+      "Name": "EatCard_Down_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_11",
+      "FileNameList": 0
+    },
+    "EatCard_Down_51": {
+      "Name": "EatCard_Down_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_07",
+      "FileNameList": 0
+    },
+    "EatCard_Down_52": {
+      "Name": "EatCard_Down_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_13",
+      "FileNameList": 0
+    },
+    "EatCard_Down_53": {
+      "Name": "EatCard_Down_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_04",
+      "FileNameList": 0
+    },
+    "EatCard_Down_54": {
+      "Name": "EatCard_Down_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_19",
+      "FileNameList": 0
+    },
+    "EatCard_Down_55": {
+      "Name": "EatCard_Down_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_41",
+      "FileNameList": 0
+    },
+    "EatCard_Down_56": {
+      "Name": "EatCard_Down_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_05",
+      "FileNameList": 0
+    },
+    "EatCard_Down_57": {
+      "Name": "EatCard_Down_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_06",
+      "FileNameList": 0
+    },
+    "EatCard_Down_58": {
+      "Name": "EatCard_Down_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_35",
+      "FileNameList": 0
+    },
+    "EatCard_Down_50": {
+      "Name": "EatCard_Down_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/down/down/hh_face_suit_y_40",
+      "FileNameList": 0
+    },
+    "EatCard_Up_11": {
+      "Name": "EatCard_Up_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_33",
+      "FileNameList": 0
+    },
+    "EatCard_Up_12": {
+      "Name": "EatCard_Up_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_32",
+      "FileNameList": 0
+    },
+    "EatCard_Up_13": {
+      "Name": "EatCard_Up_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_31",
+      "FileNameList": 0
+    },
+    "EatCard_Up_14": {
+      "Name": "EatCard_Up_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_26",
+      "FileNameList": 0
+    },
+    "EatCard_Up_15": {
+      "Name": "EatCard_Up_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_34",
+      "FileNameList": 0
+    },
+    "EatCard_Up_16": {
+      "Name": "EatCard_Up_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_39",
+      "FileNameList": 0
+    },
+    "EatCard_Up_17": {
+      "Name": "EatCard_Up_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_30",
+      "FileNameList": 0
+    },
+    "EatCard_Up_18": {
+      "Name": "EatCard_Up_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_23",
+      "FileNameList": 0
+    },
+    "EatCard_Up_19": {
+      "Name": "EatCard_Up_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_25",
+      "FileNameList": 0
+    },
+    "EatCard_Up_21": {
+      "Name": "EatCard_Up_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_24",
+      "FileNameList": 0
+    },
+    "EatCard_Up_22": {
+      "Name": "EatCard_Up_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_43",
+      "FileNameList": 0
+    },
+    "EatCard_Up_23": {
+      "Name": "EatCard_Up_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_38",
+      "FileNameList": 0
+    },
+    "EatCard_Up_24": {
+      "Name": "EatCard_Up_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_29",
+      "FileNameList": 0
+    },
+    "EatCard_Up_25": {
+      "Name": "EatCard_Up_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_22",
+      "FileNameList": 0
+    },
+    "EatCard_Up_26": {
+      "Name": "EatCard_Up_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_42",
+      "FileNameList": 0
+    },
+    "EatCard_Up_27": {
+      "Name": "EatCard_Up_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_37",
+      "FileNameList": 0
+    },
+    "EatCard_Up_28": {
+      "Name": "EatCard_Up_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_28",
+      "FileNameList": 0
+    },
+    "EatCard_Up_29": {
+      "Name": "EatCard_Up_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_21",
+      "FileNameList": 0
+    },
+    "EatCard_Up_31": {
+      "Name": "EatCard_Up_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_18",
+      "FileNameList": 0
+    },
+    "EatCard_Up_32": {
+      "Name": "EatCard_Up_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_17",
+      "FileNameList": 0
+    },
+    "EatCard_Up_33": {
+      "Name": "EatCard_Up_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_16",
+      "FileNameList": 0
+    },
+    "EatCard_Up_34": {
+      "Name": "EatCard_Up_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_15",
+      "FileNameList": 0
+    },
+    "EatCard_Up_35": {
+      "Name": "EatCard_Up_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_36",
+      "FileNameList": 0
+    },
+    "EatCard_Up_36": {
+      "Name": "EatCard_Up_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_27",
+      "FileNameList": 0
+    },
+    "EatCard_Up_37": {
+      "Name": "EatCard_Up_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_20",
+      "FileNameList": 0
+    },
+    "EatCard_Up_38": {
+      "Name": "EatCard_Up_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_14",
+      "FileNameList": 0
+    },
+    "EatCard_Up_39": {
+      "Name": "EatCard_Up_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_12",
+      "FileNameList": 0
+    },
+    "EatCard_Up_41": {
+      "Name": "EatCard_Up_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_09",
+      "FileNameList": 0
+    },
+    "EatCard_Up_43": {
+      "Name": "EatCard_Up_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_02",
+      "FileNameList": 0
+    },
+    "EatCard_Up_42": {
+      "Name": "EatCard_Up_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_03",
+      "FileNameList": 0
+    },
+    "EatCard_Up_44": {
+      "Name": "EatCard_Up_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_10",
+      "FileNameList": 0
+    },
+    "EatCard_Up_45": {
+      "Name": "EatCard_Up_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_01",
+      "FileNameList": 0
+    },
+    "EatCard_Up_46": {
+      "Name": "EatCard_Up_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_08",
+      "FileNameList": 0
+    },
+    "EatCard_Up_47": {
+      "Name": "EatCard_Up_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_11",
+      "FileNameList": 0
+    },
+    "EatCard_Up_51": {
+      "Name": "EatCard_Up_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_07",
+      "FileNameList": 0
+    },
+    "EatCard_Up_52": {
+      "Name": "EatCard_Up_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_13",
+      "FileNameList": 0
+    },
+    "EatCard_Up_53": {
+      "Name": "EatCard_Up_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_04",
+      "FileNameList": 0
+    },
+    "EatCard_Up_54": {
+      "Name": "EatCard_Up_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_19",
+      "FileNameList": 0
+    },
+    "EatCard_Up_55": {
+      "Name": "EatCard_Up_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_41",
+      "FileNameList": 0
+    },
+    "EatCard_Up_56": {
+      "Name": "EatCard_Up_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_05",
+      "FileNameList": 0
+    },
+    "EatCard_Up_57": {
+      "Name": "EatCard_Up_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_06",
+      "FileNameList": 0
+    },
+    "EatCard_Up_58": {
+      "Name": "EatCard_Up_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_35",
+      "FileNameList": 0
+    },
+    "EatCard_Up_50": {
+      "Name": "EatCard_Up_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/up/down/hh_face_suit_z_40",
+      "FileNameList": 0
+    },
+    "OutCard_Self_11": {
+      "Name": "OutCard_Self_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_26",
+      "FileNameList": 0
+    },
+    "OutCard_Self_12": {
+      "Name": "OutCard_Self_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_27",
+      "FileNameList": 0
+    },
+    "OutCard_Self_13": {
+      "Name": "OutCard_Self_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_28",
+      "FileNameList": 0
+    },
+    "OutCard_Self_14": {
+      "Name": "OutCard_Self_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_37",
+      "FileNameList": 0
+    },
+    "OutCard_Self_15": {
+      "Name": "OutCard_Self_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_42",
+      "FileNameList": 0
+    },
+    "OutCard_Self_16": {
+      "Name": "OutCard_Self_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_36",
+      "FileNameList": 0
+    },
+    "OutCard_Self_17": {
+      "Name": "OutCard_Self_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_25",
+      "FileNameList": 0
+    },
+    "OutCard_Self_18": {
+      "Name": "OutCard_Self_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_41",
+      "FileNameList": 0
+    },
+    "OutCard_Self_19": {
+      "Name": "OutCard_Self_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_35",
+      "FileNameList": 0
+    },
+    "OutCard_Self_21": {
+      "Name": "OutCard_Self_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_24",
+      "FileNameList": 0
+    },
+    "OutCard_Self_22": {
+      "Name": "OutCard_Self_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_21",
+      "FileNameList": 0
+    },
+    "OutCard_Self_23": {
+      "Name": "OutCard_Self_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_31",
+      "FileNameList": 0
+    },
+    "OutCard_Self_24": {
+      "Name": "OutCard_Self_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_30",
+      "FileNameList": 0
+    },
+    "OutCard_Self_25": {
+      "Name": "OutCard_Self_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_29",
+      "FileNameList": 0
+    },
+    "OutCard_Self_26": {
+      "Name": "OutCard_Self_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_40",
+      "FileNameList": 0
+    },
+    "OutCard_Self_27": {
+      "Name": "OutCard_Self_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_34",
+      "FileNameList": 0
+    },
+    "OutCard_Self_28": {
+      "Name": "OutCard_Self_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_23",
+      "FileNameList": 0
+    },
+    "OutCard_Self_29": {
+      "Name": "OutCard_Self_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_14",
+      "FileNameList": 0
+    },
+    "OutCard_Self_31": {
+      "Name": "OutCard_Self_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_20",
+      "FileNameList": 0
+    },
+    "OutCard_Self_32": {
+      "Name": "OutCard_Self_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_19",
+      "FileNameList": 0
+    },
+    "OutCard_Self_33": {
+      "Name": "OutCard_Self_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_18",
+      "FileNameList": 0
+    },
+    "OutCard_Self_34": {
+      "Name": "OutCard_Self_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_17",
+      "FileNameList": 0
+    },
+    "OutCard_Self_35": {
+      "Name": "OutCard_Self_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_07",
+      "FileNameList": 0
+    },
+    "OutCard_Self_36": {
+      "Name": "OutCard_Self_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_13",
+      "FileNameList": 0
+    },
+    "OutCard_Self_37": {
+      "Name": "OutCard_Self_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_12",
+      "FileNameList": 0
+    },
+    "OutCard_Self_38": {
+      "Name": "OutCard_Self_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_11",
+      "FileNameList": 0
+    },
+    "OutCard_Self_39": {
+      "Name": "OutCard_Self_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_10",
+      "FileNameList": 0
+    },
+    "OutCard_Self_41": {
+      "Name": "OutCard_Self_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_16",
+      "FileNameList": 0
+    },
+    "OutCard_Self_43": {
+      "Name": "OutCard_Self_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_08",
+      "FileNameList": 0
+    },
+    "OutCard_Self_42": {
+      "Name": "OutCard_Self_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_15",
+      "FileNameList": 0
+    },
+    "OutCard_Self_44": {
+      "Name": "OutCard_Self_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_22",
+      "FileNameList": 0
+    },
+    "OutCard_Self_45": {
+      "Name": "OutCard_Self_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_01",
+      "FileNameList": 0
+    },
+    "OutCard_Self_46": {
+      "Name": "OutCard_Self_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_09",
+      "FileNameList": 0
+    },
+    "OutCard_Self_47": {
+      "Name": "OutCard_Self_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_33",
+      "FileNameList": 0
+    },
+    "OutCard_Self_51": {
+      "Name": "OutCard_Self_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_02",
+      "FileNameList": 0
+    },
+    "OutCard_Self_52": {
+      "Name": "OutCard_Self_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_03",
+      "FileNameList": 0
+    },
+    "OutCard_Self_53": {
+      "Name": "OutCard_Self_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_32",
+      "FileNameList": 0
+    },
+    "OutCard_Self_54": {
+      "Name": "OutCard_Self_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_04",
+      "FileNameList": 0
+    },
+    "OutCard_Self_55": {
+      "Name": "OutCard_Self_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_06",
+      "FileNameList": 0
+    },
+    "OutCard_Self_56": {
+      "Name": "OutCard_Self_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_38",
+      "FileNameList": 0
+    },
+    "OutCard_Self_57": {
+      "Name": "OutCard_Self_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_43",
+      "FileNameList": 0
+    },
+    "OutCard_Self_58": {
+      "Name": "OutCard_Self_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_05",
+      "FileNameList": 0
+    },
+    "OutCard_Self_50": {
+      "Name": "OutCard_Self_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/self/down/hh_face_dao_39",
+      "FileNameList": 0
+    },
+    "OutCard_Down_11": {
+      "Name": "OutCard_Down_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_34",
+      "FileNameList": 0
+    },
+    "OutCard_Down_12": {
+      "Name": "OutCard_Down_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_33",
+      "FileNameList": 0
+    },
+    "OutCard_Down_13": {
+      "Name": "OutCard_Down_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_43",
+      "FileNameList": 0
+    },
+    "OutCard_Down_14": {
+      "Name": "OutCard_Down_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_39",
+      "FileNameList": 0
+    },
+    "OutCard_Down_15": {
+      "Name": "OutCard_Down_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_32",
+      "FileNameList": 0
+    },
+    "OutCard_Down_16": {
+      "Name": "OutCard_Down_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_28",
+      "FileNameList": 0
+    },
+    "OutCard_Down_17": {
+      "Name": "OutCard_Down_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_27",
+      "FileNameList": 0
+    },
+    "OutCard_Down_18": {
+      "Name": "OutCard_Down_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_26",
+      "FileNameList": 0
+    },
+    "OutCard_Down_19": {
+      "Name": "OutCard_Down_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_25",
+      "FileNameList": 0
+    },
+    "OutCard_Down_21": {
+      "Name": "OutCard_Down_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_42",
+      "FileNameList": 0
+    },
+    "OutCard_Down_22": {
+      "Name": "OutCard_Down_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_38",
+      "FileNameList": 0
+    },
+    "OutCard_Down_23": {
+      "Name": "OutCard_Down_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_31",
+      "FileNameList": 0
+    },
+    "OutCard_Down_24": {
+      "Name": "OutCard_Down_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_24",
+      "FileNameList": 0
+    },
+    "OutCard_Down_25": {
+      "Name": "OutCard_Down_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_21",
+      "FileNameList": 0
+    },
+    "OutCard_Down_26": {
+      "Name": "OutCard_Down_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_20",
+      "FileNameList": 0
+    },
+    "OutCard_Down_27": {
+      "Name": "OutCard_Down_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_19",
+      "FileNameList": 0
+    },
+    "OutCard_Down_28": {
+      "Name": "OutCard_Down_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_18",
+      "FileNameList": 0
+    },
+    "OutCard_Down_29": {
+      "Name": "OutCard_Down_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_17",
+      "FileNameList": 0
+    },
+    "OutCard_Down_31": {
+      "Name": "OutCard_Down_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_41",
+      "FileNameList": 0
+    },
+    "OutCard_Down_32": {
+      "Name": "OutCard_Down_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_37",
+      "FileNameList": 0
+    },
+    "OutCard_Down_33": {
+      "Name": "OutCard_Down_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_30",
+      "FileNameList": 0
+    },
+    "OutCard_Down_34": {
+      "Name": "OutCard_Down_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_23",
+      "FileNameList": 0
+    },
+    "OutCard_Down_35": {
+      "Name": "OutCard_Down_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_16",
+      "FileNameList": 0
+    },
+    "OutCard_Down_36": {
+      "Name": "OutCard_Down_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_14",
+      "FileNameList": 0
+    },
+    "OutCard_Down_37": {
+      "Name": "OutCard_Down_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_13",
+      "FileNameList": 0
+    },
+    "OutCard_Down_38": {
+      "Name": "OutCard_Down_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_12",
+      "FileNameList": 0
+    },
+    "OutCard_Down_39": {
+      "Name": "OutCard_Down_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_11",
+      "FileNameList": 0
+    },
+    "OutCard_Down_41": {
+      "Name": "OutCard_Down_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_40",
+      "FileNameList": 0
+    },
+    "OutCard_Down_43": {
+      "Name": "OutCard_Down_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_02",
+      "FileNameList": 0
+    },
+    "OutCard_Down_42": {
+      "Name": "OutCard_Down_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_03",
+      "FileNameList": 0
+    },
+    "OutCard_Down_44": {
+      "Name": "OutCard_Down_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_09",
+      "FileNameList": 0
+    },
+    "OutCard_Down_45": {
+      "Name": "OutCard_Down_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_01",
+      "FileNameList": 0
+    },
+    "OutCard_Down_46": {
+      "Name": "OutCard_Down_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_36",
+      "FileNameList": 0
+    },
+    "OutCard_Down_47": {
+      "Name": "OutCard_Down_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_10",
+      "FileNameList": 0
+    },
+    "OutCard_Down_51": {
+      "Name": "OutCard_Down_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_07",
+      "FileNameList": 0
+    },
+    "OutCard_Down_52": {
+      "Name": "OutCard_Down_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_08",
+      "FileNameList": 0
+    },
+    "OutCard_Down_53": {
+      "Name": "OutCard_Down_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_04",
+      "FileNameList": 0
+    },
+    "OutCard_Down_54": {
+      "Name": "OutCard_Down_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_15",
+      "FileNameList": 0
+    },
+    "OutCard_Down_55": {
+      "Name": "OutCard_Down_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_29",
+      "FileNameList": 0
+    },
+    "OutCard_Down_56": {
+      "Name": "OutCard_Down_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_05",
+      "FileNameList": 0
+    },
+    "OutCard_Down_57": {
+      "Name": "OutCard_Down_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_06",
+      "FileNameList": 0
+    },
+    "OutCard_Down_58": {
+      "Name": "OutCard_Down_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_22",
+      "FileNameList": 0
+    },
+    "OutCard_Down_50": {
+      "Name": "OutCard_Down_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/down/out/hh_face_y_35",
+      "FileNameList": 0
+    },
+    "OutCard_Up_11": {
+      "Name": "OutCard_Up_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_34",
+      "FileNameList": 0
+    },
+    "OutCard_Up_12": {
+      "Name": "OutCard_Up_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_33",
+      "FileNameList": 0
+    },
+    "OutCard_Up_13": {
+      "Name": "OutCard_Up_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_43",
+      "FileNameList": 0
+    },
+    "OutCard_Up_14": {
+      "Name": "OutCard_Up_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_39",
+      "FileNameList": 0
+    },
+    "OutCard_Up_15": {
+      "Name": "OutCard_Up_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_32",
+      "FileNameList": 0
+    },
+    "OutCard_Up_16": {
+      "Name": "OutCard_Up_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_28",
+      "FileNameList": 0
+    },
+    "OutCard_Up_17": {
+      "Name": "OutCard_Up_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_27",
+      "FileNameList": 0
+    },
+    "OutCard_Up_18": {
+      "Name": "OutCard_Up_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_26",
+      "FileNameList": 0
+    },
+    "OutCard_Up_19": {
+      "Name": "OutCard_Up_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_25",
+      "FileNameList": 0
+    },
+    "OutCard_Up_21": {
+      "Name": "OutCard_Up_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_42",
+      "FileNameList": 0
+    },
+    "OutCard_Up_22": {
+      "Name": "OutCard_Up_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_38",
+      "FileNameList": 0
+    },
+    "OutCard_Up_23": {
+      "Name": "OutCard_Up_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_31",
+      "FileNameList": 0
+    },
+    "OutCard_Up_24": {
+      "Name": "OutCard_Up_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_24",
+      "FileNameList": 0
+    },
+    "OutCard_Up_25": {
+      "Name": "OutCard_Up_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_21",
+      "FileNameList": 0
+    },
+    "OutCard_Up_26": {
+      "Name": "OutCard_Up_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_20",
+      "FileNameList": 0
+    },
+    "OutCard_Up_27": {
+      "Name": "OutCard_Up_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_19",
+      "FileNameList": 0
+    },
+    "OutCard_Up_28": {
+      "Name": "OutCard_Up_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_18",
+      "FileNameList": 0
+    },
+    "OutCard_Up_29": {
+      "Name": "OutCard_Up_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_17",
+      "FileNameList": 0
+    },
+    "OutCard_Up_31": {
+      "Name": "OutCard_Up_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_41",
+      "FileNameList": 0
+    },
+    "OutCard_Up_32": {
+      "Name": "OutCard_Up_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_37",
+      "FileNameList": 0
+    },
+    "OutCard_Up_33": {
+      "Name": "OutCard_Up_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_30",
+      "FileNameList": 0
+    },
+    "OutCard_Up_34": {
+      "Name": "OutCard_Up_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_23",
+      "FileNameList": 0
+    },
+    "OutCard_Up_35": {
+      "Name": "OutCard_Up_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_16",
+      "FileNameList": 0
+    },
+    "OutCard_Up_36": {
+      "Name": "OutCard_Up_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_14",
+      "FileNameList": 0
+    },
+    "OutCard_Up_37": {
+      "Name": "OutCard_Up_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_13",
+      "FileNameList": 0
+    },
+    "OutCard_Up_38": {
+      "Name": "OutCard_Up_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_12",
+      "FileNameList": 0
+    },
+    "OutCard_Up_39": {
+      "Name": "OutCard_Up_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_11",
+      "FileNameList": 0
+    },
+    "OutCard_Up_41": {
+      "Name": "OutCard_Up_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_40",
+      "FileNameList": 0
+    },
+    "OutCard_Up_43": {
+      "Name": "OutCard_Up_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_02",
+      "FileNameList": 0
+    },
+    "OutCard_Up_42": {
+      "Name": "OutCard_Up_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_03",
+      "FileNameList": 0
+    },
+    "OutCard_Up_44": {
+      "Name": "OutCard_Up_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_09",
+      "FileNameList": 0
+    },
+    "OutCard_Up_45": {
+      "Name": "OutCard_Up_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_01",
+      "FileNameList": 0
+    },
+    "OutCard_Up_46": {
+      "Name": "OutCard_Up_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_36",
+      "FileNameList": 0
+    },
+    "OutCard_Up_47": {
+      "Name": "OutCard_Up_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_10",
+      "FileNameList": 0
+    },
+    "OutCard_Up_51": {
+      "Name": "OutCard_Up_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_07",
+      "FileNameList": 0
+    },
+    "OutCard_Up_52": {
+      "Name": "OutCard_Up_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_08",
+      "FileNameList": 0
+    },
+    "OutCard_Up_53": {
+      "Name": "OutCard_Up_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_04",
+      "FileNameList": 0
+    },
+    "OutCard_Up_54": {
+      "Name": "OutCard_Up_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_15",
+      "FileNameList": 0
+    },
+    "OutCard_Up_55": {
+      "Name": "OutCard_Up_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_07",
+      "FileNameList": 0
+    },
+    "OutCard_Up_56": {
+      "Name": "OutCard_Up_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_05",
+      "FileNameList": 0
+    },
+    "OutCard_Up_57": {
+      "Name": "OutCard_Up_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_06",
+      "FileNameList": 0
+    },
+    "OutCard_Up_58": {
+      "Name": "OutCard_Up_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_22",
+      "FileNameList": 0
+    },
+    "OutCard_Up_50": {
+      "Name": "OutCard_Up_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/up/out/hh_face_z_35",
+      "FileNameList": 0
+    },
+    "Card2DShow11": {
+      "Name": "Card2DShow11",
+      "CnName": "本家手牌1万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_26",
+      "FileNameList": 0
+    },
+    "Card2DShow12": {
+      "Name": "Card2DShow12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_25",
+      "FileNameList": 0
+    },
+    "Card2DShow13": {
+      "Name": "Card2DShow13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_42",
+      "FileNameList": 0
+    },
+    "Card2DShow14": {
+      "Name": "Card2DShow14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_38",
+      "FileNameList": 0
+    },
+    "Card2DShow15": {
+      "Name": "Card2DShow15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_34",
+      "FileNameList": 0
+    },
+    "Card2DShow16": {
+      "Name": "Card2DShow16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_30",
+      "FileNameList": 0
+    },
+    "Card2DShow17": {
+      "Name": "Card2DShow17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_24",
+      "FileNameList": 0
+    },
+    "Card2DShow18": {
+      "Name": "Card2DShow18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_20",
+      "FileNameList": 0
+    },
+    "Card2DShow19": {
+      "Name": "Card2DShow19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_19",
+      "FileNameList": 0
+    },
+    "Card2DShow21": {
+      "Name": "Card2DShow21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_18",
+      "FileNameList": 0
+    },
+    "Card2DShow22": {
+      "Name": "Card2DShow22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_17",
+      "FileNameList": 0
+    },
+    "Card2DShow23": {
+      "Name": "Card2DShow23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_16",
+      "FileNameList": 0
+    },
+    "Card2DShow24": {
+      "Name": "Card2DShow24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_15",
+      "FileNameList": 0
+    },
+    "Card2DShow25": {
+      "Name": "Card2DShow25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_14",
+      "FileNameList": 0
+    },
+    "Card2DShow26": {
+      "Name": "Card2DShow26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_41",
+      "FileNameList": 0
+    },
+    "Card2DShow27": {
+      "Name": "Card2DShow27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_37",
+      "FileNameList": 0
+    },
+    "Card2DShow28": {
+      "Name": "Card2DShow28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_33",
+      "FileNameList": 0
+    },
+    "Card2DShow29": {
+      "Name": "Card2DShow29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_29",
+      "FileNameList": 0
+    },
+    "Card2DShow31": {
+      "Name": "Card2DShow31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_23",
+      "FileNameList": 0
+    },
+    "Card2DShow32": {
+      "Name": "Card2DShow32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_13",
+      "FileNameList": 0
+    },
+    "Card2DShow33": {
+      "Name": "Card2DShow33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_40",
+      "FileNameList": 0
+    },
+    "Card2DShow34": {
+      "Name": "Card2DShow34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_36",
+      "FileNameList": 0
+    },
+    "Card2DShow35": {
+      "Name": "Card2DShow35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_32",
+      "FileNameList": 0
+    },
+    "Card2DShow36": {
+      "Name": "Card2DShow36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_28",
+      "FileNameList": 0
+    },
+    "Card2DShow37": {
+      "Name": "Card2DShow37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_22",
+      "FileNameList": 0
+    },
+    "Card2DShow38": {
+      "Name": "Card2DShow38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_12",
+      "FileNameList": 0
+    },
+    "Card2DShow39": {
+      "Name": "Card2DShow39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_10",
+      "FileNameList": 0
+    },
+    "Card2DShow41": {
+      "Name": "Card2DShow41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_07",
+      "FileNameList": 0
+    },
+    "Card2DShow43": {
+      "Name": "Card2DShow43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_11",
+      "FileNameList": 0
+    },
+    "Card2DShow42": {
+      "Name": "Card2DShow42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_21",
+      "FileNameList": 0
+    },
+    "Card2DShow44": {
+      "Name": "Card2DShow44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_08",
+      "FileNameList": 0
+    },
+    "Card2DShow45": {
+      "Name": "Card2DShow45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_01",
+      "FileNameList": 0
+    },
+    "Card2DShow46": {
+      "Name": "Card2DShow46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_06",
+      "FileNameList": 0
+    },
+    "Card2DShow47": {
+      "Name": "Card2DShow47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_09",
+      "FileNameList": 0
+    },
+    "Card2DShow51": {
+      "Name": "Card2DShow51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_39",
+      "FileNameList": 0
+    },
+    "Card2DShow52": {
+      "Name": "Card2DShow52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_02",
+      "FileNameList": 0
+    },
+    "Card2DShow53": {
+      "Name": "Card2DShow53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_27",
+      "FileNameList": 0
+    },
+    "Card2DShow54": {
+      "Name": "Card2DShow54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_03",
+      "FileNameList": 0
+    },
+    "Card2DShow55": {
+      "Name": "Card2DShow55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_05",
+      "FileNameList": 0
+    },
+    "Card2DShow56": {
+      "Name": "Card2DShow56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_31",
+      "FileNameList": 0
+    },
+    "Card2DShow57": {
+      "Name": "Card2DShow57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_35",
+      "FileNameList": 0
+    },
+    "Card2DShow58": {
+      "Name": "Card2DShow58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/self2d/show/hh_face_li_04",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_11": {
+      "Name": "OutCard2D_Self_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_26",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_12": {
+      "Name": "OutCard2D_Self_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_27",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_13": {
+      "Name": "OutCard2D_Self_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_28",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_14": {
+      "Name": "OutCard2D_Self_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_37",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_15": {
+      "Name": "OutCard2D_Self_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_42",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_16": {
+      "Name": "OutCard2D_Self_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_36",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_17": {
+      "Name": "OutCard2D_Self_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_25",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_18": {
+      "Name": "OutCard2D_Self_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_41",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_19": {
+      "Name": "OutCard2D_Self_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_35",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_21": {
+      "Name": "OutCard2D_Self_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_24",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_22": {
+      "Name": "OutCard2D_Self_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_21",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_23": {
+      "Name": "OutCard2D_Self_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_31",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_24": {
+      "Name": "OutCard2D_Self_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_30",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_25": {
+      "Name": "OutCard2D_Self_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_29",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_26": {
+      "Name": "OutCard2D_Self_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_40",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_27": {
+      "Name": "OutCard2D_Self_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_34",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_28": {
+      "Name": "OutCard2D_Self_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_23",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_29": {
+      "Name": "OutCard2D_Self_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_14",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_31": {
+      "Name": "OutCard2D_Self_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_20",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_32": {
+      "Name": "OutCard2D_Self_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_19",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_33": {
+      "Name": "OutCard2D_Self_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_18",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_34": {
+      "Name": "OutCard2D_Self_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_17",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_35": {
+      "Name": "OutCard2D_Self_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_07",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_36": {
+      "Name": "OutCard2D_Self_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_13",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_37": {
+      "Name": "OutCard2D_Self_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_12",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_38": {
+      "Name": "OutCard2D_Self_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_11",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_39": {
+      "Name": "OutCard2D_Self_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_10",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_41": {
+      "Name": "OutCard2D_Self_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_16",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_43": {
+      "Name": "OutCard2D_Self_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_08",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_42": {
+      "Name": "OutCard2D_Self_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_15",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_44": {
+      "Name": "OutCard2D_Self_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_22",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_45": {
+      "Name": "OutCard2D_Self_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_01",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_46": {
+      "Name": "OutCard2D_Self_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_09",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_47": {
+      "Name": "OutCard2D_Self_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_33",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_51": {
+      "Name": "OutCard2D_Self_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_02",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_52": {
+      "Name": "OutCard2D_Self_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_03",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_53": {
+      "Name": "OutCard2D_Self_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_32",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_54": {
+      "Name": "OutCard2D_Self_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_04",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_55": {
+      "Name": "OutCard2D_Self_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_06",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_56": {
+      "Name": "OutCard2D_Self_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_38",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_57": {
+      "Name": "OutCard2D_Self_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_43",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_58": {
+      "Name": "OutCard2D_Self_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_05",
+      "FileNameList": 0
+    },
+    "OutCard2D_Self_50": {
+      "Name": "OutCard2D_Self_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/self2d/down/hh_face_dao_39",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_11": {
+      "Name": "OutCard2D_Down_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_34",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_12": {
+      "Name": "OutCard2D_Down_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_33",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_13": {
+      "Name": "OutCard2D_Down_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_43",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_14": {
+      "Name": "OutCard2D_Down_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_39",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_15": {
+      "Name": "OutCard2D_Down_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_32",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_16": {
+      "Name": "OutCard2D_Down_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_28",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_17": {
+      "Name": "OutCard2D_Down_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_27",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_18": {
+      "Name": "OutCard2D_Down_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_26",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_19": {
+      "Name": "OutCard2D_Down_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_25",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_21": {
+      "Name": "OutCard2D_Down_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_42",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_22": {
+      "Name": "OutCard2D_Down_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_38",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_23": {
+      "Name": "OutCard2D_Down_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_31",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_24": {
+      "Name": "OutCard2D_Down_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_24",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_25": {
+      "Name": "OutCard2D_Down_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_21",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_26": {
+      "Name": "OutCard2D_Down_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_20",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_27": {
+      "Name": "OutCard2D_Down_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_19",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_28": {
+      "Name": "OutCard2D_Down_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_18",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_29": {
+      "Name": "OutCard2D_Down_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_17",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_31": {
+      "Name": "OutCard2D_Down_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_41",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_32": {
+      "Name": "OutCard2D_Down_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_37",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_33": {
+      "Name": "OutCard2D_Down_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_30",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_34": {
+      "Name": "OutCard2D_Down_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_23",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_35": {
+      "Name": "OutCard2D_Down_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_16",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_36": {
+      "Name": "OutCard2D_Down_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_14",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_37": {
+      "Name": "OutCard2D_Down_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_13",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_38": {
+      "Name": "OutCard2D_Down_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_12",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_39": {
+      "Name": "OutCard2D_Down_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_11",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_41": {
+      "Name": "OutCard2D_Down_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_40",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_43": {
+      "Name": "OutCard2D_Down_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_02",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_42": {
+      "Name": "OutCard2D_Down_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_03",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_44": {
+      "Name": "OutCard2D_Down_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_09",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_45": {
+      "Name": "OutCard2D_Down_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_01",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_46": {
+      "Name": "OutCard2D_Down_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_36",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_47": {
+      "Name": "OutCard2D_Down_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_10",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_51": {
+      "Name": "OutCard2D_Down_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_07",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_52": {
+      "Name": "OutCard2D_Down_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_08",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_53": {
+      "Name": "OutCard2D_Down_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_04",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_54": {
+      "Name": "OutCard2D_Down_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_15",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_55": {
+      "Name": "OutCard2D_Down_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_29",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_56": {
+      "Name": "OutCard2D_Down_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_05",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_57": {
+      "Name": "OutCard2D_Down_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_06",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_58": {
+      "Name": "OutCard2D_Down_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_22",
+      "FileNameList": 0
+    },
+    "OutCard2D_Down_50": {
+      "Name": "OutCard2D_Down_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/down2d/hh_face_y_35",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_11": {
+      "Name": "OutCard2D_Up_11",
+      "CnName": "1万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_34",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_12": {
+      "Name": "OutCard2D_Up_12",
+      "CnName": "2万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_33",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_13": {
+      "Name": "OutCard2D_Up_13",
+      "CnName": "3万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_43",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_14": {
+      "Name": "OutCard2D_Up_14",
+      "CnName": "4万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_39",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_15": {
+      "Name": "OutCard2D_Up_15",
+      "CnName": "5万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_32",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_16": {
+      "Name": "OutCard2D_Up_16",
+      "CnName": "6万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_28",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_17": {
+      "Name": "OutCard2D_Up_17",
+      "CnName": "7万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_27",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_18": {
+      "Name": "OutCard2D_Up_18",
+      "CnName": "8万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_26",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_19": {
+      "Name": "OutCard2D_Up_19",
+      "CnName": "9万",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_25",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_21": {
+      "Name": "OutCard2D_Up_21",
+      "CnName": "1条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_42",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_22": {
+      "Name": "OutCard2D_Up_22",
+      "CnName": "2条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_38",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_23": {
+      "Name": "OutCard2D_Up_23",
+      "CnName": "3条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_31",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_24": {
+      "Name": "OutCard2D_Up_24",
+      "CnName": "4条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_24",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_25": {
+      "Name": "OutCard2D_Up_25",
+      "CnName": "5条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_21",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_26": {
+      "Name": "OutCard2D_Up_26",
+      "CnName": "6条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_20",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_27": {
+      "Name": "OutCard2D_Up_27",
+      "CnName": "7条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_19",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_28": {
+      "Name": "OutCard2D_Up_28",
+      "CnName": "8条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_18",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_29": {
+      "Name": "OutCard2D_Up_29",
+      "CnName": "9条",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_17",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_31": {
+      "Name": "OutCard2D_Up_31",
+      "CnName": "1筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_41",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_32": {
+      "Name": "OutCard2D_Up_32",
+      "CnName": "2筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_37",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_33": {
+      "Name": "OutCard2D_Up_33",
+      "CnName": "3筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_30",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_34": {
+      "Name": "OutCard2D_Up_34",
+      "CnName": "4筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_23",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_35": {
+      "Name": "OutCard2D_Up_35",
+      "CnName": "5筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_16",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_36": {
+      "Name": "OutCard2D_Up_36",
+      "CnName": "6筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_14",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_37": {
+      "Name": "OutCard2D_Up_37",
+      "CnName": "7筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_13",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_38": {
+      "Name": "OutCard2D_Up_38",
+      "CnName": "8筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_12",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_39": {
+      "Name": "OutCard2D_Up_39",
+      "CnName": "9筒",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_11",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_41": {
+      "Name": "OutCard2D_Up_41",
+      "CnName": "东",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_40",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_43": {
+      "Name": "OutCard2D_Up_43",
+      "CnName": "西",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_02",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_42": {
+      "Name": "OutCard2D_Up_42",
+      "CnName": "南",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_03",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_44": {
+      "Name": "OutCard2D_Up_44",
+      "CnName": "北",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_09",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_45": {
+      "Name": "OutCard2D_Up_45",
+      "CnName": "中",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_01",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_46": {
+      "Name": "OutCard2D_Up_46",
+      "CnName": "发",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_36",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_47": {
+      "Name": "OutCard2D_Up_47",
+      "CnName": "白",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_10",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_51": {
+      "Name": "OutCard2D_Up_51",
+      "CnName": "梅",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_07",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_52": {
+      "Name": "OutCard2D_Up_52",
+      "CnName": "兰",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_08",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_53": {
+      "Name": "OutCard2D_Up_53",
+      "CnName": "竹",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_04",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_54": {
+      "Name": "OutCard2D_Up_54",
+      "CnName": "菊",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_15",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_55": {
+      "Name": "OutCard2D_Up_55",
+      "CnName": "春",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_07",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_56": {
+      "Name": "OutCard2D_Up_56",
+      "CnName": "夏",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_05",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_57": {
+      "Name": "OutCard2D_Up_57",
+      "CnName": "秋",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_06",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_58": {
+      "Name": "OutCard2D_Up_58",
+      "CnName": "冬",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_22",
+      "FileNameList": 0
+    },
+    "OutCard2D_Up_50": {
+      "Name": "OutCard2D_Up_50",
+      "CnName": "盖",
+      "FilePath": "texture/game/majiang/up2d/hh_face_z_35",
+      "FileNameList": 0
+    },
+    "Title_Main": {
+      "Name": "Title_Main",
+      "CnName": "大厅图标",
+      "FilePath": "texture/comicon/title_main",
+      "FileNameList": 0
+    },
+    "Title_LXC": {
+      "Name": "Title_LXC",
+      "CnName": "练习场图标",
+      "FilePath": "texture/comicon/title_lxc",
+      "FileNameList": 0
+    },
+    "Title_Shop": {
+      "Name": "Title_Shop",
+      "CnName": "商城图标",
+      "FilePath": "texture/comicon/title_shop",
+      "FileNameList": 0
+    },
+    "Title_Race": {
+      "Name": "Title_Race",
+      "CnName": "比赛场图标",
+      "FilePath": "texture/comicon/title_zlsc",
+      "FileNameList": 0
+    },
+    "Title_RacePublic": {
+      "Name": "Title_RacePublic",
+      "CnName": "比赛场大众图标",
+      "FilePath": "texture/comicon/title_dzsc",
+      "FileNameList": 0
+    },
+    "Title_RaceSpecial": {
+      "Name": "Title_RaceSpecial",
+      "CnName": "比赛场专属图标",
+      "FilePath": "texture/comicon/title_zssc",
+      "FileNameList": 0
+    }
+  }
+}

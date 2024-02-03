@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_big_king",
+    "texture": "bec27c83-2cf9-45c4-816b-5662b60c8de4",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      188,
+      262
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      188,
+      262
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "icon_mapai",
+    "texture": "typdkf03-b1a1-41f4-a5d0-bb84e36301ac",
+    "atlas": "",
+    "rect": [
+      0,
+      0,
+      140,
+      190
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      140,
+      190
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

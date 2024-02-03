@@ -1,0 +1,43 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "face7Action",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "typdk4fb-e8fb-494d-9a15-7705ebcd6659"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "typdk29d-b7db-466e-b253-4d0d2d100954"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "typdkf1c-9707-485e-8261-8d5005ee2854"
+            }
+          },
+          {
+            "frame": 0.75,
+            "value": {
+              "__uuid__": "typdk5e5-b8f6-45df-9509-901567222006"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

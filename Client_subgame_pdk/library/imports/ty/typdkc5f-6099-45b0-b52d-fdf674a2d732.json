@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bipai_ani5",
+    "texture": "typdk32a-4c46-4328-b83a-5b9aeff509c6",
+    "atlas": "",
+    "rect": [
+      171,
+      88,
+      528,
+      504
+    ],
+    "offset": [
+      -2,
+      2
+    ],
+    "originalSize": [
+      874,
+      684
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

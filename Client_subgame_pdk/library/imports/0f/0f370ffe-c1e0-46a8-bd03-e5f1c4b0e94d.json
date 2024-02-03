@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "bg_heart1_2",
+    "texture": "f3d62ffe-a8fa-416a-8baf-50d69472c0cf",
+    "atlas": "",
+    "rect": [
+      78,
+      136,
+      67,
+      59
+    ],
+    "offset": [
+      30.5,
+      -54
+    ],
+    "originalSize": [
+      162,
+      223
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "img_bsf",
+    "texture": "typdk67c-5861-447a-be15-9fcbd8b80417",
+    "atlas": "",
+    "rect": [
+      1,
+      0,
+      120,
+      40
+    ],
+    "offset": [
+      0.5,
+      0
+    ],
+    "originalSize": [
+      121,
+      40
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

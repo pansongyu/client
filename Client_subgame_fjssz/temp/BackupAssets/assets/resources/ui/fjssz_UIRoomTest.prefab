@@ -51,9 +51,9 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 201,
-      "g": 107,
-      "b": 107,
+      "r": 207,
+      "g": 92,
+      "b": 92,
       "a": 255
     },
     "_contentSize": {
@@ -2074,7 +2074,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 160,
+      "width": 80,
       "height": 50.4
     },
     "_anchorPoint": {
@@ -2125,8 +2125,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "确定测试",
-    "_N$string": "确定测试",
+    "_string": "测试",
+    "_N$string": "测试",
     "_fontSize": 40,
     "_lineHeight": 40,
     "_enableWrapText": true,

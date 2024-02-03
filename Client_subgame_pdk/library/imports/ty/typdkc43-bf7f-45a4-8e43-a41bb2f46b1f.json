@@ -1,0 +1,28 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ani_xipai_22",
+    "texture": "typdk125-62eb-4caa-8997-ca4066623b05",
+    "atlas": "",
+    "rect": [
+      40,
+      3,
+      112,
+      108
+    ],
+    "offset": [
+      -20,
+      -1.5
+    ],
+    "originalSize": [
+      232,
+      111
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
