@@ -121,7 +121,7 @@ var PDKRoomMgr = app.BaseClass.extend({
         this.Room.OnInitRoomData(serverPack);
         //进入打牌场景
         if (app[app.subGameName + "_SceneManager"]().GetSceneType() != "pdkScene") {
-            // console.warn('进入打牌场景1');
+             console.warn('进入打牌场景1');
             app[app.subGameName + "_SceneManager"]().LoadScene("pdkScene");
         } else {
             let gameScene =  app.LocalDataManager().GetConfigProperty("SysSetting", app.subGameName + "_GameBg");

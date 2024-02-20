@@ -52,7 +52,7 @@
             "name": "wupingdikuang",
             "uuid": "f33235dd-13de-433d-b3b3-9816375d1986",
             "textureUuid": "30157187-36ff-4a2e-9e4b-2241c299d4d2",
-            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872002_image_1.png",
+            "path": "F:\\work\\client\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872002_image_1.png",
             "trim": {
               "x": 2,
               "y": 2,
@@ -65,7 +65,7 @@
             "rawHeight": 180,
             "width": 184,
             "height": 184,
-            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/30/30157187-36ff-4a2e-9e4b-2241c299d4d2.png",
+            "originalPath": "F:/work/client/Client_hall_split-main/library/imports/30/30157187-36ff-4a2e-9e4b-2241c299d4d2.png",
             "x": 0,
             "y": 0,
             "rotatedWidth": 184,
@@ -75,7 +75,7 @@
             "name": "xinxikuang",
             "uuid": "3b2c8d42-c547-48a9-b84e-996cf279fa92",
             "textureUuid": "e543bc9e-145d-465f-85c7-7e9b12b395c3",
-            "path": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872002_image_0.png",
+            "path": "F:\\work\\client\\Client_hall_split-main\\temp\\trimImages\\spritesheet_js_1701636872002_image_0.png",
             "trim": {
               "x": 186,
               "y": 2,
@@ -88,7 +88,7 @@
             "rawHeight": 100,
             "width": 104,
             "height": 104,
-            "originalPath": "D:/freelance/NewQH/QiHangNew/Client_hall_split-main/library/imports/e5/e543bc9e-145d-465f-85c7-7e9b12b395c3.png",
+            "originalPath": "F:/work/client/Client_hall_split-main/library/imports/e5/e543bc9e-145d-465f-85c7-7e9b12b395c3.png",
             "x": 184,
             "y": 0,
             "rotatedWidth": 104,
@@ -98,12 +98,12 @@
         "width": 512,
         "height": 256,
         "name": "comframeAtlas-1",
-        "imagePath": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comframe\\comframeAtlas.pac\\comframeAtlas-1.png",
+        "imagePath": "F:\\work\\client\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comframe\\comframeAtlas.pac\\comframeAtlas-1.png",
         "compressd": {
           "suffix": [
             ".png"
           ],
-          "imagePathNoExt": "D:\\freelance\\NewQH\\QiHangNew\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comframe\\comframeAtlas.pac\\compressed\\comframeAtlas-1"
+          "imagePathNoExt": "F:\\work\\client\\Client_hall_split-main\\temp\\TexturePacker\\build\\raw-assets\\resources\\texture\\comframe\\comframeAtlas.pac\\compressed\\comframeAtlas-1"
         }
       }
     ],

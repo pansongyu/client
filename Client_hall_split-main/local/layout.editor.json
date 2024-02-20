@@ -20,7 +20,7 @@
                 ],
                 "height": 390,
                 "type": "panel",
-                "width": 267
+                "width": 265
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 520,
                 "type": "panel",
-                "width": 267
+                "width": 265
               }
             ],
             "height": 913,
             "type": "dock-v",
-            "width": 267
+            "width": 265
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 613,
                     "type": "panel",
-                    "width": 835.984375
+                    "width": 841.984375
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 613,
                     "type": "panel",
-                    "width": 331
+                    "width": 334
                   }
                 ],
                 "height": 613,
                 "type": "dock-h",
-                "width": 1169.984375
+                "width": 1179
               },
               {
                 "active": 0,
@@ -72,12 +72,12 @@
                 ],
                 "height": 297,
                 "type": "panel",
-                "width": 1169.984375
+                "width": 1179
               }
             ],
             "height": 913,
             "type": "dock-v",
-            "width": 1169.984375
+            "width": 1179
           },
           {
             "active": 0,
@@ -87,7 +87,7 @@
             ],
             "height": 913,
             "type": "panel",
-            "width": 460
+            "width": 453
           }
         ],
         "type": "dock-h"
@@ -104,12 +104,37 @@
         "cocos-services"
       ]
     },
-    "worker": {}
+    "window-1708325441219": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 790,
+      "y": 339,
+      "width": 600,
+      "height": 565,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "project-settings"
+            ],
+            "height": 526,
+            "type": "panel",
+            "width": 584
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "project-settings"
+      ]
+    }
   },
   "panels": {
     "builder": {
-      "x": 826,
-      "y": 52,
+      "x": 802,
+      "y": 148,
       "width": 670,
       "height": 820
     },
@@ -120,16 +145,32 @@
       "height": 539
     },
     "project-settings": {
-      "x": 992,
-      "y": 440,
+      "x": 790,
+      "y": 339,
       "width": 600,
+      "height": 565
+    },
+    "hot-update-tools": {
+      "x": 502,
+      "y": 36,
+      "width": 916,
+      "height": 939
+    },
+    "preferences": {
+      "x": 207,
+      "y": 236,
+      "width": 1065,
       "height": 565
     }
   },
   "panelLabelWidth": {
     "builder": null,
-    "inspector": null
+    "inspector": null,
+    "hot-update-tools": null,
+    "preferences": null
   },
   "panelLabelWidth.builder": null,
-  "panelLabelWidth.inspector": null
+  "panelLabelWidth.inspector": null,
+  "panelLabelWidth.hot-update-tools": null,
+  "panelLabelWidth.preferences": null
 }

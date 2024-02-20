@@ -86,7 +86,7 @@ cc.Class({
         let key = event.target.parent.name
         let num = parseInt(bg.getChildByName(key).getChildByName("num").getComponent(cc.Label).string)
         num ++
-        if (this.totalNum >= 15) return
+        if (this.totalNum >= 16) return
         if (num > this.cardMap[key].length) {
             num = this.cardMap[key].length
         }

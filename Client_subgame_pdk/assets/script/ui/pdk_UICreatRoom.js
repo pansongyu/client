@@ -757,6 +757,7 @@ cc.Class({
         let fangjian = [];
         let gaoji = [];
         let sidai = [];
+        kexuanwanfa.push(this.Define.SEVER_ROBDOOR);
         kexuanwanfa.push(this.Define.SEVER_DAI31);
         kexuanwanfa.push(this.Define.SEVER_DAI32);
         for (let i = 0; i < this.Toggles['kexuanwanfa'].length; i++) {

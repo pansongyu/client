@@ -2,7 +2,7 @@
   "platform": "android",
   "actualPlatform": "android",
   "template": "link",
-  "buildPath": "D:\\freelance\\CreatorBuild\\NewQiHang",
+  "buildPath": "F:\\work\\hall",
   "debug": false,
   "sourceMaps": false,
   "embedWebDebugger": false,
@@ -13,7 +13,7 @@
   "keystorePassword": "",
   "keystoreAlias": "",
   "keystoreAliasPassword": "",
-  "apiLevel": "android-28",
+  "apiLevel": "android-27",
   "appABIs": [
     "armeabi-v7a",
     "arm64-v8a",

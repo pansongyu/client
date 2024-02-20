@@ -1,5 +1,5 @@
 {
-  "title": "Client_hall",
+  "title": "minshuiyule",
   "packageName": "",
   "startScene": "4504856b-e651-441d-afb5-cf973511e420",
   "excludeScenes": [],
@@ -21,7 +21,7 @@
   "zipCompressJs": true,
   "fb-instant-games": {},
   "android": {
-    "packageName": "org.orange.qiqi"
+    "packageName": "org.msyl.quanzhou"
   },
   "ios": {
     "packageName": ""
