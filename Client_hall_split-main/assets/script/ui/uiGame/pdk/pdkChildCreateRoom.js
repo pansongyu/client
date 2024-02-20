@@ -192,6 +192,8 @@ var pypdkChildCreateRoom = cc.Class({
         let fangjian = [];
         let sidai = [];
         kexuanwanfa.push(12);//春天打法
+
+        
         kexuanwanfa.push(14);//固定3带1
         kexuanwanfa.push(15);//固定3带2
         
