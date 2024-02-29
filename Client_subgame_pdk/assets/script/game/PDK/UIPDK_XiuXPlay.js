@@ -1650,7 +1650,7 @@ cc.Class({
         if (setID == 0) {
             this.btn_jifen.active = false;
         } else {
-            this.btn_jifen.active = true;
+            this.btn_jifen.active = false;
         }
 
         //显示房间信息
