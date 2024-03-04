@@ -486,6 +486,7 @@ cc.Class({
     ShowData: function ShowData() {
         this.SetPageLabel();
         var data = this.Str2Json(this.alldata[this.page - 1].dataJsonRes);
+        console.log(data);
         this.playBackCode = this.alldata[this.page - 1].playbackCode;
         this.InitShowPlayerInfo(data);
         this.ShowRoomInfo(this.alldata[this.page - 1]);

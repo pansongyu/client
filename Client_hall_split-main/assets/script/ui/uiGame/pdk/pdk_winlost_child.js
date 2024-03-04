@@ -57,10 +57,10 @@ cc.Class({
 
         beishu.string = player.doubleNum;
 
-        //底分
+        //底分改为记牌
         this.node.getChildByName("lb_difen").active = true;
         let difen = this.node.getChildByName("lb_difen").getComponent(cc.Label);
-        difen.string = player.baseMark;
+        difen.string = player.jpf;
 
         //显示春天或者反春天
         let icon_robClose = this.node.getChildByName("icon_robClose");
