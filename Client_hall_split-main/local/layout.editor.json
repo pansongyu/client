@@ -5,10 +5,10 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 84,
-      "y": 62,
+      "x": 98,
+      "y": 158,
       "width": 1796,
-      "height": 861,
+      "height": 674,
       "layout": {
         "children": [
           {
@@ -18,7 +18,7 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 317,
+                "height": 228.75,
                 "type": "panel",
                 "width": 360
               },
@@ -27,12 +27,12 @@
                 "children": [
                   "assets"
                 ],
-                "height": 422.984375,
+                "height": 305.234375,
                 "type": "panel",
                 "width": 360
               }
             ],
-            "height": 743,
+            "height": 537,
             "type": "dock-v",
             "width": 360
           },
@@ -45,7 +45,7 @@
                     "children": [
                       "scene"
                     ],
-                    "height": 474,
+                    "height": 286,
                     "type": "panel",
                     "width": 765.984375
                   },
@@ -54,12 +54,12 @@
                     "children": [
                       "node-library"
                     ],
-                    "height": 474,
+                    "height": 286,
                     "type": "panel",
                     "width": 304
                   }
                 ],
-                "height": 474,
+                "height": 286,
                 "type": "dock-h",
                 "width": 1072.984375
               },
@@ -75,7 +75,7 @@
                 "width": 1072.984375
               }
             ],
-            "height": 743,
+            "height": 555,
             "type": "dock-v",
             "width": 1072.984375
           },
@@ -85,7 +85,7 @@
               "inspector",
               "cocos-services"
             ],
-            "height": 743,
+            "height": 556,
             "type": "panel",
             "width": 341
           }

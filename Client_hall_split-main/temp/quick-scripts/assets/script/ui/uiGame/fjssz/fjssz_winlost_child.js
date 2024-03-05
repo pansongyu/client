@@ -65,6 +65,7 @@ cc.Class({
 
 		//beishu.string = player.doubleNum;
 
+	
 		//底分
 		this.node.getChildByName("lb_difen").active = true;
 		var difen = this.node.getChildByName("lb_difen").getComponent(cc.Label);
@@ -82,6 +83,9 @@ cc.Class({
 
 		var dunPos = rankeds.dunPos;
 		var special = rankeds.special;
+		var mapai = setEnd.mapai["key"];
+		console.log("马牌：", setEnd.mapai["key"]);
+
 		var specialNode = cardNode.getChildByName("special_card");
 		specialNode.active = false;
 		specialNode.children[0].getComponent(cc.Label).string = "";
@@ -99,22 +103,30 @@ cc.Class({
 			if (child.name == "zhuangjia" || child.name == "beishu" || child.name == "special_card") {
 				continue;
 			}
+			var isMapai = false;
+			if(mapai == allCards[j]) {
+				isMapai = true;
+			}else {
+				isMapai = false;
+			}
 			if (!child.getChildByName("cardPrefab")) {
 				var card = cc.instantiate(this.cardPrefab);
 				child.addChild(card);
-				this.ShowCard(allCards[j], card);
+				this.ShowCard(allCards[j], card,isMapai);
 			} else {
 				var _card = child.getChildByName("cardPrefab");
-				this.ShowCard(allCards[j], _card);
+				this.ShowCard(allCards[j], _card,isMapai);
 			}
 		}
 	},
-	ShowCard: function ShowCard(cardType, node) {
+	ShowCard: function ShowCard(cardType, node,isMapai) {
 		var newPoker = this.PokerCard.SubCardValue(cardType);
-		this.GetPokeCard(newPoker, node);
+		
+		this.GetPokeCard(newPoker, node,isMapai);
+
 		node.getChildByName("poker_back").active = false;
 	},
-	GetPokeCard: function GetPokeCard(poker, cardNode) {
+	GetPokeCard: function GetPokeCard(poker, cardNode,isMapai) {
 		var isShowIcon1 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
 		var isShowLandowner = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
 		var hideBg = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
@@ -132,6 +144,8 @@ cc.Class({
 		var cardValue = this.GetCardValue(poker);
 		var numNode = cardNode.getChildByName("num");
 		numNode.active = true;
+		var mapaiNode = cardNode.getChildByName("bg_mapai");
+		mapaiNode.active = isMapai;
 		if (cardColor == 0) {
 			type = "bg_diamond1_";
 			type1 = type + 1;
