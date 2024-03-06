@@ -9775,8 +9775,8 @@
     "relativePath": "resources\\ui\\club\\UIClubMessage.prefab"
   },
   "e3246265-c2ae-423b-8900-1e5214848bc4": {
-    "asset": 1709720661290,
-    "meta": 1709720661392,
+    "asset": 1709723534154,
+    "meta": 1709723534180,
     "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
   },
   "8449ff6d-0b4f-4649-bbb8-58ba33e71703": {
@@ -24809,11 +24809,6 @@
     "meta": 1701635905790,
     "relativePath": "script\\ui\\club\\UIClubStore.js"
   },
-  "7d978390-188f-4fe4-b95c-ae4791cea152": {
-    "asset": 1673837316000,
-    "meta": 1701635905874,
-    "relativePath": "script\\ui\\club\\UIClubUserList.js"
-  },
   "d61dd2a1-430d-4d83-b612-4215e3f62b6a": {
     "asset": 1673837316000,
     "meta": 1701635905901,
@@ -36830,8 +36825,13 @@
     "relativePath": "script\\ui\\UICreatRoom.js"
   },
   "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
-    "asset": 1709721431754,
-    "meta": 1709721442683,
+    "asset": 1709721744002,
+    "meta": 1709721757992,
     "relativePath": "script\\ui\\club\\UIClubMainBase.js"
+  },
+  "7d978390-188f-4fe4-b95c-ae4791cea152": {
+    "asset": 1709723273511,
+    "meta": 1709723286677,
+    "relativePath": "script\\ui\\club\\UIClubUserList.js"
   }
 }

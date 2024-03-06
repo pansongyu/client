@@ -291,7 +291,7 @@ var BaseClubMainForm = cc.Class({
         let unionNode = this.node.getChildByName('bottom').getChildByName('unionNode');
         let moreNode = this.node.getChildByName('top').getChildByName('right_btn').getChildByName('moreNode');
         moreNode.getChildByName('childMore').getChildByName('btn_findroom').active=true;
-        moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=false;
+        moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=true;
 
         if (this.unionId > 0) {
             //获取比赛场缓存玩法本地存储ID
@@ -400,7 +400,7 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('btn_shop').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_RoomMgr').active=false;
             this.node.getChildByName('bottom').getChildByName('fangka').active=false;
-            this.node.getChildByName('bottom').getChildByName('userinfo').active=false;
+            this.node.getChildByName('bottom').getChildByName('userinfo').active=true;
             this.node.getChildByName('bottom').getChildByName('btn_zhanji').active=false;
             this.node.getChildByName('top').getChildByName('right_btn').getChildByName('btn_sportsPointMsg').active=true;
             this.ShowUnionTip();

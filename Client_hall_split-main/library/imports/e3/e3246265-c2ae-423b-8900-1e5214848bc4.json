@@ -9745,7 +9745,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 286,
+      "width": 310,
       "height": 86
     },
     "_anchorPoint": {
@@ -9757,7 +9757,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -600,
+        -510,
         49.73,
         0,
         0,
@@ -9824,7 +9824,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -100.5,
+        -108,
         0,
         0,
         0,
@@ -9983,8 +9983,8 @@
     "_useOriginalSize": false,
     "_string": "昵称6六个字吧",
     "_N$string": "昵称6六个字吧",
-    "_fontSize": 30,
-    "_lineHeight": 30,
+    "_fontSize": 24,
+    "_lineHeight": 27,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "5fe7041e-915d-421a-9256-da6799a335a7"
@@ -10090,8 +10090,8 @@
     "_useOriginalSize": false,
     "_string": "ID:88888888",
     "_N$string": "ID:88888888",
-    "_fontSize": 28,
-    "_lineHeight": 30,
+    "_fontSize": 24,
+    "_lineHeight": 26,
     "_enableWrapText": true,
     "_N$file": {
       "__uuid__": "5fe7041e-915d-421a-9256-da6799a335a7"
@@ -10136,7 +10136,7 @@
       "__uuid__": "e12924d8-f235-4d40-8e20-97e028c3eaca"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -10303,7 +10303,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -300,
+        -250,
         1.686,
         0,
         0,
@@ -11479,7 +11479,7 @@
     "alignMode": 1,
     "_target": null,
     "_alignFlags": 8,
-    "_left": -415,
+    "_left": -365,
     "_right": 0,
     "_top": 0,
     "_bottom": 0,
