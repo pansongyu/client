@@ -9750,8 +9750,8 @@
     "relativePath": "resources\\ui\\club\\UIClubHeHuoZhanJiList.prefab"
   },
   "47a80512-6cac-4dab-bb64-fbeafffb6b46": {
-    "asset": 1697083475610,
-    "meta": 1701635888715,
+    "asset": 1709705236301,
+    "meta": 1709705236321,
     "relativePath": "resources\\ui\\club\\UIClubHuanPi.prefab"
   },
   "4ea26814-4ee3-4f7a-848c-5e8019f7adc1": {
@@ -9775,8 +9775,8 @@
     "relativePath": "resources\\ui\\club\\UIClubMessage.prefab"
   },
   "e3246265-c2ae-423b-8900-1e5214848bc4": {
-    "asset": 1708836768694,
-    "meta": 1708836768720,
+    "asset": 1709720661290,
+    "meta": 1709720661392,
     "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
   },
   "8449ff6d-0b4f-4649-bbb8-58ba33e71703": {
@@ -23904,11 +23904,6 @@
     "meta": 1673837316000,
     "relativePath": "script\\dbmanager\\Confirm"
   },
-  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
-    "asset": 1673837316000,
-    "meta": 1701635900421,
-    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
-  },
   "0843f0be-cb85-4b36-bb0a-4e37d15b992c": {
     "asset": 1706867046949,
     "meta": 1673837316000,
@@ -24414,11 +24409,6 @@
     "meta": 1701635903854,
     "relativePath": "script\\sound\\SoundManager.js"
   },
-  "5e3e76b2-3b20-4537-a520-9e58f32ea871": {
-    "asset": 1697091827884,
-    "meta": 1701635903892,
-    "relativePath": "script\\ui\\BaseChildCreateRoom.js"
-  },
   "510ff6b7-790b-46dd-b537-450c55c823fa": {
     "asset": 1673837316000,
     "meta": 1701635903981,
@@ -24443,11 +24433,6 @@
     "asset": 1706867047960,
     "meta": 1673837316000,
     "relativePath": "script\\ui\\club_2"
-  },
-  "685fe325-ae4a-481b-bc1c-0426c66279d9": {
-    "asset": 1673837316000,
-    "meta": 1701635904026,
-    "relativePath": "script\\ui\\club_1\\UIClubMain_1.js"
   },
   "48208f0f-1b37-4881-bc4d-73b109ee1b8c": {
     "asset": 1673837316000,
@@ -24749,16 +24734,6 @@
     "meta": 1701635905292,
     "relativePath": "script\\ui\\club\\UIClubList.js"
   },
-  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
-    "asset": 1697090360230,
-    "meta": 1701635905296,
-    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
-  },
-  "b27990ec-38b5-4788-8bc2-d8ec08197fd1": {
-    "asset": 1691982423720,
-    "meta": 1701635905306,
-    "relativePath": "script\\ui\\club\\UIClubMainDefault.js"
-  },
   "1b9d7fed-1aae-4594-a176-653128fff5ae": {
     "asset": 1673837316000,
     "meta": 1701635905356,
@@ -24908,11 +24883,6 @@
     "asset": 1673837316000,
     "meta": 1701635906231,
     "relativePath": "script\\ui\\club\\UIPromoterPowerOp.js"
-  },
-  "c4d050e1-e286-4ba2-b2d3-f51c19db08c7": {
-    "asset": 1673837316000,
-    "meta": 1701635906240,
-    "relativePath": "script\\ui\\club\\UIPromoterRecordUser.js"
   },
   "fcafb29f-3744-4e17-bed6-459724ef7a02": {
     "asset": 1673837316000,
@@ -25253,11 +25223,6 @@
     "asset": 1673837316000,
     "meta": 1701635907488,
     "relativePath": "script\\ui\\UIContact.js"
-  },
-  "2cf499d6-6547-453b-b045-35a905e5be67": {
-    "asset": 1697033470325,
-    "meta": 1701635907493,
-    "relativePath": "script\\ui\\UICreatRoom.js"
   },
   "dee859a4-955f-4d21-8860-cd6a46dcb909": {
     "asset": 1673837316000,
@@ -36384,11 +36349,6 @@
     "meta": 1701635941974,
     "relativePath": "script\\ui\\UIZengSong.js"
   },
-  "a1bb38ba-4b0e-4d4b-8667-ba3105e0b9c8": {
-    "asset": 1701637194937,
-    "meta": 1701637200016,
-    "relativePath": "script\\ClientManager.js"
-  },
   "38e8d38c-333c-4e05-99c7-6ee4ec3d5d77": {
     "asset": 1701719966473,
     "meta": 1701719992932,
@@ -36833,5 +36793,45 @@
     "asset": 1577083950000,
     "meta": 1709636508224,
     "relativePath": "model\\primitives.fbx"
+  },
+  "a1bb38ba-4b0e-4d4b-8667-ba3105e0b9c8": {
+    "asset": 1709709229061,
+    "meta": 1709709251217,
+    "relativePath": "script\\ClientManager.js"
+  },
+  "b27990ec-38b5-4788-8bc2-d8ec08197fd1": {
+    "asset": 1709709229064,
+    "meta": 1709709251667,
+    "relativePath": "script\\ui\\club\\UIClubMainDefault.js"
+  },
+  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
+    "asset": 1709709691911,
+    "meta": 1709709699437,
+    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
+  },
+  "685fe325-ae4a-481b-bc1c-0426c66279d9": {
+    "asset": 1709709691911,
+    "meta": 1709709699437,
+    "relativePath": "script\\ui\\club_1\\UIClubMain_1.js"
+  },
+  "5e3e76b2-3b20-4537-a520-9e58f32ea871": {
+    "asset": 1709720198472,
+    "meta": 1709720395686,
+    "relativePath": "script\\ui\\BaseChildCreateRoom.js"
+  },
+  "c4d050e1-e286-4ba2-b2d3-f51c19db08c7": {
+    "asset": 1709720470698,
+    "meta": 1709720661179,
+    "relativePath": "script\\ui\\club\\UIPromoterRecordUser.js"
+  },
+  "2cf499d6-6547-453b-b045-35a905e5be67": {
+    "asset": 1709721102539,
+    "meta": 1709721108197,
+    "relativePath": "script\\ui\\UICreatRoom.js"
+  },
+  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
+    "asset": 1709721431754,
+    "meta": 1709721442683,
+    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
   }
 }

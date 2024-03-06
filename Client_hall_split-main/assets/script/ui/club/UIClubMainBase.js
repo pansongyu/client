@@ -126,12 +126,12 @@ var BaseClubMainForm = cc.Class({
         //app.ClubManager().SendReqClubData();
         this.left.active=true;
         this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
-        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=true;
-
-        this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=true;
         this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
+
+        // this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=true;
+        // this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
         this.left.active=false;
-        this.node.getChildByName("left_wanfa").active=true;
+        // this.node.getChildByName("left_wanfa").active=true;
         this.node.getChildByName("left_wanfa").active=false;//这两句是为了防止。左边的遮罩挡住进入房间的按钮。比较操蛋
         this.node.getChildByName('bottom').getChildByName('btn_qhwh').active=false;
         this.node.getChildByName('bottom').getChildByName('btn_qhwh').getChildByName('baocun').active=false;
@@ -394,9 +394,9 @@ var BaseClubMainForm = cc.Class({
                 unionNode.getChildByName("btn_outRace").active = true;
             }
             //是否开启保险箱功能
-            if (clubData.caseStatus > 0) {
+            // if (clubData.caseStatus > 0) {
                 moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=true;
-            }
+            // }
             this.node.getChildByName('bottom').getChildByName('btn_shop').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_RoomMgr').active=false;
             this.node.getChildByName('bottom').getChildByName('fangka').active=false;
@@ -1694,7 +1694,7 @@ var BaseClubMainForm = cc.Class({
             if(zhuoziKey<0){
                 zhuoziKey=0;
             }
-            cc.log("至尊丹东",zhuoziKey,this.zhuozi_zhongzhi.length)
+            // cc.log("至尊丹东",zhuoziKey,this.zhuozi_zhongzhi.length)
             childRoom = cc.instantiate(this.zhuozi_zhongzhi[zhuoziKey]);
             childRoom.on('click',this.OnJoinBtnClick,this);
             childRoom.getChildByName("btn_detail").on('click',this.OnBtnClickDetail,this);
@@ -1753,7 +1753,7 @@ var BaseClubMainForm = cc.Class({
         if(this.clubDatas.length==0){
             this.fangka.active=false;
         }else{
-            this.fangka.active=true;
+            this.fangka.active=false;
         }
         for(let i=0;i<this.clubDatas.length;i++){
             if(this.nowClubID<0){
@@ -1765,11 +1765,11 @@ var BaseClubMainForm = cc.Class({
             club.getChildByName('renshu').getComponent(cc.Label).string="*";
             if (this.clubDatas[i].unionId > 0) {
                 //已经加入赛事不显示圈卡
-                club.getChildByName('quanka').active = false;
-                club.getChildByName('icon_qk').active = false;
+                // club.getChildByName('quanka').active = true;
+                // club.getChildByName('icon_qk').active = false;
             }else{
-                club.getChildByName('quanka').active = false;
-                club.getChildByName('icon_qk').active = false;
+                // club.getChildByName('quanka').active = false;
+                // club.getChildByName('icon_qk').active = false;
                 //club.getChildByName('quanka').getComponent(cc.Label).string=this.clubDatas[i].playerClubCard;
             }
             club.active=true;
@@ -2311,11 +2311,12 @@ var BaseClubMainForm = cc.Class({
             });*/
         }else if('btn_wanfa' == btnName){
             let wanfaNode=btnNode.parent.getChildByName('wanfa');
-            if(wanfaNode.active==true){
-                wanfaNode.active=false;
-            }else{
-                wanfaNode.active=true;
-            }
+            wanfaNode.active = false;
+            // if(wanfaNode.active==true){
+            //     wanfaNode.active=false;
+            // }else{
+            //     wanfaNode.active=true;
+            // }
         }else if('btn_detail'==btnName){
             let sendPack = {
                 "clubId":this.nowClubID,
@@ -2448,7 +2449,7 @@ var BaseClubMainForm = cc.Class({
         this.FormManager.CloseForm("ui/club/UIClubInRoom");
         this.left.active=true;
         this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
-        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=true;
+        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
     },
     /**
      * 2次确认点击回调

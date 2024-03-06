@@ -487,7 +487,7 @@ var BaseChildCreateRoom = cc.Class({
                                 //     ffNodes[s].getChildByName('editbox').active=false;
                                 // }else{
                                 //     needNode.getChildByName('icon').active=false;
-                                //     needNode.getChildByName('icon_qk').active=true;
+                                //     needNode.
                                 //     needNode.getChildByName('needNum').getComponent(cc.Label).string = 'x' + clubWinFangFeiDatas[clubWinFangFeiDatas.length - 1];
                                 //     needNode.getChildByName('needNum').clubWinnerPayConsume = clubWinFangFeiDatas[clubWinFangFeiDatas.length - 1];
                                 //     ffNodes[s].getChildByName('editbox').active=false;

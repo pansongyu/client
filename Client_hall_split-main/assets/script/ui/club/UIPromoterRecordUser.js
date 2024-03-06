@@ -110,7 +110,7 @@ cc.Class({
                 nodePrefab.getChildByName('lb_card').getComponent(cc.Label).string='X'+recordInfos[i].roomCard;
             }else{
                 nodePrefab.getChildByName('icon_fk').active=false;
-                nodePrefab.getChildByName('icon_qk').active=true;
+                nodePrefab.getChildByName('icon_qk').active=false;
                 nodePrefab.getChildByName('lb_card').getComponent(cc.Label).string='X'+recordInfos[i].clubCard;
             }
 

@@ -160,7 +160,7 @@ cc.Class({
         }
         let isShowQuanKa = false;
         if (this.clubData) {
-            isShowQuanKa = true;
+            isShowQuanKa = false;
         }
         this.FormManager.ShowForm('UITop', "UICreatRoom", isShowQuanKa);
         this.InitGameBtnList(serverPack);
