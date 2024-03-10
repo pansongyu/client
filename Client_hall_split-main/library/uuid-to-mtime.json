@@ -440,8 +440,8 @@
     "relativePath": "resources\\scene"
   },
   "4504856b-e651-441d-afb5-cf973511e420": {
-    "asset": 1678931975024,
-    "meta": 1701635880100,
+    "asset": 1710051736406,
+    "meta": 1710051736432,
     "relativePath": "resources\\scene\\launchScene.fire"
   },
   "e7bdbaf0-6f95-4e31-827c-6ba8e17e9e89": {
@@ -36824,14 +36824,14 @@
     "meta": 1709735750004,
     "relativePath": "script\\ui\\club\\UIClubUserList.js"
   },
-  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
-    "asset": 1710001024908,
-    "meta": 1710001033287,
-    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
-  },
   "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
     "asset": 1710048161990,
     "meta": 1710048167126,
     "relativePath": "script\\ui\\club\\UIClubMainBase.js"
+  },
+  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
+    "asset": 1710051732263,
+    "meta": 1710051736193,
+    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
   }
 }

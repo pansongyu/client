@@ -1131,12 +1131,12 @@ var ClubManager = app.BaseClass.extend({
     },
     //为了防止切换的时候找不到组件，返回必须不能null，做一层遍历
     GetClubFormComponent: function GetClubFormComponent() {
-        // let skinType = this.GetCurClubSkinType();
-        // if (skinType == 0 || typeof(skinType) == "undefined") {
-        //     return app.FormManager().GetFormComponentByFormName("ui/club/UIClubMainDefault");
-        // }else{
-        //     return app.FormManager().GetFormComponentByFormName("ui/club_"+skinType+"/UIClubMain_"+skinType);
-        // }
+        var skinType = this.GetCurClubSkinType();
+        if (skinType == 0 || typeof skinType == "undefined") {
+            return app.FormManager().GetFormComponentByFormName("ui/club/UIClubMainDefault");
+        } else {
+            return app.FormManager().GetFormComponentByFormName("ui/club_" + skinType + "/UIClubMain_" + skinType);
+        }
     },
     /**
      * 2次确认点击回调
