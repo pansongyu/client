@@ -173,7 +173,7 @@ var BaseClubMainForm = cc.Class({
         this.schedule(this.RunRoomDisplay,0.5);
         this.scheduleOnce(()=>{
             this.Click_btn_qhwh()
-        },0.2)
+        },0.5)
     },
     CheckInRoom:function(){
         let self=this;
@@ -301,7 +301,7 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_qhwh').active=true;
-            this.node.getChildByName("top").getChildByName("btn_changeclub").active=true;
+            this.node.getChildByName("top").getChildByName("btn_changeclub").active=false;
             this.left.active=false;
             //获取比赛场缓存玩法本地存储ID
             this.unionName = clubData.unionName;
@@ -403,8 +403,8 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('userinfo').active=true;
             this.node.getChildByName('bottom').getChildByName('btn_zhanji').active=false;
             this.node.getChildByName('top').getChildByName('right_btn').getChildByName('btn_sportsPointMsg').active=true;
-            this.ShowUnionTip();
-            this.ShowUnionRankTip(clubData);
+           // this.ShowUnionTip();
+        //    this.ShowUnionRankTip(clubData);
             //判断赛事是否停用
             this.ShowUnionStateType(clubData.unionStateType);
         }else{
@@ -1902,11 +1902,12 @@ var BaseClubMainForm = cc.Class({
             if (this.unionId > 0) {
                 sendPack.unionId = this.unionId;
             }else{
-                this.ShowSysMsg("您还没有选择比赛场");
+          //      this.ShowSysMsg("您还没有选择比赛场");
                 return;
             }
             let self = this;
             app.NetManager().SendPack(packName,sendPack, function(serverPack){
+                console.log(serverPack);
                 self.UpdateLeftWanFa(serverPack);
             }, function(){
                 self.ShowSysMsg("网络开小差，请稍后再试");

@@ -9775,8 +9775,8 @@
     "relativePath": "resources\\ui\\club\\UIClubMessage.prefab"
   },
   "e3246265-c2ae-423b-8900-1e5214848bc4": {
-    "asset": 1709723534154,
-    "meta": 1709723534180,
+    "asset": 1710048167209,
+    "meta": 1710048167289,
     "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
   },
   "8449ff6d-0b4f-4649-bbb8-58ba33e71703": {
@@ -23800,7 +23800,7 @@
     "relativePath": "resources\\ui\\UIZengSong.prefab"
   },
   "dd281b88-4fdf-4a4c-ab77-f9958e6f1b46": {
-    "asset": 1706867047229,
+    "asset": 1709709229061,
     "meta": 1673837316000,
     "relativePath": "script"
   },
@@ -23890,7 +23890,7 @@
     "relativePath": "script\\dbmanager\\Chat"
   },
   "fb131a5e-ba97-46ec-b82b-b4cbf3908d7a": {
-    "asset": 1706867046938,
+    "asset": 1709709691911,
     "meta": 1673837316000,
     "relativePath": "script\\dbmanager\\Club"
   },
@@ -24415,7 +24415,7 @@
     "relativePath": "script\\ui\\BaseChildForm.js"
   },
   "66a58ded-0fef-41ac-9b24-f0ba7992e309": {
-    "asset": 1706867047851,
+    "asset": 1709709229064,
     "meta": 1673837316000,
     "relativePath": "script\\ui\\club"
   },
@@ -24425,7 +24425,7 @@
     "relativePath": "script\\ui\\BaseForm.js"
   },
   "5cada1f1-1911-4360-a3c3-927672de4350": {
-    "asset": 1706867047901,
+    "asset": 1709709691911,
     "meta": 1673837316000,
     "relativePath": "script\\ui\\club_1"
   },
@@ -36799,11 +36799,6 @@
     "meta": 1709709251667,
     "relativePath": "script\\ui\\club\\UIClubMainDefault.js"
   },
-  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
-    "asset": 1709709691911,
-    "meta": 1709709699437,
-    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
-  },
   "685fe325-ae4a-481b-bc1c-0426c66279d9": {
     "asset": 1709709691911,
     "meta": 1709709699437,
@@ -36824,14 +36819,19 @@
     "meta": 1709721108197,
     "relativePath": "script\\ui\\UICreatRoom.js"
   },
-  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
-    "asset": 1709721744002,
-    "meta": 1709721757992,
-    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
-  },
   "7d978390-188f-4fe4-b95c-ae4791cea152": {
-    "asset": 1709723273511,
-    "meta": 1709723286677,
+    "asset": 1709723954592,
+    "meta": 1709735750004,
     "relativePath": "script\\ui\\club\\UIClubUserList.js"
+  },
+  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
+    "asset": 1710001024908,
+    "meta": 1710001033287,
+    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
+  },
+  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
+    "asset": 1710048161990,
+    "meta": 1710048167126,
+    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
   }
 }

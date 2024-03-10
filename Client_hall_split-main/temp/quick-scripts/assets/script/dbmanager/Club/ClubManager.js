@@ -1110,14 +1110,16 @@ var ClubManager = app.BaseClass.extend({
     ShowClubFrom: function ShowClubFrom() {
         var skinType = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : -1;
 
-        if (skinType == -1) {
-            skinType = this.GetCurClubSkinType();
-        }
-        if (skinType == 0 || typeof skinType == "undefined") {
-            app.FormManager().ShowForm("ui/club/UIClubMainDefault");
-        } else {
-            app.FormManager().ShowForm("ui/club_" + skinType + "/UIClubMain_" + skinType);
-        }
+        // if (skinType == -1) {
+        //     skinType = this.GetCurClubSkinType();
+        // }
+        app.FormManager().ShowForm("ui/club/UIClubMainDefault");
+        //  app.FormManager().ShowForm("ui/club_"+"1"+"/UIClubMain_"+"1");
+        // if (skinType == 0 || typeof(skinType) == "undefined") {
+        //     app.FormManager().ShowForm("ui/club/UIClubMainDefault");
+        // }else{
+        //     app.FormManager().ShowForm("ui/club_"+skinType+"/UIClubMain_"+skinType);
+        // }
     },
     CloseClubFrom: function CloseClubFrom() {
         var skinType = this.GetCurClubSkinType();
@@ -1129,12 +1131,12 @@ var ClubManager = app.BaseClass.extend({
     },
     //为了防止切换的时候找不到组件，返回必须不能null，做一层遍历
     GetClubFormComponent: function GetClubFormComponent() {
-        var skinType = this.GetCurClubSkinType();
-        if (skinType == 0 || typeof skinType == "undefined") {
-            return app.FormManager().GetFormComponentByFormName("ui/club/UIClubMainDefault");
-        } else {
-            return app.FormManager().GetFormComponentByFormName("ui/club_" + skinType + "/UIClubMain_" + skinType);
-        }
+        // let skinType = this.GetCurClubSkinType();
+        // if (skinType == 0 || typeof(skinType) == "undefined") {
+        //     return app.FormManager().GetFormComponentByFormName("ui/club/UIClubMainDefault");
+        // }else{
+        //     return app.FormManager().GetFormComponentByFormName("ui/club_"+skinType+"/UIClubMain_"+skinType);
+        // }
     },
     /**
      * 2次确认点击回调
