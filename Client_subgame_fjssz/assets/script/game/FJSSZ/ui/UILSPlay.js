@@ -1163,6 +1163,7 @@ cc.Class({
 		this.btn_goon.active = false;
 		this.btn_cancel.active = false;
 		this.btn_go.active = false;
+		this.node.getChildByName("btn_stand").active = false;
 	},
 	HideAll: function () {
 		this.HideDunCard();
@@ -1265,7 +1266,11 @@ cc.Class({
 		if (btnName == "btn_go") {
 			this.Click_btn_go();
 		} else if (btnName == "btn_ready") {
+			//准备时隐藏观战
+			// this.node.getChildByName("btn_stand").active = false;
 			this.Click_btn_ready();
+			console.log("准备");
+		
 		} else if (btnName == "btn_cancel") {
 			this.Click_btn_cancel();
 		}else if (btnName == "btn_size") {//大小排序
@@ -1370,11 +1375,14 @@ cc.Class({
 			}
 			this.OnShowGameEndForm(true, thanCard["sRankingResult"]);
 		} else if (btnName == "btn_sit") {//坐下
+			console.log("坐下");
+			// this.node.getChildByName("btn_stand").active = false;
 			let roomID = this.RoomMgr.GetEnterRoom().GetRoomProperty("roomID");
 			let me = this.RoomPosMgr.GetPlayerInfoByPid(this.HeroManager.GetHeroID())
 			this.lastPos = me ? me.pos : -1
 			this.RoomMgr.SendSelectPosRoom(roomID, -1);
 		} else if (btnName == "btn_stand") {//站起
+			console.log("观战");
 			let roomID = this.RoomMgr.GetEnterRoom().GetRoomProperty("roomID");
 			let me = this.RoomPosMgr.GetPlayerInfoByPid(this.HeroManager.GetHeroID())
 			this.lastPos = me ? me.pos : -1
@@ -1392,7 +1400,9 @@ cc.Class({
 		}
 		let roomID = room.GetRoomProperty("roomID");
 		let clientPos = room.GetRoomPosMgr().GetClientPos();
-		console.log('roomID', roomID, clientPos);
+		console.log('发送准备给服务端roomID', roomID, clientPos);
+		
+		this.node.getChildByName("btn_stand").active = false
 		app[app.subGameName + "_GameManager"]().SendReady(roomID, clientPos);
 	},
 	Click_btn_cancel: function () {
@@ -3401,8 +3411,9 @@ cc.Class({
 		});
 	},
 	updateLookInfo(){
+
 		this.node.getChildByName("btn_sit").active = this.RoomPosMgr.GetIsLook()
-		this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook()
+		// this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook()
 		if (this.Room.IsClientIsCreater()) {
 			this.node.getChildByName("btn_stand").active = false
 		}
@@ -3417,6 +3428,9 @@ cc.Class({
 		if(this.RoomPosMgr.GetIsLook()){
 			this.btn_goon.active = false
 			this.btn_ready.active = false
+		
+		}else {
+
 		}
 		this.node.getChildByName("btn_sit").zIndex = 1
 	},

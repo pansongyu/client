@@ -345,7 +345,7 @@ var FJSSZRoomPosMgr = app.BaseClass.extend({
 		}
 		return this.dataInfo[pos];
 	},
-	//获取客户端玩家的座位
+	//获取是否观战
 	GetIsLook: function GetIsLook() {
 		return this.isLook;
 	},

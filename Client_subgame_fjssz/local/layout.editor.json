@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -60,
-      "y": 635,
+      "x": 47,
+      "y": 37,
       "width": 1940,
       "height": 1004,
       "layout": {
@@ -20,7 +20,7 @@
                 ],
                 "height": 442.984375,
                 "type": "panel",
-                "width": 309
+                "width": 346
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 440,
                 "type": "panel",
-                "width": 309
+                "width": 346
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 309
+            "width": 346
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 599
+                    "width": 749
                   },
                   {
                     "active": 0,
@@ -56,12 +56,12 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 271
+                    "width": 348
                   }
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 873
+                "width": 1100
               },
               {
                 "active": 0,
@@ -72,12 +72,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 873
+                "width": 1100
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 873
+            "width": 1100
           },
           {
             "active": 0,
@@ -87,7 +87,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 736
+            "width": 472
           }
         ],
         "type": "dock-h"
@@ -103,8 +103,7 @@
         "inspector",
         "cocos-services"
       ]
-    },
-    "worker": {}
+    }
   },
   "panels": {
     "project-settings": {

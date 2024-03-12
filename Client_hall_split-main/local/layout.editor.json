@@ -104,7 +104,7 @@
         "cocos-services"
       ]
     },
-    "window-1710049997967": {
+    "window-1710052848990": {
       "main": false,
       "url": "unpack://static/window.html",
       "windowType": "dockable",
@@ -129,7 +129,8 @@
       "panels": [
         "hot-update-tools"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "builder": {
