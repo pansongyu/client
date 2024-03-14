@@ -3464,10 +3464,11 @@ cc.Class({
 	updateLookInfo: function updateLookInfo() {
 
 		this.node.getChildByName("btn_sit").active = this.RoomPosMgr.GetIsLook();
-		// this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook()
+		this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook();
 		if (this.Room.IsClientIsCreater()) {
 			this.node.getChildByName("btn_stand").active = false;
 		}
+
 		var room = this.RoomMgr.GetEnterRoom();
 		if (this.node.getChildByName("btn_stand").active) {
 			var heroID = app[app.subGameName + "_HeroManager"]().GetHeroID();
@@ -3479,7 +3480,9 @@ cc.Class({
 		if (this.RoomPosMgr.GetIsLook()) {
 			this.btn_goon.active = false;
 			this.btn_ready.active = false;
-		} else {}
+		}
+
+		this.node.getChildByName("btn_stand").active = this.btn_ready.active;
 		this.node.getChildByName("btn_sit").zIndex = 1;
 	},
 	update: function update() {

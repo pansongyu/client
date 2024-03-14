@@ -128,9 +128,11 @@ var GQPLSLogicGame = app.BaseClass.extend({
 		} else if (this.GetHulu(cards).length != 0) {
 			return this.CARD_TYPE_HULU;
 		} else if (this.GetLiangDuiTongHua(cards).length != 0) {
-			return this.CARD_TYPE_LIANGDUITONGHUA;
+			// return this.CARD_TYPE_LIANGDUITONGHUA;
+			return this.CARD_TYPE_TONGHUA;
 		} else if (this.GetYiDuiTongHua(cards).length != 0) {
-			return this.CARD_TYPE_YIDUITONGHUA;
+			// return this.CARD_TYPE_YIDUITONGHUA;
+			return this.CARD_TYPE_TONGHUA;
 		} else if (this.GetTonghuaEx(cards).length != 0) {
 			return this.CARD_TYPE_TONGHUA;
 		} else if (this.GetShunziEx(cards).length != 0) {
@@ -536,6 +538,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 	CheckCardBigOrSmall: function (aCards, bCards) {//必须满敦在比  dun1,dun2/ dun2,dun3/ dun1,dun3
 		let tempSortAcards = [];
 		let tempSortBcards = [];
+
 		for (let i = 0; i < aCards.length; i++) {
 			tempSortAcards.push(this.GetCardValue(aCards[i]));
 		}
@@ -554,9 +557,13 @@ var GQPLSLogicGame = app.BaseClass.extend({
 		//先找出鬼牌
 		let guiAs = this.GetGuiPai(aCards);
 		let guiBs = this.GetGuiPai(bCards);
+		console.log("a牌型是---"+this.CheckCardType(aCards));
+		
+		console.log("b牌型是---"+this.CheckCardType(bCards));
 
 		////////////////////五鬼
 		if (this.IsWuGui(aCards)) {
+			console.log("a牌型5鬼");
 			if (this.IsWuGui(bCards)) {
 				return 1;
 			} else {
@@ -567,6 +574,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 		}
 		////////////////////六同
 		if (this.GetLiuTongs(aCards).length != 0) {
+			console.log("a牌型六同");
 			if (this.GetLiuTongs(bCards).length != 0) {
 				for (let i = 0; i < aCards.length; i++) {
 					if (guiAs.indexOf(aCards[i]) != -1) {
@@ -609,6 +617,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 		}
 		////////////////////五同
 		if (this.GetWuTong(aCards).length != 0) {
+			console.log("a牌型五同");
 			if (this.GetWuTong(bCards).length != 0) {
 				for (let i = 0; i < aCards.length; i++) {
 					if (guiAs.indexOf(aCards[i]) != -1) {
@@ -651,6 +660,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 		}
 		////////////////////同花顺
 		if (this.IsTongHuaShun(aCards)) {
+			console.log("a牌型同花顺");
 			if (this.CheckCardType(bCards) > 9) {
 				return 1;
 			} else if (this.CheckCardType(bCards) == 9) {
@@ -721,6 +731,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 
 		////////////////////炸弹
 		if (this.GetZhaDan(aCards).length != 0 && aCards.length == 5) {
+			console.log("a牌型炸弹");
 			if (this.CheckCardType(bCards) > 8) {
 				return 1;
 			} else if (this.GetZhaDan(bCards).length != 0) {
@@ -762,6 +773,7 @@ var GQPLSLogicGame = app.BaseClass.extend({
 
 		////////////////////葫芦
 		if (this.GetHulu(aCards).length != 0) {
+			console.log("a牌型葫芦");
 			if (this.CheckCardType(bCards) > this.CARD_TYPE_HULU) {
 				return 1;
 			} else if (this.CheckCardType(bCards) == this.CARD_TYPE_HULU) {
@@ -861,199 +873,203 @@ var GQPLSLogicGame = app.BaseClass.extend({
 			return 1;
 		}
 		////////////////////两对同花
-		if (this.GetLiangDuiTongHua(aCards).length != 0) {
-			if (this.CheckCardType(bCards) > 6) {
-				return 1;
-			} else if (this.CheckCardType(bCards) == 6) {
-				let aList = [];
-				let bList = [];
+		// if (this.GetLiangDuiTongHua(aCards).length != 0) {
+		// 	if (this.CheckCardType(bCards) > 6) {
+		// 		return 1;
+		// 	} else if (this.CheckCardType(bCards) == 6) {
+		// 		let aList = [];
+		// 		let bList = [];
 
-				for (let i = 0; i < aCards.length; i++) {
-					if (guiAs.indexOf(aCards[i]) != -1) {
-						continue;
-					}
-					let value = this.GetCardValue(aCards[i]);
-					aList.push(value);
-				}
+		// 		for (let i = 0; i < aCards.length; i++) {
+		// 			if (guiAs.indexOf(aCards[i]) != -1) {
+		// 				continue;
+		// 			}
+		// 			let value = this.GetCardValue(aCards[i]);
+		// 			aList.push(value);
+		// 		}
 
-				for (let i = 0; i < bCards.length; i++) {
-					if (guiBs.indexOf(bCards[i]) != -1) {
-						continue;
-					}
-					let value = this.GetCardValue(bCards[i]);
-					bList.push(value);
-				}
+		// 		for (let i = 0; i < bCards.length; i++) {
+		// 			if (guiBs.indexOf(bCards[i]) != -1) {
+		// 				continue;
+		// 			}
+		// 			let value = this.GetCardValue(bCards[i]);
+		// 			bList.push(value);
+		// 		}
 
-				aList.sort(this.sortCardValue);
-				bList.sort(this.sortCardValue);
+		// 		aList.sort(this.sortCardValue);
+		// 		bList.sort(this.sortCardValue);
 
-				let tempAList = [];
-				let tempBList = [];
+		// 		let tempAList = [];
+		// 		let tempBList = [];
 
-				for (let i in aList) {
-					if (tempAList.indexOf(aList[i]) == -1) {
-						tempAList.push(aList[i]);
-					}
-				}
+		// 		for (let i in aList) {
+		// 			if (tempAList.indexOf(aList[i]) == -1) {
+		// 				tempAList.push(aList[i]);
+		// 			}
+		// 		}
 
-				for (let i in bList) {
-					if (tempBList.indexOf(bList[i]) == -1) {
-						tempBList.push(bList[i]);
-					}
-				}
+		// 		for (let i in bList) {
+		// 			if (tempBList.indexOf(bList[i]) == -1) {
+		// 				tempBList.push(bList[i]);
+		// 			}
+		// 		}
 
-				aValue = this.GetCardValue(tempAList[0]);
-				bValue = this.GetCardValue(tempBList[0]);
+		// 		aValue = this.GetCardValue(tempAList[0]);
+		// 		bValue = this.GetCardValue(tempBList[0]);
 
-				if (aValue > bValue) {
-					return 0;
-				} else if (aValue < bValue) {
-					return 1;
-				} else {
-					aValue = this.GetCardValue(tempAList[1]);
-					bValue = this.GetCardValue(tempAList[1]);
+		// 		if (aValue > bValue) {
+		// 			return 0;
+		// 		} else if (aValue < bValue) {
+		// 			return 1;
+		// 		} else {
+		// 			aValue = this.GetCardValue(tempAList[1]);
+		// 			bValue = this.GetCardValue(tempAList[1]);
 
-					if (aValue > bValue) {
-						return 0;
-					} else if (aValue < bValue) {
-						return 1;
-					} else {
-						aValue = this.GetCardValue(tempAList[2]);
-						bValue = this.GetCardValue(tempAList[2]);
-						if (aValue > bValue) {
-							return 0;
-						} else if (aValue < bValue) {
-							return 1;
-						} else {
-							if (!guiAs.length && guiBs.length) {
-								return 0;
-							} else if (guiAs.length && !guiBs.length) {
-								return 1;
-							} else {
-								return 2;
-							}
-						}
-					}
-				}
-			} else {
-				return 0;
-			}
-		} else if (this.GetLiangDuiTongHua(bCards).length != 0) {
-			return 1;
-		}
+		// 			if (aValue > bValue) {
+		// 				return 0;
+		// 			} else if (aValue < bValue) {
+		// 				return 1;
+		// 			} else {
+		// 				aValue = this.GetCardValue(tempAList[2]);
+		// 				bValue = this.GetCardValue(tempAList[2]);
+		// 				if (aValue > bValue) {
+		// 					return 0;
+		// 				} else if (aValue < bValue) {
+		// 					return 1;
+		// 				} else {
+		// 					if (!guiAs.length && guiBs.length) {
+		// 						return 0;
+		// 					} else if (guiAs.length && !guiBs.length) {
+		// 						return 1;
+		// 					} else {
+		// 						return 2;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	} else {
+		// 		return 0;
+		// 	}
+		// } else if (this.GetLiangDuiTongHua(bCards).length != 0) {
+		// 	return 1;
+		// }
 
 		////////////////////一对同花
 
-		if (this.GetYiDuiTongHua(aCards).length != 0) {
-			if (this.CheckCardType(bCards) > 5) {
-				return 1;
-			} else if (this.CheckCardType(bCards) == 5) {
-				let tempA = -1;
-				let tempB = -1;
-				let duiAList = this.GetDuiZi(aCards);
-				let duiBList = this.GetDuiZi(bCards);
+		// if (this.GetYiDuiTongHua(aCards).length != 0) {
+		// 	if (this.CheckCardType(bCards) > 5) {
+		// 		return 1;
+		// 	} else if (this.CheckCardType(bCards) == 5) {
+		// 		let tempA = -1;
+		// 		let tempB = -1;
+		// 		let duiAList = this.GetDuiZi(aCards);
+		// 		let duiBList = this.GetDuiZi(bCards);
 
-				let tempAList = [];
-				let tempBList = [];
+		// 		let tempAList = [];
+		// 		let tempBList = [];
 
-				if (duiAList.length) {
-					tempA = this.GetCardValue(duiAList[0][0]);
-				}
-				if (duiBList.length) {
-					tempB = this.GetCardValue(duiBList[0][0]);
-				}
+		// 		if (duiAList.length) {
+		// 			tempA = this.GetCardValue(duiAList[0][0]);
+		// 		}
+		// 		if (duiBList.length) {
+		// 			tempB = this.GetCardValue(duiBList[0][0]);
+		// 		}
 
-				if (tempA == -1) {
-					for (let i = 0; i < aCards.length; i++) {
-						if (guiAs.indexOf(aCards[i]) != -1) {
-							continue;
-						}
-						let value = this.GetCardValue(aCards[i]);
-						tempAList.push(value);
-					}
-					tempAList.sort(this.sortCardValue);
-					tempA = tempAList[0];
-				}
+		// 		if (tempA == -1) {
+		// 			for (let i = 0; i < aCards.length; i++) {
+		// 				if (guiAs.indexOf(aCards[i]) != -1) {
+		// 					continue;
+		// 				}
+		// 				let value = this.GetCardValue(aCards[i]);
+		// 				tempAList.push(value);
+		// 			}
+		// 			tempAList.sort(this.sortCardValue);
+		// 			tempA = tempAList[0];
+		// 		}
 
-				if (tempB == -1) {
-					for (let i = 0; i < bCards.length; i++) {
-						if (guiBs.indexOf(bCards[i]) != -1) {
-							continue;
-						}
-						let value = this.GetCardValue(bCards[i]);
-						tempBList.push(value);
-					}
-					tempBList.sort(this.sortCardValue);
-					tempB = tempBList[0];
-				}
+		// 		if (tempB == -1) {
+		// 			for (let i = 0; i < bCards.length; i++) {
+		// 				if (guiBs.indexOf(bCards[i]) != -1) {
+		// 					continue;
+		// 				}
+		// 				let value = this.GetCardValue(bCards[i]);
+		// 				tempBList.push(value);
+		// 			}
+		// 			tempBList.sort(this.sortCardValue);
+		// 			tempB = tempBList[0];
+		// 		}
 
-				if (tempA > tempB) {
-					return 0;
-				} else if (tempA < tempB) {
-					return 1;
-				} else {
-					//AB數組衹有三個元素
-					let duiA = [];
-					let duiB = [];
-					for (let i = 0; i < aCards.length; i++) {
-						if (guiAs.indexOf(aCards[i]) != -1) {
-							continue;
-						}
-						let value = this.GetCardValue(aCards[i]);
-						if (tempA == value) continue;
-						duiA.push(value);
-					}
-					duiA.sort(this.sortCardValue);
-					for (let i = 0; i < bCards.length; i++) {
-						if (guiAs.indexOf(bCards[i]) != -1) {
-							continue;
-						}
-						let value = this.GetCardValue(bCards[i]);
-						if (tempB == value) {
-							continue;
-						}
-						duiB.push(value);
-					}
-					duiB.sort(this.sortCardValue);
+		// 		if (tempA > tempB) {
+		// 			return 0;
+		// 		} else if (tempA < tempB) {
+		// 			return 1;
+		// 		} else {
+		// 			//AB數組衹有三個元素
+		// 			let duiA = [];
+		// 			let duiB = [];
+		// 			for (let i = 0; i < aCards.length; i++) {
+		// 				if (guiAs.indexOf(aCards[i]) != -1) {
+		// 					continue;
+		// 				}
+		// 				let value = this.GetCardValue(aCards[i]);
+		// 				if (tempA == value) continue;
+		// 				duiA.push(value);
+		// 			}
+		// 			duiA.sort(this.sortCardValue);
+		// 			for (let i = 0; i < bCards.length; i++) {
+		// 				if (guiAs.indexOf(bCards[i]) != -1) {
+		// 					continue;
+		// 				}
+		// 				let value = this.GetCardValue(bCards[i]);
+		// 				if (tempB == value) {
+		// 					continue;
+		// 				}
+		// 				duiB.push(value);
+		// 			}
+		// 			duiB.sort(this.sortCardValue);
 
-					for (let i = 0; i < duiA.length; i++) {
-						aValue = duiA[i];
-						bValue = duiB[i];
-						if (aValue > bValue) {
-							return 0;
-						} else if (aValue < bValue) {
-							return 1;
-						} else {
-							if (i == duiA.length - 1) {
-								if (!guiAs.length && guiBs.length) {
-									return 0;
-								} else if (guiAs.length && !guiBs.length) {
-									return 1;
-								} else {
-									return 2;
-								}
-							} else {
-								continue;
-							}
-						}
-					}
-				}
-			} else {
-				return 0;
-			}
-		} else if (this.GetYiDuiTongHua(bCards).length != 0)
-			return 1;
+		// 			for (let i = 0; i < duiA.length; i++) {
+		// 				aValue = duiA[i];
+		// 				bValue = duiB[i];
+		// 				if (aValue > bValue) {
+		// 					return 0;
+		// 				} else if (aValue < bValue) {
+		// 					return 1;
+		// 				} else {
+		// 					if (i == duiA.length - 1) {
+		// 						if (!guiAs.length && guiBs.length) {
+		// 							return 0;
+		// 						} else if (guiAs.length && !guiBs.length) {
+		// 							return 1;
+		// 						} else {
+		// 							return 2;
+		// 						}
+		// 					} else {
+		// 						continue;
+		// 					}
+		// 				}
+		// 			}
+		// 		}
+		// 	} else {
+		// 		return 0;
+		// 	}
+		// } else if (this.GetYiDuiTongHua(bCards).length != 0)
+		// 	return 1;
 
 		////////////////////同花
 		if (this.GetTonghuaEx(aCards).length != 0) {
+			console.log("a牌型同花");
 			if (this.CheckCardType(bCards) > 4) {
+				console.log("1同花没倒水");
 				return 1;
 			} else if (this.CheckCardType(bCards) == 4) {
 				aValue = tempSortAcards[tempSortAcards.length - 1];
 				bValue = tempSortBcards[tempSortBcards.length - 1];
 				if (aValue > bValue) {
+					console.log("1同花倒水");
 					return 0;
 				} else if (aValue < bValue) {
+					console.log("2同花没倒水");
 					return 1;
 				} else {
 					let forLength = 0;
@@ -1066,25 +1082,31 @@ var GQPLSLogicGame = app.BaseClass.extend({
 						aValue = tempSortAcards[j];
 						bValue = tempSortBcards[j];
 						if (aValue > bValue) {
+							console.log("2同花倒水");
 							return 0;
 						} else if (aValue < bValue) {
+							console.log("3同花倒水");
 							return 1;
 						} else {
 							if (0 == j) {
+								console.log("6666");
 								return 2;
 							}
 						}
 					}
 				}
 			} else {
+				console.log("3同花倒水");
 				return 0;
 			}
 		} else if (this.GetTonghuaEx(bCards).length != 0) {
+			console.log("4同花没倒水");
 			return 1;
 		}
 
 		////////////////////顺子
 		if (this.GetShunziEx(aCards).length != 0) {
+			console.log("a牌型顺子");
 			if (this.CheckCardType(bCards) > 3)
 				return 1;
 			else if (this.CheckCardType(bCards) == 3) {

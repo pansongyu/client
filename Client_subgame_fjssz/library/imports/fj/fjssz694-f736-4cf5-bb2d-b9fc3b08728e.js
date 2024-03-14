@@ -145,6 +145,8 @@ var FJSSZLogicRank = app.BaseClass.extend({
 		var tempSelectCards = [];
 		var DaoShui = 0; //倒水
 		var NotDaoShui = 1; //没倒水
+		//前端不判断倒水了，让服务端来判断
+		return 1;
 
 		for (var i = 0; i < this.cardStateList[dun].length; i++) {
 			tempSelectCards.push(this.cardStateList[dun][i]);
@@ -212,6 +214,7 @@ var FJSSZLogicRank = app.BaseClass.extend({
 				}
 			}
 		} else if (dun == "DUN3") {
+			console.log("开始判断墩3");
 			if (this.cardStateList["DUN1"].length == 0 && this.cardStateList["DUN2"].length == 0) {
 				return NotDaoShui;
 			}
@@ -222,6 +225,8 @@ var FJSSZLogicRank = app.BaseClass.extend({
 				}
 			}
 			if (this.cardStateList["DUN2"].length == 5) {
+
+				console.log("开始判断墩3，并且是5张");
 				if (this.LogicGame.CheckCardBigOrSmall(this.cardStateList["DUN2"], tempSelectCards) == 0) {
 					return DaoShui;
 				}

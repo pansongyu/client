@@ -6129,11 +6129,6 @@
     "meta": 1686820974867,
     "relativePath": "script\\game\\FJSSZ\\GameLogic"
   },
-  "fjssz694-f736-4cf5-bb2d-b9fc3b08728e": {
-    "asset": 1690949400547,
-    "meta": 1705982998952,
-    "relativePath": "script\\game\\FJSSZ\\GameLogic\\FJSSZLogicRank.js"
-  },
   "fjssz46b-8008-4efc-8c28-96784625a963": {
     "asset": 1705938371254,
     "meta": 1686820974919,
@@ -6538,11 +6533,6 @@
     "asset": 1706254873341,
     "meta": 1706254878203,
     "relativePath": "script\\ui\\fjssz_UICreatRoom.js"
-  },
-  "fjssz69c-4159-4c2e-a0a5-0220cc63164f": {
-    "asset": 1706339188969,
-    "meta": 1706339193689,
-    "relativePath": "script\\game\\FJSSZ\\GameLogic\\FJSSZLogicGame.js"
   },
   "fjssz143-8c1f-4b51-b610-f41a6b7688d9": {
     "asset": 1706353529601,
@@ -6969,9 +6959,19 @@
     "meta": 1710095752098,
     "relativePath": "model\\primitives.fbx"
   },
+  "fjssz69c-4159-4c2e-a0a5-0220cc63164f": {
+    "asset": 1710327772965,
+    "meta": 1710327783323,
+    "relativePath": "script\\game\\FJSSZ\\GameLogic\\FJSSZLogicGame.js"
+  },
+  "fjssz694-f736-4cf5-bb2d-b9fc3b08728e": {
+    "asset": 1710402254671,
+    "meta": 1710402540911,
+    "relativePath": "script\\game\\FJSSZ\\GameLogic\\FJSSZLogicRank.js"
+  },
   "5d909547-ddeb-4108-9757-214c0991d1bc": {
-    "asset": 1710263196506,
-    "meta": 1710263198343,
+    "asset": 1710402862937,
+    "meta": 1710402864691,
     "relativePath": "script\\game\\FJSSZ\\ui\\UILSPlay.js"
   }
 }

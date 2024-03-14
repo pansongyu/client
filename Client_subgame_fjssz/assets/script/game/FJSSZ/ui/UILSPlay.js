@@ -1401,8 +1401,7 @@ cc.Class({
 		let roomID = room.GetRoomProperty("roomID");
 		let clientPos = room.GetRoomPosMgr().GetClientPos();
 		console.log('发送准备给服务端roomID', roomID, clientPos);
-		
-		this.node.getChildByName("btn_stand").active = false
+
 		app[app.subGameName + "_GameManager"]().SendReady(roomID, clientPos);
 	},
 	Click_btn_cancel: function () {
@@ -3413,10 +3412,13 @@ cc.Class({
 	updateLookInfo(){
 
 		this.node.getChildByName("btn_sit").active = this.RoomPosMgr.GetIsLook()
-		// this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook()
+		 this.node.getChildByName("btn_stand").active = !this.RoomPosMgr.GetIsLook()
 		if (this.Room.IsClientIsCreater()) {
 			this.node.getChildByName("btn_stand").active = false
 		}
+
+		
+
 		let room = this.RoomMgr.GetEnterRoom();
 		if (this.node.getChildByName("btn_stand").active) {
 			let heroID = app[app.subGameName + "_HeroManager"]().GetHeroID();
@@ -3429,9 +3431,10 @@ cc.Class({
 			this.btn_goon.active = false
 			this.btn_ready.active = false
 		
-		}else {
 
 		}
+
+		this.node.getChildByName("btn_stand").active = this.btn_ready.active
 		this.node.getChildByName("btn_sit").zIndex = 1
 	},
 	update(){
