@@ -921,7 +921,7 @@
   },
   "MSG_SPACIAL_CARD": {
     "MsgID": "MSG_SPACIAL_CARD",
-    "Content": "当前特殊牌型为{S1},是否上牌",
+    "Content": "当前有特殊牌型",
     "Pos": 5
   },
   "CancelBanker": {

@@ -1430,7 +1430,6 @@ cc.Class({
 		var clientPos = room.GetRoomPosMgr().GetClientPos();
 		console.log('发送准备给服务端roomID', roomID, clientPos);
 
-		this.node.getChildByName("btn_stand").active = false;
 		app[app.subGameName + "_GameManager"]().SendReady(roomID, clientPos);
 	},
 	Click_btn_cancel: function Click_btn_cancel() {

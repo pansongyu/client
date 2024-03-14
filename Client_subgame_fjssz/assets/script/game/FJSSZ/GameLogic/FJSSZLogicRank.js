@@ -256,7 +256,7 @@ var FJSSZLogicRank = app.BaseClass.extend({
 
 			if (this.CheckDaoShui("DUN3") == 0) {
 				this.ClearDun("DUN3", false);
-				this.SysNotifyManager.ShowSysMsg("MSG_CARD_DAOSHUI2");
+				this.SysNotifyManager.ShowSysMsg("MSG_SPACIAL_CARD");
 				this.cardStateList["DUN3"] = this.cardStateList["DUN2"].slice()
 				this.cardStateList["DUN2"] = this.cardStateList["DOWN"].slice()
 				this.cardStateList["DOWN"] = []
