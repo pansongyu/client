@@ -1123,6 +1123,7 @@ var BaseMaJiangCard01Form = cc.Class({
 		let huCardTypeInfo = room.GetRoomSet().GetHuCardTypeInfo(clientPos);
 		let cardTypeList = Object.keys(huCardTypeInfo);
 		cardTypeList.SortList();
+		cc.log("判断游金",cardTypeList);
 		let count = cardTypeList.length;
 		if (count >= 30) {
 			return true;

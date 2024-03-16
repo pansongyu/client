@@ -5,8 +5,8 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": -212,
-      "y": 74,
+      "x": -91,
+      "y": 94,
       "width": 1940,
       "height": 1004,
       "layout": {
@@ -103,7 +103,8 @@
         "inspector",
         "cocos-services"
       ]
-    }
+    },
+    "worker": {}
   },
   "panels": {
     "project-settings": {

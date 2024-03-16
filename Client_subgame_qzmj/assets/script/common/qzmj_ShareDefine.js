@@ -508,7 +508,7 @@ var Rank = function(){
 };
 
 var Game = function(){
-	//福州麻将
+	//泉州麻将
 	this.GameType_QZMJ = 6;
 
 	this.GametTypeNameDict = {};
@@ -569,7 +569,8 @@ var MaJiang=function(){
 	//每个人前面牌蹲数量
 	this.MJRoomPaiDun = 18;
 	//自摸
-	this.OpType_Hu = 1;
+	// this.OpType_Hu = 1;
+	this.OpType_Zimo = 1;
 	//碰
 	this.OpType_Peng = 2;
 	//明杠
@@ -679,7 +680,8 @@ var MaJiang=function(){
 
 	
 	this.OpTypeStringDict = {};
-	this.OpTypeStringDict["Hu"] = this.OpType_Hu;
+	 this.OpTypeStringDict["Hu"] = this.OpType_Zimo;
+	this.OpTypeStringDict["Zimo"] = this.OpType_Zimo;
 	this.OpTypeStringDict["Peng"] = this.OpType_Peng;
 	this.OpTypeStringDict["Gang"] = this.OpType_Gang;
 	this.OpTypeStringDict["JieGang"] = this.OpType_JieGang;
