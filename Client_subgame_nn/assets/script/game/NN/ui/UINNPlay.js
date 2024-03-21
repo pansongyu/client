@@ -242,6 +242,9 @@ cc.Class({
 	InitAllHead: function () {
 		let posNodes = this.headPosNode.children;
 		let players = this.Room.GetRoomAllPlayerInfo();
+		cc.log("初始化头像");
+		cc.log(posNodes);
+		cc.log(players);
 		for (let i = 0; i < players.length; i++) {
 			let point = {x: posNodes[i].x, y: posNodes[i].y};
 			let head = cc.instantiate(this.headPrefab);
@@ -272,11 +275,16 @@ cc.Class({
 		}
 
 		let players = this.Room.GetRoomAllPlayerInfo();
+		cc.log("所有玩家信息",players);
 		let selfID = app[app.subGameName + "_HeroManager"]().GetHeroProperty("pid");
 		let posNodes = this.headPosNode.children;
 		let heads = this.headNode.children;
 		for (let i = 0; i < players.length; i++) {
+
 			if (players[i].pid <= 0) {
+				cc.log("清除多余头像");
+				heads[i].active = false;
+			//	heads[i].getComponent(app.subGameName + "_UIPublicHead").OnClose();
 				continue;
 			}
 
@@ -287,10 +295,12 @@ cc.Class({
 			let headScript = null;
 			let point = {x: 0, y: 0};
 			if (selfID == players[i].pid) {
+				cc.log("id相等，设置自己的的位置");
 				headScript = heads[0].getComponent(app.subGameName + "_UIPublicHead");
 				headScript.Init(0, i, point, -1, false);
 			} else {
 				let uiPos = this.Room.GetUIPosByPos(i);
+				cc.log("id不相等，设置新的位置");
 				headScript = heads[uiPos].getComponent(app.subGameName + "_UIPublicHead");
 				if (3 == uiPos || 4 == uiPos || 5 == uiPos) {
 					headScript.Init(uiPos, i, point, -1, false, true);
@@ -1523,6 +1533,7 @@ cc.Class({
 
 	//准备
 	Event_PosReadyChg: function (event) {
+		cc.log("收到准备通知");
 		let serverPack = event;
 		let pos = serverPack["pos"];
 		let selfPos = this.Room.GetClientPos();
@@ -1537,16 +1548,18 @@ cc.Class({
 	},
 	//继续游戏
 	Event_PosContinueGame: function (event) {
+		cc.log("收到准备通知");
 		let serverPack = event;
 		let pos = serverPack["pos"];
 		let selfPos = this.Room.GetClientPos();
 		if (selfPos == pos) {
 			this.btnGroups[6].active = false;
 		}
-		//app[app.subGameName + "Client"].OnEvent("PosContine",serverPack);
+		app[app.subGameName + "Client"].OnEvent("PosContine",serverPack);
 	},
 	//位置更新
 	Event_PosUpdate: function (event) {
+		cc.log("中途加入只刷 头像")
 		let serverPack = event["posInfo"];
 		let pos = serverPack["pos"];
 		let pid = serverPack["pid"];

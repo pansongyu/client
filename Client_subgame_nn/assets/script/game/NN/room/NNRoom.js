@@ -83,9 +83,11 @@ var LZMJRoom = app.BaseClass.extend({
 		let cfg = serverPack["cfg"];
 		this.roomConfig = cfg;
 		//其余信息存放到dataInfo
+		cc.log("房间信息初始化");
 		this.dataInfo = serverPack;
 		this.dataInfo["setEnd"] = serverPack["set"]["setEnd"];
 		this.dataInfo['set'].stateInfo = this.dataInfo['set'];
+
 		this.isGetGR = false;
 	},
 
@@ -146,7 +148,7 @@ var LZMJRoom = app.BaseClass.extend({
 		this.dataInfo["setEnd"] = serverPack;
 		let cards = this.dataInfo["setEnd"].cards;
 		let posInfo = this.dataInfo["set"].posInfo;
-		for (let i = 0; i < 8; i++) {
+		for (let i = 0; i < 10; i++) {//十人局
 			this.dataInfo["posList"][i].point += serverPack.pointList[i];
 			posInfo[i].cards = cards[i];
 
@@ -255,6 +257,10 @@ var LZMJRoom = app.BaseClass.extend({
 	},
 	//更新Room datainfo数据
 	OnPosUpdate: function (pos, posInfo) {
+		cc.log("更新Room datainfo数据");
+		cc.log(this.dataInfo);
+		
+
 		if (posInfo) {
 			let heroID = posInfo["pid"];
 			let headImageUrl = posInfo["headImageUrl"];

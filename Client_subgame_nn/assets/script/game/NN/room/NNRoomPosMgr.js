@@ -163,10 +163,14 @@ var LZMJRoomPosMgr = app.BaseClass.extend({
 	//座位信息更新
 	OnPosUpdate: function (pos, posInfo) {
 		let playerInfo = this.dataInfo[pos];
+		cc.log("原始座位信息");
+		cc.log(this.dataInfo);
+
 		if (!playerInfo) {
 			console.log("OnPosUpdate not find:%s", pos);
 			return false
 		}
+
 		this.dataInfo[pos] = posInfo;
 		let heroID = posInfo["pid"];
 		let headImageUrl = posInfo["headImageUrl"];

@@ -509,15 +509,21 @@ cc.Class({
 			this.SDKManager.ShareScreen();
 		}
 		else if ("btn_continue" == btnName) {
+			cc.log("点击继续按钮");
 			if (this.isNewVersion == true) {
 				app[app.subGameName + "_SysNotifyManager"]().ShowSysMsg("游戏有新版本更新，请返回大厅");
 				return;
 			}
 			if (this.isClubRoom == true) {
 				let self = this;
+				//继续游戏初始化界面
+				cc.log("初始化界面");
+				// app["UI"+app.subGameName.toUpperCase()+"Play"]()。
 				app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "ContinueEnterRoom", {}, function (event) {
 					app[app.subGameName + "_NetManager"]().SendPack("game.C1101GetRoomID", {});
+
 					self.CloseForm();
+					cc.log("关闭战绩界面");
 					// self.CloseCurAllFrom();
 				}, function (event) {
 					if (event.Msg == "UNION_BACK_OFF_PLAYING") {
@@ -583,7 +589,7 @@ cc.Class({
 		}, function (event) {
 			let roomID = event.roomID;
 			//关闭游戏主场景。重新进入
-			self.FormManager.CloseForm("game/SG/ui/UISGPlay");
+			self.FormManager.CloseForm("game/NN/ui/UINNPlay");
 			app[app.subGameName.toUpperCase() + "RoomMgr"]().SendGetRoomInfo(roomID);
 			self.CloseForm();
 		}, function (event) {

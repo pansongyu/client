@@ -7,6 +7,8 @@ cc.Class({
 	},
 
 	Init: function (uiPos, dataPos, point, isLeft = -1, bResetPoint = true, useBottomChat = false) {
+		cc.log("创建头像位置：",uiPos);
+		cc.log("创建头像数据：",dataPos);
 		this.uiPos = uiPos;
 		this.playerPos = dataPos;
 		if (bResetPoint) {
@@ -188,6 +190,7 @@ cc.Class({
 		if (-1 == this.playerPos)
 			return;
 		if (this.playerPos == event.pos) {
+			cc.log("准备按钮激活");
 			this.icon_ready.active = true;
 		}
 	},
@@ -441,7 +444,9 @@ cc.Class({
 			console.error('UIPublicHead this.playerPos >= playerLength');
 			return;
 		}
+		cc.log("所有玩家信息:",allPlayerInfo);
 		this.playerInfo = allPlayerInfo[this.playerPos];
+		cc.log("当前玩家信息:",this.playerInfo);
 		//如果没有有玩家坐下
 		if (!this.playerInfo || 0 == this.playerInfo.pid) {
 			console.log("没有有玩家坐下");
@@ -506,6 +511,7 @@ cc.Class({
 	ShowPlayerBaseInfo: function (room) {
 		this.touxiang.active = 1;
 		//有玩家坐下才需要显示玩家头像
+		cc.log("有玩家坐下才需要显示玩家头像");
 		let pid = this.playerInfo.pid;
 		if (pid) {
 			this.WeChatHeadImage.ShowHeroHead(pid);
@@ -518,7 +524,9 @@ cc.Class({
 		this.HideBtnOut();
 		if (this.playerInfo.pid == createID) {
 			iscreateID = true;
+			cc.log("是房主");
 		} else {
+			cc.log("不是房主");
 			this.ShowBtnOut();
 		}
 

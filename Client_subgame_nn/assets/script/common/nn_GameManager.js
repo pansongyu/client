@@ -112,6 +112,7 @@ var nn_GameManager = app.BaseClass.extend({
 	},
 	//位置继续游戏
 	OnPack_PosContinueGame: function (serverPack) {
+		cc.log("继续游戏");
 		let roomID = serverPack["roomID"];
 		let pos = serverPack["pos"];
 		this.NowRoom().OnPosContinueGame(pos);
@@ -183,6 +184,7 @@ var nn_GameManager = app.BaseClass.extend({
 		let posInfo = serverPack["posInfo"];
 		this.SetPlayGame(serverPack);
 		if (this.NowRoom().GetRoomPosMgr().OnPosUpdate(pos, posInfo)) {
+			console.log("更新座位信息:");
 			app[app.subGameName + "Client"].OnEvent(app.subGameName.toUpperCase() + "_PosUpdate", serverPack);
 		} else {
 			console.log("OnPack_PosUpdate:", serverPack);
