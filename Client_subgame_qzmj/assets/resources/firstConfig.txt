@@ -1,17 +1,14 @@
 #首次请求地址
 CityID=1010502
-#GateServerIP=222.187.232.68
-#GateServerPortList=[1032,1034]
-
 #客户端标示
 GameID=p7
 #客户端配置标示(同一个项目不同版本配置标示)
 ConfigVersion=default
 dianbo=true
 #更新apk地址
-apkUpdateURL =http://222.187.232.68/HZ-release.apk
+apkUpdateURL =http://222.187.232.68:88/HZ-release.apk
 #获取apk版本地址
-apkVersionUpdateURL =http://222.187.232.68/zle.txt
+apkVersionUpdateURL =http://222.187.232.68:88/zle.txt
 
 #打包类型
 appPackType=NORMAL
@@ -31,12 +28,12 @@ MPID=dph
 Channel=company
 
 #app大厅资源更新地址
-UpdateUrl=http://222.187.232.68:8081/update/
+UpdateUrl=http://222.187.232.68:88/update/
 
-UpdateGame=http://222.187.232.68:8081/update/
+UpdateGame=http://222.187.232.68:88/update/game/
 
 #上传头像链接
-uploadImgURL=http://222.187.232.68:8081/api/UploadImg.php
+uploadImgURL=http://222.187.232.68:88/UploadImg.php
 
 #是否启用检测VPN false true
 isEnableCheckVpn=false
@@ -72,10 +69,10 @@ WeChatShareRoomTitle = {游戏名}，房号：({房间号})
 WeChatShareRoomDesc = 朋友圈游戏，随时随地开线上棋牌室！
 
 #H5微信分享默认贴图地址
-WeChatShareImageUrl = https://222.187.232.68/index_files/suibian/icon.png
+WeChatShareImageUrl = http://222.187.232.68:88/index_files/suibian/icon.png
 
 #h5游戏登录地址
-GameLoadUrl=http://222.187.232.68/weixin.php
+GameLoadUrl=http://222.187.232.68:88/weixin.php
 
 #h5游戏公众号2微码地址
 WeChatMPAddress=http://mp.weixin.qq.com/s?__biz=MzI0MjQ3NjU1MA==&mid=2247483657&idx=1&sn=aa03fddc70c59fba0846b3266cfb40f8&chksm=e97af260de0d7b7646b8af086750ee5b1b2c484c7c274d4e44ce8632d422787bf9cf3e4c0b81#rd
@@ -87,13 +84,13 @@ QQQunLink=https://jq.qq.com/?_wv=1027&k=43tghSC
 WebSiteUrl=http://222.187.232.68:88/
 
 #app分享跳转地址
-WeChatAppShareUrl=https://222.187.232.68/qinghuaifb/?pid=
-WeChatAppShareUrlBaoDao=https://222.187.232.68/qinghuaifb/?pid=
-WeChatAppShareUrlSanSan=https://222.187.232.68/sansanfb/?pid=
-WeChatAppShareUrlGanZhou=https://222.187.232.68/ganzhoufb/?pid=
+WeChatAppShareUrl=http://222.187.232.68:88/qinghuaifb/?pid=
+WeChatAppShareUrlBaoDao=http://222.187.232.68:88/qinghuaifb/?pid=
+WeChatAppShareUrlSanSan=http://222.187.232.68:88/sansanfb/?pid=
+WeChatAppShareUrlGanZhou=http://222.187.232.68:88/ganzhoufb/?pid=
 
 #app聊天室分享地址
-ChatRoomUrl=https://222.187.232.68/qinghuaifb/?pid=
+ChatRoomUrl=http://222.187.232.68:88/qinghuaifb/?pid=
 isEnableVpn=false
 #是否接入高房节点
 IsGaoFang=0
