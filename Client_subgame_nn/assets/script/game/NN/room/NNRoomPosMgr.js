@@ -68,7 +68,7 @@ var LZMJRoomPosMgr = app.BaseClass.extend({
 	//-----------------------回调函数-----------------------------
 	OnInitRoomPosData: function (roomPosInfoList) {
 		this.dataInfo = {};
-
+		
 		this.clientPos = -1;
 		this.downPos = -1;
 		this.upPos = -1;
@@ -77,7 +77,7 @@ var LZMJRoomPosMgr = app.BaseClass.extend({
 		let heroImageUrlDict = {};
 		let heroID = app[app.subGameName + "_HeroManager"]().GetHeroID();
 		let count = roomPosInfoList.length;
-
+		cc.log("房间信息初始化");
 		for (let index = 0; index < count; index++) {
 			let roomPosInfo = roomPosInfoList[index];
 			let pos = roomPosInfo["pos"];
@@ -91,39 +91,40 @@ var LZMJRoomPosMgr = app.BaseClass.extend({
 			}
 			if (pid && headImageUrl) {
 				heroImageUrlDict[pid] = headImageUrl;
+				app[app.subGameName + "_WeChatManager"]().InitHeroHeadImage(pid, headImageUrl);
 			}
-			app[app.subGameName + "_WeChatManager"]().InitHeroHeadImage(pid, headImageUrl);
+	
 		}
 
 		//this.WeChatManager.InitHeroHeadImageByDict(heroImageUrlDict);
-		if (this.clientPos < 0) {
-			console.error("OnInitRoomPosData clientPos not find");
-		}
-		else {
-			let posCount = 4;
-			if (count == 2) {
-				this.facePos = this.clientPos == 0 ? 1 : 0;
-			} else if (count == 3) {
-				this.upPos = (this.clientPos + posCount - 1) % posCount;
-				this.downPos = (this.clientPos + 1) % posCount;
-				this.facePos = (this.clientPos + 2) % posCount;
-				//三人麻将，有一家是空的
-				if (this.clientPos == 0) {
-					this.upPos = -1;
-				}
-				if (this.clientPos == 1) {
-					this.facePos = -1;
-				}
-				if (this.clientPos == 2) {
-					this.downPos = -1;
-				}
-			} else {
-				this.upPos = (this.clientPos + posCount - 1) % posCount;
-				this.downPos = (this.clientPos + 1) % posCount;
-				this.facePos = (this.clientPos + 2) % posCount;
-			}
-			console.log("upPos(%s) clientPos(%s) downPos(%s) facePos(%s)", this.upPos, this.clientPos, this.downPos, this.facePos);
-		}
+		// if (this.clientPos < 0) {
+		// 	console.error("OnInitRoomPosData clientPos not find");
+		// }
+		// else {
+		// 	let posCount = 4;
+		// 	if (count == 2) {
+		// 		this.facePos = this.clientPos == 0 ? 1 : 0;
+		// 	} else if (count == 3) {
+		// 		this.upPos = (this.clientPos + posCount - 1) % posCount;
+		// 		this.downPos = (this.clientPos + 1) % posCount;
+		// 		this.facePos = (this.clientPos + 2) % posCount;
+		// 		//三人麻将，有一家是空的
+		// 		if (this.clientPos == 0) {
+		// 			this.upPos = -1;
+		// 		}
+		// 		if (this.clientPos == 1) {
+		// 			this.facePos = -1;
+		// 		}
+		// 		if (this.clientPos == 2) {
+		// 			this.downPos = -1;
+		// 		}
+		// 	} else {
+		// 		this.upPos = (this.clientPos + posCount - 1) % posCount;
+		// 		this.downPos = (this.clientPos + 1) % posCount;
+		// 		this.facePos = (this.clientPos + 2) % posCount;
+		// 	}
+		// 	console.log("upPos(%s) clientPos(%s) downPos(%s) facePos(%s)", this.upPos, this.clientPos, this.downPos, this.facePos);
+		// }
 
 		console.log("OnInitRoomPosData:", this.dataInfo)
 	},
@@ -271,7 +272,7 @@ var LZMJRoomPosMgr = app.BaseClass.extend({
 		this.dataInfo[pos]["isShowLeave"] = isShowLeave;
 	},
 
-	//获取房间所有玩家信息
+	// //获取房间所有玩家信息
 	GetRoomAllPlayerInfo: function () {
 		return this.dataInfo
 	},

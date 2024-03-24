@@ -178,14 +178,17 @@ var nn_GameManager = app.BaseClass.extend({
 	},
 	//更新座位信息
 	OnPack_PosUpdate: function (serverPack) {
-		console.log("更新座位信息 OnPack_PosUpdate", serverPack);
+		console.log("服务器发来更新座位信息 OnPack_PosUpdate", serverPack);
 		let roomID = serverPack["roomID"];
 		let pos = serverPack["pos"];
 		let posInfo = serverPack["posInfo"];
 		this.SetPlayGame(serverPack);
 		if (this.NowRoom().GetRoomPosMgr().OnPosUpdate(pos, posInfo)) {
 			console.log("更新座位信息:");
-			app[app.subGameName + "Client"].OnEvent(app.subGameName.toUpperCase() + "_PosUpdate", serverPack);
+			this.NowRoom().GetRoomPosMgr().OnInitRoomPosData(serverPack["posList"]);
+			this.NowRoom().SetRoomProperty("posList", serverPack["posList"]);
+		    //  app[app.subGameName + "Client"].OnEvent(app.subGameName.toUpperCase() + "_PosUpdate", serverPack);
+			app[app.subGameName + "Client"].OnEvent(app.subGameName.toUpperCase() + "_AllPosUpdate", serverPack);
 		} else {
 			console.log("OnPack_PosUpdate:", serverPack);
 		}

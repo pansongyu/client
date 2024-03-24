@@ -110,6 +110,9 @@ cc.Class({
 			this.gameName = "lz_nn";
 		}
 
+	     cc.log("初始化头像");
+		 this.InitAllHead();
+
 		this.RefreshHead(-1);
 		this.UpdateRoomInfo();
 		app[app.subGameName + "Client"].OnEvent("Head_PosUpdate", {});
@@ -126,8 +129,7 @@ cc.Class({
 		this.OnGiftAniEnd(null); //清理表情
 	},
 	InitCommon: function () {
-		this.headNode = this.GetWndNode("headNodes/headNode");
-		this.headPosNode = this.GetWndNode("headNodes/headPos");
+	
 		this.isConnect = false;//断网了不处理之前来的任何消息(卡的时候出现)
 		this.appIsHide = false;//判断是否在后台
 		this.niuNumLabels = [];
@@ -206,14 +208,15 @@ cc.Class({
 			cardNode.on("click", this.OnCardClick, this);
 			this.selfCard.addChild(cardNode);
 		}
-
-		this.InitAllHead();
+		// cc.log("初始化头像");
+		// this.InitAllHead();
 	},
 	InitEvent: function () {
 		//基础网络包
 		this.RegEvent("NN_PosContinueGame", this.Event_PosContinueGame);
 		this.RegEvent("NN_PosReadyChg", this.Event_PosReadyChg);
 		this.RegEvent("NN_PosUpdate", this.Event_PosUpdate);
+		this.RegEvent(app.subGameName.toUpperCase() + "_AllPosUpdate", this.Event_AllPosUpdate, this);
 		this.RegEvent("NN_PosLeave", this.Event_PosLeave);
 		this.RegEvent("NN_DissolveRoom", this.Event_DissolveRoom);//房间解散
 		this.RegEvent("NN_StartVoteDissolve", this.Event_StartVoteDissolve);//发起房间结算投票
@@ -240,11 +243,25 @@ cc.Class({
 		this.RegEvent("SportsPointNotEnough", this.Event_SportsPointNotEnough);
 	},
 	InitAllHead: function () {
+		this.headNode = this.GetWndNode("headNodes/headNode");
+		this.headPosNode = this.GetWndNode("headNodes/headPos");
+
 		let posNodes = this.headPosNode.children;
 		let players = this.Room.GetRoomAllPlayerInfo();
-		cc.log("初始化头像");
-		cc.log(posNodes);
+	
 		cc.log(players);
+		cc.log(this.headNode);
+
+		 let heads = this.headNode.children;
+		if(heads.length > 0) {
+			for (let i = 0; i < heads.length; i++) {
+			
+				let node = heads[i];
+				node.active = false;
+			}
+	
+		}
+	
 		for (let i = 0; i < players.length; i++) {
 			let point = {x: posNodes[i].x, y: posNodes[i].y};
 			let head = cc.instantiate(this.headPrefab);
@@ -256,13 +273,23 @@ cc.Class({
 			scoreNode.getChildByName('score').active = false;
 			scoreNode.getChildByName('other').active = false;
 			otherNode.addChild(scoreNode);
+			head.active = true;
 			let headScript = head.getComponent(app.subGameName + "_UIPublicHead");
 			headScript.Init(i, -1, point);
 			this.headNode.addChild(head);
 		}
 	},
+	clearHead: function () {
+		let heads = this.headNode.children;
+		for (let i = 0; i < heads.length; i++) {
+			
+			let node = heads[i];
+			node.active = false;
+		}
+	},
 
 	RefreshHead: function (pos) {
+		cc.log("当前位置:",pos)
 		let needUpdateReady = false;
 		let roomState = this.Room.GetRoomProperty("state");
 		if (roomState == this.RoomState.Init) {
@@ -282,15 +309,18 @@ cc.Class({
 		for (let i = 0; i < players.length; i++) {
 
 			if (players[i].pid <= 0) {
-				cc.log("清除多余头像");
-				heads[i].active = false;
+			    // cc.log("清除上一局多余头像");
+			    // heads[i].active = false;
 			//	heads[i].getComponent(app.subGameName + "_UIPublicHead").OnClose();
 				continue;
 			}
 
 			if (-1 != pos && i != pos) {
+
 				continue;
 			}
+			cc.log("当前位置:",pos)
+			cc.log("当前玩家下标:",i)
 			app[app.subGameName + "_WeChatManager"]().InitHeroHeadImage(players[i].pid, players[i].headImageUrl);
 			let headScript = null;
 			let point = {x: 0, y: 0};
@@ -1559,13 +1589,40 @@ cc.Class({
 	},
 	//位置更新
 	Event_PosUpdate: function (event) {
-		cc.log("中途加入只刷 头像")
+		cc.log("位置更新")
 		let serverPack = event["posInfo"];
 		let pos = serverPack["pos"];
 		let pid = serverPack["pid"];
 		//中途加入只刷 头像
 		this.RefreshHead(pos);
 		this.ShowPlayerReady();
+	},
+		//所有位置位置更新
+	Event_AllPosUpdate: function (event) {
+		cc.log("重新初始化头像");
+		this.InitAllHead();
+
+	   this.RefreshHead(-1);
+	   this.UpdateRoomInfo();
+	   app[app.subGameName + "Client"].OnEvent("Head_PosUpdate", {});
+	   //Head_PosUpdate不会刷新双十庄家因为动画完才刷出庄家图标
+	   app[app.subGameName + "Client"].OnEvent("Head_UpdateBacker", {"bShow": true});
+		// this.AddHead();
+		// this.clientPos = parseInt(this.RoomPosMgr.GetClientPos());
+		// let room = this.RoomMgr.GetEnterRoom();
+		// let roomState = room.GetRoomProperty("state");
+		// let state = this.RoomSet.GetRoomSetProperty("state");
+		// if (this.ShareDefine.RoomState_Playing == roomState ||
+		// 	this.ShareDefine.SetState_Hog == state ||
+		// 	this.ShareDefine.SetState_AddDouble == state ||
+		// 	this.ShareDefine.SetState_Playing == state) {
+		// 	this.btn_ready.active = false;
+		// }
+		// let roomSetID = this.Room.GetRoomProperty("setID");
+		// let serverPack = event;
+		// serverPack["isShowNode"] = roomSetID > 0;
+		// app[app.subGameName + "Client"].OnEvent("Head_PosUpdate", serverPack);
+		// this.updateLookInfo()
 	},
 	Event_PosLeave: function (event) {
 		let serverPack = event;

@@ -519,10 +519,12 @@ cc.Class({
 				//继续游戏初始化界面
 				cc.log("初始化界面");
 				// app["UI"+app.subGameName.toUpperCase()+"Play"]()。
+				self.CloseForm();
 				app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "ContinueEnterRoom", {}, function (event) {
-					app[app.subGameName + "_NetManager"]().SendPack("game.C1101GetRoomID", {});
+				
+					 app[app.subGameName + "_NetManager"]().SendPack("game.C1101GetRoomID", {});
 
-					self.CloseForm();
+				
 					cc.log("关闭战绩界面");
 					// self.CloseCurAllFrom();
 				}, function (event) {
