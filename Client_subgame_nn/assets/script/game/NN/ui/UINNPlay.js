@@ -91,7 +91,7 @@ cc.Class({
 		this.clientPos = this.Room.GetClientPos();
 
 		if (this.RoomCfg.clubId > 0 || this.RoomCfg.unionId > 0) {
-			this.invitationNode.active = true;
+		//	this.invitationNode.active = true;
 			this.invitationNode.getComponent(this.invitationNode.name).InitData(this.RoomCfg.clubId, this.RoomCfg.unionId, roomID);
 		} else {
 			this.invitationNode.active = false;
@@ -1144,12 +1144,14 @@ cc.Class({
 		let bTimeOut = false;
 		if (this.serverTime > this.stateStartTime) {
 			remainTime = this.serverTime - this.stateStartTime;
+			cc.log("服务器给的时间：",remainTime);
 		}
 
 		if (gameState == this.gameState.DealPokerOne) {
-			if (10000 > remainTime) {
-				remainTime = 10000 - remainTime;
+			if (2000 > remainTime) {
+				remainTime = 2000 - remainTime;
 				str = "发牌中...";
+				// cc.log("发牌中，时间：",remainTime);
 			} else {
 				bTimeOut = true;
 			}
@@ -1175,10 +1177,11 @@ cc.Class({
 				bTimeOut = true;
 			}
 		} else if (gameState == this.gameState.DealPokerSecond) {
-			if (15000 > remainTime) {
-				remainTime = 15000 - remainTime;
+			if (10000 > remainTime) {
+				remainTime = 10000 - remainTime;
 				if (!this.isDealPokerEnd) {
 					str = "发牌中...";
+					cc.log("二次发牌中，时间：",remainTime);
 				} else {
 					str = "亮牌中...";
 				}
@@ -1381,7 +1384,7 @@ cc.Class({
 		this.btnGroups[0].getChildByName("btn_ready").active = false;
 		this.btnGroups[0].getChildByName("btn_invitation").active = true;
 		if (this.RoomCfg.clubId > 0 || this.RoomCfg.unionId > 0) {
-			this.invitationNode.active = true;
+			// this.invitationNode.active = true;
 		} else {
 			this.invitationNode.active = false;
 		}
