@@ -149,7 +149,7 @@ var ComTool = app.BaseClass.extend({
         return name;
     },
     GetBeiZhuName: function GetBeiZhuName(pid, name) {
-        var length = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 6;
+        var length = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 15;
 
         if (typeof app["BeiZhu"] != "undefined") {
             for (var i = 0; i < app["BeiZhu"].length; i++) {

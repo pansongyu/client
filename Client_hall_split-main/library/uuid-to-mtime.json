@@ -9525,8 +9525,8 @@
     "relativePath": "resources\\ui\\club_2\\UIPlayerRaceRankInfo.prefab"
   },
   "01d216d5-75a6-4de4-85b4-8cf0b6f72c9a": {
-    "asset": 1673837316000,
-    "meta": 1701635888460,
+    "asset": 1711351304758,
+    "meta": 1711351304789,
     "relativePath": "resources\\ui\\club_2\\UIClubMain_2.prefab"
   },
   "a0594594-bac4-43e4-aa37-aa3a4c7c71ed": {
@@ -9750,8 +9750,8 @@
     "relativePath": "resources\\ui\\club\\UIClubHuanPi.prefab"
   },
   "4ea26814-4ee3-4f7a-848c-5e8019f7adc1": {
-    "asset": 1673837316000,
-    "meta": 1701635888721,
+    "asset": 1711370264941,
+    "meta": 1711370264960,
     "relativePath": "resources\\ui\\club\\UIClubInRoom.prefab"
   },
   "e4eb1156-33b4-4956-8d40-455e736c15a3": {
@@ -9770,8 +9770,8 @@
     "relativePath": "resources\\ui\\club\\UIClubMessage.prefab"
   },
   "e3246265-c2ae-423b-8900-1e5214848bc4": {
-    "asset": 1710048167209,
-    "meta": 1710048167289,
+    "asset": 1711366655870,
+    "meta": 1711366655908,
     "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
   },
   "8449ff6d-0b4f-4649-bbb8-58ba33e71703": {
@@ -10145,13 +10145,13 @@
     "relativePath": "resources\\ui\\club\\zhuozi_xingyun\\demo_new8.prefab"
   },
   "e7f0d60f-d972-45ee-b9f0-cbacc4554d68": {
-    "asset": 1697089007092,
-    "meta": 1701635889199,
+    "asset": 1711372016084,
+    "meta": 1711372016106,
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new10.prefab"
   },
   "268c71bd-cf83-4bef-ab71-7e34df0979fc": {
-    "asset": 1673837316000,
-    "meta": 1701635889203,
+    "asset": 1711371963352,
+    "meta": 1711371963364,
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new2.prefab"
   },
   "c4914a5c-3eb2-4cb1-bbeb-209123affbd5": {
@@ -10180,8 +10180,8 @@
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new7.prefab"
   },
   "4cf783ec-3a40-4962-a5ab-dd66ba490c47": {
-    "asset": 1673837316000,
-    "meta": 1701635889236,
+    "asset": 1711372007620,
+    "meta": 1711372007656,
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new8.prefab"
   },
   "d55d2481-c733-4c95-a180-37403053c9f0": {
@@ -23819,11 +23819,6 @@
     "meta": 1673837316000,
     "relativePath": "script\\common"
   },
-  "ee33e394-ffa5-4939-89c7-2d223e0e1933": {
-    "asset": 1673837316000,
-    "meta": 1701635899839,
-    "relativePath": "script\\common\\ComTool.js"
-  },
   "cb29708c-8d1b-4d35-aceb-81223f94089a": {
     "asset": 1673837316000,
     "meta": 1701635899868,
@@ -24713,16 +24708,6 @@
     "asset": 1673837316000,
     "meta": 1701635904945,
     "relativePath": "script\\ui\\club\\UIClubHeHuoZhanJiList.js"
-  },
-  "803fa3d8-6e2a-4a5f-8952-ba9fd38bce6f": {
-    "asset": 1673837316000,
-    "meta": 1701635904976,
-    "relativePath": "script\\ui\\club\\UIClubHuanPi.js"
-  },
-  "01494752-8429-482e-802e-76181e54ba28": {
-    "asset": 1673837316000,
-    "meta": 1701635904997,
-    "relativePath": "script\\ui\\club\\UIClubInRoom.js"
   },
   "4ac2ed4c-bbce-4389-8971-d6608feb60e0": {
     "asset": 1682952012365,
@@ -36434,16 +36419,6 @@
     "meta": 1709735750004,
     "relativePath": "script\\ui\\club\\UIClubUserList.js"
   },
-  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
-    "asset": 1710048161990,
-    "meta": 1710048167126,
-    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
-  },
-  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
-    "asset": 1710051732263,
-    "meta": 1710051736193,
-    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
-  },
   "e3c2c128-2382-41dc-9076-fffa0e5522fa": {
     "asset": 1710608098592,
     "meta": 1710608179122,
@@ -36833,5 +36808,50 @@
     "asset": 1711310205920,
     "meta": 1711310243776,
     "relativePath": "script\\ui\\uiGame\\fjssz\\fjssz_winlost_child.js"
+  },
+  "f5929175-9b92-41fa-97cc-a7428c5d7ae5": {
+    "asset": 1711351298259,
+    "meta": 1711351303952,
+    "relativePath": "script\\dbmanager\\Club\\ClubManager.js"
+  },
+  "862c25f4-cb28-4d9c-b828-74664f9a31e6": {
+    "asset": 1711352291471,
+    "meta": 1711352320945,
+    "relativePath": "resources\\texture\\clubhuanpi\\desk_1_1_8.png"
+  },
+  "cb679027-36be-492a-93b1-5f49e9f2b236": {
+    "asset": 1711352305376,
+    "meta": 1711352334515,
+    "relativePath": "resources\\texture\\clubhuanpi\\desk_1_2_8.png"
+  },
+  "ee33e394-ffa5-4939-89c7-2d223e0e1933": {
+    "asset": 1711366072344,
+    "meta": 1711366078886,
+    "relativePath": "script\\common\\ComTool.js"
+  },
+  "46749693-96df-4dff-9d9a-c49de12cc8eb": {
+    "asset": 1711366438945,
+    "meta": 1711366468027,
+    "relativePath": "resources\\texture\\clubmain\\zhongzhi\\desk_1_5_8.png"
+  },
+  "70b8f3f6-a589-492e-8638-40ee82822e0b": {
+    "asset": 1711366627168,
+    "meta": 1711366639432,
+    "relativePath": "resources\\texture\\clubmain\\zhongzhi\\desk_1_1_10.png"
+  },
+  "803fa3d8-6e2a-4a5f-8952-ba9fd38bce6f": {
+    "asset": 1711367819053,
+    "meta": 1711368382607,
+    "relativePath": "script\\ui\\club\\UIClubHuanPi.js"
+  },
+  "01494752-8429-482e-802e-76181e54ba28": {
+    "asset": 1711369863075,
+    "meta": 1711370264826,
+    "relativePath": "script\\ui\\club\\UIClubInRoom.js"
+  },
+  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
+    "asset": 1711372680713,
+    "meta": 1711372712751,
+    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
   }
 }

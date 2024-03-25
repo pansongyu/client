@@ -686,6 +686,7 @@ var BaseClubMainForm = cc.Class({
     },
     InitHead:function(node,playerNum,posList){
         let clubTable=this.GetCLubTable();
+        cc.log("俱乐部桌子数值：",clubTable);
         if(clubTable<3){
             node.getChildByName('head_layout').getChildByName('user1').active=false;
             node.getChildByName('head_layout').getChildByName('user2').active=false;
@@ -845,9 +846,9 @@ var BaseClubMainForm = cc.Class({
             }
            
             for(let i=0;i<posList.length;i++){
-                if(i>3){
-                    break;
-                }
+                // if(i>3){
+                //     break;
+                // }
                 let heroID = posList[i]["pid"];
                 if(heroID>0){
                     let name = posList[i]["name"];
@@ -1358,7 +1359,7 @@ var BaseClubMainForm = cc.Class({
                     //绿色
                     else club.getComponent(cc.Sprite).spriteFrame=this.roomBg_zhongzhi_green[playerNum-2];
                 }else if(ClubTb==6){
-                    //蓝色
+                    //红色
                     if (club.getChildByName("bg")) {
                         club.getChildByName("bg").getComponent(cc.Sprite).spriteFrame=this.roomBg_zhongzhi_blue[playerNum-2];
                     }

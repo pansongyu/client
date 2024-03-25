@@ -377,8 +377,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        14.306,
-        67.649,
+        40,
+        70,
         0,
         0,
         0,
@@ -1226,8 +1226,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        230.602,
-        -43.787,
+        280,
+        -45,
         0,
         0,
         0,
@@ -2075,8 +2075,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        15.9,
-        -42.339,
+        -50,
+        -45,
         0,
         0,
         0,
@@ -2924,7 +2924,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        212.681,
+        200,
         70.283,
         0,
         0,
@@ -3773,8 +3773,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        116.862,
-        77.476,
+        200,
+        -80,
         0,
         0,
         0,
@@ -4622,8 +4622,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        126.947,
-        -50.085,
+        40,
+        -80,
         0,
         0,
         0,
@@ -5472,7 +5472,7 @@
       "ctor": "Float64Array",
       "array": [
         -45.057,
-        26.952,
+        45,
         0,
         0,
         0,
@@ -6321,7 +6321,7 @@
       "ctor": "Float64Array",
       "array": [
         279.754,
-        26.952,
+        45,
         0,
         0,
         0,
@@ -7293,7 +7293,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 108,
+      "width": 82,
       "height": 41.8
     },
     "_anchorPoint": {
@@ -7344,8 +7344,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "镇江麻将",
-    "_N$string": "镇江麻将",
+    "_string": "十三水",
+    "_N$string": "十三水",
     "_fontSize": 26,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -7563,7 +7563,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -40.483,
+        -130,
         0,
         0,
         0,
@@ -7779,8 +7779,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -85,
+        200,
+        -10,
         0,
         0,
         0,
@@ -8601,7 +8601,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "7a949ee6-74df-41a3-9fe9-0980477ebc67"
+      "__uuid__": "8104ebec-08c5-4d35-a4ff-1119a99279f2"
     },
     "_type": 1,
     "_sizeMode": 0,
