@@ -193,7 +193,7 @@ cc.Class({
 				return;
 			}
 			app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "ContinueEnterRoom", {}, function () {
-				_this.CloseCurAllFrom();
+				_this.CloseForm();
 				app[app.subGameName + "_NetManager"]().SendPack("game.C1101GetRoomID", {});
 			}, function (event) {
 				if (event.Msg == "UNION_BACK_OFF_PLAYING") {
