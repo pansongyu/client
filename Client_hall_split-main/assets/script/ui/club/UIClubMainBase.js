@@ -1930,7 +1930,9 @@ var BaseClubMainForm = cc.Class({
         demo.active = false;
         //this.unionMyWanFa;
         let unionMyWanFa=this.MyUnionMyWanFaArray();
+        cc.log("当前玩法：",unionMyWanFa);
         serverPack.sort(this.SortByTagId);
+        cc.log("服务端传来",serverPack);
         for (let i = 0; i < serverPack.length; i++) {
             let child = cc.instantiate(demo);
             child.tagId = serverPack[i].tagId;
@@ -1938,10 +1940,13 @@ var BaseClubMainForm = cc.Class({
             child.roomKey = serverPack[i].roomKey;
             child.gameId = serverPack[i].gameId;
             if (typeof(serverPack[i].name) != "undefined") {
-                child.getChildByName("lb_roomName").getComponent(cc.Label).string = serverPack[i].name;
+                child.getChildByName("Toggle").getChildByName("checkmark").getChildByName("lb").getComponent(cc.Label).string = serverPack[i].name;
+                child.getChildByName("Toggle").getChildByName("Background").getChildByName("lb").getComponent(cc.Label).string = serverPack[i].name;
             }else{
                 let roomName = app.ShareDefine().GametTypeID2Name[serverPack[i].gameId];
-                child.getChildByName("lb_roomName").getComponent(cc.Label).string = roomName;
+                child.getChildByName("Toggle").getChildByName("checkmark").getChildByName("lb").getComponent(cc.Label).string = roomName;
+                child.getChildByName("Toggle").getChildByName("Background").getChildByName("lb").getComponent(cc.Label).string = roomName;
+                // child.getChildByName("lb_roomName").getComponent(cc.Label).string = roomName;
             }
             child.getChildByName("lb_tagid").getComponent(cc.Label).string = serverPack[i].tagId;
             let roomInfoStr = "";
@@ -1983,11 +1988,16 @@ var BaseClubMainForm = cc.Class({
             child.active = true;
             //初始化按钮
             if(unionMyWanFa.length>0 && unionMyWanFa.indexOf(child.tagId.toString())!=-1){
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true;
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=true;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = true
+                cc.log("设置按钮选中");
             }else if(unionMyWanFa.length==0){
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true;
+                cc.log("默认设置按钮选中");
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=true;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = true
             }else{
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=false;
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=false;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = false
             }
             content.addChild(child);
         }
@@ -2009,39 +2019,58 @@ var BaseClubMainForm = cc.Class({
         let mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
         let content = mark.getChildByName("layout"); 
         for(let i=0;i<content.children.length;i++){
-            content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked=!quanxuan;
+            content.children[i].getChildByName("Toggle").getComponent(cc.Button).isChecked=!quanxuan;
         }
         this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan").getChildByName("checkmark").active=!quanxuan;
     },
     SaveQHWF:function(sender){
         let quanxuan = false
+        cc.log("按钮名称:",sender.target.name);
+        cc.log("按钮父节点:",sender.target);
         if (sender && sender.target.name == "btn_quanwan") {
             sender.target.getChildByName("checkmark").active = true
+            cc.log("点击全选按钮");
             quanxuan = true
+        }else {
+            cc.log("点击玩法按钮");
+            sender.target.getChildByName("checkmark").active = !sender.target.getChildByName("checkmark").active
         }
         let unionMyWanFa=[];
         let mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
         let content = mark.getChildByName("layout"); 
         for(let i=0;i<content.children.length;i++){
             if (quanxuan) {
-                content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true
-            }
-            if(content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked==true){
+                // content.children[i].getChildByName("Toggle").getComponent(cc.Button).isChecked=true
+                content.children[i].getChildByName("Toggle").getChildByName("checkmark").active = true
                 unionMyWanFa.push(content.children[i].tagId);
+            }else if(content.children[i].getChildByName("Toggle").getChildByName("checkmark").active){
+          
+                unionMyWanFa.push(content.children[i].tagId);
+            }else {
+                // sender.target.getChildByName("checkmark").active = false
             }
         }
+        cc.log("玩法",unionMyWanFa)
+        cc.log("玩法长度",unionMyWanFa.length);
+        cc.log("子控件个数",content.children.length);
         if(unionMyWanFa.length==0 && content.children.length>0){
+            
+       
             // this.ShowSysMsg("请至少选择一种玩法", 1);
-            if(sender) sender.getComponent(cc.Toggle).isChecked=true
+            // if(sender) sender.getComponent(cc.Toggle).isChecked=true
+            sender.target.getChildByName("checkmark").active = true
             let p = this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan")
             p.getChildByName("checkmark").active = false
             return;
         }
 
+       
         if(unionMyWanFa.length==content.children.length){
             //用户全选了
-            unionMyWanFa=[]; //空就代表了全选
+         //   unionMyWanFa=[]; //空就代表了全选
+        
             let p = this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan")
+
             p.getChildByName("checkmark").active = true
         }
         else{
@@ -2057,7 +2086,7 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('btn_qhwh').getChildByName('baocun').active=false;
             return;
         }
-
+        cc.log("当前选择的玩法:",unionMyWanFa);
         if(unionMyWanFa.length>0){
             localStorage.setItem("mywanfa_"+this.unionId+"_"+this.nowClubID,unionMyWanFa.join(","));
         }else{

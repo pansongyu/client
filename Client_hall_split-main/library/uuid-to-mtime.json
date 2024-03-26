@@ -9769,11 +9769,6 @@
     "meta": 1701635888737,
     "relativePath": "resources\\ui\\club\\UIClubMessage.prefab"
   },
-  "e3246265-c2ae-423b-8900-1e5214848bc4": {
-    "asset": 1711366655870,
-    "meta": 1711366655908,
-    "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
-  },
   "8449ff6d-0b4f-4649-bbb8-58ba33e71703": {
     "asset": 1673837316000,
     "meta": 1701635888751,
@@ -36839,19 +36834,24 @@
     "meta": 1711370264826,
     "relativePath": "script\\ui\\club\\UIClubInRoom.js"
   },
-  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
-    "asset": 1711372680713,
-    "meta": 1711372712751,
-    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
-  },
   "31aae547-ad73-40b0-8bb0-f9eac3d7b4f4": {
     "asset": 1711382305622,
     "meta": 1711382313372,
     "relativePath": "script\\ui\\uiGame\\bzqzmj\\bzqzmjChildCreateRoom.js"
   },
   "e3c2c128-2382-41dc-9076-fffa0e5522fa": {
-    "asset": 1711389772134,
-    "meta": 1711389789648,
+    "asset": 1711410209419,
+    "meta": 1711419681164,
     "relativePath": "resources\\jsonData\\gameCreate.json"
+  },
+  "e3246265-c2ae-423b-8900-1e5214848bc4": {
+    "asset": 1711446737567,
+    "meta": 1711446737596,
+    "relativePath": "resources\\ui\\club\\UIClubMainDefault.prefab"
+  },
+  "fd2fa7f7-4deb-47e9-b303-0afa5af2406f": {
+    "asset": 1711436444458,
+    "meta": 1711436448919,
+    "relativePath": "script\\ui\\club\\UIClubMainBase.js"
   }
 }
