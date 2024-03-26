@@ -103,12 +103,38 @@
         "inspector",
         "cocos-services"
       ]
+    },
+    "window-1711410484847": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 829,
+      "y": 109,
+      "width": 916,
+      "height": 939,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "hot-update-tools"
+            ],
+            "height": 900,
+            "type": "panel",
+            "width": 900
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "hot-update-tools"
+      ]
     }
   },
   "panels": {
     "builder": {
-      "x": 1082,
-      "y": 136,
+      "x": 918,
+      "y": 113,
       "width": 670,
       "height": 828
     },

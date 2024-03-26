@@ -905,7 +905,7 @@
     "relativePath": "resources\\texture\\clubforbid\\img_txk.png"
   },
   "64b479e5-2920-4090-abfd-89891697d6a5": {
-    "asset": 1706867031195,
+    "asset": 1711352334497,
     "meta": 1673837316000,
     "relativePath": "resources\\texture\\clubhuanpi"
   },
@@ -1930,7 +1930,7 @@
     "relativePath": "resources\\texture\\clubmain\\xingyun\\puke\\img_8.png"
   },
   "f347f26f-583a-4cee-a97c-b11fee0cff75": {
-    "asset": 1706867031873,
+    "asset": 1711366639417,
     "meta": 1673837316000,
     "relativePath": "resources\\texture\\clubmain\\zhongzhi"
   },
@@ -10180,8 +10180,8 @@
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new7.prefab"
   },
   "4cf783ec-3a40-4962-a5ab-dd66ba490c47": {
-    "asset": 1711372007620,
-    "meta": 1711372007656,
+    "asset": 1711378609083,
+    "meta": 1711378609105,
     "relativePath": "resources\\ui\\club\\zhuozi_zhongzhi\\demo_new8.prefab"
   },
   "d55d2481-c733-4c95-a180-37403053c9f0": {
@@ -25879,11 +25879,6 @@
     "meta": 1673837316000,
     "relativePath": "script\\ui\\uiGame\\bztdh"
   },
-  "31aae547-ad73-40b0-8bb0-f9eac3d7b4f4": {
-    "asset": 1673837316000,
-    "meta": 1701635909782,
-    "relativePath": "script\\ui\\uiGame\\bzqzmj\\bzqzmjChildCreateRoom.js"
-  },
   "bbc5e8be-b615-4938-8c50-e8ec3d49176a": {
     "asset": 1673837316000,
     "meta": 1701635909808,
@@ -36419,11 +36414,6 @@
     "meta": 1709735750004,
     "relativePath": "script\\ui\\club\\UIClubUserList.js"
   },
-  "e3c2c128-2382-41dc-9076-fffa0e5522fa": {
-    "asset": 1710608098592,
-    "meta": 1710608179122,
-    "relativePath": "resources\\jsonData\\gameCreate.json"
-  },
   "430eccbf-bf2c-4e6e-8c0c-884bbb487f32": {
     "asset": 1577083950000,
     "meta": 1711309218266,
@@ -36853,5 +36843,15 @@
     "asset": 1711372680713,
     "meta": 1711372712751,
     "relativePath": "script\\ui\\club\\UIClubMainBase.js"
+  },
+  "31aae547-ad73-40b0-8bb0-f9eac3d7b4f4": {
+    "asset": 1711382305622,
+    "meta": 1711382313372,
+    "relativePath": "script\\ui\\uiGame\\bzqzmj\\bzqzmjChildCreateRoom.js"
+  },
+  "e3c2c128-2382-41dc-9076-fffa0e5522fa": {
+    "asset": 1711389772134,
+    "meta": 1711389789648,
+    "relativePath": "resources\\jsonData\\gameCreate.json"
   }
 }

@@ -8015,7 +8015,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 195,
-      "height": 30
+      "height": 37.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8059,7 +8059,11 @@
       "__id__": 223
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_useOriginalSize": false,
     "_string": "玩法",
     "_N$string": "玩法",
@@ -8098,7 +8102,11 @@
       "__id__": 222
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
@@ -8251,7 +8259,7 @@
         "__id__": 235
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 239
@@ -8270,7 +8278,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 67,
+      "width": 80,
       "height": 26
     },
     "_anchorPoint": {
@@ -8561,7 +8569,7 @@
       "__uuid__": "31184424-eaf0-4c59-82e1-e7c215964f54"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",

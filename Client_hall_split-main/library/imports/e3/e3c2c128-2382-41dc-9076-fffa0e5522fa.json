@@ -330,15 +330,15 @@
       "Title": "限时操作：",
       "Key": "xianShi",
       "ToggleType": 0,
-      "ToggleCount": 3,
+      "ToggleCount": 6,
       "ShowIndexs": "1",
-      "ToggleDesc": "不限制,3分出牌,5分出牌",
+      "ToggleDesc": "不限制,3分出牌,5分出牌,1分出牌,30秒出牌,15秒出牌",
       "IsShowHelp": 0,
-      "AtRow": "1,1,1",
+      "AtRow": "1,1,1,2,2,2",
       "isWanFa": 1,
-      "AtRowEx": "1,1,1",
+      "AtRowEx": "1,1,1,2,2,2",
       "Display": 1,
-      "Spacing": "0,200,200"
+      "Spacing": "0,200,200,0,200,200"
     },
     "553": {
       "ID": 553,
