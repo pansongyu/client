@@ -193,8 +193,9 @@ cc.Class({
 				return;
 			}
 			app[app.subGameName + "_NetManager"]().SendPack(app.subGameName + ".C" + app.subGameName.toUpperCase() + "ContinueEnterRoom", {}, function () {
-				_this.CloseForm();
+
 				app[app.subGameName + "_NetManager"]().SendPack("game.C1101GetRoomID", {});
+				_this.CloseCurAllFrom();
 			}, function (event) {
 				if (event.Msg == "UNION_BACK_OFF_PLAYING") {
 					app[app.subGameName + "_SysNotifyManager"]().ShowSysMsg("您已申请退赛，当前无法进行比赛，请取消退赛申请或联系赛事举办方");

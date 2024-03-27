@@ -143,8 +143,8 @@ var BaseClubMainForm = cc.Class({
         this.node.getChildByName('bottom').getChildByName('btn_qhwh').getChildByName('baocun').active = false;
         var clubBg = cc.sys.localStorage.getItem("ClubNewBg");
         if (clubBg == null || typeof clubBg == "undefined") {
-            cc.sys.localStorage.setItem("ClubNewBg", "4");
-            clubBg = 4;
+            cc.sys.localStorage.setItem("ClubNewBg", "5");
+            clubBg = 5;
         }
         this.node.getChildByName('bg').getComponent(cc.Sprite).spriteFrame = this.clubBg[clubBg];
         this.gameList = app.Client.GetAllGameId();
@@ -206,8 +206,8 @@ var BaseClubMainForm = cc.Class({
     ChangeBg: function ChangeBg() {
         var clubBg = cc.sys.localStorage.getItem("ClubNewBg");
         if (clubBg == null || typeof clubBg == "undefined") {
-            cc.sys.localStorage.setItem("ClubNewBg", "4");
-            clubBg = 4;
+            cc.sys.localStorage.setItem("ClubNewBg", "5");
+            clubBg = 5;
         }
         console.log("ChangeBg clubBg:" + clubBg);
         this.node.getChildByName('bg').getComponent(cc.Sprite).spriteFrame = this.clubBg[clubBg];
@@ -1822,14 +1822,16 @@ var BaseClubMainForm = cc.Class({
                     this.changeInfo = { "gameName": gameName, "roomKey": roomKey, "password": password };
                     this.SetWaitForConfirm('MSG_CLUB_CHANGEROOM', this.ShareDefine.Confirm, [], []);
                 } else {
-                    var curGameType = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
-                    this.SetWaitForConfirm('MSG_GO_ROOM', this.ShareDefine.Confirm, [this.ShareDefine.GametTypeID2Name[this.inRoomInfo.gameId]]);
+                    // let curGameType = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
+                    // this.SetWaitForConfirm('MSG_GO_ROOM',this.ShareDefine.Confirm,[this.ShareDefine.GametTypeID2Name[this.inRoomInfo.gameId]]);
+                    this.Click_btn_goRoom();
                 }
             } else {
+                this.Click_btn_goRoom();
                 //进入原来的房间
-                var curGameTypeStr = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
-                app.Client.SetGameType(curGameTypeStr);
-                this.FormManager.ShowForm("UIDownLoadGame", curGameTypeStr, 0, null, 0, 0, true);
+                // let curGameTypeStr = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
+                // app.Client.SetGameType(curGameTypeStr);
+                // this.FormManager.ShowForm("UIDownLoadGame",curGameTypeStr,0,null,0,0,true);
             }
         }
     },
@@ -1893,15 +1895,16 @@ var BaseClubMainForm = cc.Class({
     },
     UpdateLeftWanFa: function UpdateLeftWanFa(serverPack) {
         var mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
-        var content = mark.getChildByName("layout");
+        var scrollview = mark.getChildByName("layout");
+        cc.log("当前节点：", scrollview);
         mark.getComponent(cc.ScrollView).scrollToTop();
-        this.DestroyAllChildren(content);
+        this.DestroyAllChildren(scrollview);
         var demo = this.node.getChildByName("left_wanfa").getChildByName("demo");
         demo.active = false;
         //this.unionMyWanFa;
         var unionMyWanFa = this.MyUnionMyWanFaArray();
-        cc.log("当前玩法：", unionMyWanFa);
-        serverPack.sort(this.SortByTagId);
+        cc.log("本地存的玩法：", unionMyWanFa);
+        //  serverPack.sort(this.SortByTagId);
         cc.log("服务端传来", serverPack);
         for (var i = 0; i < serverPack.length; i++) {
             var child = cc.instantiate(demo);
@@ -1962,7 +1965,7 @@ var BaseClubMainForm = cc.Class({
                 // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=false;
                 child.getChildByName("Toggle").getChildByName("checkmark").active = false;
             }
-            content.addChild(child);
+            scrollview.addChild(child);
         }
         //初始化全选按钮
         if (unionMyWanFa.length > 0 && unionMyWanFa.length == serverPack.length) {
@@ -1982,7 +1985,7 @@ var BaseClubMainForm = cc.Class({
         var mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
         var content = mark.getChildByName("layout");
         for (var i = 0; i < content.children.length; i++) {
-            content.children[i].getChildByName("Toggle").getComponent(cc.Button).isChecked = !quanxuan;
+            content.children[i].getChildByName("Toggle").getChildByName("checkmark").active = !quanxuan;
         }
         this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan").getChildByName("checkmark").active = !quanxuan;
     },

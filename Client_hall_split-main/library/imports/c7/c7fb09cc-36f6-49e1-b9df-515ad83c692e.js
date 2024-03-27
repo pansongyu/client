@@ -802,7 +802,8 @@ cc.Class({
                     if (serverPack.length == 0) {
                         _self.FormManager.ShowForm("ui/club/UIClubNone");
                     } else {
-                        app.ClubManager().ShowClubFrom();
+                        // app.ClubManager().ShowClubFrom();
+                        _self.FormManager.ShowForm("ui/club/UIClubList", serverPack);
                     }
                 }, function () {});
             } else {

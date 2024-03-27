@@ -1168,6 +1168,7 @@ var nn_ClientManager = cc.Class({
 	ExitGame:function(switchGameData = null) {
 		cc.game.off(cc.game.EVENT_HIDE);
 		cc.game.off(cc.game.EVENT_SHOW);
+		console.trace("退出游戏")
 		if (!cc.sys.isNative) {
 			app[app.subGameName + "_SceneManager"]().LoadScene(app.subGameName + "MainScene");
 			return;
