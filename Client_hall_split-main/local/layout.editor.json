@@ -104,7 +104,33 @@
         "cocos-services"
       ]
     },
-    "worker": {}
+    "worker": {},
+    "window-1711568758233": {
+      "main": false,
+      "url": "unpack://static/window.html",
+      "windowType": "dockable",
+      "x": 829,
+      "y": 109,
+      "width": 916,
+      "height": 939,
+      "layout": {
+        "children": [
+          {
+            "active": 0,
+            "children": [
+              "hot-update-tools"
+            ],
+            "height": 900,
+            "type": "panel",
+            "width": 900
+          }
+        ],
+        "type": "dock-v"
+      },
+      "panels": [
+        "hot-update-tools"
+      ]
+    }
   },
   "panels": {
     "builder": {
