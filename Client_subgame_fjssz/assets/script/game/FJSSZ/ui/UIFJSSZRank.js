@@ -518,9 +518,12 @@ cc.Class({
 	},
 
 	NoticeSpecial: function () {
+	
+
 		let setPosList = this.RoomSet.GetRoomSetProperty("setPosList");
 		let special_btn = this.GetWndNode("handLiPai/special_btn");//加载一行
 		special_btn.removeAllChildren();
+	
 		for (let i = 0; i < setPosList.length; i++) {
 			let setPos = setPosList[i];
 			let posID = setPos["posID"];
@@ -530,6 +533,7 @@ cc.Class({
 					let pathWnd1 = "handLiPai/special_btn/";
 					let len = Object.keys(special).length;
 					this.CreateSpecialTypeNode(len, special);
+					this.SysNotifyManager.ShowSysMsg("MSG_SPACIAL_CARD");
 					for (let key in special) {
 						let pathWnd = pathWnd1 + key;
 						let specialNode = this.GetWndNode(pathWnd);

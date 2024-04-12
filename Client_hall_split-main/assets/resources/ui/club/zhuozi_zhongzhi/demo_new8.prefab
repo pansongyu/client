@@ -377,8 +377,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        14.306,
-        67.649,
+        40,
+        70,
         0,
         0,
         0,
@@ -1226,8 +1226,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        230.602,
-        -43.787,
+        280,
+        -45,
         0,
         0,
         0,
@@ -2075,8 +2075,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        15.9,
-        -42.339,
+        -50,
+        -45,
         0,
         0,
         0,
@@ -2924,7 +2924,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        212.681,
+        200,
         70.283,
         0,
         0,
@@ -3773,8 +3773,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        116.862,
-        77.476,
+        200,
+        -80,
         0,
         0,
         0,
@@ -4622,8 +4622,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        126.947,
-        -50.085,
+        40,
+        -80,
         0,
         0,
         0,
@@ -5472,7 +5472,7 @@
       "ctor": "Float64Array",
       "array": [
         -45.057,
-        26.952,
+        45,
         0,
         0,
         0,
@@ -6321,7 +6321,7 @@
       "ctor": "Float64Array",
       "array": [
         279.754,
-        26.952,
+        45,
         0,
         0,
         0,
@@ -7293,7 +7293,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 108,
+      "width": 82,
       "height": 41.8
     },
     "_anchorPoint": {
@@ -7344,8 +7344,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "镇江麻将",
-    "_N$string": "镇江麻将",
+    "_string": "十三水",
+    "_N$string": "十三水",
     "_fontSize": 26,
     "_lineHeight": 30,
     "_enableWrapText": true,
@@ -7531,7 +7531,7 @@
         "__id__": 213
       }
     ],
-    "_active": true,
+    "_active": false,
     "_components": [
       {
         "__id__": 216
@@ -7563,7 +7563,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        -40.483,
+        -130,
         0,
         0,
         0,
@@ -7779,8 +7779,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        0,
-        -85,
+        200,
+        -10,
         0,
         0,
         0,
@@ -8015,7 +8015,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 195,
-      "height": 30
+      "height": 37.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -8059,7 +8059,11 @@
       "__id__": 223
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_useOriginalSize": false,
     "_string": "玩法",
     "_N$string": "玩法",
@@ -8098,7 +8102,11 @@
       "__id__": 222
     },
     "_enabled": true,
-    "_materials": [],
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
@@ -8251,7 +8259,7 @@
         "__id__": 235
       }
     ],
-    "_active": false,
+    "_active": true,
     "_components": [
       {
         "__id__": 239
@@ -8270,7 +8278,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 67,
+      "width": 80,
       "height": 26
     },
     "_anchorPoint": {
@@ -8561,7 +8569,7 @@
       "__uuid__": "31184424-eaf0-4c59-82e1-e7c215964f54"
     },
     "_type": 0,
-    "_sizeMode": 1,
+    "_sizeMode": 0,
     "_fillType": 0,
     "_fillCenter": {
       "__type__": "cc.Vec2",
@@ -8601,7 +8609,7 @@
     "_srcBlendFactor": 770,
     "_dstBlendFactor": 771,
     "_spriteFrame": {
-      "__uuid__": "7a949ee6-74df-41a3-9fe9-0980477ebc67"
+      "__uuid__": "8104ebec-08c5-4d35-a4ff-1119a99279f2"
     },
     "_type": 1,
     "_sizeMode": 0,

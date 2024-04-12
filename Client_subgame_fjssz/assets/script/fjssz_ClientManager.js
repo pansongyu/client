@@ -364,11 +364,16 @@ var fjssz_ClientManager = cc.Class({
 			this.OnEvent_LoginGetCurRoomID(event);
 		}
 		else {//跳转大厅
+
+			console.log("跳转大厅");
 			let SceneManager = app[app.subGameName + "_SceneManager"]();
 			let sceneType = SceneManager.GetSceneType();
 			//如果已经在登录场景则不切换
-			if ('mainScene' != sceneType)
+			if ('mainScene' != sceneType){
 				this.ExitGame();
+			}
+
+				
 		}
 	},
 	OnEvent_ReloadHeroData: function (event) {

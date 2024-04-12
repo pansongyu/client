@@ -24,8 +24,8 @@ cc.Class({
         }
         var ClubTb = cc.sys.localStorage.getItem("ClubNewTb");
         if (ClubTb == null || typeof ClubTb == "undefined") {
-            cc.sys.localStorage.setItem("ClubNewTb", "4");
-            ClubTb = 4;
+            cc.sys.localStorage.setItem("ClubNewTb", "5");
+            ClubTb = 5;
         }
         this.bgid = clubBg;
         this.tbid = ClubTb;

@@ -1130,14 +1130,16 @@ var ClubManager = app.BaseClass.extend({
         }
     },
     ShowClubFrom:function(skinType = -1){
-        if (skinType == -1) {
-            skinType = this.GetCurClubSkinType();
-        }
-        if (skinType == 0 || typeof(skinType) == "undefined") {
-            app.FormManager().ShowForm("ui/club/UIClubMainDefault");
-        }else{
-            app.FormManager().ShowForm("ui/club_"+skinType+"/UIClubMain_"+skinType);
-        }
+        // if (skinType == -1) {
+        //     skinType = this.GetCurClubSkinType();
+        // }
+             app.FormManager().ShowForm("ui/club/UIClubMainDefault");
+            //  app.FormManager().ShowForm("ui/club_"+"1"+"/UIClubMain_"+"1");
+        // if (skinType == 0 || typeof(skinType) == "undefined") {
+        //     app.FormManager().ShowForm("ui/club/UIClubMainDefault");
+        // }else{
+        //     app.FormManager().ShowForm("ui/club_"+skinType+"/UIClubMain_"+skinType);
+        // }
     },
     CloseClubFrom:function(){
         let skinType = this.GetCurClubSkinType();

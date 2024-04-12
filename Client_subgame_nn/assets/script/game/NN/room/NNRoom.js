@@ -33,6 +33,8 @@ var LZMJRoom = app.BaseClass.extend({
 
 		this.PropertyInfo = this.SysDataManager.GetTableDict("PropertyInfo");
 
+		this.RoomPosMgr = app[app.subGameName.toUpperCase() + "RoomPosMgr"]();
+
 		this.OnReload();
 
 		//console.log("Init");
@@ -83,9 +85,15 @@ var LZMJRoom = app.BaseClass.extend({
 		let cfg = serverPack["cfg"];
 		this.roomConfig = cfg;
 		//其余信息存放到dataInfo
+	
 		this.dataInfo = serverPack;
 		this.dataInfo["setEnd"] = serverPack["set"]["setEnd"];
 		this.dataInfo['set'].stateInfo = this.dataInfo['set'];
+		cc.log("房间信息初始化",this.dataInfo);
+		let roomPosInfoList = serverPack["posList"] || [];
+		this.RoomPosMgr.OnInitRoomPosData(roomPosInfoList);
+
+		
 		this.isGetGR = false;
 	},
 
@@ -146,7 +154,7 @@ var LZMJRoom = app.BaseClass.extend({
 		this.dataInfo["setEnd"] = serverPack;
 		let cards = this.dataInfo["setEnd"].cards;
 		let posInfo = this.dataInfo["set"].posInfo;
-		for (let i = 0; i < 8; i++) {
+		for (let i = 0; i < 10; i++) {//十人局
 			this.dataInfo["posList"][i].point += serverPack.pointList[i];
 			posInfo[i].cards = cards[i];
 
@@ -255,6 +263,10 @@ var LZMJRoom = app.BaseClass.extend({
 	},
 	//更新Room datainfo数据
 	OnPosUpdate: function (pos, posInfo) {
+		cc.log("更新Room datainfo数据");
+	
+		
+
 		if (posInfo) {
 			let heroID = posInfo["pid"];
 			let headImageUrl = posInfo["headImageUrl"];
@@ -262,11 +274,38 @@ var LZMJRoom = app.BaseClass.extend({
 				app[app.subGameName + "_WeChatManager"]().InitHeroHeadImage(heroID, headImageUrl);
 		}
 		if (this.dataInfo.hasOwnProperty("posList")) {
-			this.dataInfo['posList'][pos] = posInfo;
+			let tempInfo = this.GetPlayerInfoByPid(posInfo['pid']);
+			if(tempInfo != null){
+			    let	temppos = tempInfo["pos"]; 
+				if(temppos == pos) {
+					this.dataInfo["posList"][pos] = posInfo;
+				}else {//位置不相等
+				
+					this.dataInfo["posList"][temppos]  = {"pos": temppos, "accountID": 0, "pid": 0};
+
+					this.dataInfo["posList"][pos] = posInfo;
+
+				}
+
+
+			}else {
+				this.dataInfo["posList"][pos] = posInfo;
+			}
+		
+		cc.log(this.dataInfo);
 			return true;
 		}
 		return false;
 	},
+		//更新房间信息
+	SetRoomProperty: function (property, data) {
+		if (!this.dataInfo.hasOwnProperty(property)) {
+			console.error("SetRoomProperty not find:%", property);
+			return;
+		}
+		this.dataInfo[property] = data;
+	}
+	,
 	OnDissolve: function (dissolve) {
 		this.dataInfo["dissolve"] = dissolve;
 	},
@@ -415,7 +454,7 @@ var LZMJRoom = app.BaseClass.extend({
 	},
 
 	GetRoomPosMgr: function () {
-		return this;
+		return this.RoomPosMgr;
 	},
 	//客户端玩家是否是开房人
 	IsClientIsCreater: function () {

@@ -126,19 +126,19 @@ var BaseClubMainForm = cc.Class({
         //app.ClubManager().SendReqClubData();
         this.left.active=true;
         this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
-        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=true;
-
-        this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=true;
         this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
+
+        // this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=true;
+        // this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
         this.left.active=false;
-        this.node.getChildByName("left_wanfa").active=true;
+        // this.node.getChildByName("left_wanfa").active=true;
         this.node.getChildByName("left_wanfa").active=false;//这两句是为了防止。左边的遮罩挡住进入房间的按钮。比较操蛋
         this.node.getChildByName('bottom').getChildByName('btn_qhwh').active=false;
         this.node.getChildByName('bottom').getChildByName('btn_qhwh').getChildByName('baocun').active=false;
         let clubBg=cc.sys.localStorage.getItem("ClubNewBg");
         if (clubBg == null || typeof(clubBg) == "undefined") {
-            cc.sys.localStorage.setItem("ClubNewBg", "4");
-            clubBg = 4;
+            cc.sys.localStorage.setItem("ClubNewBg", "5");
+            clubBg = 5;
         }
         this.node.getChildByName('bg').getComponent(cc.Sprite).spriteFrame=this.clubBg[clubBg];
         this.gameList = app.Client.GetAllGameId();
@@ -173,7 +173,7 @@ var BaseClubMainForm = cc.Class({
         this.schedule(this.RunRoomDisplay,0.5);
         this.scheduleOnce(()=>{
             this.Click_btn_qhwh()
-        },0.2)
+        },0.5)
     },
     CheckInRoom:function(){
         let self=this;
@@ -205,8 +205,8 @@ var BaseClubMainForm = cc.Class({
     ChangeBg:function(){
         let clubBg=cc.sys.localStorage.getItem("ClubNewBg");
         if (clubBg == null || typeof(clubBg) == "undefined") {
-            cc.sys.localStorage.setItem("ClubNewBg", "4");
-            clubBg = 4;
+            cc.sys.localStorage.setItem("ClubNewBg", "5");
+            clubBg = 5;
         }
         console.log("ChangeBg clubBg:"+clubBg);
         this.node.getChildByName('bg').getComponent(cc.Sprite).spriteFrame=this.clubBg[clubBg];
@@ -291,7 +291,7 @@ var BaseClubMainForm = cc.Class({
         let unionNode = this.node.getChildByName('bottom').getChildByName('unionNode');
         let moreNode = this.node.getChildByName('top').getChildByName('right_btn').getChildByName('moreNode');
         moreNode.getChildByName('childMore').getChildByName('btn_findroom').active=true;
-        moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=false;
+        moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=true;
 
         if (this.unionId > 0) {
             //获取比赛场缓存玩法本地存储ID
@@ -301,7 +301,7 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_qhwh').active=true;
-            this.node.getChildByName("top").getChildByName("btn_changeclub").active=true;
+            this.node.getChildByName("top").getChildByName("btn_changeclub").active=false;
             this.left.active=false;
             //获取比赛场缓存玩法本地存储ID
             this.unionName = clubData.unionName;
@@ -394,17 +394,17 @@ var BaseClubMainForm = cc.Class({
                 unionNode.getChildByName("btn_outRace").active = true;
             }
             //是否开启保险箱功能
-            if (clubData.caseStatus > 0) {
+            // if (clubData.caseStatus > 0) {
                 moreNode.getChildByName('childMore').getChildByName('btn_caseSprots').active=true;
-            }
+            // }
             this.node.getChildByName('bottom').getChildByName('btn_shop').active=false;
             this.node.getChildByName('bottom').getChildByName('btn_RoomMgr').active=false;
             this.node.getChildByName('bottom').getChildByName('fangka').active=false;
-            this.node.getChildByName('bottom').getChildByName('userinfo').active=false;
+            this.node.getChildByName('bottom').getChildByName('userinfo').active=true;
             this.node.getChildByName('bottom').getChildByName('btn_zhanji').active=false;
             this.node.getChildByName('top').getChildByName('right_btn').getChildByName('btn_sportsPointMsg').active=true;
-            this.ShowUnionTip();
-            this.ShowUnionRankTip(clubData);
+           // this.ShowUnionTip();
+        //    this.ShowUnionRankTip(clubData);
             //判断赛事是否停用
             this.ShowUnionStateType(clubData.unionStateType);
         }else{
@@ -686,6 +686,7 @@ var BaseClubMainForm = cc.Class({
     },
     InitHead:function(node,playerNum,posList){
         let clubTable=this.GetCLubTable();
+        cc.log("俱乐部桌子数值：",clubTable);
         if(clubTable<3){
             node.getChildByName('head_layout').getChildByName('user1').active=false;
             node.getChildByName('head_layout').getChildByName('user2').active=false;
@@ -845,9 +846,9 @@ var BaseClubMainForm = cc.Class({
             }
            
             for(let i=0;i<posList.length;i++){
-                if(i>3){
-                    break;
-                }
+                // if(i>3){
+                //     break;
+                // }
                 let heroID = posList[i]["pid"];
                 if(heroID>0){
                     let name = posList[i]["name"];
@@ -1358,7 +1359,7 @@ var BaseClubMainForm = cc.Class({
                     //绿色
                     else club.getComponent(cc.Sprite).spriteFrame=this.roomBg_zhongzhi_green[playerNum-2];
                 }else if(ClubTb==6){
-                    //蓝色
+                    //红色
                     if (club.getChildByName("bg")) {
                         club.getChildByName("bg").getComponent(cc.Sprite).spriteFrame=this.roomBg_zhongzhi_blue[playerNum-2];
                     }
@@ -1694,7 +1695,7 @@ var BaseClubMainForm = cc.Class({
             if(zhuoziKey<0){
                 zhuoziKey=0;
             }
-            cc.log("至尊丹东",zhuoziKey,this.zhuozi_zhongzhi.length)
+            // cc.log("至尊丹东",zhuoziKey,this.zhuozi_zhongzhi.length)
             childRoom = cc.instantiate(this.zhuozi_zhongzhi[zhuoziKey]);
             childRoom.on('click',this.OnJoinBtnClick,this);
             childRoom.getChildByName("btn_detail").on('click',this.OnBtnClickDetail,this);
@@ -1753,7 +1754,7 @@ var BaseClubMainForm = cc.Class({
         if(this.clubDatas.length==0){
             this.fangka.active=false;
         }else{
-            this.fangka.active=true;
+            this.fangka.active=false;
         }
         for(let i=0;i<this.clubDatas.length;i++){
             if(this.nowClubID<0){
@@ -1765,11 +1766,11 @@ var BaseClubMainForm = cc.Class({
             club.getChildByName('renshu').getComponent(cc.Label).string="*";
             if (this.clubDatas[i].unionId > 0) {
                 //已经加入赛事不显示圈卡
-                club.getChildByName('quanka').active = false;
-                club.getChildByName('icon_qk').active = false;
+                // club.getChildByName('quanka').active = true;
+                // club.getChildByName('icon_qk').active = false;
             }else{
-                club.getChildByName('quanka').active = false;
-                club.getChildByName('icon_qk').active = false;
+                // club.getChildByName('quanka').active = false;
+                // club.getChildByName('icon_qk').active = false;
                 //club.getChildByName('quanka').getComponent(cc.Label).string=this.clubDatas[i].playerClubCard;
             }
             club.active=true;
@@ -1841,14 +1842,16 @@ var BaseClubMainForm = cc.Class({
                     this.changeInfo={"gameName":gameName,"roomKey":roomKey,"password":password};
                     this.SetWaitForConfirm('MSG_CLUB_CHANGEROOM',this.ShareDefine.Confirm,[],[]);
                 }else{
-                    let curGameType = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
-                    this.SetWaitForConfirm('MSG_GO_ROOM',this.ShareDefine.Confirm,[this.ShareDefine.GametTypeID2Name[this.inRoomInfo.gameId]]);
+                    // let curGameType = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
+                    // this.SetWaitForConfirm('MSG_GO_ROOM',this.ShareDefine.Confirm,[this.ShareDefine.GametTypeID2Name[this.inRoomInfo.gameId]]);
+                    this.Click_btn_goRoom();
                 }
             }else{
+                this.Click_btn_goRoom();
                 //进入原来的房间
-                let curGameTypeStr = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
-                app.Client.SetGameType(curGameTypeStr);
-                this.FormManager.ShowForm("UIDownLoadGame",curGameTypeStr,0,null,0,0,true);
+                // let curGameTypeStr = this.GameId2PinYin(this.inRoomInfo.gameId).toLowerCase();
+                // app.Client.SetGameType(curGameTypeStr);
+                // this.FormManager.ShowForm("UIDownLoadGame",curGameTypeStr,0,null,0,0,true);
             }
         }
         
@@ -1902,11 +1905,12 @@ var BaseClubMainForm = cc.Class({
             if (this.unionId > 0) {
                 sendPack.unionId = this.unionId;
             }else{
-                this.ShowSysMsg("您还没有选择比赛场");
+          //      this.ShowSysMsg("您还没有选择比赛场");
                 return;
             }
             let self = this;
             app.NetManager().SendPack(packName,sendPack, function(serverPack){
+                console.log(serverPack);
                 self.UpdateLeftWanFa(serverPack);
             }, function(){
                 self.ShowSysMsg("网络开小差，请稍后再试");
@@ -1921,14 +1925,17 @@ var BaseClubMainForm = cc.Class({
     },
     UpdateLeftWanFa:function(serverPack){
         let mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
-        let content = mark.getChildByName("layout");
+        let scrollview = mark.getChildByName("layout");
+        cc.log("当前节点：",scrollview);
         mark.getComponent(cc.ScrollView).scrollToTop();
-        this.DestroyAllChildren(content);
+        this.DestroyAllChildren(scrollview);
         let demo = this.node.getChildByName("left_wanfa").getChildByName("demo");
         demo.active = false;
         //this.unionMyWanFa;
         let unionMyWanFa=this.MyUnionMyWanFaArray();
-        serverPack.sort(this.SortByTagId);
+        cc.log("本地存的玩法：",unionMyWanFa);
+      //  serverPack.sort(this.SortByTagId);
+        cc.log("服务端传来",serverPack);
         for (let i = 0; i < serverPack.length; i++) {
             let child = cc.instantiate(demo);
             child.tagId = serverPack[i].tagId;
@@ -1936,10 +1943,13 @@ var BaseClubMainForm = cc.Class({
             child.roomKey = serverPack[i].roomKey;
             child.gameId = serverPack[i].gameId;
             if (typeof(serverPack[i].name) != "undefined") {
-                child.getChildByName("lb_roomName").getComponent(cc.Label).string = serverPack[i].name;
+                child.getChildByName("Toggle").getChildByName("checkmark").getChildByName("lb").getComponent(cc.Label).string = serverPack[i].name;
+                child.getChildByName("Toggle").getChildByName("Background").getChildByName("lb").getComponent(cc.Label).string = serverPack[i].name;
             }else{
                 let roomName = app.ShareDefine().GametTypeID2Name[serverPack[i].gameId];
-                child.getChildByName("lb_roomName").getComponent(cc.Label).string = roomName;
+                child.getChildByName("Toggle").getChildByName("checkmark").getChildByName("lb").getComponent(cc.Label).string = roomName;
+                child.getChildByName("Toggle").getChildByName("Background").getChildByName("lb").getComponent(cc.Label).string = roomName;
+                // child.getChildByName("lb_roomName").getComponent(cc.Label).string = roomName;
             }
             child.getChildByName("lb_tagid").getComponent(cc.Label).string = serverPack[i].tagId;
             let roomInfoStr = "";
@@ -1981,13 +1991,18 @@ var BaseClubMainForm = cc.Class({
             child.active = true;
             //初始化按钮
             if(unionMyWanFa.length>0 && unionMyWanFa.indexOf(child.tagId.toString())!=-1){
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true;
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=true;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = true
+                cc.log("设置按钮选中");
             }else if(unionMyWanFa.length==0){
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true;
+                cc.log("默认设置按钮选中");
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=true;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = true
             }else{
-                child.getChildByName("Toggle").getComponent(cc.Toggle).isChecked=false;
+                // child.getChildByName("Toggle").getComponent(cc.Button).isChecked=false;
+                child.getChildByName("Toggle").getChildByName("checkmark").active = false
             }
-            content.addChild(child);
+            scrollview.addChild(child);
         }
         //初始化全选按钮
         if(unionMyWanFa.length>0 && unionMyWanFa.length==serverPack.length){
@@ -2007,39 +2022,58 @@ var BaseClubMainForm = cc.Class({
         let mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
         let content = mark.getChildByName("layout"); 
         for(let i=0;i<content.children.length;i++){
-            content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked=!quanxuan;
+            content.children[i].getChildByName("Toggle").getChildByName("checkmark").active =!quanxuan;
         }
         this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan").getChildByName("checkmark").active=!quanxuan;
     },
     SaveQHWF:function(sender){
         let quanxuan = false
+        cc.log("按钮名称:",sender.target.name);
+        cc.log("按钮父节点:",sender.target);
         if (sender && sender.target.name == "btn_quanwan") {
             sender.target.getChildByName("checkmark").active = true
+            cc.log("点击全选按钮");
             quanxuan = true
+        }else {
+            cc.log("点击玩法按钮");
+            sender.target.getChildByName("checkmark").active = !sender.target.getChildByName("checkmark").active
         }
         let unionMyWanFa=[];
         let mark = this.node.getChildByName("left_wanfa").getChildByName("mark");
         let content = mark.getChildByName("layout"); 
         for(let i=0;i<content.children.length;i++){
             if (quanxuan) {
-                content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked=true
-            }
-            if(content.children[i].getChildByName("Toggle").getComponent(cc.Toggle).isChecked==true){
+                // content.children[i].getChildByName("Toggle").getComponent(cc.Button).isChecked=true
+                content.children[i].getChildByName("Toggle").getChildByName("checkmark").active = true
                 unionMyWanFa.push(content.children[i].tagId);
+            }else if(content.children[i].getChildByName("Toggle").getChildByName("checkmark").active){
+          
+                unionMyWanFa.push(content.children[i].tagId);
+            }else {
+                // sender.target.getChildByName("checkmark").active = false
             }
         }
+        cc.log("玩法",unionMyWanFa)
+        cc.log("玩法长度",unionMyWanFa.length);
+        cc.log("子控件个数",content.children.length);
         if(unionMyWanFa.length==0 && content.children.length>0){
+            
+       
             // this.ShowSysMsg("请至少选择一种玩法", 1);
-            if(sender) sender.getComponent(cc.Toggle).isChecked=true
+            // if(sender) sender.getComponent(cc.Toggle).isChecked=true
+            sender.target.getChildByName("checkmark").active = true
             let p = this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan")
             p.getChildByName("checkmark").active = false
             return;
         }
 
+       
         if(unionMyWanFa.length==content.children.length){
             //用户全选了
-            unionMyWanFa=[]; //空就代表了全选
+         //   unionMyWanFa=[]; //空就代表了全选
+        
             let p = this.node.getChildByName("left_wanfa").getChildByName("btn_quanwan")
+
             p.getChildByName("checkmark").active = true
         }
         else{
@@ -2055,7 +2089,7 @@ var BaseClubMainForm = cc.Class({
             this.node.getChildByName('bottom').getChildByName('btn_qhwh').getChildByName('baocun').active=false;
             return;
         }
-
+        cc.log("当前选择的玩法:",unionMyWanFa);
         if(unionMyWanFa.length>0){
             localStorage.setItem("mywanfa_"+this.unionId+"_"+this.nowClubID,unionMyWanFa.join(","));
         }else{
@@ -2311,11 +2345,12 @@ var BaseClubMainForm = cc.Class({
             });*/
         }else if('btn_wanfa' == btnName){
             let wanfaNode=btnNode.parent.getChildByName('wanfa');
-            if(wanfaNode.active==true){
-                wanfaNode.active=false;
-            }else{
-                wanfaNode.active=true;
-            }
+            wanfaNode.active = false;
+            // if(wanfaNode.active==true){
+            //     wanfaNode.active=false;
+            // }else{
+            //     wanfaNode.active=true;
+            // }
         }else if('btn_detail'==btnName){
             let sendPack = {
                 "clubId":this.nowClubID,
@@ -2448,7 +2483,7 @@ var BaseClubMainForm = cc.Class({
         this.FormManager.CloseForm("ui/club/UIClubInRoom");
         this.left.active=true;
         this.node.getChildByName('bottom').getChildByName('btn_qhqyq').active=false;
-        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=true;
+        this.node.getChildByName('bottom').getChildByName('btn_ycqyq').active=false;
     },
     /**
      * 2次确认点击回调

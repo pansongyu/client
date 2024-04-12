@@ -135,10 +135,12 @@ cc.Class({
             } else {
                 if (point > 0) {
                     playerNode.getChildByName('lb_lose_num').active = false;
+                    playerNode.getChildByName('lb_win_num').active = false;
                     pointNode = playerNode.getChildByName('lb_win_num');
                     pointNode.getComponent(cc.Label).string = "+" + point;
                 } else {
                     playerNode.getChildByName('lb_win_num').active = false;
+                    playerNode.getChildByName('lb_lose_num').active = false;
                     pointNode = playerNode.getChildByName('lb_lose_num');
                     pointNode.getComponent(cc.Label).string = point;
                 }

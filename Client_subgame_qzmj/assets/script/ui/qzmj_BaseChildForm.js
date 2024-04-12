@@ -93,7 +93,7 @@ var BaseChildForm = cc.Class({
 	},
 
 	//开启或者关闭界面
-	ShowOrCloseForm:function(){
+	ShowOrfunction(){
 		this.ErrLog("ShowOrCloseForm cant call")
 	},
 

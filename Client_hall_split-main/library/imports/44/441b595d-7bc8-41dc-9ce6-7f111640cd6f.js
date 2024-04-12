@@ -57,7 +57,7 @@ cc.Class({
 		console.log("pokercard", this.PokerCard);
 	},
 	ShowSpecData: function ShowSpecData(setEnd, playerAll, index) {
-		console.log("单局结算数据", setEnd, playerAll, index);
+		//console.log("单局结算数据", setEnd, playerAll, index);
 		var player = setEnd.posResultList[index];
 		//倍数
 		//this.node.getChildByName("lb_beiShu").active = true;
@@ -83,6 +83,8 @@ cc.Class({
 		var dunPos = rankeds.dunPos;
 		var special = rankeds.special;
 		var specialNode = cardNode.getChildByName("special_card");
+		var mapai = setEnd.mapai["key"];
+		console.log("马牌：", setEnd.mapai["key"]);
 		specialNode.active = false;
 		specialNode.children[0].getComponent(cc.Label).string = "";
 		if (special != -1) {
@@ -102,24 +104,31 @@ cc.Class({
 			if (!child.getChildByName("cardPrefab")) {
 				var card = cc.instantiate(this.cardPrefab);
 				child.addChild(card);
-				this.ShowCard(allCards[j], card);
+				this.ShowCard(allCards[j], card, mapai);
 			} else {
 				var _card = child.getChildByName("cardPrefab");
-				this.ShowCard(allCards[j], _card);
+				this.ShowCard(allCards[j], _card, mapai);
 			}
 		}
 	},
-	ShowCard: function ShowCard(cardType, node) {
+	ShowCard: function ShowCard(cardType, node, mapai) {
+		var isMapai = cardType == mapai ? true : false;
+
 		var newPoker = this.PokerCard.SubCardValue(cardType);
-		this.GetPokeCard(newPoker, node);
+
+		// console.log("是马牌");
+		console.log(cardType);
+		console.log(newPoker);
+
+		this.GetPokeCard(newPoker, node, isMapai);
 		node.getChildByName("poker_back").active = false;
 	},
-	GetPokeCard: function GetPokeCard(poker, cardNode) {
-		var isShowIcon1 = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : true;
-		var isShowLandowner = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : false;
-		var hideBg = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
-		var isRazz = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : false;
-		var isPartnerCard = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : false;
+	GetPokeCard: function GetPokeCard(poker, cardNode, isMapai) {
+		var isShowIcon1 = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : true;
+		var isShowLandowner = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+		var hideBg = arguments.length > 5 && arguments[5] !== undefined ? arguments[5] : false;
+		var isRazz = arguments.length > 6 && arguments[6] !== undefined ? arguments[6] : false;
+		var isPartnerCard = arguments.length > 7 && arguments[7] !== undefined ? arguments[7] : false;
 
 		if (0 == poker) {
 			return;

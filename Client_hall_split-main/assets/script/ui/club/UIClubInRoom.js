@@ -37,6 +37,7 @@ cc.Class({
             this.InitHead();
             this.InitUserName();
             let posList = this.roomInfo.posList;
+            cc.log("服务端传来的消息：",serverPack);
             this.ShowPlayHead(posList);
             this.ShowUserName(posList, this.roomInfo.playerNum);
         }
@@ -121,10 +122,10 @@ cc.Class({
         }
     },
     InitHead: function() {
-        for (let i = 0; i < 4; i++) {
-            let usernode = this.table.getChildByName('head_layout').getChildByName('user' + (i + 1));
-            usernode.active = false;
-        }
+        // for (let i = 0; i < 4; i++) {
+        //     let usernode = this.table.getChildByName('head_layout').getChildByName('user' + (i + 1));
+        //     usernode.active = false;
+        // }
     },
     ShowPlayHead: function(posList) {
         for (let i = 0; i < posList.length; i++) {

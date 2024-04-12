@@ -57,6 +57,8 @@ var LZMJRoomMgr = app.BaseClass.extend({
 		this.NetManager.RegNetPack("S" + app.subGameName.toUpperCase() + "_SetPosCard", this.OnPack_SetPosCard, this);
 		this.NetManager.RegNetPack("S" + app.subGameName.toUpperCase() + "_Chatmessage", this.OnPack_ChatMessage, this);
 
+		// this.NetManager.RegNetPack("S" + app.subGameName.toUpperCase() + "_PosUpdate", this.OnPack_PosUpdate, this);//位置更新
+
 		//比赛分通知
 		this.NetManager.RegNetPack("S" + app.subGameName.toUpperCase() + "_SportsPointNotEnough", this.OnPack_SportsPointNotEnough, this);
 		this.NetManager.RegNetPack("S" + app.subGameName.toUpperCase() + "_SportsPointEnough", this.OnPack_SportsPointEnough, this);
@@ -136,6 +138,7 @@ var LZMJRoomMgr = app.BaseClass.extend({
 		if (app[app.subGameName + "_SceneManager"]().GetSceneType() != app.subGameName + "Scene") {
 			app[app.subGameName + "_SceneManager"]().LoadScene(app.subGameName + "Scene");
 		} else {
+			cc.log("进入打牌场景");
 			app[app.subGameName + "_FormManager"]().ShowForm("game/" + app.subGameName.toUpperCase() + "/ui/UI" + app.subGameName.toUpperCase() + "Play");
 		}
 	},
@@ -158,6 +161,15 @@ var LZMJRoomMgr = app.BaseClass.extend({
 		this.Room.SetGameStateTime(serverPack.startTime);
 		app[app.subGameName + "Client"].OnEvent("NN_StatusChange", serverPack);
 	},
+	//位置变化通知
+	// OnPack_PosUpdate: function (serverPack) {
+	// 	console.log("位置变化通知 OnPack_PosUpdate", serverPack);
+	// 	if (this.enterRoomID == serverPack["roomID"]) {
+	// 		this.RoomPosMgr.OnInitRoomPosData(serverPack["posList"]);
+	// 		this.Room.SetRoomProperty("posList", serverPack["posList"]);
+	// 		app[app.subGameName + "Client"].OnEvent("FJSSZ_AllPosUpdate", serverPack["posList"]);
+	// 	}
+	// },
 
 	//set结束
 	OnPack_SetEnd: function (serverPack) {

@@ -38,7 +38,8 @@ cc.Class({
 			"btn_sanjin",
 			"btn_sijin",
 			"btn_qiangjin",
-			"btn_ting",
+			"btn_zimo",
+			//"btn_ting",
 		];
 		this.RoomMgr = app[app.subGameName.toUpperCase() + "RoomMgr"]();
 		this.RoomSet = app[app.subGameName.toUpperCase() + "RoomSet"]();
@@ -126,16 +127,17 @@ cc.Class({
 			this.Click_btn_next();
 			return;
 		}
+		//dffff (3) [1, 27, 7]
 		cc.log("dffff",opList)
 		for (let index = 0; index < opCount; index++) {
 			let opType = opList[index];
 
-			if (opType == this.ShareDefine.OpType_Hu) {
-
-				if (!this.actionWndNameList.InArray("btn_hu")) {
-					this.actionWndNameList.push("btn_hu");
+			if (opType == this.ShareDefine.OpType_Zimo) {
+				cc.log("加自摸的按钮进去")
+				if (!this.actionWndNameList.InArray("btn_zimo")) {
+					this.actionWndNameList.push("btn_zimo");
 				}
-				//自己摸的牌,胡可以取消
+				//自己摸的牌,可以取消
 				if (opList.InArray(this.ShareDefine.OpType_Out)) {
 					if (!this.actionWndNameList.InArray("btn_cancel")) {
 						this.actionWndNameList.push("btn_cancel");
@@ -165,7 +167,9 @@ cc.Class({
 				if (!this.actionWndNameList.InArray("btn_gang")) {
 					this.actionWndNameList.push("btn_gang");
 				}
-			} else if (opType == this.ShareDefine.OpType_JiePao) {
+			} 
+			else if (opType == this.ShareDefine.OpType_JiePao) {
+				cc.log("接炮")
 				if (!this.actionWndNameList.InArray("btn_hu")) {
 					this.actionWndNameList.push("btn_hu");
 				}
@@ -192,7 +196,7 @@ cc.Class({
 					this.actionWndNameList.push("btn_next");
 				}
 			}
-			else if (opType == this.ShareDefine.OpType_Ting) {
+			//else if (opType == this.ShareDefine.OpType_Ting) {
 				// if (!this.actionWndNameList.InArray("btn_ting")) {
 				// 	this.actionWndNameList.push("btn_ting");
 				// }
@@ -200,17 +204,17 @@ cc.Class({
 				// if (!this.actionWndNameList.InArray("btn_cancel")) {
 				// 	this.actionWndNameList.push("btn_cancel");
 				// }
-			}
-			else if (opType == this.ShareDefine.OpType_TianTing) {
-				if (!this.actionWndNameList.InArray("btn_ting")) {
-					this.actionWndNameList.push("btn_ting");
-				}
-			}
-			else if (opType == this.ShareDefine.OpType_SanJinYou) {
-				if (!this.actionWndNameList.InArray("btn_hu")) {
-					this.actionWndNameList.push("btn_hu");
-				}
-			}
+			//}
+			// else if (opType == this.ShareDefine.OpType_TianTing) {
+			// 	if (!this.actionWndNameList.InArray("btn_ting")) {
+			// 		this.actionWndNameList.push("btn_ting");
+			// 	}
+			// }
+			// else if (opType == this.ShareDefine.OpType_SanJinYou) {
+			// 	if (!this.actionWndNameList.InArray("btn_hu")) {
+			// 		this.actionWndNameList.push("btn_hu");
+			// 	}
+			// }
 			else if (opType == this.ShareDefine.OpType_QiangGangHu && this.isYouJin() == false) {
 				if (!this.actionWndNameList.InArray("btn_hu")) {
 					this.actionWndNameList.push("btn_hu");
@@ -224,40 +228,60 @@ cc.Class({
 					this.actionWndNameList.push("btn_hu");
 				}
 			} else if (opType == this.ShareDefine.OpType_TingYouJin) {
+				//戒烟戒酒解决 0 false
 				cc.log("戒烟戒酒解决", this.OutJin(), this.isCanOutJin())
+	
 				if (opList.InArray(this.ShareDefine.OpType_DanYou) && this.isCanOutJin() == false) {
 					console.log("已经单游并且不能打金了，不用显示听游金了")
 				} else {
 					if (this.OutJin() == 0 && this.isCanOutJin() == false) {
 						//单游
-						if (!this.actionWndNameList.InArray("btn_danyou")) {
-							this.actionWndNameList.push("btn_danyou");
+
+						// if (!this.actionWndNameList.InArray("btn_danyou")) {
+						// 	this.actionWndNameList.push("btn_danyou");
+						// 	cc.log("单游按钮")
+						// }
+						if (!this.actionWndNameList.InArray("btn_zimo")) {//不存在自摸按钮
+							// this.actionWndNameList.push("btn_zimo");
+							this.Click_btn_tingyou();
+							cc.log("自动打出游金")
 						}
-					} else if (this.OutJin() == 0 && this.isCanOutJin() == true) {
-						//双游
-						if (!this.actionWndNameList.InArray("btn_shuangyou")) {
-							this.actionWndNameList.push("btn_shuangyou");
-						}
-					} else if (this.OutJin() == 1 && this.isCanOutJin() == true) {
-						//三游
-						if (!this.actionWndNameList.InArray("btn_sanyou")) {
-							this.actionWndNameList.push("btn_sanyou");
-						}
+						
 					}
-					// else if (this.OutJin() == 1 && this.isCanOutJin() == false) {
-					// 	if (!this.actionWndNameList.InArray("btn_hu")) {
-					// 		this.actionWndNameList.push("btn_hu");
+					//  else if (this.OutJin() == 0 && this.isCanOutJin() == true) {
+					// 	// //双游
+					// 	// if (!this.actionWndNameList.InArray("btn_shuangyou")) {
+					// 	// 	this.actionWndNameList.push("btn_shuangyou");
+					// 	// 	cc.log("双游按钮")
+					// 	// }
+					// 		if (!this.actionWndNameList.InArray("btn_danyou")) {
+					// 		this.actionWndNameList.push("btn_danyou");
+					// 		cc.log("单游按钮")
 					// 	}
+					// } else if (this.OutJin() == 1 && this.isCanOutJin() == true) {
+					// 	if (!this.actionWndNameList.InArray("btn_shuangyou")) {
+					// 		this.actionWndNameList.push("btn_shuangyou");
+					// 		cc.log("双游按钮")
+					// 	}
+						
+					// 	//三游
+					// 	// if (!this.actionWndNameList.InArray("btn_sanyou")) {
+					// 	// 	this.actionWndNameList.push("btn_sanyou");
+					// 	// 	cc.log("三游按钮")
+					// 	// }
 					// }
+				
 					if (opList.InArray(this.ShareDefine.OpType_Out)) {
 						if (!this.actionWndNameList.InArray("btn_cancel")) {
 							this.actionWndNameList.push("btn_cancel");
+							cc.log("取消按钮")
 						}
 					}
 				}
 			} else if (opType == this.ShareDefine.OpType_DanYou) {
-				if (!this.actionWndNameList.InArray("btn_hu")) {
-					this.actionWndNameList.push("btn_hu");
+				cc.log("加单游")
+				if (!this.actionWndNameList.InArray("btn_danyou")) {
+					this.actionWndNameList.push("btn_danyou");
 				}
 
 				if (opList.InArray(this.ShareDefine.OpType_Out)) {
@@ -266,9 +290,25 @@ cc.Class({
 					}
 				}
 
-			} else if (opType == this.ShareDefine.OpType_ShuangYou || opType == this.ShareDefine.OpType_SanYou) {
-				if (!this.actionWndNameList.InArray("btn_hu")) {
-					this.actionWndNameList.push("btn_hu");
+			} else if (opType == this.ShareDefine.OpType_ShuangYou ) {
+				cc.log("双游")
+				if (!this.actionWndNameList.InArray("btn_shuangyou")) {
+					this.actionWndNameList.push("btn_shuangyou");
+				}
+				if (opList.InArray(this.ShareDefine.OpType_Out)) {
+					if (!this.actionWndNameList.InArray("btn_cancel")) {
+						this.actionWndNameList.push("btn_cancel");
+					}
+				}
+			}else if (opType == this.ShareDefine.OpType_SanYou) {
+				cc.log("三游")
+				if (!this.actionWndNameList.InArray("btn_sanyou")) {
+					this.actionWndNameList.push("btn_sanyou");
+				}
+				if (opList.InArray(this.ShareDefine.OpType_Out)) {
+					if (!this.actionWndNameList.InArray("btn_cancel")) {
+						this.actionWndNameList.push("btn_cancel");
+					}
 				}
 			} else if (opType == this.ShareDefine.OpType_QiangJin) {
 				if (!this.actionWndNameList.InArray("btn_qiangjin")) {
@@ -341,7 +381,7 @@ cc.Class({
 	/*
 *判断用户的牌是否可以游金
  */
-	isYouJin: function () {
+isYouJin: function () {
 		let room = this.RoomMgr.GetEnterRoom();
 		let roomSet = room.GetRoomSet();
 		let jin = roomSet.get_jin1();
@@ -382,6 +422,7 @@ cc.Class({
 		}
 		let jin = roomSet.get_jin1();
 		let youjinList = this.GetYouJinList();
+		// isCanOutJin (2) [2201, 2502]0: 221: 25length: 2__proto__: Array(0) 
 		cc.log("isCanOutJin", youjinList, jin)
 		for (let i = 0; i < youjinList.length; i++) {
 			if (Math.floor(jin / 100) == Math.floor(youjinList[i] / 100)) {
@@ -472,21 +513,28 @@ cc.Class({
 		else if (btnName == "btn_hu") {
 			this.Click_btn_hu();
 		}
+		else if (btnName == "btn_zimo") {
+			this.Click_btn_zimo();
+		}
 		else if (btnName == "btn_next") {
 			this.Click_btn_next();
 		}
 		else if (btnName == "btn_pen") {
 			this.Click_btn_pen();
 		}
-		else if (btnName == "btn_ting") {
-			// this.Click_btn_ting();
-			this.Click_btn_tianting();
-		}
+		// else if (btnName == "btn_ting") {
+		// 	// this.Click_btn_ting();
+		// 	this.Click_btn_tianting();
+		// }
 		else if (btnName == "btn_gang") {
 			this.Click_btn_gang();
-		} else if (btnName == "btn_danyou" || btnName == "btn_shuangyou" || btnName == "btn_sanyou") {
-			this.Click_btn_tingyou();
-		} else if (btnName == "btn_qiangjin") {
+		} else if (btnName == "btn_danyou") {
+			this.Click_btn_danyou();
+		}else if (btnName == "btn_shuangyou" ) {
+			this.Click_btn_shuangyou();
+		} else if (btnName == "btn_sanyou") {
+			this.Click_btn_sanyou();
+		}  else if (btnName == "btn_qiangjin") {
 			this.Click_btn_qiangjin();
 		} else if (btnName == "btn_sanjin") {
 			this.Click_btn_sanjin();
@@ -540,7 +588,7 @@ cc.Class({
 	Click_btn_hu: function () {
 		this.sp_tishi.active = 0;
 		let opList = this.GetOpTypeList();
-		let opType = this.ShareDefine.OpType_Hu;
+		let opType = this.ShareDefine.OpType_PingHu;
 		//如果是枪杆胡
 		if (opList.InArray(this.ShareDefine.OpType_PingHu)) {
 			opType = this.ShareDefine.OpType_PingHu;
@@ -548,24 +596,31 @@ cc.Class({
 		if (opList.InArray(this.ShareDefine.OpType_QiangGangHu)) {
 			opType = this.ShareDefine.OpType_QiangGangHu;
 		}
-		if (opList.InArray(this.ShareDefine.OpType_SanJinYou)) {
-			opType = this.ShareDefine.OpType_SanJinYou;
-		}
+		// if (opList.InArray(this.ShareDefine.OpType_SanJinYou)) {
+		// 	opType = this.ShareDefine.OpType_SanJinYou;
+		// }
 		if (opList.InArray(this.ShareDefine.OpType_TianHu)) {
 			opType = this.ShareDefine.OpType_TianHu;
 		}
-		if (opList.InArray(this.ShareDefine.OpType_DanYou)) {
-			opType = this.ShareDefine.OpType_DanYou;
-		}
-		if (opList.InArray(this.ShareDefine.OpType_ShuangYou)) {
-			opType = this.ShareDefine.OpType_ShuangYou;
-		}
-		if (opList.InArray(this.ShareDefine.OpType_SanYou)) {
-			opType = this.ShareDefine.OpType_SanYou;
-		}
+		// if (opList.InArray(this.ShareDefine.OpType_DanYou)) {
+		// 	opType = this.ShareDefine.OpType_DanYou;
+		// }
+		// if (opList.InArray(this.ShareDefine.OpType_ShuangYou)) {
+		// 	opType = this.ShareDefine.OpType_ShuangYou;
+		// }
+		// if (opList.InArray(this.ShareDefine.OpType_SanYou)) {
+		// 	opType = this.ShareDefine.OpType_SanYou;
+		// }
 		if (opList.InArray(this.ShareDefine.OpType_JiePao)) {
 			opType = this.ShareDefine.OpType_JiePao;
 		}
+		this.RoomMgr.SendPosAction(0, opType);
+	},
+		//自摸
+	Click_btn_zimo: function () {
+		this.sp_tishi.active = 0;
+		let opList = this.GetOpTypeList();
+		let opType = this.ShareDefine.OpType_Zimo;
 		this.RoomMgr.SendPosAction(0, opType);
 	},
 	//点击出牌节点

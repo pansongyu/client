@@ -1690,7 +1690,7 @@ var BaseMaJiangForm = cc.Class({
 			return
 		}
 		this.RedisplayPosActionHelp(room);
-		//八秒出牌
+		
 		let xianShi = room.GetRoomConfigByProperty('xianShi');
 		if (xianShi == 1) {
 			//需要显示3分钟出牌
@@ -1705,7 +1705,7 @@ var BaseMaJiangForm = cc.Class({
 			this.ShowTime();
 			this.schedule(this.ShowTime, 1);
 		} else if (xianShi == 2) {
-			//需要显示30秒出牌
+			//需要显示5分钟出牌
 			this.unschedule(this.ShowTime);
 			this.nd_dice.active = true;
 			this.time.string = '';
@@ -1713,23 +1713,32 @@ var BaseMaJiangForm = cc.Class({
 			this.ShowTime();
 			this.schedule(this.ShowTime, 1);
 		} 
-		// else if (xianShi == 3) {
-		// 	//需要显示30秒出牌
-		// 	this.unschedule(this.ShowTime);
-		// 	this.nd_dice.active = true;
-		// 	this.time.string = '';
-		// 	this.ShowTimeOut = 61;
-		// 	this.ShowTime();
-		// 	this.schedule(this.ShowTime, 1);
-		// } else if (xianShi == 4) {
-		// 	//需要显示30秒出牌
-		// 	this.unschedule(this.ShowTime);
-		// 	this.nd_dice.active = true;
-		// 	this.time.string = '';
-		// 	this.ShowTimeOut = 31;
-		// 	this.ShowTime();
-		// 	this.schedule(this.ShowTime, 1);
-		// }
+		else if (xianShi == 3) {
+			//需要显示60秒出牌
+			this.unschedule(this.ShowTime);
+			this.nd_dice.active = true;
+			this.time.string = '';
+			this.ShowTimeOut = 61;
+			this.ShowTime();
+			this.schedule(this.ShowTime, 1);
+		} else if (xianShi == 4) {
+			//需要显示30秒出牌
+			this.unschedule(this.ShowTime);
+			this.nd_dice.active = true;
+			this.time.string = '';
+			this.ShowTimeOut = 31;
+			this.ShowTime();
+			this.schedule(this.ShowTime, 1);
+		}
+		else if (xianShi == 5) {
+			//需要显示15秒出牌
+			this.unschedule(this.ShowTime);
+			this.nd_dice.active = true;
+			this.time.string = '';
+			this.ShowTimeOut = 16;
+			this.ShowTime();
+			this.schedule(this.ShowTime, 1);
+		}
 		else {
 			this.time.string = '';
 		}

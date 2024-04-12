@@ -5,9 +5,9 @@
       "main": true,
       "url": "app://editor/index.html",
       "windowType": "dockable",
-      "x": 33,
-      "y": 49,
-      "width": 1920,
+      "x": 2,
+      "y": 142,
+      "width": 1934,
       "height": 1004,
       "layout": {
         "children": [
@@ -20,7 +20,7 @@
                 ],
                 "height": 442.984375,
                 "type": "panel",
-                "width": 306
+                "width": 204
               },
               {
                 "active": 0,
@@ -29,12 +29,12 @@
                 ],
                 "height": 440,
                 "type": "panel",
-                "width": 306
+                "width": 204
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 306
+            "width": 204
           },
           {
             "children": [
@@ -47,7 +47,7 @@
                     ],
                     "height": 617,
                     "type": "panel",
-                    "width": 586
+                    "width": 974.984375
                   },
                   {
                     "active": 0,
@@ -61,7 +61,7 @@
                 ],
                 "height": 617,
                 "type": "dock-h",
-                "width": 853
+                "width": 1241.984375
               },
               {
                 "active": 0,
@@ -72,12 +72,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 853
+                "width": 1241.984375
               }
             ],
             "height": 886,
             "type": "dock-v",
-            "width": 853
+            "width": 1241.984375
           },
           {
             "active": 0,
@@ -87,7 +87,7 @@
             ],
             "height": 886,
             "type": "panel",
-            "width": 739
+            "width": 472
           }
         ],
         "type": "dock-h"
@@ -108,14 +108,14 @@
   },
   "panels": {
     "project-settings": {
-      "x": 662,
-      "y": 241,
+      "x": 1113,
+      "y": 240,
       "width": 600,
       "height": 565
     },
     "builder": {
-      "x": 858,
-      "y": 21,
+      "x": 414,
+      "y": 310,
       "width": 670,
       "height": 738
     },
@@ -150,8 +150,8 @@
       "height": 565
     },
     "hot-update-tools": {
-      "x": 795,
-      "y": 46,
+      "x": 768,
+      "y": 389,
       "width": 916,
       "height": 939
     }

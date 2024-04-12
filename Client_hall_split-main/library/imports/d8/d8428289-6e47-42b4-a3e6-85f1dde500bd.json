@@ -10199,8 +10199,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 363.75,
-      "height": 63
+      "width": 235.75,
+      "height": 112.99999999999999
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -10275,8 +10275,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        -181.875,
-        -31.5,
+        -117.875,
+        -6.499999999999993,
         0,
         0,
         0,
@@ -10342,7 +10342,7 @@
     "asset": {
       "__uuid__": "d8428289-6e47-42b4-a3e6-85f1dde500bd"
     },
-    "fileId": "070husOW5EuZue/XJn4tWI",
+    "fileId": "15uH2qbutKzpUHQa6mHL9o",
     "sync": false
   },
   {
@@ -10365,14 +10365,14 @@
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
-      "r": 218,
-      "g": 65,
-      "b": 48,
+      "r": 255,
+      "g": 255,
+      "b": 255,
       "a": 255
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 163.25,
+      "width": 35.25,
       "height": 63
     },
     "_anchorPoint": {
@@ -10384,8 +10384,8 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        18.625,
-        -31.5,
+        82.625,
+        -6.499999999999993,
         0,
         0,
         0,
@@ -10425,8 +10425,8 @@
       }
     ],
     "_useOriginalSize": true,
-    "_string": "xinhuaqipai",
-    "_N$string": "xinhuaqipai",
+    "_string": "111",
+    "_N$string": "111",
     "_fontSize": 32,
     "_lineHeight": 50,
     "_enableWrapText": true,
@@ -10451,7 +10451,7 @@
     "asset": {
       "__uuid__": "d8428289-6e47-42b4-a3e6-85f1dde500bd"
     },
-    "fileId": "e4Cfwt0ThJCpdTqCBVWOnW",
+    "fileId": "80aQJtr3ZMYaTuuTc7qaxH",
     "sync": false
   },
   {
@@ -10464,7 +10464,7 @@
     "_enabled": true,
     "_fontFamily": "Arial",
     "_isSystemFontUsed": false,
-    "_N$string": "<color=#512d0a>添加客服微信:</c><color=#da4130>xinhuaqipai</color><color=#512d0a></color>",
+    "_N$string": "<color=#512d0a>添加客服微信:</c>111\n</color><color=#512d0a></color>",
     "_N$horizontalAlign": 0,
     "_N$fontSize": 32,
     "_N$font": {

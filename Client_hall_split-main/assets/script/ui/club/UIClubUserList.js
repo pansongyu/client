@@ -103,7 +103,7 @@ cc.Class({
     Event_ChangeBeiZhu:function(event){
         for (let i = 0; i < this.memberlist_layout.children.length;i++) {
             if(this.memberlist_layout.children[i].name==event.pid.toString()){
-                this.memberlist_layout.children[i].getChildByName('name').getComponent(cc.Label).string=this.ComTool.GetNameByIndex(event.name,6);
+                this.memberlist_layout.children[i].getChildByName('name').getComponent(cc.Label).string=this.ComTool.GetNameByIndex(event.name,10);
                 return;
             }
         }

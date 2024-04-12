@@ -142,7 +142,7 @@ var ComTool = app.BaseClass.extend({
         }
         return name;
     },
-    GetBeiZhuName:function(pid,name,length=6){
+    GetBeiZhuName:function(pid,name,length=15){
         if(typeof(app["BeiZhu"])!="undefined"){
             for(let i=0;i<app["BeiZhu"].length;i++){
                 if(app["BeiZhu"][i].id==pid){

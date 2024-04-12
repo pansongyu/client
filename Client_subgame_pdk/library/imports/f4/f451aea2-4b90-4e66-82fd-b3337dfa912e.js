@@ -599,7 +599,8 @@ cc.Class({
         }
 
         //名字
-        this.lb_name.string = this.playerInfo.name.substring(0, 6) + "...";;
+        // this.lb_name.string = this.playerInfo.name.substring(0,6) + "...";
+        this.lb_name.string = this.playerInfo.name;
     },
     UpDateLabJiFen: function UpDateLabJiFen() {
         var playerIntegral = 0;

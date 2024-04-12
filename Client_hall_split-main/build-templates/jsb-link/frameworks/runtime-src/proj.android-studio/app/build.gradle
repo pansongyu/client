@@ -22,9 +22,9 @@ android {
                     targets 'cocos2djs'
                     arguments 'NDK_TOOLCHAIN_VERSION=clang'
                     
-                    def module_paths = [project.file("C:/CocosCreator_2.2.2/resources/cocos2d-x"),
-                                        project.file("C:/CocosCreator_2.2.2/resources/cocos2d-x/cocos"),
-                                        project.file("C:/CocosCreator_2.2.2/resources/cocos2d-x/external")]
+                    def module_paths = [project.file("D:/CocosCreator_2.2.2/resources/cocos2d-x"),
+                                        project.file("D:/CocosCreator_2.2.2/resources/cocos2d-x/cocos"),
+                                        project.file("D:/CocosCreator_2.2.2/resources/cocos2d-x/external")]
                     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
                         arguments 'NDK_MODULE_PATH=' + module_paths.join(";")
                     }
@@ -149,7 +149,7 @@ android.applicationVariants.all { variant ->
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar','*.aar'])
-    implementation fileTree(dir: "C:/CocosCreator_2.2.2/resources/cocos2d-x/cocos/platform/android/java/libs", include: ['*.jar'])
+    implementation fileTree(dir: "D:/CocosCreator_2.2.2/resources/cocos2d-x/cocos/platform/android/java/libs", include: ['*.jar'])
     implementation project(':libcocos2dx')
 	
 	implementation 'cz.msebera.android:httpclient:4.3.6'

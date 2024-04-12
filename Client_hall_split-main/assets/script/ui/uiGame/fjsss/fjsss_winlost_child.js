@@ -51,7 +51,7 @@ cc.Class({
 		console.log("pokercard", this.PokerCard)
 	},
 	ShowSpecData: function (setEnd, playerAll, index) {
-		console.log("单局结算数据", setEnd, playerAll, index);
+		//console.log("单局结算数据", setEnd, playerAll, index);
 		let player = setEnd.posResultList[index];
 		//倍数
 		//this.node.getChildByName("lb_beiShu").active = true;
@@ -78,6 +78,8 @@ cc.Class({
 		let dunPos = rankeds.dunPos;
 		let special = rankeds.special;
 		let specialNode = cardNode.getChildByName("special_card");
+		let mapai = setEnd.mapai["key"];
+		console.log("马牌：", setEnd.mapai["key"]);
 		specialNode.active = false;
 		specialNode.children[0].getComponent(cc.Label).string = "";
 		if (special != -1) {
@@ -99,19 +101,26 @@ cc.Class({
 			if (!child.getChildByName("cardPrefab")) {
 				let card = cc.instantiate(this.cardPrefab);
 				child.addChild(card);
-				this.ShowCard(allCards[j], card);
+				this.ShowCard(allCards[j], card,mapai);
 			} else {
 				let card = child.getChildByName("cardPrefab");
-				this.ShowCard(allCards[j], card);
+				this.ShowCard(allCards[j], card,mapai);
 			}
 		}
 	},
-	ShowCard: function (cardType, node) {
+	ShowCard: function (cardType, node,mapai) {
+		let isMapai = cardType == mapai ? true : false;
+		
 		let newPoker = this.PokerCard.SubCardValue(cardType);
-		this.GetPokeCard(newPoker, node);
+	
+			// console.log("是马牌");
+			console.log(cardType);
+			console.log(newPoker);
+		
+		this.GetPokeCard(newPoker, node,isMapai);
 		node.getChildByName("poker_back").active = false;
 	},
-	GetPokeCard: function (poker, cardNode, isShowIcon1 = true, isShowLandowner = false, hideBg = false, isRazz = false, isPartnerCard = false) {
+	GetPokeCard: function (poker, cardNode,isMapai, isShowIcon1 = true, isShowLandowner = false, hideBg = false, isRazz = false, isPartnerCard = false) {
 		if (0 == poker) {
 			return;
 		}
